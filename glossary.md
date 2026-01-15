@@ -3,7 +3,14 @@
 **Structured Human Intelligence**  
 *Time turns behavior into infrastructure.*  
 *Behavior is the most honest data there is.*
+## Referenced By
 
+This glossary is referenced by Hollow House Institute repositories including:
+- Master License Suite
+- Longitudinal AI Governance White Paper
+- AI–Human Relations Datasets
+- Audit tools and pilots
+- Public documentation and site materials
 ---
 
 ## Purpose & Scope
