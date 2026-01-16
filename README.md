@@ -7,7 +7,12 @@ Time turns behavior into infrastructure.
 Behavior is the most honest data there is.
 
 
----
+---### Canonical Definitions
+
+All governance terminology used in this repository is defined in the  
+**HHI Governance Glossary (v1.1.0)**:
+
+https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library/blob/main/glossary.md
 
 Repository Purpose
 
