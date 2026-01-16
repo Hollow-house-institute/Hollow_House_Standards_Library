@@ -1,19 +1,200 @@
-# Hollow House Institute  
-## Standards & Frameworks Library
+Hollow House Institute
 
-Licensed institutional standards for ethical AI, relational intelligence, and governed human–AI interaction analysis.
+Standards & Frameworks Library
 
-This repository contains non-software intellectual property developed by Hollow House Institute for research, governance, and licensed analytical use.
-This repository contains the official standards, frameworks, and methodological documents developed and maintained by Hollow House Institute.
+Structured Human Intelligence
+Time turns behavior into infrastructure.
+Behavior is the most honest data there is.
 
-The materials in this library define structured, governed approaches to ethical AI analysis, relational intelligence, human–AI interaction review, and identity protection.
 
 ---
 
-## Scope of Materials
+Repository Purpose
+
+This repository is the canonical standards and frameworks library for Hollow House Institute.
+
+It contains non-software intellectual property defining how AI systems, organizations, and institutions are governed, evaluated, and audited over time—with a specific focus on behavioral accumulation, decision authority, escalation integrity, and accountability binding.
+
+These materials establish governance as behavioral infrastructure, not policy or post-hoc compliance.
+
+
+---
+
+What This Repository Is
+
+This library contains:
+
+Formal governance standards
+
+Analytical frameworks
+
+Audit methodologies
+
+Canonical definitions and doctrine
+
+Institutional reference documents
+
+
+All materials are designed for:
+
+research use
+
+governance implementation
+
+audit and oversight
+
+licensed analytical and institutional application
+
+
+This repository functions as a standards reference, not an implementation toolkit.
+
+
+---
+
+Scope of Materials
 
 Materials in this repository address:
 
+AI Governance as Behavioral Infrastructure
+
+Governance preceding capability
+
+Decision-bound authority before deployment
+
+Longitudinal risk accumulation
+
+
+Decision Authority & Accountability
+
+Decision boundary definition
+
+Reliance authorization
+
+Stop and override authority
+
+Escalation viability under pressure
+
+
+Behavioral Risk & Drift Analysis
+
+Behavioral accumulation
+
+Decision substitution
+
+Escalation decay
+
+Normalization of shortcuts
+
+
+Human–AI Interaction Review
+
+Reliance patterns
+
+Authority migration
+
+Accountability diffusion
+
+Governance failure modes between incidents
+
+
+Audit & Oversight Methodology
+
+Longitudinal audits
+
+Evidence-bound governance review
+
+Board- and regulator-legible artifacts
+
+Pre-incident risk detection
+
+
+Identity & Boundary Protection
+
+Role-bound authority
+
+Non-clinical, non-therapeutic governance
+
+Institutional risk framing (not personal profiling)
+
+
+
+
+---
+
+What This Repository Is Not
+
+This repository does not contain:
+
+software or executable code
+
+model training data
+
+behavioral profiling tools
+
+therapeutic or coaching frameworks
+
+sentiment analysis systems
+
+
+It operates strictly at the governance and audit layer.
+
+
+---
+
+Canonical Doctrine
+
+Hollow House Institute governance standards are grounded in two core principles:
+
+Time turns behavior into infrastructure.
+Behavior is the most honest data there is.
+
+Governance exists to decide what behavior is allowed to accumulate—before reliance becomes irreversible and authority becomes implicit.
+
+
+---
+
+Licensing & Use
+
+All materials in this repository are proprietary intellectual property of Hollow House Institute.
+
+Permitted use:
+
+research and evaluation
+
+governance design and review
+
+institutional audit reference
+
+licensed analytical application
+
+
+Prohibited use:
+
+model training
+
+derivative extraction
+
+resale without license
+
+personal or clinical application
+
+
+See LICENSE.md for full terms.
+
+
+---
+
+Canonical Status
+
+Documents in this repository constitute official Hollow House Institute standards.
+
+Where definitions or frameworks in this library conflict with external usage, HHI definitions take precedence within Hollow House Institute audits, frameworks, and licensed applications.
+
+
+---
+
+© Hollow House Institute
+Structured Human Intelligence
 - ethical and relational AI governance
 - human–AI interaction analysis
 - identity protection principles
@@ -88,8 +269,5 @@ Hollow House Institute
 Ethical AI · Relational Intelligence · Governed Analysis. Hollow House Institute
 Structured Human Intelligence
 
-Website: https://hollowhouseinstitute.com
-Datasets: https://hollowhouseinstitute.com/datasets
-Licensing: https://hollowhouseinstitute.com/licensing
 
-Contact: data@hollowhouseinstitute.com
+Contact: data@hollowhouseinstitute.org
