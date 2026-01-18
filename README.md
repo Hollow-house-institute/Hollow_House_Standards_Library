@@ -1,3 +1,5 @@
+![Governance](https://img.shields.io/badge/Governance-HHI--GOV--01-blue)
+
 Hollow House Institute
 
 Standards & Frameworks Library
