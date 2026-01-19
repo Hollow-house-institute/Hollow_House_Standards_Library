@@ -1,5 +1,8 @@
 ![Governance](https://img.shields.io/badge/Governance-HHI--GOV--01-blue)
-
+> **Authority Notice**
+>
+> This glossary is the upstream definitional authority for all Hollow House
+> governance standards, licenses, audits, and derivative works.
 Hollow House Institute
 
 Standards & Frameworks Library
