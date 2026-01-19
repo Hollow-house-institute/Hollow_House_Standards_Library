@@ -392,7 +392,7 @@ The structured and repeated engagement between human actors and AI-mediated syst
 - Governance risk arises from interaction patterns, not intent.
 
 ---
-
+Note: These failure modes describe structural governance breakdowns rather than model capability or intent. They emerge when decision authority, escalation triggers, and stopping power are not explicitly defined or enforced over time. These concepts are operationalized through Hollow House Institute governance experiments examining anchored and unanchored decision-boundary conditions.
 ## Versioning
 
 This glossary is versioned. Changes to definitions are logged and dated.
