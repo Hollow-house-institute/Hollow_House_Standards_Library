@@ -1,4 +1,5 @@
-Hollow House Institute
+---
+Governed under **HHI_GOV_01 — Longitudinal Governance Infrastructure**Hollow House Institute
 
 Standards & Frameworks Library
 
@@ -6,7 +7,18 @@ Structured Human Intelligence
 Time turns behavior into infrastructure.
 Behavior is the most honest data there is.
 
+## Authority & Dependency Chain
 
+This repository is part of the Hollow House Institute governance stack.
+
+Authoritative order:
+1. Hollow_House_Institute (root doctrine)
+2. Hollow_House_Standards_Library (canonical definitions)
+3. HHI-GOV-01 (governance standard)
+4. HHI_LUL_01 (language licensing)
+5. Master_License_Suite (legal enforcement)
+
+Definitions, terms, and usage are governed upstream.
 ---### Canonical Definitions
 
 All governance terminology used in this repository is defined in the  
