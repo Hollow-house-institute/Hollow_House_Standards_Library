@@ -3,7 +3,12 @@
 **Structured Human Intelligence**  
 *Time turns behavior into infrastructure.*  
 *Behavior is the most honest data there is.*
+## Language Licensing Notice
 
+Commercial use of these definitions is governed by
+HHI Language Use License (HHI-LUL-01).
+
+https://github.com/hollowhouseinstitute/HHI_Language_Licensing
 ---
 
 ## Referenced By
