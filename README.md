@@ -30,19 +30,6 @@ These materials establish governance as behavioral infrastructure, not policy or
 
 ---
 
-What This Repository Is
-
-This library contains:
-
-Formal governance standards
-
-Analytical frameworks
-
-Audit methodologies
-
-Canonical definitions and doctrine
-
-Institutional reference documents
 
 
 All materials are designed for:
@@ -132,18 +119,6 @@ Institutional risk framing (not personal profiling)
 ---
 
 What This Repository Is Not
-
-This repository does not contain:
-
-software or executable code
-
-model training data
-
-behavioral profiling tools
-
-therapeutic or coaching frameworks
-
-sentiment analysis systems
 
 
 It operates strictly at the governance and audit layer.
