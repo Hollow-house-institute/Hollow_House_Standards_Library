@@ -160,12 +160,12 @@ Behavior is the most honest data there is.
 
 Governance exists to decide what behavior is allowed to accumulate—before reliance becomes irreversible and authority becomes implicit.
 
+## Licensing & Use
 
----
-
-Licensing & Use
+All licensing interpretation and enforcement authority resides exclusively in the Hollow House Institute Master License Suite. This README grants no rights.
 
 All materials in this repository are proprietary intellectual property of Hollow House Institute.
+.
 
 Permitted use:
 
