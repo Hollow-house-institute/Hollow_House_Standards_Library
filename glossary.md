@@ -3,7 +3,12 @@
 **Structured Human Intelligence**  
 *Time turns behavior into infrastructure.*  
 *Behavior is the most honest data there is.*
+## Language Licensing Notice
 
+Commercial use of these definitions is governed by
+HHI Language Use License (HHI-LUL-01).
+
+https://github.com/hollowhouseinstitute/HHI_Language_Licensing
 ---
 
 ## Referenced By
@@ -463,7 +468,7 @@ Saturation leads to reliance on automation rather than reflection.
 It increases tolerance accumulation.
 Governance must account for human limits, not assume infinite capacity
 ---
-
+Note: These failure modes describe structural governance breakdowns rather than model capability or intent. They emerge when decision authority, escalation triggers, and stopping power are not explicitly defined or enforced over time. These concepts are operationalized through Hollow House Institute governance experiments examining anchored and unanchored decision-boundary conditions.
 ## Versioning
 
 This glossary is versioned. Changes to definitions are logged and dated.
