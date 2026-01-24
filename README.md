@@ -37,19 +37,6 @@ These materials establish governance as behavioral infrastructure, not policy or
 
 ---
 
-What This Repository Is
-
-This library contains:
-
-Formal governance standards
-
-Analytical frameworks
-
-Audit methodologies
-
-Canonical definitions and doctrine
-
-Institutional reference documents
 
 
 All materials are designed for:
@@ -140,18 +127,6 @@ Institutional risk framing (not personal profiling)
 
 What This Repository Is Not
 
-This repository does not contain:
-
-software or executable code
-
-model training data
-
-behavioral profiling tools
-
-therapeutic or coaching frameworks
-
-sentiment analysis systems
-
 
 It operates strictly at the governance and audit layer.
 
@@ -167,12 +142,12 @@ Behavior is the most honest data there is.
 
 Governance exists to decide what behavior is allowed to accumulate—before reliance becomes irreversible and authority becomes implicit.
 
+## Licensing & Use
 
----
-
-Licensing & Use
+All licensing interpretation and enforcement authority resides exclusively in the Hollow House Institute Master License Suite. This README grants no rights.
 
 All materials in this repository are proprietary intellectual property of Hollow House Institute.
+.
 
 Permitted use:
 
