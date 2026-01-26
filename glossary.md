@@ -1,4 +1,4 @@
-# Hollow House Institute — Governance Glossary
+.//# Hollow House Institute — Governance Glossary
 
 **Structured Human Intelligence**  
 *Time turns behavior into infrastructure.*  
@@ -247,6 +247,27 @@ Risk accumulated when AI capabilities are deployed faster than decision authorit
 - It is difficult to remediate after reliance normalizes.  
 - Governance debt mirrors technical debt at the behavioral level.
 
+### Sovereign AI Stack
+**Definition:** An AI architecture in which control over data, models, infrastructure, governance rules, and deployment authority is retained by the operating entity rather than external platforms.
+**Notes:**  
+- Emphasizes enforceable ownership of data lineage, model constraints, and decision accountability.
+- Does not imply open-source requirement but requires governance transparency.
+
+### Data Rails
+**Definition:** Governance-controlled infrastructure pathways that enable secure exchange and use of data for model training or inference without centralization into proprietary silos.
+**Notes:**  
+- Includes access control, traceability, and contractual enforcement.
+
+### Agentic Workflows
+**Definition:** Coordinated systems in which multiple AI agents perform interdependent tasks through defined communication protocols under explicit governance constraints.
+**Notes:**  
+- Includes human escalation paths and audit logging.
+
+### Continuous Assurance
+**Definition:** A governance approach that replaces episodic audits with ongoing monitoring of AI system behavior and compliance controls in production.
+**Notes:**  
+- Enables early detection of policy violations and governance drift.
+- 
 ---
 
 ## Versioning
@@ -473,15 +494,15 @@ Note: These failure modes describe structural governance breakdowns rather than 
 
 This glossary is versioned. Changes to definitions are logged and dated.
 
-Current version: **v1.0.0**
+Current version: **v1.2.0**
+
 
 ---
 
 ## Citation
 
 Hollow House Institute.  
-*HHI Governance Glossary (v1.0.0).*  
-Hollow House Institute Standards Library.  
+*HHI Governance Glossary (v1.2.0).* Hollow House Institute Standards Library.
 https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
 
 ---
