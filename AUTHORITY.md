@@ -1,4 +1,7 @@
 # Authority & Scope
+## Interpretive Precedence
+
+All terms defined in this repository’s glossary and standards sections are the authoritative source for interpreting language used across Hollow House Institute operational standards, licenses, audits, and publications. In the event of any inconsistency or conflict in terminology, definitions in this repository shall govern interpretation and semantic meaning in downstream artifacts.
 
 ## Role of This Repository
 
