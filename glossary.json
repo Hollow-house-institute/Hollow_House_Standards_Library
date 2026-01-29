@@ -1,0 +1,31 @@
+"terms": [
+  {
+    "id": "governance",
+    "term": "Governance",
+    "definition": "The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.",
+    "notes": [
+      "Operates at execution time",
+      "Binds authority before reliance",
+      "Constrains behavior rather than intent"
+    ]
+  },
+  {
+    "id": "normalization-of-workarounds",
+    "term": "Normalization of Workarounds",
+    "definition": "The process by which informal fixes become embedded as standard operating behavior.",
+    "notes": [
+      "Often begins as adaptation",
+      "Becomes invisible over time",
+      "Reshapes governance reality"
+    ]
+  }
+]{
+  "meta": {
+    "title": "Hollow House Institute — Governance Glossary",
+    "version": "v1.2.0",
+    "license": "HHI-LUL-01",
+    "authority": "Hollow House Institute",
+    "source": "https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library"
+  },
+  "terms": []
+}

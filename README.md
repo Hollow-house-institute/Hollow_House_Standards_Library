@@ -1,13 +1,10 @@
----
-Governed under **HHI_GOV_01 — Longitudinal Governance Infrastructure**Hollow House Institute
+# Hollow House Standards & Frameworks Library
 
-Standards & Frameworks Library
+## Governance Canon
 
-Structured Human Intelligence
-Time turns behavior into infrastructure.
-Behavior is the most honest data there is.
+This repository is governed by **HHI-GOV-01 — Longitudinal Behavioral Governance Standard**.
 
-## Authority & Dependency Chain
+All definitions, scope boundaries, and derivative artifacts in this repository are subordinate to the HHI-GOV-01 governance canon.
 
 This repository is part of the Hollow House Institute governance stack.
 
@@ -270,6 +267,39 @@ Contact: data@hollowhouseinstitute.org
 This repository operates under the canonical governance standard:
 
 **HHI-GOV-01 — Longitudinal Governance Infrastructure**  
+=======
+Authoritative reference:
+>>>>>>> 4fb6143 (Add canonical glossary.json, scope definition, and update README per HHI-GOV-01 authority)
 https://github.com/hollowhouseinstitute/HHI-GOV-01
+## What this is
+Upstream governance definitions and standards for Hollow House Institute. This repository is the canonical source of terminology used across audits, licensing, and governance artifacts.
 
-Governance authority is singular. No local policy supersedes HHI-GOV-01.
+## Who it’s for
+Compliance, legal, governance, risk, and policy leaders evaluating or adopting longitudinal AI governance standards.
+
+## What it governs
+Authoritative terminology for:
+- Governance standards
+- Audit criteria
+- Licensing language
+- Derivative frameworks and assessments
+### Governance Canon
+HHI_GOV_01 is the authoritative governance standard governing all audits, enforcement actions, longitudinal compliance requirements, and derivative governance artifacts across Hollow House Institute.
+## What it is not
+- Not software
+- Not legal advice
+- Not an AI agent or model
+
+## Canonical Files
+- [Governance Glossary](./glossary.md)
+- [Authority Notice](./AUTHORITY.md)
+- [Scope Definition](./SCOPE.md)
+
+## Canonical Links
+- **Standards Library (this):** https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+- **Governance Standard:** https://github.com/hollowhouseinstitute/HHI_GOV_01
+- **Master License Suite:** https://github.com/hollowhouseinstitute/Master_License_Suite
+
+## Engagement
+For licensing, audits, or governance engagement:
+**data@hollowhouse.org**
