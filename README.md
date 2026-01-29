@@ -122,7 +122,23 @@ Institutional risk framing (not personal profiling)
 
 
 
+## Governance Glossary (Canonical JSON)
 
+The Hollow House Institute Governance Glossary is maintained in a
+machine-readable format for use across documentation, audits,
+and portfolio demonstrations.
+
+### Authoritative Source
+- **glossary.json** — canonical, read-only source of governance definitions  
+- **glossary.md** — human-readable reference aligned to the JSON
+
+### Governance & Licensing
+- Authority: Hollow House Institute Master License Suite (HHI-MLS)
+- License: HHI Language Use License (HHI-LUL-01)
+
+Downstream consumers (applications, demos, documentation) MUST treat
+`glossary.json` as the authoritative source and MUST NOT modify
+definitions in place.
 ---
 
 What This Repository Is Not
