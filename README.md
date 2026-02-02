@@ -278,7 +278,7 @@ Ethical AI · Relational Intelligence · Governed Analysis. Hollow House Institu
 Structured Human Intelligence
 
 
-Contact: data@hollowhouseinstitute.org
+Contact: data@hollowhouse.org
 ---
 
 ## Governance Authority
