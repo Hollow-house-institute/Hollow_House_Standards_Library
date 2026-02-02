@@ -1,4 +1,7 @@
 ---
+This repository defines terminology and conceptual standards only.
+It does not define governance behavior, enforcement mechanisms, operational procedures, or audit execution.
+All such materials reside in HHI_GOV_01.
 Governed under **HHI_GOV_01 — Longitudinal Governance Infrastructure**Hollow House Institute
 
 Standards & Frameworks Library
