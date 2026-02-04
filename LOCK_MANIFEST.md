@@ -1,17 +1,20 @@
-# LOCK MANIFEST — BOT_CONSTITUTION
+# LOCK MANIFEST — Hollow_House_Standards_Library
 
-Artifact: BOT_CONSTITUTION.md
 Repository: Hollow_House_Standards_Library
-Authority: Hollow House Institute
-Status: LOCKED (canonical, read-only)
+Authority Layer: Canonical Standards
+Authority Owner: Hollow House Institute
 
-This document defines the interpretive constraints
-for all HHI-governed AI systems.
+This repository contains canonical definitions and meaning for
+HHI governance, licensing, and execution layers.
 
-It is upstream of all agents, prompts, models,
-and execution environments.
+Content here defines terminology, doctrine, and semantic authority.
 
-No modification, extension, or reinterpretation
-is permitted without a versioned governance release.
+Standards defined in this repository are upstream of:
+- Governance rules
+- Licensing constraints
+- Execution and interaction controls
 
-Lock Date: 2026-02-03
+Modifications require a versioned governance release
+and renewal of canonical checksums.
+
+Lock Date: 2026-02-04
