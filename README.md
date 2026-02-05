@@ -292,3 +292,17 @@ This repository operates under the canonical governance standard:
 https://github.com/hollowhouseinstitute/HHI-GOV-01
 
 Governance authority is singular. No local policy supersedes HHI-GOV-01.
+
+---
+
+## Execution-Time Governance (Reference Only)
+
+Execution-time decision boundaries, authority authorization, stop authority,
+escalation paths, and continuous assurance are **implemented and enforced**
+in the HHI governance layer.
+
+See:
+- **HHI_GOV_01** — tagged release `v1.0.1-execution-workflow`
+
+This repository defines terminology and normative language only.
+Operational semantics live downstream by design.
