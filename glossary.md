@@ -1,3 +1,13 @@
+<!--
+CANONICAL ARTIFACT
+File: glossary.md
+Version: v1.2.0
+Status: GOVERNANCE LOCK CANDIDATE
+Author: Human Authority (HHI)
+Approved By: TODO_HUMAN_APPROVAL
+Locked On: TODO_LOCK_DATE
+Change Control: Human Authority required
+-->
 # Hollow House Institute — Governance Glossary
 
 **Structured Human Intelligence**  
@@ -34,6 +44,11 @@ Where these terms appear in Hollow House Institute standards, audits, datasets, 
 
 ## Authority Notice
 
+## Glossary Governance
+
+Changes to this glossary are subject to human approval and may not be automated.
+
+Any modification to definitions, additions, or removals constitutes a governance action and requires explicit human authorization prior to release.
 > **Canonical Definitions**  
 > This glossary is governed under the Hollow House Institute Master License Suite (HHI-MLS).  
 > Definitions are authoritative for Hollow House Institute work and may not be altered,  
@@ -233,6 +248,16 @@ The structured and repeated engagement between human actors and AI-mediated syst
 
 ---
 
+### Human-in-the-Loop
+**Definition:**  
+A governance condition in which a human retains explicit, non-bypassable authority over decisions, escalations, or system actions, including the ability to intervene, override, pause, or terminate execution at runtime.
+
+**Notes:**  
+- Human-in-the-Loop is not advisory; it is an enforced decision boundary.  
+- It prevents full delegation of judgment to automated systems.  
+- Human-in-the-Loop must be operative at execution time, not merely documented.
+
+---
 ### Governance Debt
 **Definition:**  
 Risk accumulated when AI capabilities are deployed faster than decision authority, escalation, and stop conditions are defined.
@@ -241,6 +266,7 @@ Risk accumulated when AI capabilities are deployed faster than decision authorit
 - Governance debt compounds silently.  
 - It is difficult to remediate after reliance normalizes.  
 - Governance debt mirrors technical debt at the behavioral level.
+
 
 ---
 
