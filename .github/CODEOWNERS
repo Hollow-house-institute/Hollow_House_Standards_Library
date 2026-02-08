@@ -1,0 +1,23 @@
+# ==================================================
+# HHI CODEOWNERS — Authority-Enforced Ownership
+# ==================================================
+
+# --- Canonical Semantic Authority -----------------
+# Semantic meaning is owned by human authority only
+
+/AUTHORITY.md                  @HHIHumanAuthority
+/glossary.json                 @HHIHumanAuthority
+/glossary.md                  @HHIHumanAuthority
+/GOVERNANCE/**                 @HHIHumanAuthority
+
+# --- Execution & Tooling --------------------------
+# Default ownership for infrastructure and tooling
+
+/**                            @hhidatasettechs-oss
+
+# --- Review Authority (Non-blocking) --------------
+# Review-only, non-authoritative visibility
+
+/AUTHORITY.md                  @hhireviewauthority
+/glossary.json                 @hhireviewauthority
+/glossary.md                  @hhireviewauthority

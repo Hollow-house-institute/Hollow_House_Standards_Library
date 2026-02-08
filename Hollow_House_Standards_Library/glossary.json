@@ -15,6 +15,22 @@
         "Operates at execution time, not documentation time.",
         "Binds authority before reliance forms.",
         "Policy describes intent; governance constrains behavior."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -25,6 +41,22 @@
         "Includes habits, incentives, norms, tooling, and enforcement.",
         "Persists even when policy changes.",
         "Behavior is both input and output."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -34,6 +66,22 @@
       "notes": [
         "Must be defined before deployment.",
         "Undefined boundaries cause implicit authority transfer."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -43,6 +91,22 @@
       "notes": [
         "Must be role-bound and explicit.",
         "Inferred authority is not governed authority."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -52,6 +116,22 @@
       "notes": [
         "Must be exercisable under pressure.",
         "Symbolic authority is insufficient."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -61,6 +141,22 @@
       "notes": [
         "Non-bypassable.",
         "Required for accountability."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -70,6 +166,22 @@
       "notes": [
         "Often invisible in short-term evaluation.",
         "Occurs even when systems function as designed."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -79,6 +191,22 @@
       "notes": [
         "Primary driver of longitudinal risk.",
         "Hardens into infrastructure."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -88,6 +216,22 @@
       "notes": [
         "Does not require explicit delegation.",
         "Often precedes formal automation."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -97,6 +241,22 @@
       "notes": [
         "Must be structurally enforced.",
         "Paper-only escalation is non-functional."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -106,6 +266,22 @@
       "notes": [
         "Structural, not individual.",
         "Often visible only after failure."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -115,6 +291,22 @@
       "notes": [
         "Amplifies trust asymmetrically.",
         "Reduces skepticism and override readiness."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -124,6 +316,22 @@
       "notes": [
         "Often begin as adaptation.",
         "Reshape governance reality over time."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -133,6 +341,22 @@
       "notes": [
         "Not captured by snapshot audits.",
         "Requires temporal observation."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -142,6 +366,22 @@
       "notes": [
         "Post-failure attribution is forensic, not governing.",
         "Clear accountability enables correction."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -151,6 +391,22 @@
       "notes": [
         "Increases with complexity.",
         "Impairs intervention and repair."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -160,6 +416,22 @@
       "notes": [
         "Distinct from lack of formal authority.",
         "Increases systemic fragility."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -169,6 +441,22 @@
       "notes": [
         "Governance-focused, not anthropomorphic.",
         "Risk arises from interaction patterns."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -178,6 +466,22 @@
       "notes": [
         "Compounds silently.",
         "Paid during failure, not success."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -187,6 +491,22 @@
       "notes": [
         "Requires enforceable data lineage.",
         "Requires governance transparency."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -196,6 +516,22 @@
       "notes": [
         "Access control and traceability.",
         "Contractual enforcement."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -205,6 +541,22 @@
       "notes": [
         "Human escalation paths required.",
         "Audit logging required."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -214,6 +566,22 @@
       "notes": [
         "Replaces episodic audits.",
         "Detects drift early."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -223,6 +591,22 @@
       "notes": [
         "Appears as supportive tooling.",
         "Undermines corrective challenge."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -231,6 +615,22 @@
       "definition": "Decision power continues beyond effective governance oversight.",
       "notes": [
         "Risk increases when mirrors degrade."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -240,6 +640,22 @@
       "notes": [
         "Increases silently during success.",
         "Reducing lag is more effective than adding control."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -249,6 +665,22 @@
       "notes": [
         "Often precedes escalation decay.",
         "Behavioral, not procedural."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -258,6 +690,22 @@
       "notes": [
         "Precursor to decision substitution.",
         "Difficult to reverse once normalized."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -267,6 +715,22 @@
       "notes": [
         "Mistaken for resilience.",
         "Creates inherited regulation failure."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -276,6 +740,22 @@
       "notes": [
         "Occurs before policy change.",
         "Early mirrors prevent lock-in."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -285,6 +765,22 @@
       "notes": [
         "Enables drift even when mirrors exist.",
         "Latency is a governance variable."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -294,6 +790,22 @@
       "notes": [
         "Reinforced by compliance artifacts.",
         "Collapses under pressure."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     },
     {
@@ -303,7 +815,28 @@
       "notes": [
         "Leads to automation reliance.",
         "Governance must account for human limits."
+      ],
+      "scope": [
+        "HHI_GOV_01",
+        "Execution-Time Governance",
+        "Audit Evaluation"
+      ],
+      "authority_level": "standard",
+      "allowed_uses": [
+        "behavior evaluation",
+        "governance rule reference",
+        "audit criteria"
+      ],
+      "disallowed_uses": [
+        "model training labels",
+        "marketing claims",
+        "post-hoc justification"
       ]
     }
-  ]
+  ],
+  "authority_notice": {
+    "statement": "This glossary is the canonical semantic authority for all Hollow House Institute governance, audits, agents, and tooling. No downstream system may redefine, infer, or extend these terms.",
+    "change_control": "All modifications require human review and semantic version increment.",
+    "enforcement": "Deviation from glossary definitions constitutes governance drift."
+  }
 }
