@@ -1,0 +1,24 @@
+name: Enforce Glossary Checksum
+
+on:
+  pull_request:
+    paths:
+      - "Hollow_House_Standards_Library/glossary.json"
+
+jobs:
+  verify-checksum:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compute glossary SHA256
+        run: |
+          sha256sum Hollow_House_Standards_Library/glossary.json | awk '{print $1}' > computed.sha
+
+      - name: Compare with committed checksum
+        run: |
+          if [ ! -f GLOSSARY_SHA256.txt ]; then
+            echo "GLOSSARY_SHA256.txt missing"
+            exit 1
+          fi
+          diff computed.sha GLOSSARY_SHA256.txt
