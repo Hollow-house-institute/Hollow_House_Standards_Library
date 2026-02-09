@@ -1,0 +1,23 @@
+{
+  "artifact": "HHI Governance Glossary",
+  "version": "1.2.0",
+  "status": "LOCKED",
+  "canonical_files": [
+    "glossary.json"
+  ],
+  "derived_files": [
+    "glossary.md"
+  ],
+  "audit_evidence": [
+    "governance/audit/AUDIT_HASHES_PRE.txt",
+    "governance/audit/AUDIT_HASHES_POST.txt",
+    "governance/audit/DIFF_pre_vs_post_glossary.diff"
+  ],
+  "approval": {
+    "authority": "HHI Human Authority",
+    "name": "Amy Pierce Adams",
+    "method": "attested",
+    "date": "2026-02-09T00:00:00Z",
+    "signature": "HHI-HUMAN-AUTHORITY-ATTESTATION"
+  }
+}
