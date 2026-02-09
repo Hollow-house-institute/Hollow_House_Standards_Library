@@ -1,0 +1,203 @@
+{
+  "authority": {
+    "organization": "Hollow House Institute",
+    "instrument": "Master License Suite (HHI-MLS)",
+    "authority_url": "https://github.com/hollowhouseinstitute/Master_License_Suite",
+    "notice": "Definitions are authoritative for Hollow House Institute work and may not be altered, reinterpreted, or selectively quoted outside their stated scope within Hollow House Institute contexts without authorization."
+  },
+  "metadata": {
+    "title": "HHI Governance Glossary",
+    "tagline": [
+      "Structured Human Intelligence",
+      "Time turns behavior into infrastructure.",
+      "Behavior is the most honest data there is."
+    ],
+    "scope": [
+      "normative within Hollow House Institute work",
+      "designed for longitudinal analysis",
+      "non-anthropomorphic",
+      "applicable to human, organizational, and AI-mediated systems"
+    ],
+    "referenced_by": {
+      "description": "Internal and intended Hollow House Institute references",
+      "items": [
+        "Master License Suite",
+        "Standards & Frameworks Library",
+        "Longitudinal AI Governance White Paper",
+        "Dataset Catalogs (BST Series)",
+        "Audit tools and pilots",
+        "Public documentation and site materials"
+      ]
+    },
+    "repository": "https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library",
+    "version": {
+      "value": "v1.1.0",
+      "designation": "internal"
+    }
+  },
+  "glossary": [
+    {
+      "term": "Governance",
+      "definition": "The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.",
+      "notes": [
+        "Governance operates at execution time, not only in documentation.",
+        "Governance binds authority, escalation, and accountability before reliance forms.",
+        "Policy describes intent; governance constrains behavior."
+      ]
+    },
+    {
+      "term": "Governance Infrastructure",
+      "definition": "The durable formal and informal structures that shape how decisions, authority, and accountability are exercised over time.",
+      "notes": [
+        "Includes habits, incentives, norms, tooling, and enforcement mechanisms.",
+        "Infrastructure persists even when policies change.",
+        "Behavior is both an input to and output of governance infrastructure."
+      ]
+    },
+    {
+      "term": "Decision Boundary",
+      "definition": "The explicit point at which authority transfers between a system and a human role, or between human roles, during execution.",
+      "notes": [
+        "Decision boundaries must be defined prior to deployment.",
+        "Undefined boundaries result in implicit authority transfer.",
+        "Decision boundaries determine where reliance is permitted to stop."
+      ]
+    },
+    {
+      "term": "Authority",
+      "definition": "The formally assigned right to decide, override, pause, or stop an action at execution time.",
+      "notes": [
+        "Authority must be role-bound and explicit.",
+        "Authority inferred through convenience or repetition is not governed authority.",
+        "Authority without stop capability is incomplete."
+      ]
+    },
+    {
+      "term": "Stop Authority",
+      "definition": "A pre-assigned, role-bound capability to pause, override, or decommission a system or process without justification at runtime.",
+      "notes": [
+        "Stop authority must be exercisable under pressure.",
+        "Authority that cannot interrupt execution is symbolic.",
+        "Stop authority is a core governance control, not an exception mechanism."
+      ]
+    },
+    {
+      "term": "Behavioral Drift",
+      "definition": "The gradual, cumulative change in human or organizational behavior resulting from repeated interaction with a system, process, or tool over time.",
+      "notes": [
+        "Behavioral drift is often invisible in short-term evaluation.",
+        "It is not a failure event; it is an accumulation process.",
+        "Drift can occur even when systems are functioning as designed."
+      ]
+    },
+    {
+      "term": "Behavioral Accumulation",
+      "definition": "The compounding effect of repeated behavior that gradually reshapes judgment, escalation readiness, and accountability norms over time.",
+      "notes": [
+        "Accumulation is the primary driver of longitudinal risk.",
+        "It occurs between incidents, not during them.",
+        "Accumulated behavior hardens into infrastructure."
+      ]
+    },
+    {
+      "term": "Decision Substitution",
+      "definition": "The process by which human judgment is incrementally replaced by system output as the default decision-making reference.",
+      "notes": [
+        "Decision substitution does not require explicit delegation.",
+        "It often manifests as reduced deliberation or diminished challenge behavior.",
+        "Substitution may precede formal automation."
+      ]
+    },
+    {
+      "term": "Escalation",
+      "definition": "The transfer of decision authority in response to uncertainty, risk, or ambiguity.",
+      "notes": [
+        "Effective escalation must be structurally enforced.",
+        "Escalation must remain viable under operational pressure.",
+        "Escalation that exists only on paper is non-functional."
+      ]
+    },
+    {
+      "term": "Escalation Decay",
+      "definition": "The progressive erosion of a system’s or organization’s ability to recognize, initiate, or complete escalation pathways over time.",
+      "notes": [
+        "Escalation decay is structural, not individual.",
+        "It commonly follows repeated non-critical successes.",
+        "Loss of escalation capacity often becomes visible only after failure."
+      ]
+    },
+    {
+      "term": "Confidence Reinforcement",
+      "definition": "A feedback process in which repeated system confirmation increases user confidence independently of objective accuracy or risk.",
+      "notes": [
+        "Confidence reinforcement amplifies trust asymmetrically.",
+        "It may reduce skepticism and override readiness.",
+        "High confidence reinforcement can coexist with declining sensitivity to risk."
+      ]
+    },
+    {
+      "term": "Normalization of Workarounds",
+      "definition": "The process by which informal fixes or exceptions become embedded as standard operating behavior.",
+      "notes": [
+        "Workarounds often originate as adaptive responses.",
+        "Normalization occurs when exceptions cease to be flagged.",
+        "Over time, workarounds reshape governance reality."
+      ]
+    },
+    {
+      "term": "Longitudinal Risk",
+      "definition": "Risk that emerges through accumulation, repetition, and adaptation over time rather than from discrete events or point-in-time failures.",
+      "notes": [
+        "Longitudinal risk cannot be captured by snapshot audits.",
+        "It requires temporal observation and pattern tracking.",
+        "Many high-impact failures are longitudinal in origin."
+      ]
+    },
+    {
+      "term": "Accountability",
+      "definition": "The binding of outcomes to named roles with recognized authority prior to execution.",
+      "notes": [
+        "Accountability reconstructed after failure is forensic, not governing.",
+        "Accountability diffusion weakens corrective action.",
+        "Clear accountability is a prerequisite for effective governance."
+      ]
+    },
+    {
+      "term": "Accountability Diffusion",
+      "definition": "The gradual loss of clear responsibility attribution resulting from distributed decision processes or mediated systems.",
+      "notes": [
+        "Diffusion increases with complexity and scale.",
+        "It often coincides with decision substitution.",
+        "Accountability diffusion impairs intervention and repair."
+      ]
+    },
+    {
+      "term": "Override Erosion",
+      "definition": "The reduction in practical ability or willingness to override system outputs or established processes.",
+      "notes": [
+        "Override erosion is distinct from lack of formal authority.",
+        "It is commonly reinforced by confidence reinforcement.",
+        "Erosion increases systemic fragility."
+      ]
+    },
+    {
+      "term": "Human–AI Interaction (Governance Context)",
+      "definition": "The structured and repeated engagement between human actors and AI-mediated systems as it affects judgment, authority, and responsibility.",
+      "notes": [
+        "Governance-focused, not anthropomorphic.",
+        "Interaction effects compound over time.",
+        "Governance risk arises from interaction patterns, not intent."
+      ]
+    },
+    {
+      "term": "Governance Debt",
+      "definition": "Risk accumulated when AI capabilities are deployed faster than decision authority, escalation, and stop conditions are defined.",
+      "notes": [
+        "Governance debt compounds silently.",
+        "It is difficult to remediate after reliance normalizes.",
+        "Governance debt mirrors technical debt at the behavioral level."
+      ]
+    }
+  ],
+  "copyright": "© Hollow House Institute. All rights reserved."
+}

@@ -1,8 +1,5 @@
 # HHI Governance Glossary
 
-**Structured Human Intelligence**  
-**Time turns behavior into infrastructure.**  
-**Behavior is the most honest data there is.**  
 
 ---
 
@@ -13,165 +10,240 @@
 The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.
 
 **Notes:**  
-- Governance operates at execution time, not only in documentation.
-- Governance binds authority, escalation, and accountability before reliance forms.
+- Operates at execution time, not documentation time.
+- Binds authority before reliance forms.
 - Policy describes intent; governance constrains behavior.
 
 ### Governance Infrastructure
 **Definition:**  
-The durable formal and informal structures that shape how decisions, authority, and accountability are exercised over time.
+Durable formal and informal structures that shape how decisions, authority, and accountability are exercised over time.
 
 **Notes:**  
-- Includes habits, incentives, norms, tooling, and enforcement mechanisms.
-- Infrastructure persists even when policies change.
-- Behavior is both an input to and output of governance infrastructure.
+- Includes habits, incentives, norms, tooling, and enforcement.
+- Persists even when policy changes.
+- Behavior is both input and output.
 
 ### Decision Boundary
 **Definition:**  
-The explicit point at which authority transfers between a system and a human role, or between human roles, during execution.
+The explicit point at which authority transfers between system and human roles during execution.
 
 **Notes:**  
-- Decision boundaries must be defined prior to deployment.
-- Undefined boundaries result in implicit authority transfer.
-- Decision boundaries determine where reliance is permitted to stop.
+- Must be defined before deployment.
+- Undefined boundaries cause implicit authority transfer.
 
 ### Authority
 **Definition:**  
 The formally assigned right to decide, override, pause, or stop an action at execution time.
 
 **Notes:**  
-- Authority must be role-bound and explicit.
-- Authority inferred through convenience or repetition is not governed authority.
-- Authority without stop capability is incomplete.
+- Must be role-bound and explicit.
+- Inferred authority is not governed authority.
 
 ### Stop Authority
 **Definition:**  
-A pre-assigned, role-bound capability to pause, override, or decommission a system or process without justification at runtime.
+A role-bound capability to pause, override, or decommission a system or process at runtime.
 
 **Notes:**  
-- Stop authority must be exercisable under pressure.
-- Authority that cannot interrupt execution is symbolic.
-- Stop authority is a core governance control, not an exception mechanism.
+- Must be exercisable under pressure.
+- Symbolic authority is insufficient.
+
+### Human-in-the-Loop
+**Definition:**  
+A governance condition in which humans retain final decision authority at defined execution points.
+
+**Notes:**  
+- Non-bypassable.
+- Required for accountability.
 
 ### Behavioral Drift
 **Definition:**  
-The gradual, cumulative change in human or organizational behavior resulting from repeated interaction with a system, process, or tool over time.
+Gradual behavioral change resulting from repeated interaction with a system over time.
 
 **Notes:**  
-- Behavioral drift is often invisible in short-term evaluation.
-- It is not a failure event; it is an accumulation process.
-- Drift can occur even when systems are functioning as designed.
+- Often invisible in short-term evaluation.
+- Occurs even when systems function as designed.
 
 ### Behavioral Accumulation
 **Definition:**  
-The compounding effect of repeated behavior that gradually reshapes judgment, escalation readiness, and accountability norms over time.
+The compounding effect of repeated behavior that reshapes judgment, escalation readiness, and accountability norms.
 
 **Notes:**  
-- Accumulation is the primary driver of longitudinal risk.
-- It occurs between incidents, not during them.
-- Accumulated behavior hardens into infrastructure.
+- Primary driver of longitudinal risk.
+- Hardens into infrastructure.
 
 ### Decision Substitution
 **Definition:**  
-The process by which human judgment is incrementally replaced by system output as the default decision-making reference.
+The incremental replacement of human judgment by system output as the default decision reference.
 
 **Notes:**  
-- Decision substitution does not require explicit delegation.
-- It often manifests as reduced deliberation or diminished challenge behavior.
-- Substitution may precede formal automation.
+- Does not require explicit delegation.
+- Often precedes formal automation.
 
 ### Escalation
 **Definition:**  
 The transfer of decision authority in response to uncertainty, risk, or ambiguity.
 
 **Notes:**  
-- Effective escalation must be structurally enforced.
-- Escalation must remain viable under operational pressure.
-- Escalation that exists only on paper is non-functional.
+- Must be structurally enforced.
+- Paper-only escalation is non-functional.
 
 ### Escalation Decay
 **Definition:**  
-The progressive erosion of a system’s or organization’s ability to recognize, initiate, or complete escalation pathways over time.
+The erosion of an organization’s ability to recognize, initiate, or complete escalation pathways over time.
 
 **Notes:**  
-- Escalation decay is structural, not individual.
-- It commonly follows repeated non-critical successes.
-- Loss of escalation capacity often becomes visible only after failure.
+- Structural, not individual.
+- Often visible only after failure.
 
 ### Confidence Reinforcement
 **Definition:**  
-A feedback process in which repeated system confirmation increases user confidence independently of objective accuracy or risk.
+A feedback process in which repeated system confirmation increases user confidence independent of objective accuracy.
 
 **Notes:**  
-- Confidence reinforcement amplifies trust asymmetrically.
-- It may reduce skepticism and override readiness.
-- High confidence reinforcement can coexist with declining sensitivity to risk.
+- Amplifies trust asymmetrically.
+- Reduces skepticism and override readiness.
 
 ### Normalization of Workarounds
 **Definition:**  
-The process by which informal fixes or exceptions become embedded as standard operating behavior.
+The process by which informal fixes become embedded as standard operating behavior.
 
 **Notes:**  
-- Workarounds often originate as adaptive responses.
-- Normalization occurs when exceptions cease to be flagged.
-- Over time, workarounds reshape governance reality.
+- Often begin as adaptation.
+- Reshape governance reality over time.
 
 ### Longitudinal Risk
 **Definition:**  
-Risk that emerges through accumulation, repetition, and adaptation over time rather than from discrete events or point-in-time failures.
+Risk that emerges through accumulation and adaptation over time rather than discrete events.
 
 **Notes:**  
-- Longitudinal risk cannot be captured by snapshot audits.
-- It requires temporal observation and pattern tracking.
-- Many high-impact failures are longitudinal in origin.
+- Not captured by snapshot audits.
+- Requires temporal observation.
 
 ### Accountability
 **Definition:**  
 The binding of outcomes to named roles with recognized authority prior to execution.
 
 **Notes:**  
-- Accountability reconstructed after failure is forensic, not governing.
-- Accountability diffusion weakens corrective action.
-- Clear accountability is a prerequisite for effective governance.
+- Post-failure attribution is forensic, not governing.
+- Clear accountability enables correction.
 
 ### Accountability Diffusion
 **Definition:**  
-The gradual loss of clear responsibility attribution resulting from distributed decision processes or mediated systems.
+Loss of clear responsibility attribution from distributed or mediated decision processes.
 
 **Notes:**  
-- Diffusion increases with complexity and scale.
-- It often coincides with decision substitution.
-- Accountability diffusion impairs intervention and repair.
+- Increases with complexity.
+- Impairs intervention and repair.
 
 ### Override Erosion
 **Definition:**  
-The reduction in practical ability or willingness to override system outputs or established processes.
+Reduced ability or willingness to override system outputs or established processes.
 
 **Notes:**  
-- Override erosion is distinct from lack of formal authority.
-- It is commonly reinforced by confidence reinforcement.
-- Erosion increases systemic fragility.
+- Distinct from lack of formal authority.
+- Increases systemic fragility.
+
+### Stable Mirror Failure
+**Definition:**  
+A governance failure in which existing feedback mechanisms adapt to authority behavior rather than consistently reflecting it.
+
+**Notes:**  
+- Appears as supportive tooling that stops challenging behavior.
+- Dashboards optimizing reassurance are common examples.
+- Adaptive feedback cannot function as governance infrastructure.
+
+### Authority Persistence
+**Definition:**  
+The continuation of decision-making power beyond the period in which governance oversight is active or effective.
+
+**Notes:**  
+- Risk increases when mirrors degrade.
+
+### Governance Lag
+**Definition:**  
+The delay between behavioral change and governance recognition or response.
+
+**Notes:**  
+- Increases silently during success.
+- Reducing lag is more effective than adding control.
+
+### Escalation Suppression
+**Definition:**  
+Behavioral inhibition of escalation due to social or efficiency pressures.
+
+**Notes:**  
+- Often precedes escalation decay.
+- Behavioral, not procedural.
+
+### Judgment Externalization
+**Definition:**  
+The transfer of interpretive responsibility from human actors to system outputs over time.
+
+**Notes:**  
+- Precursor to decision substitution.
+- Reduces independent sense-making.
+
+### Behavioral Lock-In
+**Definition:**  
+The point at which repeated behavior becomes resistant to correction due to institutionalization or habit.
+
+**Notes:**  
+- Occurs before formal policy change.
+- Early mirrors prevent lock-in.
+
+### Mirror Latency
+**Definition:**  
+The delay between behavior execution and reflective feedback reaching the authority actor.
+
+**Notes:**  
+- High latency enables drift.
+- Latency is a governance variable.
+
+### Governance Illusion
+**Definition:**  
+The appearance of governance created by documentation, policy, or tooling that lacks behavioral enforcement.
+
+**Notes:**  
+- Reinforced by compliance artifacts.
+- Collapses under pressure.
+
+### Authority Saturation
+**Definition:**  
+A condition in which authority actors are overloaded such that governance signals are ignored or deferred.
+
+**Notes:**  
+- Leads to reliance on automation.
+- Governance must account for human limits.
 
 ### Human–AI Interaction (Governance Context)
 **Definition:**  
-The structured and repeated engagement between human actors and AI-mediated systems as it affects judgment, authority, and responsibility.
+Structured engagement between humans and AI-mediated systems affecting judgment, authority, and responsibility.
 
 **Notes:**  
 - Governance-focused, not anthropomorphic.
-- Interaction effects compound over time.
-- Governance risk arises from interaction patterns, not intent.
+- Risk arises from interaction patterns.
 
-### Governance Debt
+### Silent Load Transfer
 **Definition:**  
-Risk accumulated when AI capabilities are deployed faster than decision authority, escalation, and stop conditions are defined.
+The unacknowledged movement of regulatory, emotional, or decision burden from authority roles to dependent actors.
 
 **Notes:**  
-- Governance debt compounds silently.
-- It is difficult to remediate after reliance normalizes.
-- Governance debt mirrors technical debt at the behavioral level.
+- Often mistaken for resilience.
+- Creates inherited regulation failure.
 
----
+### Continuous Assurance
+**Definition:**  
+Ongoing monitoring of system behavior and compliance controls in production.
 
-## Versioning
+**Notes:**  
+- Replaces episodic audits.
+- Detects drift early.
 
-Current version: **v1.1.0**
+### Agentic Workflows
+**Definition:**  
+Coordinated systems where multiple AI agents perform interdependent tasks under governance constraints.
+
+**Notes:**  
+- Human escalation paths required.
+- Audit logging required.
+
