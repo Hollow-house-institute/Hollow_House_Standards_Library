@@ -1,0 +1,24 @@
+{
+  "action": "expand_governance_glossary",
+  "current_term_count": 18,
+  "target_term_count": 30,
+  "include_terms": [
+    "Stable Mirror Failure",
+    "Authority Persistence",
+    "Governance Lag",
+    "Escalation Suppression",
+    "Judgment Externalization",
+    "Behavioral Lock-In",
+    "Mirror Latency",
+    "Governance Illusion",
+    "Authority Saturation",
+    "Silent Load Transfer",
+    "Continuous Assurance",
+    "Agentic Workflows"
+  ],
+  "exclude_terms": [
+    "Sovereign AI Stack",
+    "Data Rails"
+  ],
+  "status": "PENDING_AUDIT_APPROVAL"
+}
