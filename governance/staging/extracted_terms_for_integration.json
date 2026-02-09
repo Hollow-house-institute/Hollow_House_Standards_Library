@@ -1,0 +1,23 @@
+{
+  "source_branch": "glossary-hardening-v1.2.1",
+  "source_artifact": "glossary.md",
+  "include_terms": [
+    "Stable Mirror Failure",
+    "Authority Persistence",
+    "Governance Lag",
+    "Escalation Suppression",
+    "Judgment Externalization",
+    "Behavioral Lock-In",
+    "Mirror Latency",
+    "Governance Illusion",
+    "Authority Saturation",
+    "Silent Load Transfer",
+    "Continuous Assurance",
+    "Agentic Workflows"
+  ],
+  "exclude_terms": [
+    "Sovereign AI Stack",
+    "Data Rails"
+  ],
+  "status": "EXTRACTION_ONLY_NO_CANONICAL_CHANGE"
+}
