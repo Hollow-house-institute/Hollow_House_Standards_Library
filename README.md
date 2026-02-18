@@ -24,6 +24,19 @@ Authoritative order:
 Definitions, terms, and usage are governed upstream.
 ---### Canonical Definitions
 
+## Governance Diagram
+
+```mermaid
+flowchart TD
+  A[Hollow House Institute Doctrine] --> B[Hollow House Standards Library]
+  B --> C[HHI_GOV_01 - Execution Governance]
+  B --> D[HHI_LUL_01 - Language Licensing]
+  D --> E[Master License Suite - Legal Enforcement]
+  C --> F[Datasets & Systems]
+  C --> G[Audits & Oversight]
+  C --> H[Academy & Site]
+```
+
 All governance terminology used in this repository is defined in the  
 **HHI Governance Glossary (v1.1.0)**:
 
