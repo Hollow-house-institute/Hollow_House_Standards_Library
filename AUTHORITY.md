@@ -1,56 +1,33 @@
-# Authority & Scope
+# Authority Model
 
-## Role of This Repository
+This repository separates semantic authority from execution and review functions.
 
-`Hollow_House_Standards_Library` is the **canonical root authority** for
-terminology, definitions, and standards used across the Hollow House Institute
-ecosystem.
+## Canonical Semantic Authority
+**HHIHumanAuthority** is the sole authority for:
+- glossary.json
+- governance definitions
+- semantic versioning of standards
 
-This repository defines:
-- Core terms and language
-- Conceptual standards
-- Governance primitives
-- Semantic anchors used by downstream systems
+Only this authority may define, modify, or lock meaning.
 
-It does **not** execute governance, audits, or enforcement.
+## Execution & Tooling Authority
+**hhidatasettechs** maintains:
+- tooling
+- pipelines
+- datasets
+- renderers
+- validation and enforcement mechanisms
 
----
+This role may not redefine or extend semantic assets.
 
-## Relationship to HHI_GOV_01
+## Review Authority
+**hhireviewauthority** performs:
+- audit review
+- compliance verification
+- governance assessment
 
-`HHI_GOV_01` is a **downstream operational standard** that implements,
-enforces, and audits governance using the language and definitions
-originating in this repository.
+This role is non-authoritative and non-modifying.
 
-Authority flow is intentionally one-directional:
-
-Hollow_House_Standards_Library  
-→ defines terms and standards  
-→ HHI_GOV_01 operationalizes governance  
-→ Other repositories inherit enforceable authority
-
-This repository does **not** inherit governance from HHI_GOV_01.
-
----
-
-## Enforcement & Stop-Power
-
-This repository:
-- Has no stop-power
-- Has no escalation authority
-- Has no audit enforcement role
-
-Those functions are explicitly delegated to operational standards
-(e.g., `HHI_GOV_01`) and governed repositories.
-
----
-
-## Design Intent
-
-Separating **definition authority** from **enforcement authority** ensures:
-- Stable terminology over time
-- Clean audit boundaries
-- Non-circular governance
-- Clear upstream/downstream responsibility
-
-This separation is intentional and required for longitudinal governance integrity.
+## Platform Roles
+GitHub organization roles (e.g. Owner) do not imply semantic authority.
+Authority is defined by this document and enforced by practice.

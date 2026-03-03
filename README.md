@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 # Hollow House Standards & Frameworks Library
+=======
+---
+This repository defines terminology and conceptual standards only.
+It does not define governance behavior, enforcement mechanisms, operational procedures, or audit execution.
+All such materials reside in HHI_GOV_01.
+Governed under **HHI_GOV_01 — Longitudinal Governance Infrastructure**Hollow House Institute
+>>>>>>> main
 
 ## Governance Canon
 
@@ -119,7 +127,23 @@ Institutional risk framing (not personal profiling)
 
 
 
+## Governance Glossary (Canonical JSON)
 
+The Hollow House Institute Governance Glossary is maintained in a
+machine-readable format for use across documentation, audits,
+and portfolio demonstrations.
+
+### Authoritative Source
+- **glossary.json** — canonical, read-only source of governance definitions  
+- **glossary.md** — human-readable reference aligned to the JSON
+
+### Governance & Licensing
+- Authority: Hollow House Institute Master License Suite (HHI-MLS)
+- License: HHI Language Use License (HHI-LUL-01)
+
+Downstream consumers (applications, demos, documentation) MUST treat
+`glossary.json` as the authoritative source and MUST NOT modify
+definitions in place.
 ---
 
 What This Repository Is Not
@@ -259,7 +283,7 @@ Ethical AI · Relational Intelligence · Governed Analysis. Hollow House Institu
 Structured Human Intelligence
 
 
-Contact: data@hollowhouseinstitute.org
+Contact: data@hollowhouse.org
 ---
 
 ## Governance Authority
@@ -274,6 +298,7 @@ https://github.com/hollowhouseinstitute/HHI-GOV-01
 ## What this is
 Upstream governance definitions and standards for Hollow House Institute. This repository is the canonical source of terminology used across audits, licensing, and governance artifacts.
 
+<<<<<<< HEAD
 ## Who it’s for
 Compliance, legal, governance, risk, and policy leaders evaluating or adopting longitudinal AI governance standards.
 
@@ -303,3 +328,20 @@ HHI_GOV_01 is the authoritative governance standard governing all audits, enforc
 ## Engagement
 For licensing, audits, or governance engagement:
 **data@hollowhouse.org**
+=======
+Governance authority is singular. No local policy supersedes HHI-GOV-01.
+
+---
+
+## Execution-Time Governance (Reference Only)
+
+Execution-time decision boundaries, authority authorization, stop authority,
+escalation paths, and continuous assurance are **implemented and enforced**
+in the HHI governance layer.
+
+See:
+- **HHI_GOV_01** — tagged release `v1.0.1-execution-workflow`
+
+This repository defines terminology and normative language only.
+Operational semantics live downstream by design.
+>>>>>>> main

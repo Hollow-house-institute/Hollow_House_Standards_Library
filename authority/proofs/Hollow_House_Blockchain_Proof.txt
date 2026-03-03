@@ -1,0 +1,8 @@
+Hollow House Blockchain Proof
+
+Author: Amy Pierce Bui
+Timestamp (UTC): 2025-12-10T18:00:59.396040
+SHA-256 Hash:
+f87a88a466f0756e7a86956f2bcd2710488c266a16b7af691c03fecc7c2bb92c
+
+This hash cryptographically verifies authorship at this timestamp.
