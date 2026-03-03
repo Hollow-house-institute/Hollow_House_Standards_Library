@@ -1,5 +1,8 @@
 name: Enforce Glossary Checksum
 
+permissions:
+  contents: read
+
 on:
   pull_request:
     paths:
