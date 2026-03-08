@@ -1,266 +1,60 @@
 {
-  "version": "1.3.0",
-  "description": "Canonical terminology registry for Hollow House Institute governance standards.",
+  "meta": {
+    "title": "HHI Governance Glossary",
+    "version": "1.3.0",
+    "canonical_terms": 41,
+    "status": "Governance Freeze",
+    "authority": "Hollow House Institute",
+    "license": "HHI-LUL-01"
+  },
   "terms": [
-"authority": "Hollow House Institute",
-"semantic_authority": "Hollow_House_Standards_Library",
-    {
-      "term": "Human Authority",
-      "definition": "The principle that humans retain final decision authority and ethical accountability in AI-mediated systems.",
-      "domain": "Authority",
-      "status": "canonical"
-    },
-    {
-      "term": "Stop Authority",
-      "definition": "A non-bypassable mechanism allowing a human operator to halt system execution.",
-      "domain": "Authority",
-      "status": "canonical"
-    },
-    {
-      "term": "Decision Boundary",
-      "definition": "A defined threshold where automated system output requires human review or intervention.",
-      "domain": "Authority",
-      "status": "canonical"
-    },
-    {
-      "term": "Human-in-the-Loop",
-      "definition": "A governance architecture where human oversight is integrated into system decision processes.",
-      "domain": "Authority",
-      "status": "canonical"
-    },
+    {"term": "Behavioral Drift", "definition": "Gradual divergence between expected system behavior and observed behavior over time."},
+    {"term": "Reliance Formation", "definition": "Process by which individuals or organizations begin depending on system outputs regardless of governance approval."},
+    {"term": "Governance as Infrastructure", "definition": "Repeated behavioral patterns embedded within operational systems."},
+    {"term": "Post-Hoc Governance", "definition": "Governance actions occurring only after outcomes are questioned or failures occur."},
+    {"term": "Continuous Assurance", "definition": "Continuous monitoring of governance performance rather than periodic audits."},
+    {"term": "Longitudinal Accountability", "definition": "Traceability of responsibility and decision authority across time."},
 
-    {
-      "term": "Execution Governance",
-      "definition": "Controls governing how AI systems operate during real-time execution.",
-      "domain": "Governance",
-      "status": "canonical"
-    },
-    {
-      "term": "Governance Layer",
-      "definition": "The structural layer responsible for enforcing system rules and policies.",
-      "domain": "Governance",
-      "status": "canonical"
-    },
-    {
-      "term": "Governance Stack",
-      "definition": "The hierarchical architecture of governance standards and enforcement mechanisms.",
-      "domain": "Governance",
-      "status": "canonical"
-    },
-    {
-      "term": "Constraint Framework",
-      "definition": "A structured set of rules limiting system behaviors.",
-      "domain": "Governance",
-      "status": "canonical"
-    },
-    {
-      "term": "Execution Constraints",
-      "definition": "Runtime restrictions preventing unsafe or unauthorized system actions.",
-      "domain": "Governance",
-      "status": "canonical"
-    },
-    {
-      "term": "Data Rails",
-      "definition": "Controlled pathways governing how information flows through systems.",
-      "domain": "Governance",
-      "status": "canonical"
-    },
+    {"term": "Authority", "definition": "Formally assigned right to make decisions within a system."},
+    {"term": "Decision Boundary", "definition": "Point where decision authority transfers between actors."},
+    {"term": "Stop Authority", "definition": "Capability to halt system operations when governance thresholds are exceeded."},
+    {"term": "Human-in-the-Loop", "definition": "Governance mechanism requiring human oversight in decision processes."},
+    {"term": "Escalation", "definition": "Transfer of decisions to higher authority when risk thresholds are met."},
+    {"term": "Escalation Decay", "definition": "Reduction in effectiveness or use of escalation pathways over time."},
+    {"term": "Escalation Suppression", "definition": "Condition where escalation pathways exist but are not used."},
+    {"term": "Authority Persistence", "definition": "Continuation of decision authority beyond original conditions."},
 
-    {
-      "term": "Semantic Authority",
-      "definition": "The canonical source defining governance terminology.",
-      "domain": "Terminology",
-      "status": "canonical"
-    },
-    {
-      "term": "Glossary Binding",
-      "definition": "The requirement that systems reference canonical definitions rather than redefining terms locally.",
-      "domain": "Terminology",
-      "status": "canonical"
-    },
-    {
-      "term": "Definition Integrity",
-      "definition": "Preservation of stable term meanings across documentation and systems.",
-      "domain": "Terminology",
-      "status": "canonical"
-    },
-    {
-      "term": "Conceptual Drift",
-      "definition": "Gradual alteration of term meanings across contexts or system implementations.",
-      "domain": "Terminology",
-      "status": "canonical"
-    },
+    {"term": "Accountability", "definition": "Assignment of responsibility for decisions and outcomes."},
+    {"term": "Accountability Diffusion", "definition": "Loss of clear responsibility due to distributed decision processes."},
+    {"term": "Responsibility Binding", "definition": "Mechanism linking authority to responsible actors."},
+    {"term": "Decision Substitution", "definition": "Replacement of human decision-making with automated outputs."},
 
-    {
-      "term": "Continuous Assurance",
-      "definition": "Ongoing verification that systems remain aligned with governance requirements.",
-      "domain": "Audit",
-      "status": "canonical"
-    },
-    {
-      "term": "Audit Artifact",
-      "definition": "Documented evidence supporting governance verification.",
-      "domain": "Audit",
-      "status": "canonical"
-    },
-    {
-      "term": "Governance Audit Trail",
-      "definition": "Traceable record of system decisions and governance interventions.",
-      "domain": "Audit",
-      "status": "canonical"
-    },
-    {
-      "term": "Evidence Package",
-      "definition": "Compiled documentation demonstrating compliance and governance verification.",
-      "domain": "Audit",
-      "status": "canonical"
-    },
-    {
-      "term": "Governance Verification",
-      "definition": "Independent confirmation that governance mechanisms operate correctly.",
-      "domain": "Audit",
-      "status": "canonical"
-    },
-    {
-      "term": "Audit-Ready System",
-      "definition": "A system structured to allow immediate compliance evaluation.",
-      "domain": "Audit",
-      "status": "canonical"
-    },
+    {"term": "Governance Lag", "definition": "Delay between behavioral change and governance response."},
+    {"term": "Governance Drift", "definition": "Gradual misalignment between governance policy and operational behavior."},
+    {"term": "Longitudinal Risk", "definition": "Risk emerging from cumulative behavior over time."},
+    {"term": "Behavioral Accumulation", "definition": "Compounding effect of repeated actions reshaping system behavior."},
+    {"term": "Governance Failure", "definition": "Breakdown of governance mechanisms controlling system behavior."},
+    {"term": "Authority Drift", "definition": "Gradual shift in decision authority away from intended structures."},
+    {"term": "Intervention Threshold", "definition": "Point where governance intervention becomes necessary."},
 
-    {
-      "term": "Compliance Boundary",
-      "definition": "Operational limits within which a system remains compliant with governance requirements.",
-      "domain": "Risk",
-      "status": "canonical"
-    },
-    {
-      "term": "Oversight Failure",
-      "definition": "A governance condition where monitoring or intervention mechanisms fail.",
-      "domain": "Risk",
-      "status": "canonical"
-    },
+    {"term": "Judgment Externalization", "definition": "Transfer of decision reasoning from humans to external systems."},
+    {"term": "Confidence Reinforcement", "definition": "Feedback loop where system responses increase user confidence."},
+    {"term": "Override Erosion", "definition": "Decline in willingness to override automated decisions."},
+    {"term": "Normalization of Workarounds", "definition": "Temporary fixes becoming permanent operational practices."},
+    {"term": "Governance Illusion", "definition": "Perception of governance control without effective enforcement."},
 
-    {
-      "term": "System Integrity",
-      "definition": "The condition in which system operations remain trustworthy and unaltered.",
-      "domain": "Stability",
-      "status": "canonical"
-    },
-    {
-      "term": "Governance Resilience",
-      "definition": "The ability of governance systems to remain effective during operational stress or change.",
-      "domain": "Stability",
-      "status": "canonical"
-    },
-    {
-      "term": "Operational Continuity",
-      "definition": "The ability of a system to maintain functional operation during disruption.",
-      "domain": "Stability",
-      "status": "canonical"
-    },
+    {"term": "Language Symmetry Score", "abbreviation": "LSS", "definition": "Metric evaluating alignment between outputs and governance terminology."},
+    {"term": "Relational Rhythm Index", "abbreviation": "RRI", "definition": "Measure of stability in human-system interaction patterns."},
+    {"term": "Governance Stability Index", "abbreviation": "GSI", "definition": "Indicator of long-term governance consistency."},
+    {"term": "Authority Alignment Score", "abbreviation": "AAS", "definition": "Metric measuring alignment between authority and governance design."},
 
-    {
-      "term": "Behavioral Infrastructure",
-      "definition": "Long-term behavioral patterns that stabilize into operational system structures.",
-      "domain": "Behavior",
-      "status": "provisional"
-    },
-    {
-      "term": "Behavioral Telemetry",
-      "definition": "Observable data describing patterns of human-AI interaction over time.",
-      "domain": "Behavior",
-      "status": "provisional"
-    },
-    {
-      "term": "Behavioral Drift",
-      "definition": "Gradual deviation from expected behavioral patterns in AI-human interaction systems.",
-      "domain": "Behavior",
-      "status": "provisional"
-    },
-    {
-      "term": "Interaction Controls",
-      "definition": "Mechanisms regulating the influence between humans and AI systems.",
-      "domain": "Behavior",
-      "status": "provisional"
-    },
-    {
-      "term": "Relational AI Risk",
-      "definition": "Risks emerging from repeated interaction between humans and AI systems.",
-      "domain": "Behavior",
-      "status": "provisional"
-    },
-    {
-      "term": "Operational Behavior Loop",
-      "definition": "The cycle of input, system output, and human response shaping system behavior over time.",
-      "domain": "Behavior",
-      "status": "provisional"
-    },
+    {"term": "Relational Health Dashboard", "definition": "Monitoring interface for human-system interaction dynamics."},
+    {"term": "Governance Telemetry", "definition": "Operational signals measuring governance performance."},
+    {"term": "Interaction Trace", "definition": "Recorded sequence of human-system interactions."},
 
-    {
-      "term": "Alignment Integrity",
-      "definition": "The condition where system outputs remain aligned with defined governance principles.",
-      "domain": "Alignment",
-      "status": "provisional"
-    },
-    {
-      "term": "Governance Risk Surface",
-      "definition": "The total exposure of a system to governance-related failures.",
-      "domain": "Risk",
-      "status": "provisional"
-    },
-    {
-      "term": "Operational Drift Risk",
-      "definition": "Risk that operational behavior diverges from defined governance constraints.",
-      "domain": "Risk",
-      "status": "provisional"
-    },
-    {
-      "term": "Stability Signal",
-      "definition": "Observable indicators that system behavior remains governed and consistent.",
-      "domain": "Stability",
-      "status": "provisional"
-    },
-
-    {
-      "term": "Agentic Workflow",
-      "definition": "A workflow where AI agents perform actions with conditional autonomy.",
-      "domain": "Architecture",
-      "status": "provisional"
-    },
-    {
-      "term": "Sovereign AI Stack",
-      "definition": "An AI system architecture where governance authority remains internally controlled.",
-      "domain": "Architecture",
-      "status": "provisional"
-    },
-
-    {
-      "term": "Cognitive Offloading",
-      "definition": "The delegation of cognitive tasks from humans to AI systems.",
-      "domain": "Human-AI Interaction",
-      "status": "provisional"
-    },
-    {
-      "term": "Interaction Dependence",
-      "definition": "Increasing reliance on AI guidance during decision-making processes.",
-      "domain": "Human-AI Interaction",
-      "status": "provisional"
-    },
-    {
-      "term": "Autonomy Gradient",
-      "definition": "The spectrum between full human control and full AI autonomy.",
-      "domain": "Human-AI Interaction",
-      "status": "provisional"
-    },
-    {
-      "term": "Human Cognitive Sovereignty",
-      "definition": "Preservation of independent human judgment in AI-mediated environments.",
-      "domain": "Human-AI Interaction",
-      "status": "provisional"
-    }
-
+    {"term": "Sociotechnical System", "definition": "System composed of human, technical, and organizational components."},
+    {"term": "Execution-Time Governance", "definition": "Governance mechanisms operating during system execution."},
+    {"term": "Governance Infrastructure Layer", "definition": "Structural elements enforcing governance rules."},
+    {"term": "Governance Surface", "definition": "Observable layer where governance interactions occur."}
   ]
 }
-CTRL + D
-
