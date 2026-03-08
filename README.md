@@ -6,7 +6,16 @@
 *Time turns behavior into infrastructure.*  
 *Behavior is the most honest data there is.*
 
----
+--
+## Term Registry Structure
+
+The HHI Governance Glossary includes:
+
+- canonical human-readable definitions in `glossary.md`
+- stable term identifiers in `TERMS.md`
+- machine-readable structured terminology in `glossary.json`
+
+This structure supports governance traceability, semantic stability, and interoperability across standards and audit artifacts.
 
 ## 🚀 Start Here
 
