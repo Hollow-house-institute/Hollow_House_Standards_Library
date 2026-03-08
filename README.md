@@ -1,14 +1,12 @@
----
-
-## Hollow House Institute Standards Library
+-## Hollow House Institute Standards Library
 
 **Structured Human Intelligence**  
 *Time turns behavior into infrastructure.*  
 *Behavior is the most honest data there is.*
 
---
-## Term Registry Structure
+---
 
+## Term Registry Structure
 The HHI Governance Glossary includes:
 
 - canonical human-readable definitions in `glossary.md`
