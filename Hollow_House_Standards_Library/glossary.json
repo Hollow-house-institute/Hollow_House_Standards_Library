@@ -1,842 +1,265 @@
 {
-  "meta": {
-    "title": "HHI Governance Glossary",
-    "version": "1.2.0",
-    "license": "HHI-LUL-01",
-    "authority": "HHI-MLS",
-    "source": "Hollow House Institute"
-  },
+  "version": "1.3.0",
+  "description": "Canonical terminology registry for Hollow House Institute governance standards.",
   "terms": [
+
     {
-      "id": "governance",
-      "term": "Governance",
-      "definition": "The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.",
-      "notes": [
-        "Operates at execution time, not documentation time.",
-        "Binds authority before reliance forms.",
-        "Policy describes intent; governance constrains behavior."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Human Authority",
+      "definition": "The principle that humans retain final decision authority and ethical accountability in AI-mediated systems.",
+      "domain": "Authority",
+      "status": "canonical"
     },
     {
-      "id": "governance-infrastructure",
-      "term": "Governance Infrastructure",
-      "definition": "Durable formal and informal structures that shape how decisions, authority, and accountability are exercised over time.",
-      "notes": [
-        "Includes habits, incentives, norms, tooling, and enforcement.",
-        "Persists even when policy changes.",
-        "Behavior is both input and output."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "decision-boundary",
-      "term": "Decision Boundary",
-      "definition": "The explicit point at which authority transfers between system and human roles during execution.",
-      "notes": [
-        "Must be defined before deployment.",
-        "Undefined boundaries cause implicit authority transfer."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "authority",
-      "term": "Authority",
-      "definition": "The formally assigned right to decide, override, pause, or stop an action at execution time.",
-      "notes": [
-        "Must be role-bound and explicit.",
-        "Inferred authority is not governed authority."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "stop-authority",
       "term": "Stop Authority",
-      "definition": "A role-bound capability to pause, override, or decommission a system or process at runtime.",
-      "notes": [
-        "Must be exercisable under pressure.",
-        "Symbolic authority is insufficient."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "definition": "A non-bypassable mechanism allowing a human operator to halt system execution.",
+      "domain": "Authority",
+      "status": "canonical"
     },
     {
-      "id": "human-in-the-loop",
+      "term": "Decision Boundary",
+      "definition": "A defined threshold where automated system output requires human review or intervention.",
+      "domain": "Authority",
+      "status": "canonical"
+    },
+    {
       "term": "Human-in-the-Loop",
-      "definition": "A governance condition in which humans retain final decision authority at defined execution points.",
-      "notes": [
-        "Non-bypassable.",
-        "Required for accountability."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "definition": "A governance architecture where human oversight is integrated into system decision processes.",
+      "domain": "Authority",
+      "status": "canonical"
+    },
+
+    {
+      "term": "Execution Governance",
+      "definition": "Controls governing how AI systems operate during real-time execution.",
+      "domain": "Governance",
+      "status": "canonical"
     },
     {
-      "id": "behavioral-drift",
-      "term": "Behavioral Drift",
-      "definition": "Gradual behavioral change resulting from repeated interaction with a system over time.",
-      "notes": [
-        "Often invisible in short-term evaluation.",
-        "Occurs even when systems function as designed."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Governance Layer",
+      "definition": "The structural layer responsible for enforcing system rules and policies.",
+      "domain": "Governance",
+      "status": "canonical"
     },
     {
-      "id": "behavioral-accumulation",
-      "term": "Behavioral Accumulation",
-      "definition": "The compounding effect of repeated behavior that reshapes judgment, escalation readiness, and accountability norms.",
-      "notes": [
-        "Primary driver of longitudinal risk.",
-        "Hardens into infrastructure."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Governance Stack",
+      "definition": "The hierarchical architecture of governance standards and enforcement mechanisms.",
+      "domain": "Governance",
+      "status": "canonical"
     },
     {
-      "id": "decision-substitution",
-      "term": "Decision Substitution",
-      "definition": "The incremental replacement of human judgment by system output as the default decision reference.",
-      "notes": [
-        "Does not require explicit delegation.",
-        "Often precedes formal automation."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Constraint Framework",
+      "definition": "A structured set of rules limiting system behaviors.",
+      "domain": "Governance",
+      "status": "canonical"
     },
     {
-      "id": "escalation",
-      "term": "Escalation",
-      "definition": "The transfer of decision authority in response to uncertainty, risk, or ambiguity.",
-      "notes": [
-        "Must be structurally enforced.",
-        "Paper-only escalation is non-functional."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Execution Constraints",
+      "definition": "Runtime restrictions preventing unsafe or unauthorized system actions.",
+      "domain": "Governance",
+      "status": "canonical"
     },
     {
-      "id": "escalation-decay",
-      "term": "Escalation Decay",
-      "definition": "The erosion of an organization’s ability to recognize, initiate, or complete escalation pathways over time.",
-      "notes": [
-        "Structural, not individual.",
-        "Often visible only after failure."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "confidence-reinforcement",
-      "term": "Confidence Reinforcement",
-      "definition": "A feedback process in which repeated system confirmation increases user confidence independent of objective accuracy.",
-      "notes": [
-        "Amplifies trust asymmetrically.",
-        "Reduces skepticism and override readiness."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "normalization-of-workarounds",
-      "term": "Normalization of Workarounds",
-      "definition": "The process by which informal fixes become embedded as standard operating behavior.",
-      "notes": [
-        "Often begin as adaptation.",
-        "Reshape governance reality over time."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "longitudinal-risk",
-      "term": "Longitudinal Risk",
-      "definition": "Risk that emerges through accumulation and adaptation over time rather than discrete events.",
-      "notes": [
-        "Not captured by snapshot audits.",
-        "Requires temporal observation."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "accountability",
-      "term": "Accountability",
-      "definition": "The binding of outcomes to named roles with recognized authority prior to execution.",
-      "notes": [
-        "Post-failure attribution is forensic, not governing.",
-        "Clear accountability enables correction."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "accountability-diffusion",
-      "term": "Accountability Diffusion",
-      "definition": "Loss of clear responsibility attribution from distributed or mediated decision processes.",
-      "notes": [
-        "Increases with complexity.",
-        "Impairs intervention and repair."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "override-erosion",
-      "term": "Override Erosion",
-      "definition": "Reduced ability or willingness to override system outputs or established processes.",
-      "notes": [
-        "Distinct from lack of formal authority.",
-        "Increases systemic fragility."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "human-ai-interaction",
-      "term": "Human–AI Interaction (Governance Context)",
-      "definition": "Structured engagement between humans and AI-mediated systems affecting judgment, authority, and responsibility.",
-      "notes": [
-        "Governance-focused, not anthropomorphic.",
-        "Risk arises from interaction patterns."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "governance-debt",
-      "term": "Governance Debt",
-      "definition": "Risk accumulated when capability advances faster than authority, escalation, and stop conditions.",
-      "notes": [
-        "Compounds silently.",
-        "Paid during failure, not success."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "sovereign-ai-stack",
-      "term": "Sovereign AI Stack",
-      "definition": "An AI architecture retaining control over data, models, infrastructure, governance rules, and deployment authority.",
-      "notes": [
-        "Requires enforceable data lineage.",
-        "Requires governance transparency."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
-    },
-    {
-      "id": "data-rails",
       "term": "Data Rails",
-      "definition": "Governance-controlled pathways enabling secure data exchange without proprietary centralization.",
-      "notes": [
-        "Access control and traceability.",
-        "Contractual enforcement."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "definition": "Controlled pathways governing how information flows through systems.",
+      "domain": "Governance",
+      "status": "canonical"
+    },
+
+    {
+      "term": "Semantic Authority",
+      "definition": "The canonical source defining governance terminology.",
+      "domain": "Terminology",
+      "status": "canonical"
     },
     {
-      "id": "agentic-workflows",
-      "term": "Agentic Workflows",
-      "definition": "Coordinated systems where multiple AI agents perform interdependent tasks under governance constraints.",
-      "notes": [
-        "Human escalation paths required.",
-        "Audit logging required."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Glossary Binding",
+      "definition": "The requirement that systems reference canonical definitions rather than redefining terms locally.",
+      "domain": "Terminology",
+      "status": "canonical"
     },
     {
-      "id": "continuous-assurance",
+      "term": "Definition Integrity",
+      "definition": "Preservation of stable term meanings across documentation and systems.",
+      "domain": "Terminology",
+      "status": "canonical"
+    },
+    {
+      "term": "Conceptual Drift",
+      "definition": "Gradual alteration of term meanings across contexts or system implementations.",
+      "domain": "Terminology",
+      "status": "canonical"
+    },
+
+    {
       "term": "Continuous Assurance",
-      "definition": "Ongoing monitoring of system behavior and compliance controls in production.",
-      "notes": [
-        "Replaces episodic audits.",
-        "Detects drift early."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "definition": "Ongoing verification that systems remain aligned with governance requirements.",
+      "domain": "Audit",
+      "status": "canonical"
     },
     {
-      "id": "stable-mirror-failure",
-      "term": "Stable Mirror Failure",
-      "definition": "Feedback mechanisms adapt to authority behavior rather than accurately reflecting it.",
-      "notes": [
-        "Appears as supportive tooling.",
-        "Undermines corrective challenge."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Audit Artifact",
+      "definition": "Documented evidence supporting governance verification.",
+      "domain": "Audit",
+      "status": "canonical"
     },
     {
-      "id": "authority-persistence",
-      "term": "Authority Persistence",
-      "definition": "Decision power continues beyond effective governance oversight.",
-      "notes": [
-        "Risk increases when mirrors degrade."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Governance Audit Trail",
+      "definition": "Traceable record of system decisions and governance interventions.",
+      "domain": "Audit",
+      "status": "canonical"
     },
     {
-      "id": "governance-lag",
-      "term": "Governance Lag",
-      "definition": "Delay between behavioral change and governance recognition or response.",
-      "notes": [
-        "Increases silently during success.",
-        "Reducing lag is more effective than adding control."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Evidence Package",
+      "definition": "Compiled documentation demonstrating compliance and governance verification.",
+      "domain": "Audit",
+      "status": "canonical"
     },
     {
-      "id": "escalation-suppression",
-      "term": "Escalation Suppression",
-      "definition": "Behavioral inhibition of escalation due to social or efficiency pressures.",
-      "notes": [
-        "Often precedes escalation decay.",
-        "Behavioral, not procedural."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Governance Verification",
+      "definition": "Independent confirmation that governance mechanisms operate correctly.",
+      "domain": "Audit",
+      "status": "canonical"
     },
     {
-      "id": "judgment-externalization",
-      "term": "Judgment Externalization",
-      "definition": "Transfer of interpretive responsibility from humans to system outputs over time.",
-      "notes": [
-        "Precursor to decision substitution.",
-        "Difficult to reverse once normalized."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Audit-Ready System",
+      "definition": "A system structured to allow immediate compliance evaluation.",
+      "domain": "Audit",
+      "status": "canonical"
+    },
+
+    {
+      "term": "Compliance Boundary",
+      "definition": "Operational limits within which a system remains compliant with governance requirements.",
+      "domain": "Risk",
+      "status": "canonical"
     },
     {
-      "id": "silent-load-transfer",
-      "term": "Silent Load Transfer",
-      "definition": "Unacknowledged movement of regulatory, emotional, or decision burden to dependent actors.",
-      "notes": [
-        "Mistaken for resilience.",
-        "Creates inherited regulation failure."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Oversight Failure",
+      "definition": "A governance condition where monitoring or intervention mechanisms fail.",
+      "domain": "Risk",
+      "status": "canonical"
+    },
+
+    {
+      "term": "System Integrity",
+      "definition": "The condition in which system operations remain trustworthy and unaltered.",
+      "domain": "Stability",
+      "status": "canonical"
     },
     {
-      "id": "behavioral-lock-in",
-      "term": "Behavioral Lock-In",
-      "definition": "Repeated behavior becomes resistant to correction through habit or institutionalization.",
-      "notes": [
-        "Occurs before policy change.",
-        "Early mirrors prevent lock-in."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Governance Resilience",
+      "definition": "The ability of governance systems to remain effective during operational stress or change.",
+      "domain": "Stability",
+      "status": "canonical"
     },
     {
-      "id": "mirror-latency",
-      "term": "Mirror Latency",
-      "definition": "Delay between behavior execution and reflective feedback reaching authority actors.",
-      "notes": [
-        "Enables drift even when mirrors exist.",
-        "Latency is a governance variable."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Operational Continuity",
+      "definition": "The ability of a system to maintain functional operation during disruption.",
+      "domain": "Stability",
+      "status": "canonical"
+    },
+
+    {
+      "term": "Behavioral Infrastructure",
+      "definition": "Long-term behavioral patterns that stabilize into operational system structures.",
+      "domain": "Behavior",
+      "status": "provisional"
     },
     {
-      "id": "governance-illusion",
-      "term": "Governance Illusion",
-      "definition": "Appearance of governance without behavioral enforcement.",
-      "notes": [
-        "Reinforced by compliance artifacts.",
-        "Collapses under pressure."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Behavioral Telemetry",
+      "definition": "Observable data describing patterns of human-AI interaction over time.",
+      "domain": "Behavior",
+      "status": "provisional"
     },
     {
-      "id": "authority-saturation",
-      "term": "Authority Saturation",
-      "definition": "Authority overload causing governance signals to be ignored or deferred.",
-      "notes": [
-        "Leads to automation reliance.",
-        "Governance must account for human limits."
-      ],
-      "scope": [
-        "HHI_GOV_01",
-        "Execution-Time Governance",
-        "Audit Evaluation"
-      ],
-      "authority_level": "standard",
-      "allowed_uses": [
-        "behavior evaluation",
-        "governance rule reference",
-        "audit criteria"
-      ],
-      "disallowed_uses": [
-        "model training labels",
-        "marketing claims",
-        "post-hoc justification"
-      ]
+      "term": "Behavioral Drift",
+      "definition": "Gradual deviation from expected behavioral patterns in AI-human interaction systems.",
+      "domain": "Behavior",
+      "status": "provisional"
+    },
+    {
+      "term": "Interaction Controls",
+      "definition": "Mechanisms regulating the influence between humans and AI systems.",
+      "domain": "Behavior",
+      "status": "provisional"
+    },
+    {
+      "term": "Relational AI Risk",
+      "definition": "Risks emerging from repeated interaction between humans and AI systems.",
+      "domain": "Behavior",
+      "status": "provisional"
+    },
+    {
+      "term": "Operational Behavior Loop",
+      "definition": "The cycle of input, system output, and human response shaping system behavior over time.",
+      "domain": "Behavior",
+      "status": "provisional"
+    },
+
+    {
+      "term": "Alignment Integrity",
+      "definition": "The condition where system outputs remain aligned with defined governance principles.",
+      "domain": "Alignment",
+      "status": "provisional"
+    },
+    {
+      "term": "Governance Risk Surface",
+      "definition": "The total exposure of a system to governance-related failures.",
+      "domain": "Risk",
+      "status": "provisional"
+    },
+    {
+      "term": "Operational Drift Risk",
+      "definition": "Risk that operational behavior diverges from defined governance constraints.",
+      "domain": "Risk",
+      "status": "provisional"
+    },
+    {
+      "term": "Stability Signal",
+      "definition": "Observable indicators that system behavior remains governed and consistent.",
+      "domain": "Stability",
+      "status": "provisional"
+    },
+
+    {
+      "term": "Agentic Workflow",
+      "definition": "A workflow where AI agents perform actions with conditional autonomy.",
+      "domain": "Architecture",
+      "status": "provisional"
+    },
+    {
+      "term": "Sovereign AI Stack",
+      "definition": "An AI system architecture where governance authority remains internally controlled.",
+      "domain": "Architecture",
+      "status": "provisional"
+    },
+
+    {
+      "term": "Cognitive Offloading",
+      "definition": "The delegation of cognitive tasks from humans to AI systems.",
+      "domain": "Human-AI Interaction",
+      "status": "provisional"
+    },
+    {
+      "term": "Interaction Dependence",
+      "definition": "Increasing reliance on AI guidance during decision-making processes.",
+      "domain": "Human-AI Interaction",
+      "status": "provisional"
+    },
+    {
+      "term": "Autonomy Gradient",
+      "definition": "The spectrum between full human control and full AI autonomy.",
+      "domain": "Human-AI Interaction",
+      "status": "provisional"
+    },
+    {
+      "term": "Human Cognitive Sovereignty",
+      "definition": "Preservation of independent human judgment in AI-mediated environments.",
+      "domain": "Human-AI Interaction",
+      "status": "provisional"
     }
-  ],
-  "authority_notice": {
-    "statement": "This glossary is the canonical semantic authority for all Hollow House Institute governance, audits, agents, and tooling. No downstream system may redefine, infer, or extend these terms.",
-    "change_control": "All modifications require human review and semantic version increment.",
-    "enforcement": "Deviation from glossary definitions constitutes governance drift."
-  }
+
+  ]
 }
+CTRL + D
+

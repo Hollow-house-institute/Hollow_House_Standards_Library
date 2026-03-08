@@ -313,6 +313,208 @@
         "Leads to automation reliance",
         "Governance must account for human limits"
       ]
+  "version": "1.3.0",
+  "description": "Canonical terminology registry for Hollow House Institute governance standards.",
+  "terms": [
+
+    {
+      "term": "Human Authority",
+      "definition": "The principle that humans retain final decision authority and ethical accountability in AI-mediated systems.",
+      "domain": "Governance",
+      "status": "canonical",
+      "introduced": "v1.0.0"
+    },
+
+    {
+      "term": "Stop Authority",
+      "definition": "A non-bypassable mechanism allowing a human operator to halt system execution.",
+      "domain": "Governance",
+      "status": "canonical",
+      "introduced": "v1.0.0"
+    },
+
+    {
+      "term": "Decision Boundary",
+      "definition": "A defined threshold where automated system output requires human review or intervention.",
+      "domain": "Governance",
+      "status": "canonical",
+      "introduced": "v1.0.0"
+    },
+
+    {
+      "term": "Human-in-the-Loop",
+      "definition": "A governance architecture where human oversight is integrated into system decision processes.",
+      "domain": "Governance",
+      "status": "canonical",
+      "introduced": "v1.0.0"
+    },
+
+    {
+      "term": "Execution Governance",
+      "definition": "The set of controls governing how AI systems operate during real-time execution.",
+      "domain": "Governance",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Governance Layer",
+      "definition": "The structural control layer responsible for enforcing system policies and operational constraints.",
+      "domain": "Architecture",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Governance Stack",
+      "definition": "The hierarchical architecture of governance standards, policies, and enforcement mechanisms.",
+      "domain": "Architecture",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Constraint Framework",
+      "definition": "The structured rule system limiting permissible system behaviors.",
+      "domain": "Architecture",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Execution Constraints",
+      "definition": "Runtime restrictions applied to prevent unsafe or unauthorized system actions.",
+      "domain": "Architecture",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Data Rails",
+      "definition": "Controlled data pathways governing how information moves through systems.",
+      "domain": "Architecture",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Semantic Authority",
+      "definition": "The canonical source defining the meaning of governance terminology.",
+      "domain": "Terminology Governance",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Glossary Binding",
+      "definition": "The requirement that systems reference canonical definitions rather than redefining terms locally.",
+      "domain": "Terminology Governance",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Definition Integrity",
+      "definition": "The preservation of stable meaning across governance documentation and systems.",
+      "domain": "Terminology Governance",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Conceptual Drift",
+      "definition": "Gradual alteration of term meaning across documentation or system implementations.",
+      "domain": "Terminology Governance",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Continuous Assurance",
+      "definition": "Ongoing verification that systems remain compliant with governance rules.",
+      "domain": "Audit",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Audit Artifact",
+      "definition": "A documented piece of evidence supporting governance compliance verification.",
+      "domain": "Audit",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Governance Audit Trail",
+      "definition": "A traceable record of system decisions and governance interventions.",
+      "domain": "Audit",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Evidence Package",
+      "definition": "A compiled collection of artifacts demonstrating system compliance.",
+      "domain": "Audit",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Governance Verification",
+      "definition": "Independent confirmation that governance mechanisms operate correctly.",
+      "domain": "Audit",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Audit-Ready System",
+      "definition": "A system structured to allow immediate compliance evaluation.",
+      "domain": "Audit",
+      "status": "canonical",
+      "introduced": "v1.1.0"
+    },
+
+    {
+      "term": "Compliance Boundary",
+      "definition": "The operational limits within which a system remains compliant with governance rules.",
+      "domain": "Risk",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Oversight Failure",
+      "definition": "A governance condition where monitoring or intervention mechanisms fail.",
+      "domain": "Risk",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "System Integrity",
+      "definition": "The condition in which system operations remain unaltered and trustworthy.",
+      "domain": "Stability",
+      "status": "canonical",
+      "introduced": "v1.0.0"
+    },
+
+    {
+      "term": "Governance Resilience",
+      "definition": "The ability of governance mechanisms to remain effective during system stress or change.",
+      "domain": "Stability",
+      "status": "canonical",
+      "introduced": "v1.2.0"
+    },
+
+    {
+      "term": "Operational Continuity",
+      "definition": "The ability of a system to maintain functional operation during disruptions.",
+      "domain": "Stability",
+      "status": "canonical",
+      "introduced": "v1.2.0"
     }
   ]
 }
