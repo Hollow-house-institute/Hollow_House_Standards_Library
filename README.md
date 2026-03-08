@@ -1,4 +1,6 @@
-# Hollow House Institute Standards Library
+---
+
+## Hollow House Institute Standards Library
 
 **Structured Human Intelligence**  
 *Time turns behavior into infrastructure.*  
@@ -24,10 +26,7 @@
 
 ## Repository Structure
 
-This is the current file tree (top-level and key subdirectories). Note: Some directories (e.g., `concepts/`) are placeholders and may be expanded in future releases.
----
-
-## Welcome to the Hollow House Standards Library
+This is the current file tree (top-level and key subdirectories). Note: Some directories (e.g., `concepts/`) are placeholders and may be expanded in future releases.# Welcome to the Hollow House Standards Library
 
 This repository defines the canonical terminology used to govern behavioral dynamics in AI-mediated systems.
 
