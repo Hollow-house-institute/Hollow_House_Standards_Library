@@ -1,88 +1,167 @@
-# Hollow House Governance Glossary
+HHI Governance Glossary
 
 Version: v1.3.0
+Canonical Terms: 41
+Status: Governance Freeze
+Maintained by: Hollow House Institute (HHI)
 
-This glossary defines the canonical terminology used across Hollow House Institute governance standards.
+This glossary defines canonical terminology used to analyze behavioral dynamics in AI-mediated and sociotechnical systems.
 
-The authoritative machine-readable source is:
-
-Hollow_House_Standards_Library/glossary.json
+Definitions are designed to remain stable across technologies and governance frameworks.
 
 ---
 
-## Canonical Governance Terms
+Behavioral Governance Foundations
 
-### Human Authority
-Humans retain final decision authority and ethical accountability in AI-mediated systems.
+Behavioral Drift
+Gradual divergence between expected system behavior and observed behavior over time.
 
-### Stop Authority
-A non-bypassable mechanism allowing a human operator to halt system execution.
+Reliance Formation
+Process by which individuals or organizations begin depending on system outputs regardless of formal governance approval.
 
-### Decision Boundary
-A defined threshold where automated system output requires human review or intervention.
+Governance as Infrastructure
+The condition in which repeated behavioral patterns become embedded within operational systems.
 
-### Human-in-the-Loop
-A governance architecture where human oversight is integrated into system decision processes.
+Post-Hoc Governance
+Governance actions that occur only after outcomes are questioned or failures occur.
 
-### Execution Governance
-Controls governing how AI systems operate during real-time execution.
+Continuous Assurance
+Governance monitoring that occurs continuously rather than through periodic audits.
 
-### Governance Layer
-The structural layer responsible for enforcing system rules and policies.
+Longitudinal Accountability
+The ability to trace responsibility and decision authority across extended operational timelines.
 
-### Governance Stack
-The hierarchical architecture of governance standards and enforcement mechanisms.
+---
 
-### Constraint Framework
-A structured set of rules limiting system behaviors.
+Authority and Decision Control
 
-### Execution Constraints
-Runtime restrictions preventing unsafe system actions.
+Authority
+The formally assigned right to make decisions within a system.
 
-### Data Rails
-Controlled pathways governing how information flows through systems.
+Decision Boundary
+The explicit point where decision authority transfers between actors.
 
-### Semantic Authority
-The canonical source defining governance terminology.
+Stop Authority
+The ability to halt system operations when governance thresholds are exceeded.
 
-### Glossary Binding
-The requirement that systems reference canonical definitions.
+Human-in-the-Loop
+Governance mechanism where human oversight is required in decision processes.
 
-### Definition Integrity
-Preservation of stable term meanings across documentation and systems.
+Escalation
+Process of transferring decisions to higher authority when risk thresholds are met.
 
-### Conceptual Drift
-Gradual alteration of term meanings across contexts.
+Escalation Decay
+Reduction in the effectiveness or use of escalation pathways over time.
 
-### Continuous Assurance
-Ongoing verification that systems remain aligned with governance requirements.
+Escalation Suppression
+Conditions where escalation pathways exist but are not used.
 
-### Audit Artifact
-Documented evidence supporting governance verification.
+Authority Persistence
+Continuation of decision authority beyond the conditions under which it was originally granted.
 
-### Governance Audit Trail
-Traceable record of system decisions and interventions.
+---
 
-### Evidence Package
-Compiled evidence supporting compliance verification.
+Accountability Structure
 
-### Governance Verification
-Independent confirmation that governance mechanisms operate correctly.
+Accountability
+Assignment of responsibility for decisions and outcomes.
 
-### Audit-Ready System
-A system structured to allow immediate compliance evaluation.
+Accountability Diffusion
+Loss of clear responsibility due to distributed decision processes.
 
-### Compliance Boundary
-Operational limits within which a system remains compliant.
+Responsibility Binding
+Mechanism linking decision authority to responsible actors.
 
-### Oversight Failure
-A condition where governance monitoring fails.
+Decision Substitution
+Replacement of human decision-making with automated system outputs.
 
-### System Integrity
-The condition in which system operations remain trustworthy.
+---
 
-### Governance Resilience
-The ability of governance systems to remain effective under stress.
+Longitudinal Risk and Failure Dynamics
 
-### Operational Continuity
-The ability of a system to maintain operations during disruption.
+Governance Lag
+Delay between behavioral change and governance response.
+
+Governance Drift
+Gradual misalignment between governance policy and operational behavior.
+
+Longitudinal Risk
+Risk emerging from cumulative behavior over time.
+
+Behavioral Accumulation
+Compounding effect of repeated actions that reshape system behavior.
+
+Governance Failure
+Breakdown of governance mechanisms that control system behavior.
+
+Authority Drift
+Gradual shift in decision authority away from intended structures.
+
+Intervention Threshold
+Point at which governance intervention becomes necessary.
+
+---
+
+Human–System Interaction Dynamics
+
+Judgment Externalization
+Transfer of decision reasoning from humans to external systems.
+
+Confidence Reinforcement
+Feedback loop where system responses increase user confidence.
+
+Override Erosion
+Decline in willingness to override automated decisions.
+
+Normalization of Workarounds
+Temporary fixes becoming permanent operational practices.
+
+Governance Illusion
+Perception of governance control without effective enforcement.
+
+---
+
+Measurement Constructs
+
+Language Symmetry Score (LSS)
+Metric evaluating alignment between system outputs and governance terminology.
+
+Relational Rhythm Index (RRI)
+Measure of stability in interaction patterns between humans and systems.
+
+Governance Stability Index (GSI)
+Indicator of long-term governance consistency.
+
+Authority Alignment Score (AAS)
+Metric measuring alignment between decision authority and governance design.
+
+---
+
+Operational Monitoring
+
+Relational Health Dashboard
+Interface monitoring system-human interaction dynamics.
+
+Governance Telemetry
+Operational signals measuring governance performance.
+
+Interaction Trace
+Recorded sequence of human-system interactions.
+
+---
+
+Structural Governance Layer
+
+Sociotechnical System
+System composed of human, technical, and organizational components.
+
+Execution-Time Governance
+Governance mechanisms operating during system execution.
+
+Governance Infrastructure Layer
+Structural elements that enforce governance rules.
+
+Governance Surface
+Observable layer where governance interactions occur.
+
+---
