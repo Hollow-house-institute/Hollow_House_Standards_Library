@@ -8,19 +8,19 @@ The purpose of the glossary is to ensure **semantic stability across systems**, 
 
 ---
 
-# Start Here
+## Start Here
 
 If you are new to the HHI standards ecosystem, begin with the following:
 
-1. **Glossary Overview**
-2. **Canonical Term Registry**
-3. **Governance Architecture Diagram**
+1. **Glossary Overview** → [glossary.md](glossary.md)
+2. **Canonical Term Registry** → [glossary.json](glossary.json)
+3. **Governance Architecture Diagram** (forthcoming; contact maintainer for details)
 
 These resources establish the terminology required to interpret HHI governance documents and ensure consistent meaning across implementations.
 
 ---
 
-# Core Governance Principles
+## Core Governance Principles
 
 The Hollow House governance framework is grounded in two principles.
 
@@ -32,7 +32,7 @@ Governance therefore exists to determine **what behavior is allowed to accumulat
 
 ---
 
-# Canonical Term Registry
+## Canonical Term Registry
 
 The canonical glossary is maintained in machine-readable and human-readable formats.
 
@@ -53,37 +53,38 @@ Any implementation referencing HHI governance terminology should reference these
 
 ---
 
-# Governance Architecture
+## Governance Architecture
 
 The glossary terms operate within a broader governance architecture describing how behavioral systems evolve and are controlled over time.
 
-See the architecture diagram:
-This diagram illustrates structural layers including:
+This architecture includes structural layers such as:
 
-- governance infrastructure  
-- authority and escalation  
-- behavioral risk dynamics  
-- relational system metrics  
+- Governance infrastructure  
+- Authority and escalation  
+- Behavioral risk dynamics  
+- Relational system metrics  
+
+(Note: Diagram forthcoming in assets/.)
 
 ---
 
-# Version History
+## Version History
 
 The glossary evolves through versioned releases.
 
-Version | Description
---- | ---
-v1.0.0 | Behavioral governance foundations
-v1.1.0 | Authority and escalation terminology
-v1.2.0 | Longitudinal risk and failure dynamics
-v1.3.0 | Consolidated 41-term canonical glossary
+| Version | Description |
+|---------|-------------|
+| v1.0.0 | Behavioral governance foundations |
+| v1.1.0 | Authority and escalation terminology |
+| v1.2.0 | Longitudinal risk and failure dynamics |
+| v1.3.0 | Consolidated 41-term canonical glossary |
 
 Earlier versions were published as citable artifacts.  
 v1.3.0 represents the first consolidated repository release of the glossary.
 
 ---
 
-# Citation
+## Citation
 
 If referencing this terminology framework in research, governance frameworks, or system documentation, cite the canonical publication:
 
@@ -95,7 +96,7 @@ https://doi.org/10.5281/zenodo.18615600
 
 ---
 
-# Boundary of Authority
+## Boundary of Authority
 
 The glossary defines terminology only.
 
@@ -112,16 +113,19 @@ These artifacts implement governance using the definitions contained in this glo
 
 ---
 
-# Repository Structure
+## Repository Structure
+
+See [README.md](README.md) for the full repository structure.
+
 ---
 
-# Contributing
+## Contributing
 
 Terminology additions or revisions must follow the governance review process defined by Hollow House Institute standards.
 
 All glossary changes must:
 
-- maintain conceptual coherence  
-- preserve semantic stability  
-- maintain traceable authority  
-- be introduced through a versioned release
+- Maintain conceptual coherence  
+- Preserve semantic stability  
+- Maintain traceable authority  
+- Be introduced through a versioned release
