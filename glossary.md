@@ -1,167 +1,175 @@
-HHI Governance Glossary
-
-Version: v1.3.0
-Canonical Terms: 41
-Status: Governance Freeze
-Maintained by: Hollow House Institute (HHI)
-
-This glossary defines canonical terminology used to analyze behavioral dynamics in AI-mediated and sociotechnical systems.
-
-Definitions are designed to remain stable across technologies and governance frameworks.
-
 ---
 
-Behavioral Governance Foundations
+# Glossary Infrastructure Specification
 
-Behavioral Drift
-Gradual divergence between expected system behavior and observed behavior over time.
+The HHI Governance Glossary functions as a canonical terminology registry supporting governance analysis, auditing, and system design.
 
-Reliance Formation
-Process by which individuals or organizations begin depending on system outputs regardless of formal governance approval.
+To support interoperability across standards, audits, and machine-readable governance systems, the glossary includes a stable identifier system and optional structured metadata fields.
 
-Governance as Infrastructure
-The condition in which repeated behavioral patterns become embedded within operational systems.
+These elements allow glossary terms to function as governance infrastructure rather than simple documentation.
 
-Post-Hoc Governance
-Governance actions that occur only after outcomes are questioned or failures occur.
+## Stable Term Identifiers
 
-Continuous Assurance
-Governance monitoring that occurs continuously rather than through periodic audits.
+Each glossary entry may be assigned a permanent identifier.
 
-Longitudinal Accountability
-The ability to trace responsibility and decision authority across extended operational timelines.
+Identifier structure:
 
----
+HHI-[DOMAIN]-[NUMBER]
 
-Authority and Decision Control
+Example:
 
-Authority
-The formally assigned right to make decisions within a system.
+HHI-AUTH-003
 
-Decision Boundary
-The explicit point where decision authority transfers between actors.
+Identifiers are permanent once assigned.
 
-Stop Authority
-The ability to halt system operations when governance thresholds are exceeded.
+Identifiers are never reused, even if a term is retired.
 
-Human-in-the-Loop
-Governance mechanism where human oversight is required in decision processes.
+Retired terms retain their identifier but may be marked as deprecated.
 
-Escalation
-Process of transferring decisions to higher authority when risk thresholds are met.
+Identifiers allow governance documents, audits, and software systems to reference concepts without ambiguity.
 
-Escalation Decay
-Reduction in the effectiveness or use of escalation pathways over time.
+## Domain Classification Codes
 
-Escalation Suppression
-Conditions where escalation pathways exist but are not used.
+Glossary identifiers include a domain code representing the conceptual category of the term.
 
-Authority Persistence
-Continuation of decision authority beyond the conditions under which it was originally granted.
+Current domain codes include:
 
----
+AUTH — Authority and decision control  
+BEH — Behavioral governance foundations  
+GOV — Governance mechanisms and accountability  
+RISK — Longitudinal risk and failure dynamics  
+INT — Human–system interaction dynamics  
+MET — Measurement constructs  
+OPS — Operational monitoring systems  
+SYS — Structural governance systems
 
-Accountability Structure
+Example identifiers:
 
-Accountability
-Assignment of responsibility for decisions and outcomes.
+HHI-AUTH-001 — Authority  
+HHI-AUTH-002 — Decision Boundary  
+HHI-AUTH-003 — Stop Authority  
 
-Accountability Diffusion
-Loss of clear responsibility due to distributed decision processes.
+HHI-BEH-001 — Behavioral Drift  
+HHI-BEH-002 — Reliance Formation  
 
-Responsibility Binding
-Mechanism linking decision authority to responsible actors.
+HHI-RISK-001 — Governance Lag  
 
-Decision Substitution
-Replacement of human decision-making with automated system outputs.
+The identifier remains stable regardless of definition updates.
 
----
+## Structured Metadata Fields
 
-Longitudinal Risk and Failure Dynamics
+Glossary entries may optionally include structured metadata to support governance analysis, auditing, and machine-readable interpretation.
 
-Governance Lag
-Delay between behavioral change and governance response.
+Not all fields are required for every term.
 
-Governance Drift
-Gradual misalignment between governance policy and operational behavior.
+Fields may be added progressively as the glossary evolves.
 
-Longitudinal Risk
-Risk emerging from cumulative behavior over time.
+### Semantic Role
 
-Behavioral Accumulation
-Compounding effect of repeated actions that reshape system behavior.
+Describes the functional role a concept performs within governance systems.
 
-Governance Failure
-Breakdown of governance mechanisms that control system behavior.
+Example roles:
 
-Authority Drift
-Gradual shift in decision authority away from intended structures.
+authority — holds final decision power  
+constraint — limits system behavior  
+boundary — defines transition between actors  
+observer — monitors system behavior  
+executor — performs automated actions
 
-Intervention Threshold
-Point at which governance intervention becomes necessary.
+### Governance Layer
 
----
+Specifies where the concept operates within governance architecture.
 
-Human–System Interaction Dynamics
+Possible layers include:
 
-Judgment Externalization
-Transfer of decision reasoning from humans to external systems.
+language — conceptual terminology  
+policy — organizational governance rules  
+execution — runtime system governance  
+audit — monitoring and verification mechanisms
 
-Confidence Reinforcement
-Feedback loop where system responses increase user confidence.
+### Control Type
 
-Override Erosion
-Decline in willingness to override automated decisions.
+Describes how the concept influences system behavior.
 
-Normalization of Workarounds
-Temporary fixes becoming permanent operational practices.
+preventive — prevents governance failures before they occur  
+detective — detects governance failures or drift  
+corrective — enables remediation or intervention
 
-Governance Illusion
-Perception of governance control without effective enforcement.
+### Risk Domain
 
----
+Categorizes the governance risk addressed by the concept.
 
-Measurement Constructs
+Possible domains include:
 
-Language Symmetry Score (LSS)
-Metric evaluating alignment between system outputs and governance terminology.
+governance — authority and control structures  
+reliability — system performance stability  
+transparency — traceability and interpretability  
+safety — prevention of harmful outcomes  
+privacy — protection of sensitive information
 
-Relational Rhythm Index (RRI)
-Measure of stability in interaction patterns between humans and systems.
+### Lifecycle Phase
 
-Governance Stability Index (GSI)
-Indicator of long-term governance consistency.
+Indicates where in the system lifecycle the concept primarily applies.
 
-Authority Alignment Score (AAS)
-Metric measuring alignment between decision authority and governance design.
+design — system architecture and governance design  
+development — system or model construction  
+deployment — operational system behavior  
+monitoring — post-deployment oversight
 
----
+### Term Relationships
 
-Operational Monitoring
+Glossary terms may reference other glossary entries to support semantic mapping.
 
-Relational Health Dashboard
-Interface monitoring system-human interaction dynamics.
+Relationship types include:
 
-Governance Telemetry
-Operational signals measuring governance performance.
+parent_term — hierarchical concept relationship  
+related_terms — associated governance concepts  
+opposite_term — conceptual boundary
 
-Interaction Trace
-Recorded sequence of human-system interactions.
+### Normative Status
 
----
+Indicates whether the term represents enforceable governance requirements.
 
-Structural Governance Layer
+normative — required for governance compliance  
+informational — descriptive or explanatory
 
-Sociotechnical System
-System composed of human, technical, and organizational components.
+### Drift Risk
 
-Execution-Time Governance
-Governance mechanisms operating during system execution.
+Indicates likelihood of semantic drift across contexts.
 
-Governance Infrastructure Layer
-Structural elements that enforce governance rules.
+low — meaning remains stable  
+moderate — meaning may vary by domain  
+high — meaning frequently shifts across disciplines
 
-Governance Surface
-Observable layer where governance interactions occur.
+### Governance Stewardship
 
----
+Glossary entries may include governance provenance metadata.
+
+version_introduced — glossary version where the term first appeared  
+last_reviewed — most recent governance review date  
+steward — organization maintaining the definition
+
+### External Framework References
+
+Terms may optionally include mappings to external governance frameworks.
+
+Examples include:
+
+NIST AI Risk Management Framework  
+ISO/IEC 42001 Artificial Intelligence Management Systems  
+European Union Artificial Intelligence Act
+
+External mappings support interoperability between HHI governance terminology and institutional governance standards.
+
+## Purpose of Structured Terminology
+
+Structured terminology enables the glossary to function as governance infrastructure.
+
+This allows:
+
+- stable conceptual references across standards and audits
+- machine-readable governance analysis
+- interoperability with regulatory frameworks
+- long-term semantic stability
+
+The glossary therefore acts as a foundational semantic layer supporting the broader Hollow House Institute governance architecture.
