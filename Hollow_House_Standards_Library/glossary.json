@@ -2,7 +2,8 @@
   "version": "1.3.0",
   "description": "Canonical terminology registry for Hollow House Institute governance standards.",
   "terms": [
-
+"authority": "Hollow House Institute",
+"semantic_authority": "Hollow_House_Standards_Library",
     {
       "term": "Human Authority",
       "definition": "The principle that humans retain final decision authority and ethical accountability in AI-mediated systems.",
