@@ -278,13 +278,10 @@ Release artifacts include:
 
 Version History
 
-Version| Description
-v1.0.0| Behavioral governance foundations
-v1.1.0| Authority and escalation terminology
-v1.2.0| Longitudinal risk and failure dynamics
-v1.3.0| Consolidated 41-term canonical glossary
-
-Each version is published as a citable DOI.
+v1.0.0  Foundational canonical publication (Zenodo)
+v1.1.0  Authority and escalation publication (Zenodo)
+v1.2.0  Longitudinal risk and failure publication (Zenodo)
+v1.3.0  First consolidated GitHub release of the canonical glossary repository
 
 ---
 
