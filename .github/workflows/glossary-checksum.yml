@@ -1,5 +1,8 @@
 name: Glossary Checksum
 
+permissions:
+  contents: read
+
 # Trigger only on changes to glossary files
 on:
   push:
