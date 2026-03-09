@@ -11,11 +11,11 @@ datasets, and licensing artifacts.
 
 ## Core Principle
 
-Time turns behavior into infrastructure.  
+Time turns behavior into infrastructure.
 Behavior is the most honest data there is.
 
-Governance exists to determine which behaviors are allowed to accumulate
-into system infrastructure over time.
+Governance determines which behaviors are allowed to accumulate into
+system infrastructure over time.
 
 ---
 
@@ -23,8 +23,8 @@ into system infrastructure over time.
 
 Primary glossary sources:
 
-glossary.json — machine-readable canonical definitions  
-glossary.md — human-readable glossary  
+glossary.json — machine-readable canonical definitions
+glossary.md — human-readable glossary
 
 Integrity verification:
 
@@ -36,13 +36,12 @@ GLOSSARY_SHA256.txt
 
 Key governance control artifacts:
 
-AUTHORITY.md  
-AUTHORITY_BOUNDARY.md  
-BOT_CONSTITUTION.md  
-LOCK_MANIFEST.md  
+AUTHORITY.md
+AUTHORITY_BOUNDARY.md
+BOT_CONSTITUTION.md
+LOCK_MANIFEST.md
 
-These files define repository authority boundaries and governance
-constraints.
+These documents define authority structure and governance constraints.
 
 ---
 
@@ -50,12 +49,12 @@ constraints.
 
 Supporting governance materials are located in:
 
-GOVERNANCE/  
-docs/  
+GOVERNANCE/
+docs/
 concepts/
 
-These materials explain glossary concepts but do not redefine
-canonical terminology.
+These materials explain glossary concepts but do not redefine canonical
+terminology.
 
 ---
 
@@ -63,7 +62,7 @@ canonical terminology.
 
 Licensing instruments are located in:
 
-legal/  
+legal/
 LICENSE.md
 
 All materials are governed under the Hollow House Institute
@@ -73,27 +72,27 @@ Master License Suite.
 
 ## Integrity Artifacts
 
-Verification files ensure canonical artifacts remain unchanged:
+Verification files ensuring canonical artifacts remain unchanged:
 
-CANONICAL_CHECKSUMS.txt  
-CHECKSUMS.sha256  
+CANONICAL_CHECKSUMS.txt
+CHECKSUMS.sha256
 GLOSSARY_SHA256.txt
 
 ---
 
 ## Repository Role in HHI Governance Stack
 
-Hollow_House_Institute — root doctrine  
+Hollow_House_Institute — doctrine and governance philosophy  
 Hollow_House_Standards_Library — canonical terminology  
-HHI_GOV_01 — governance enforcement standard  
+HHI_GOV_01 — governance execution standard  
 Master_License_Suite — legal enforcement layer
 
 ---
 
 ## Citation
 
-Adams, A. P. (2026)  
-Canonical Terms for Behavioral AI Governance  
+Adams, A. P. (2026)
+Canonical Terms for Behavioral AI Governance
 Hollow House Institute
 
 https://doi.org/10.5281/zenodo.18615600
