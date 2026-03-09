@@ -303,7 +303,6 @@ Amy Pierce Adams
 Founder, Hollow House Institute  
 
 Contact: data@hollowhouse.org
-<<<<<<< HEAD
 ---
 
 ## Governance Authority
@@ -311,14 +310,13 @@ Contact: data@hollowhouse.org
 This repository operates under the canonical governance standard:
 
 **HHI-GOV-01 — Longitudinal Governance Infrastructure**  
-=======
+
 Authoritative reference:
 >>>>>>> 4fb6143 (Add canonical glossary.json, scope definition, and update README per HHI-GOV-01 authority)
 https://github.com/hollowhouseinstitute/HHI-GOV-01
 ## What this is
 Upstream governance definitions and standards for Hollow House Institute. This repository is the canonical source of terminology used across audits, licensing, and governance artifacts.
 
-<<<<<<< HEAD
 ## Who it’s for
 Compliance, legal, governance, risk, and policy leaders evaluating or adopting longitudinal AI governance standards.
 
@@ -348,7 +346,7 @@ HHI_GOV_01 is the authoritative governance standard governing all audits, enforc
 ## Engagement
 For licensing, audits, or governance engagement:
 **data@hollowhouse.org**
-=======
+
 Governance authority is singular. No local policy supersedes HHI-GOV-01.
 
 ---
@@ -364,6 +362,3 @@ See:
 
 This repository defines terminology and normative language only.
 Operational semantics live downstream by design.
->>>>>>> main
-=======
->>>>>>> 6fd2b0f3911da90f35fd335a689742c801ed17ce
