@@ -313,11 +313,19 @@
         "Leads to automation reliance",
         "Governance must account for human limits"
       ]
-  "version": "1.3.0",
+nano +316 glossary.json  "version": "1.3.0",
   "description": "Canonical terminology registry for Hollow House Institute governance standards.",
   "terms": [
 
-    {
+{
+  "id": "authority-saturation",
+  "term": "Authority Saturation",
+  "definition": "A condition in which authority responsibilities exceed human operational capacity.",
+  "notes": [
+    "Leads to automation reliance",
+    "Governance must account for human limits"
+  ]
+},    {
       "term": "Human Authority",
       "definition": "The principle that humans retain final decision authority and ethical accountability in AI-mediated systems.",
       "domain": "Governance",
