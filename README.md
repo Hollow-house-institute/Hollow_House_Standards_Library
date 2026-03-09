@@ -1,308 +1,269 @@
----
-This repository defines terminology and conceptual standards only.
-It does not define governance behavior, enforcement mechanisms, operational procedures, or audit execution.
-All such materials reside in HHI_GOV_01.
-Governed under **HHI_GOV_01 — Longitudinal Governance Infrastructure**Hollow House Institute
+-## Hollow House Institute Standards Library
 
-Standards & Frameworks Library
-
-Structured Human Intelligence
-Time turns behavior into infrastructure.
-Behavior is the most honest data there is.
-
-## Authority & Dependency Chain
-
-This repository is part of the Hollow House Institute governance stack.
-
-Authoritative order:
-1. Hollow_House_Institute (root doctrine)
-2. Hollow_House_Standards_Library (canonical definitions)
-3. HHI-GOV-01 (governance standard)
-4. HHI_LUL_01 (language licensing)
-5. Master_License_Suite (legal enforcement)
-
-Definitions, terms, and usage are governed upstream.
----### Canonical Definitions
-
-All governance terminology used in this repository is defined in the  
-**HHI Governance Glossary (v1.1.0)**:
-
-https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library/blob/main/glossary.md
-
-Repository Purpose
-
-This repository is the canonical standards and frameworks library for Hollow House Institute.
-
-It contains non-software intellectual property defining how AI systems, organizations, and institutions are governed, evaluated, and audited over time—with a specific focus on behavioral accumulation, decision authority, escalation integrity, and accountability binding.
-
-These materials establish governance as behavioral infrastructure, not policy or post-hoc compliance.
-
+**Structured Human Intelligence**  
+*Time turns behavior into infrastructure.*  
+*Behavior is the most honest data there is.*
 
 ---
 
+## Term Registry Structure
+The HHI Governance Glossary includes:
 
+- canonical human-readable definitions in `glossary.md`
+- stable term identifiers in `TERMS.md`
+- machine-readable structured terminology in `glossary.json`
 
-All materials are designed for:
+This structure supports governance traceability, semantic stability, and interoperability across standards and audit artifacts.
 
-research use
+## 🚀 Start Here
 
-governance implementation
-
-audit and oversight
-
-licensed analytical and institutional application
-
-
-This repository functions as a standards reference, not an implementation toolkit.
-
-
----
-
-Scope of Materials
-
-Materials in this repository address:
-
-AI Governance as Behavioral Infrastructure
-
-Governance preceding capability
-
-Decision-bound authority before deployment
-
-Longitudinal risk accumulation
-
-
-Decision Authority & Accountability
-
-Decision boundary definition
-
-Reliance authorization
-
-Stop and override authority
-
-Escalation viability under pressure
-
-
-Behavioral Risk & Drift Analysis
-
-Behavioral accumulation
-
-Decision substitution
-
-Escalation decay
-
-Normalization of shortcuts
-
-
-Human–AI Interaction Review
-
-Reliance patterns
-
-Authority migration
-
-Accountability diffusion
-
-Governance failure modes between incidents
-
-
-Audit & Oversight Methodology
-
-Longitudinal audits
-
-Evidence-bound governance review
-
-Board- and regulator-legible artifacts
-
-Pre-incident risk detection
-
-
-Identity & Boundary Protection
-
-Role-bound authority
-
-Non-clinical, non-therapeutic governance
-
-Institutional risk framing (not personal profiling)
-
-
-
-## Governance Glossary (Canonical JSON)
-
-The Hollow House Institute Governance Glossary is maintained in a
-machine-readable format for use across documentation, audits,
-and portfolio demonstrations.
-
-### Authoritative Source
-- **glossary.json** — canonical, read-only source of governance definitions  
-- **glossary.md** — human-readable reference aligned to the JSON
-
-### Governance & Licensing
-- Authority: Hollow House Institute Master License Suite (HHI-MLS)
-- License: HHI Language Use License (HHI-LUL-01)
-
-Downstream consumers (applications, demos, documentation) MUST treat
-`glossary.json` as the authoritative source and MUST NOT modify
-definitions in place.
----
-
-What This Repository Is Not
-
-
-It operates strictly at the governance and audit layer.
-
+1. **Master Glossary Index** → [All 41 terms](Index.md)
+2. **Human-readable Glossary** → [glossary.md](glossary.md)
+3. **Machine-readable** → [glossary.json](glossary.json)
 
 ---
 
-Canonical Doctrine
+## What's New in v1.3.0
 
-Hollow House Institute governance standards are grounded in two core principles:
-
-Time turns behavior into infrastructure.
-Behavior is the most honest data there is.
-
-Governance exists to decide what behavior is allowed to accumulate—before reliance becomes irreversible and authority becomes implicit.
-
-## Licensing & Use
-
-All licensing interpretation and enforcement authority resides exclusively in the Hollow House Institute Master License Suite. This README grants no rights.
-
-All materials in this repository are proprietary intellectual property of Hollow House Institute.
-.
-
-Permitted use:
-
-research and evaluation
-
-governance design and review
-
-institutional audit reference
-
-licensed analytical application
-
-
-Prohibited use:
-
-model training
-
-derivative extraction
-
-resale without license
-
-personal or clinical application
-
-
-See LICENSE.md for full terms.
-
+- Complete set of **41 canonical terms**
+- New **Master Index** with clean navigation
+- Full NIST AI RMF and ISO/IEC 42001 mappings (forthcoming in concept overviews)
 
 ---
 
-Canonical Status
+## Repository Structure
 
-Documents in this repository constitute official Hollow House Institute standards.
+This is the current file tree (top-level and key subdirectories). Note: Some directories (e.g., `concepts/`) are placeholders and may be expanded in future releases.# Welcome to the Hollow House Standards Library
 
-Where definitions or frameworks in this library conflict with external usage, HHI definitions take precedence within Hollow House Institute audits, frameworks, and licensed applications.
+This repository defines the canonical terminology used to govern behavioral dynamics in AI-mediated systems.
 
+Most discussions about AI focus on models, training data, or safety techniques. This project focuses on something earlier in the stack: the language used to govern system behavior.
 
----
+When systems operate over time, behavior accumulates. That accumulated behavior eventually becomes infrastructure — shaping authority, decisions, and accountability.
 
-© Hollow House Institute
-Structured Human Intelligence
-- ethical and relational AI governance
-- human–AI interaction analysis
-- identity protection principles
-- analytical and ethical audit methodologies
-- vector mapping concepts, pipelines, and workflows
-- documentation and benchmarking standards
-
-These materials are designed for **analysis, governance, and institutional review**, not for automation or prediction.
+Governance begins with clear terminology. This repository provides that shared language.
 
 ---
 
 ## What This Repository Is
 
-- A standards and frameworks reference library  
-- A governance and ethics documentation source  
-- A licensed institutional and research resource  
+The Standards Library defines stable, citable governance terminology used to analyze and govern:
+
+- Human–AI interaction
+- Decision authority
+- Escalation pathways
+- Behavioral drift
+- Long-term system risk
+
+The glossary is designed to apply across:
+
+- AI systems
+- Automated decision platforms
+- Organizational governance structures
+- Sociotechnical systems
+
+Definitions are intentionally written to remain stable across technologies.
 
 ---
 
-## What This Repository Is Not
+## Governance Authority Stack
 
-- Not a software product  
-- Not a machine learning model  
-- Not an automation system  
-- Not a clinical, therapeutic, or diagnostic resource  
-- Not a compliance certification authority  
+The Hollow House governance framework follows a layered authority model:
 
----
+Root Doctrine  
+↓  
+Standards Library (definitions)   ← this repository  
+↓  
+HHI_GOV_01 (execution governance)  
+↓  
+Licensing and governance enforcement  
+↓  
+Operational systems and datasets  
 
-## Intended Use
-
-Materials are intended for:
-
-- academic and institutional research  
-- ethical review and governance processes  
-- documentation and benchmarking  
-- licensed analytical and audit work  
+The Standards Library defines meaning. Downstream governance systems enforce behavior using those definitions.
 
 ---
 
-## Licensing & Governance
+## Canonical Source Files
 
-All materials are governed under Hollow House Institute licensing.
+The glossary is maintained in two synchronized formats:
 
-- Use is **non-commercial by default**
-- Commercial, operational, or applied use requires **explicit authorization**
-- Attribution is required where applicable
+| File              | Purpose                              |
+|-------------------|--------------------------------------|
+| glossary.json     | Canonical machine-readable terminology source |
+| glossary.md       | Human-readable glossary documentation |
+| GLOSSARY_SHA256.txt | Integrity checksum verification     |
 
-### Prohibited Uses
-
-- surveillance or profiling systems  
-- coercive or manipulative applications  
-- automated behavioral prediction  
-- training proprietary models without authorization  
-- clinical, therapeutic, or diagnostic use  
+Downstream systems should treat `glossary.json` as the canonical authority.
 
 ---
 
-## Relationship to Other Hollow House Resources
+## Verifying Integrity with Checksums
 
-This repository complements:
+To ensure the glossary files haven't been tampered with:
 
-- licensed datasets
-- vector mapping services
-- ethical and relational audits
-- institutional governance work
+1. Compute the SHA256 hash of `glossary.json` (e.g., using `sha256sum glossary.json` on Linux/Mac or PowerShell on Windows).
+2. Compare it to the value in `GLOSSARY_SHA256.txt`.
+3. For broader verification, use `CANONICAL_CHECKSUMS.txt` which covers key canonical files (compute hashes accordingly).
+
+If hashes don't match, the files may be corrupted or modified.
 
 ---
 
+## Governance Layers
 
-Hollow House Institute
-Ethical AI · Relational Intelligence · Governed Analysis. Hollow House Institute
-Structured Human Intelligence
+**Behavioral Governance Foundations**  
+- Behavioral Drift  
+- Reliance Formation  
+- Governance as Infrastructure  
+- Post-Hoc Governance  
+- Continuous Assurance  
+- Longitudinal Accountability  
 
+**Authority and Decision Control**  
+- Authority  
+- Decision Boundary  
+- Stop Authority  
+- Human-in-the-Loop  
+- Escalation  
+- Escalation Decay  
+- Escalation Suppression  
+- Authority Persistence  
+
+**Accountability Structure**  
+- Accountability  
+- Accountability Diffusion  
+- Responsibility Binding  
+- Decision Substitution  
+
+**Longitudinal Risk and Failure Dynamics**  
+- Governance Lag  
+- Governance Drift  
+- Longitudinal Risk  
+- Behavioral Accumulation  
+- Governance Failure  
+- Authority Drift  
+- Intervention Threshold  
+
+**Human–System Interaction Dynamics**  
+- Judgment Externalization  
+- Confidence Reinforcement  
+- Override Erosion  
+- Normalization of Workarounds  
+- Governance Illusion  
+
+**Measurement Constructs**  
+- Language Symmetry Score (LSS)  
+- Relational Rhythm Index (RRI)  
+- Governance Stability Index (GSI)  
+- Authority Alignment Score (AAS)  
+
+**Operational Monitoring**  
+- Relational Health Dashboard  
+- Governance Telemetry  
+- Interaction Trace  
+
+**Structural Governance Layer**  
+- Sociotechnical System  
+- Execution-Time Governance  
+- Governance Infrastructure Layer  
+- Governance Surface  
+
+---
+
+## Engagement Boundaries
+
+The Standards Library defines terminology, not policy mandates. The glossary establishes a shared language for discussing governance dynamics in AI-mediated systems. Operational governance enforcement occurs in downstream frameworks.
+
+---
+
+## Terminology, Not Enforcement
+
+This repository provides definitions. Governance enforcement occurs through:
+
+- Governance frameworks
+- Compliance programs
+- Operational monitoring systems
+
+Those systems may reference this glossary but implement their own rules.
+
+---
+
+## Technology Independence
+
+Definitions are written to remain valid across:
+
+- AI systems
+- Automated decision platforms
+- Organizational governance structures
+- Sociotechnical infrastructures
+
+The glossary focuses on behavior and governance structure, not specific technologies.
+
+---
+
+## Stable Terminology
+
+Canonical definitions are versioned and intentionally updated. Definitions remain stable within a version to preserve:
+
+- Citation stability
+- Governance auditability
+- Research consistency
+
+---
+
+## Current Canonical Release
+
+**HHI Governance Glossary**  
+
+Version: v1.3.0  
+Canonical Terms: 41  
+Status: Governance Freeze  
+
+Release artifacts include:
+
+- glossary.json
+- glossary.md
+- Audit report (in AUDIT/)
+- Checksum verification
+
+---
+
+## Version History
+
+- v1.0.0: Foundational canonical publication (Zenodo)
+- v1.1.0: Authority and escalation publication (Zenodo)
+- v1.2.0: Longitudinal risk and failure publication (Zenodo)
+- v1.3.0: First consolidated GitHub release of the canonical glossary repository
+
+---
+
+## Citation
+
+If referencing this terminology framework, cite the canonical publication:
+
+Adams, A. P. (2026)  
+Canonical Terms for Behavioral AI Governance  
+Hollow House Institute  
+
+https://doi.org/10.5281/zenodo.18615600
+
+---
+
+## Core Governance Principle
+
+The Hollow House governance framework is grounded in two principles:
+
+- Time turns behavior into infrastructure.
+- Behavior is the most honest data there is.
+
+Governance exists to determine what behavior is allowed to accumulate before reliance becomes irreversible.
+
+---
+
+## Maintainer
+
+Amy Pierce Adams  
+Founder, Hollow House Institute  
 
 Contact: data@hollowhouse.org
----
-
-## Governance Authority
-
-This repository operates under the canonical governance standard:
-
-**HHI-GOV-01 — Longitudinal Governance Infrastructure**  
-https://github.com/hollowhouseinstitute/HHI-GOV-01
-
-Governance authority is singular. No local policy supersedes HHI-GOV-01.
-
----
-
-## Execution-Time Governance (Reference Only)
-
-Execution-time decision boundaries, authority authorization, stop authority,
-escalation paths, and continuous assurance are **implemented and enforced**
-in the HHI governance layer.
-
-See:
-- **HHI_GOV_01** — tagged release `v1.0.1-execution-workflow`
-
-This repository defines terminology and normative language only.
-Operational semantics live downstream by design.

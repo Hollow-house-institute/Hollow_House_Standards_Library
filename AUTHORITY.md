@@ -1,33 +1,82 @@
-# Authority Model
+# Authority Statement
 
-This repository separates semantic authority from execution and review functions.
+The Hollow House Standards Library serves as the **canonical terminology authority**
+for Hollow House Institute (HHI) governance language.
 
-## Canonical Semantic Authority
-**HHIHumanAuthority** is the sole authority for:
-- glossary.json
-- governance definitions
-- semantic versioning of standards
+Its purpose is to define stable terminology used across HHI governance frameworks,
+audit artifacts, interaction controls, datasets, and related implementation layers.
 
-Only this authority may define, modify, or lock meaning.
+---
 
-## Execution & Tooling Authority
-**hhidatasettechs** maintains:
-- tooling
-- pipelines
-- datasets
-- renderers
-- validation and enforcement mechanisms
+## Canonical Authority
 
-This role may not redefine or extend semantic assets.
+The following files constitute the primary terminology authority for this repository:
 
-## Review Authority
-**hhireviewauthority** performs:
-- audit review
-- compliance verification
-- governance assessment
+- `glossary/glossary.json`
+- `glossary/glossary.md`
 
-This role is non-authoritative and non-modifying.
+Where differences in formatting occur, the machine-readable registry
+`glossary/glossary.json` should be treated as the canonical source.
 
-## Platform Roles
-GitHub organization roles (e.g. Owner) do not imply semantic authority.
-Authority is defined by this document and enforced by practice.
+---
+
+## Informative Materials
+
+The following materials are explanatory and do not redefine terminology:
+
+- `README.md`
+- `glossary/index.md`
+- diagrams in `assets/`
+- release notes
+- concept papers and overview documents
+
+Informative materials may explain, contextualize, or illustrate glossary concepts,
+but they do not alter canonical definitions.
+
+---
+
+## Downstream Operational Artifacts
+
+The following HHI artifacts implement or enforce governance using this terminology:
+
+- HHI_GOV_01
+- Master License Suite
+- Interaction Control Sheet
+- governance audit frameworks
+- datasets and operational systems
+
+These artifacts are downstream from the Standards Library and must not override
+canonical glossary definitions.
+
+---
+
+## Versioning Rule
+
+Canonical terminology changes only through versioned releases.
+
+Definitions must not be silently modified between releases.
+
+Any revision to a canonical term must:
+
+1. be proposed explicitly
+2. be reviewed for conceptual coherence
+3. preserve authority traceability
+4. be published through a new versioned release
+
+---
+
+## Boundary of Authority
+
+This repository defines terminology.
+
+It does not, by itself, enforce policy, regulatory compliance, or operational controls.
+
+Enforcement occurs only through downstream governance frameworks and implementation artifacts.
+
+---
+
+## Core Principle
+
+Time turns behavior into infrastructure.
+
+Behavior is the most honest data there is.

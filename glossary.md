@@ -1,435 +1,175 @@
-<!--
-CANONICAL ARTIFACT
-File: glossary.md
-Version: v1.2.0
-Status: GOVERNANCE LOCK CANDIDATE
-Author: Human Authority (HHI)
-Approved By: TODO_HUMAN_APPROVAL
-Locked On: TODO_LOCK_DATE
-Change Control: Human Authority required
--->
-# Hollow House Institute — Governance Glossary
-
-**Structured Human Intelligence**  
-*Time turns behavior into infrastructure.*  
-*Behavior is the most honest data there is.*
-
 ---
 
-## Language Licensing Notice
+# Glossary Infrastructure Specification
 
-Commercial use of these definitions is governed by the  
-**HHI Language Use License (HHI-LUL-01)**.
+The HHI Governance Glossary functions as a canonical terminology registry supporting governance analysis, auditing, and system design.
 
-https://github.com/hollowhouseinstitute/HHI_Language_Licensing
+To support interoperability across standards, audits, and machine-readable governance systems, the glossary includes a stable identifier system and optional structured metadata fields.
 
----
+These elements allow glossary terms to function as governance infrastructure rather than simple documentation.
 
-## Purpose & Scope
+## Stable Term Identifiers
 
-This glossary defines **canonical terms** used by the Hollow House Institute (HHI) in governance, audit, and research contexts.
+Each glossary entry may be assigned a permanent identifier.
 
-These definitions are:
+Identifier structure:
 
-- Normative within Hollow House Institute work  
-- Designed for longitudinal analysis  
-- Non-anthropomorphic  
-- Applicable to human, organizational, and AI-mediated systems  
+HHI-[DOMAIN]-[NUMBER]
 
-Where these terms appear in Hollow House Institute standards, audits, datasets, or publications, **the definitions herein apply**.
+Example:
 
----
+HHI-AUTH-003
 
-## Authority Notice
+Identifiers are permanent once assigned.
 
-## Glossary Governance
+Identifiers are never reused, even if a term is retired.
 
-Changes to this glossary are subject to human approval and may not be automated.
+Retired terms retain their identifier but may be marked as deprecated.
 
-Any modification to definitions, additions, or removals constitutes a governance action and requires explicit human authorization prior to release.
-> **Canonical Definitions**  
-> This glossary is governed under the Hollow House Institute Master License Suite (HHI-MLS).  
-> Definitions are authoritative for Hollow House Institute work and may not be altered,  
-> reinterpreted, or selectively quoted outside their stated scope without authorization.
+Identifiers allow governance documents, audits, and software systems to reference concepts without ambiguity.
 
-Authoritative licensing and governance instruments:  
-https://github.com/hollowhouseinstitute/Master_License_Suite
+## Domain Classification Codes
 
----
+Glossary identifiers include a domain code representing the conceptual category of the term.
 
-## Glossary
+Current domain codes include:
 
-### Governance
-**Definition:**  
-The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.
+AUTH — Authority and decision control  
+BEH — Behavioral governance foundations  
+GOV — Governance mechanisms and accountability  
+RISK — Longitudinal risk and failure dynamics  
+INT — Human–system interaction dynamics  
+MET — Measurement constructs  
+OPS — Operational monitoring systems  
+SYS — Structural governance systems
 
-**Notes:**  
-- Governance operates at execution time, not only in documentation.  
-- Governance binds authority, escalation, and accountability before reliance forms.  
-- Policy describes intent; governance constrains behavior.
+Example identifiers:
 
----
+HHI-AUTH-001 — Authority  
+HHI-AUTH-002 — Decision Boundary  
+HHI-AUTH-003 — Stop Authority  
 
-### Governance Infrastructure
-**Definition:**  
-The durable formal and informal structures that shape how decisions, authority, and accountability are exercised over time.
+HHI-BEH-001 — Behavioral Drift  
+HHI-BEH-002 — Reliance Formation  
 
-**Notes:**  
-- Includes habits, incentives, norms, tooling, and enforcement mechanisms.  
-- Infrastructure persists even when policies change.  
-- Behavior is both an input to and output of governance infrastructure.
+HHI-RISK-001 — Governance Lag  
 
----
+The identifier remains stable regardless of definition updates.
 
-### Decision Boundary
-**Definition:**  
-The explicit point at which authority transfers between a system and a human role, or between human roles, during execution.
+## Structured Metadata Fields
 
-**Notes:**  
-- Decision boundaries must be defined prior to deployment.  
-- Undefined boundaries result in implicit authority transfer.  
-- Decision boundaries determine where reliance is permitted to stop.
+Glossary entries may optionally include structured metadata to support governance analysis, auditing, and machine-readable interpretation.
 
----
+Not all fields are required for every term.
 
-### Authority
-**Definition:**  
-The formally assigned right to decide, override, pause, or stop an action at execution time.
+Fields may be added progressively as the glossary evolves.
 
-**Notes:**  
-- Authority must be role-bound and explicit.  
-- Authority inferred through convenience or repetition is not governed authority.  
-- Authority without stop capability is incomplete.
+### Semantic Role
 
----
+Describes the functional role a concept performs within governance systems.
 
-### Stop Authority
-**Definition:**  
-A pre-assigned, role-bound capability to pause, override, or decommission a system or process without justification at runtime.
+Example roles:
 
-**Notes:**  
-- Stop authority must be exercisable under pressure.  
-- Authority that cannot interrupt execution is symbolic.  
-- Stop authority is a core governance control.
+authority — holds final decision power  
+constraint — limits system behavior  
+boundary — defines transition between actors  
+observer — monitors system behavior  
+executor — performs automated actions
 
----
+### Governance Layer
 
-### Behavioral Drift
-**Definition:**  
-The gradual, cumulative change in behavior resulting from repeated interaction with a system or process over time.
+Specifies where the concept operates within governance architecture.
 
-**Notes:**  
-- Drift is often invisible in short-term evaluation.  
-- It is not a failure event.  
-- Drift can occur even when systems function as designed.
+Possible layers include:
 
----
+language — conceptual terminology  
+policy — organizational governance rules  
+execution — runtime system governance  
+audit — monitoring and verification mechanisms
 
-### Behavioral Accumulation
-**Definition:**  
-The compounding effect of repeated behavior that reshapes judgment, escalation readiness, and accountability norms over time.
+### Control Type
 
-**Notes:**  
-- Accumulation is the primary driver of longitudinal risk.  
-- It occurs between incidents.  
-- Accumulated behavior hardens into infrastructure.
+Describes how the concept influences system behavior.
 
----
+preventive — prevents governance failures before they occur  
+detective — detects governance failures or drift  
+corrective — enables remediation or intervention
 
-### Decision Substitution
-**Definition:**  
-The process by which human judgment is incrementally replaced by system output as the default decision reference.
+### Risk Domain
 
-**Notes:**  
-- Does not require explicit delegation.  
-- Often manifests as reduced deliberation.  
-- May precede formal automation.
+Categorizes the governance risk addressed by the concept.
 
----
+Possible domains include:
 
-### Escalation
-**Definition:**  
-The transfer of decision authority in response to uncertainty, risk, or ambiguity.
+governance — authority and control structures  
+reliability — system performance stability  
+transparency — traceability and interpretability  
+safety — prevention of harmful outcomes  
+privacy — protection of sensitive information
 
-**Notes:**  
-- Must be structurally enforced.  
-- Must remain viable under pressure.  
-- Paper-only escalation is non-functional.
+### Lifecycle Phase
 
----
+Indicates where in the system lifecycle the concept primarily applies.
 
-### Escalation Decay
-**Definition:**  
-The progressive erosion of an organization’s ability to recognize, initiate, or complete escalation pathways over time.
+design — system architecture and governance design  
+development — system or model construction  
+deployment — operational system behavior  
+monitoring — post-deployment oversight
 
-**Notes:**  
-- Structural, not individual.  
-- Often follows repeated non-critical success.  
-- Becomes visible only after failure.
+### Term Relationships
 
----
+Glossary terms may reference other glossary entries to support semantic mapping.
 
-### Confidence Reinforcement
-**Definition:**  
-A feedback process where repeated system confirmation increases user confidence independent of objective accuracy.
+Relationship types include:
 
-**Notes:**  
-- Amplifies trust asymmetrically.  
-- Reduces skepticism and override readiness.  
-- Can coexist with declining risk sensitivity.
+parent_term — hierarchical concept relationship  
+related_terms — associated governance concepts  
+opposite_term — conceptual boundary
 
----
+### Normative Status
 
-### Normalization of Workarounds
-**Definition:**  
-The process by which informal fixes become embedded as standard operating behavior.
+Indicates whether the term represents enforceable governance requirements.
 
-**Notes:**  
-- Often originate as adaptive responses.  
-- Normalize when exceptions stop being flagged.  
-- Reshape governance reality over time.
+normative — required for governance compliance  
+informational — descriptive or explanatory
 
----
+### Drift Risk
 
-### Longitudinal Risk
-**Definition:**  
-Risk that emerges through accumulation, repetition, and adaptation over time rather than from discrete events or point-in-time failures.
+Indicates likelihood of semantic drift across contexts.
 
-**Notes:**  
-- Cannot be captured by snapshot audits.  
-- Requires temporal observation and pattern tracking.  
-- Many high-impact failures are longitudinal in origin.
+low — meaning remains stable  
+moderate — meaning may vary by domain  
+high — meaning frequently shifts across disciplines
 
----
+### Governance Stewardship
 
-### Accountability
-**Definition:**  
-The binding of outcomes to named roles with recognized authority prior to execution.
+Glossary entries may include governance provenance metadata.
 
-**Notes:**  
-- Accountability reconstructed after failure is forensic, not governing.  
-- Accountability diffusion weakens corrective action.  
-- Clear accountability is a prerequisite for effective governance.
+version_introduced — glossary version where the term first appeared  
+last_reviewed — most recent governance review date  
+steward — organization maintaining the definition
 
----
+### External Framework References
 
-### Accountability Diffusion
-**Definition:**  
-The gradual loss of clear responsibility attribution resulting from distributed decision processes or mediated systems.
+Terms may optionally include mappings to external governance frameworks.
 
-**Notes:**  
-- Diffusion increases with complexity and scale.  
-- Often coincides with decision substitution.  
-- Impairs intervention and repair.
+Examples include:
 
----
+NIST AI Risk Management Framework  
+ISO/IEC 42001 Artificial Intelligence Management Systems  
+European Union Artificial Intelligence Act
 
-### Override Erosion
-**Definition:**  
-The reduction in practical ability or willingness to override system outputs or established processes.
+External mappings support interoperability between HHI governance terminology and institutional governance standards.
 
-**Notes:**  
-- Distinct from lack of formal authority.  
-- Reinforced by confidence reinforcement.  
-- Increases systemic fragility.
+## Purpose of Structured Terminology
 
----
+Structured terminology enables the glossary to function as governance infrastructure.
 
-### Human–AI Interaction (Governance Context)
-**Definition:**  
-The structured and repeated engagement between human actors and AI-mediated systems as it affects judgment, authority, and responsibility.
+This allows:
 
-**Notes:**  
-- Governance-focused, not anthropomorphic.  
-- Interaction effects compound over time.  
-- Risk arises from patterns, not intent.
+- stable conceptual references across standards and audits
+- machine-readable governance analysis
+- interoperability with regulatory frameworks
+- long-term semantic stability
 
----
-
-### Human-in-the-Loop
-**Definition:**  
-A governance condition in which a human retains explicit, non-bypassable authority over decisions, escalations, or system actions, including the ability to intervene, override, pause, or terminate execution at runtime.
-
-**Notes:**  
-- Human-in-the-Loop is not advisory; it is an enforced decision boundary.  
-- It prevents full delegation of judgment to automated systems.  
-- Human-in-the-Loop must be operative at execution time, not merely documented.
-
----
-### Governance Debt
-**Definition:**  
-Risk accumulated when AI capabilities are deployed faster than decision authority, escalation, and stop conditions are defined.
-
-**Notes:**  
-- Compounds silently.  
-- Difficult to remediate after reliance normalizes.  
-- Mirrors technical debt at the behavioral level.
-
-
----
-
-### Sovereign AI Stack
-**Definition:**  
-An AI architecture in which control over data, models, infrastructure, governance rules, and deployment authority is retained by the operating entity.
-
-**Notes:**  
-- Requires enforceable data lineage and decision accountability.  
-- Does not require open-source, but requires governance transparency.
-
----
-
-### Data Rails
-**Definition:**  
-Governance-controlled infrastructure pathways that enable secure data exchange without centralization into proprietary silos.
-
-**Notes:**  
-- Includes access control, traceability, and contractual enforcement.
-
----
-
-### Agentic Workflows
-**Definition:**  
-Coordinated systems in which multiple AI agents perform interdependent tasks under explicit governance constraints.
-
-**Notes:**  
-- Includes human escalation paths.  
-- Requires audit logging.
-
----
-
-### Continuous Assurance
-**Definition:**  
-A governance approach that replaces episodic audits with ongoing monitoring of system behavior and compliance controls.
-
-**Notes:**  
-- Enables early detection of drift.  
-- Operates in production, not retrospectively.
-
----
-
-### Stable Mirror Failure
-**Definition:**  
-A governance failure where feedback mechanisms adapt to authority behavior rather than reflecting it accurately.
-
-**Notes:**  
-- Appears as “supportive” tooling that stops challenging behavior.  
-- Dashboards optimizing reassurance are common examples.  
-- Adaptive feedback cannot function as governance infrastructure.
-
----
-
-### Authority Persistence
-**Definition:**  
-The continuation of decision power beyond the period where governance oversight remains effective.
-
-**Notes:**  
-- Not inherently dangerous.  
-- Becomes risky when mirrors degrade.  
-- Persistence without renewal accelerates longitudinal risk.
-
----
-
-### Governance Lag
-**Definition:**  
-The delay between behavioral change and governance recognition or response.
-
-**Notes:**  
-- Increases silently during success.  
-- Compounds when audits are event-triggered.  
-- Reducing lag is more effective than increasing control.
-
----
-
-### Escalation Suppression
-**Definition:**  
-Behavioral inhibition of escalation due to cultural, social, or efficiency pressures rather than formal restriction.
-
-**Notes:**  
-- Often precedes escalation decay.  
-- Signals include reputational fear or perceived futility.  
-- Behavioral, not procedural.
-
----
-
-### Judgment Externalization
-**Definition:**  
-The transfer of interpretive responsibility from human actors to system outputs over time.
-
-**Notes:**  
-- Precursor to decision substitution.  
-- Reduces independent sense-making.  
-- Difficult to reverse once normalized.
-
----
-
-### Silent Load Transfer
-**Definition:**  
-The unacknowledged movement of regulatory, emotional, or decision burden from authority roles to dependent actors.
-
-**Notes:**  
-- Often mistaken for resilience.  
-- Produces endurance without visibility.  
-- Creates inherited regulation failure.
-
----
-
-### Behavioral Lock-In
-**Definition:**  
-The point at which repeated behavior becomes resistant to correction due to institutionalization or habit.
-
-**Notes:**  
-- Occurs before policy change.  
-- Makes governance intervention disruptive.  
-- Early mirrors prevent lock-in.
-
----
-
-### Mirror Latency
-**Definition:**  
-The delay between behavior execution and reflective feedback reaching authority actors.
-
-**Notes:**  
-- Enables drift even when mirrors exist.  
-- Real-time systems require near-real-time mirrors.  
-- Latency is a governance variable.
-
----
-
-### Governance Illusion
-**Definition:**  
-The appearance of governance created by documentation or tooling without behavioral enforcement.
-
-**Notes:**  
-- Reinforced by compliance artifacts.  
-- Collapses under pressure or scale.  
-- Indistinguishable from governance until tested.
-
----
-
-### Authority Saturation
-**Definition:**  
-A condition where authority actors are overloaded to the point governance signals are ignored or deferred.
-
-**Notes:**  
-- Leads to reliance on automation.  
-- Increases tolerance accumulation.  
-- Governance must account for human limits.
-
----
-
-## Versioning
-
-Current version: **v1.2.0**
-
----
-
-## Citation
-
-Hollow House Institute.  
-*HHI Governance Glossary (v1.2.0).*  
-Hollow House Institute Standards Library.  
-https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
-
----
-
-© Hollow House Institute. All rights reserved.
+The glossary therefore acts as a foundational semantic layer supporting the broader Hollow House Institute governance architecture.
