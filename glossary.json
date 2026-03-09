@@ -7,6 +7,320 @@
     "authority": "Hollow House Institute",
     "license": "HHI-LUL-01"
   },
+    "title": "Hollow House Institute — Governance Glossary",
+    "version": "v1.2.0",
+    "license": "HHI-LUL-01",
+    "authority": "Hollow House Institute",
+    "source": "https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library"
+  },
+  "terms": [
+    {
+      "id": "governance",
+      "term": "Governance",
+      "definition": "The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.",
+      "notes": [
+        "Operates at execution time",
+        "Binds authority before reliance",
+        "Constrains behavior rather than intent"
+      ]
+    },
+    {
+      "id": "governance-infrastructure",
+      "term": "Governance Infrastructure",
+      "definition": "The durable formal and informal structures that shape how decisions, authority, and accountability are exercised over time.",
+      "notes": [
+        "Includes habits, incentives, norms, tooling, and enforcement mechanisms",
+        "Persists even when policies change",
+        "Behavior is both input and output of infrastructure"
+      ]
+    },
+    {
+      "id": "decision-boundary",
+      "term": "Decision Boundary",
+      "definition": "The explicit point at which authority transfers between a system and a human role, or between human roles, during execution.",
+      "notes": [
+        "Must be defined prior to deployment",
+        "Undefined boundaries create implicit authority transfer",
+        "Determines where reliance is permitted to stop"
+      ]
+    },
+    {
+      "id": "authority",
+      "term": "Authority",
+      "definition": "The formally assigned right to decide, override, pause, or stop an action at execution time.",
+      "notes": [
+        "Must be role-bound and explicit",
+        "Authority inferred through repetition is not governed authority",
+        "Authority without stop capability is incomplete"
+      ]
+    },
+    {
+      "id": "stop-authority",
+      "term": "Stop Authority",
+      "definition": "A pre-assigned, role-bound capability to pause, override, or decommission a system or process at runtime.",
+      "notes": [
+        "Must be exercisable under pressure",
+        "Symbolic authority is insufficient",
+        "Core governance control, not an exception mechanism"
+      ]
+    },
+    {
+      "id": "behavioral-drift",
+      "term": "Behavioral Drift",
+      "definition": "The gradual, cumulative change in behavior resulting from repeated interaction with a system or process over time.",
+      "notes": [
+        "Often invisible in short-term evaluation",
+        "Not a failure event",
+        "Can occur even when systems function as designed"
+      ]
+    },
+    {
+      "id": "behavioral-accumulation",
+      "term": "Behavioral Accumulation",
+      "definition": "The compounding effect of repeated behavior that reshapes judgment, escalation readiness, and accountability norms over time.",
+      "notes": [
+        "Primary driver of longitudinal risk",
+        "Occurs between incidents",
+        "Hardens into infrastructure"
+      ]
+    },
+    {
+      "id": "decision-substitution",
+      "term": "Decision Substitution",
+      "definition": "The process by which human judgment is incrementally replaced by system output as the default decision reference.",
+      "notes": [
+        "Does not require explicit delegation",
+        "Manifests as reduced deliberation",
+        "Often precedes formal automation"
+      ]
+    },
+    {
+      "id": "escalation",
+      "term": "Escalation",
+      "definition": "The transfer of decision authority in response to uncertainty, risk, or ambiguity.",
+      "notes": [
+        "Must be structurally enforced",
+        "Must remain viable under pressure",
+        "Paper-only escalation is non-functional"
+      ]
+    },
+    {
+      "id": "escalation-decay",
+      "term": "Escalation Decay",
+      "definition": "The progressive erosion of an organization’s ability to recognize, initiate, or complete escalation pathways over time.",
+      "notes": [
+        "Structural, not individual",
+        "Often follows repeated non-critical success",
+        "Becomes visible only after failure"
+      ]
+    },
+    {
+      "id": "confidence-reinforcement",
+      "term": "Confidence Reinforcement",
+      "definition": "A feedback process in which repeated system confirmation increases user confidence independently of objective accuracy.",
+      "notes": [
+        "Amplifies trust asymmetrically",
+        "Reduces skepticism and override readiness",
+        "Can coexist with declining risk sensitivity"
+      ]
+    },
+    {
+      "id": "normalization-of-workarounds",
+      "term": "Normalization of Workarounds",
+      "definition": "The process by which informal fixes become embedded as standard operating behavior.",
+      "notes": [
+        "Often originate as adaptive responses",
+        "Normalize when exceptions stop being flagged",
+        "Reshape governance reality over time"
+      ]
+    },
+    {
+      "id": "longitudinal-risk",
+      "term": "Longitudinal Risk",
+      "definition": "Risk that emerges through accumulation, repetition, and adaptation over time rather than from discrete events.",
+      "notes": [
+        "Cannot be captured by snapshot audits",
+        "Requires temporal observation",
+        "Many high-impact failures are longitudinal"
+      ]
+    },
+    {
+      "id": "accountability",
+      "term": "Accountability",
+      "definition": "The binding of outcomes to named roles with recognized authority prior to execution.",
+      "notes": [
+        "Post-failure accountability is forensic, not governing",
+        "Diffusion weakens corrective action",
+        "Prerequisite for effective governance"
+      ]
+    },
+    {
+      "id": "accountability-diffusion",
+      "term": "Accountability Diffusion",
+      "definition": "The gradual loss of clear responsibility attribution resulting from distributed decision processes or mediated systems.",
+      "notes": [
+        "Increases with complexity and scale",
+        "Often coincides with decision substitution",
+        "Impairs intervention and repair"
+      ]
+    },
+    {
+      "id": "override-erosion",
+      "term": "Override Erosion",
+      "definition": "The reduction in practical ability or willingness to override system outputs or established processes.",
+      "notes": [
+        "Distinct from lack of formal authority",
+        "Reinforced by confidence reinforcement",
+        "Increases systemic fragility"
+      ]
+    },
+    {
+      "id": "human-ai-interaction",
+      "term": "Human–AI Interaction (Governance Context)",
+      "definition": "The structured and repeated engagement between human actors and AI-mediated systems as it affects judgment, authority, and responsibility.",
+      "notes": [
+        "Governance-focused, not anthropomorphic",
+        "Interaction effects compound over time",
+        "Risk arises from patterns, not intent"
+      ]
+    },
+    {
+      "id": "governance-debt",
+      "term": "Governance Debt",
+      "definition": "Risk accumulated when AI capabilities are deployed faster than decision authority, escalation, and stop conditions are defined.",
+      "notes": [
+        "Compounds silently",
+        "Difficult to remediate after reliance normalizes",
+        "Behavioral analogue to technical debt"
+      ]
+    },
+    {
+      "id": "sovereign-ai-stack",
+      "term": "Sovereign AI Stack",
+      "definition": "An AI architecture in which control over data, models, infrastructure, governance rules, and deployment authority is retained by the operating entity.",
+      "notes": [
+        "Requires enforceable data lineage",
+        "Does not require open-source",
+        "Requires governance transparency"
+      ]
+    },
+    {
+      "id": "data-rails",
+      "term": "Data Rails",
+      "definition": "Governance-controlled infrastructure pathways that enable secure data exchange without centralization into proprietary silos.",
+      "notes": [
+        "Includes access control and traceability",
+        "Supports contractual enforcement"
+      ]
+    },
+    {
+      "id": "agentic-workflows",
+      "term": "Agentic Workflows",
+      "definition": "Coordinated systems in which multiple AI agents perform interdependent tasks under explicit governance constraints.",
+      "notes": [
+        "Includes human escalation paths",
+        "Requires audit logging"
+      ]
+    },
+    {
+      "id": "continuous-assurance",
+      "term": "Continuous Assurance",
+      "definition": "A governance approach that replaces episodic audits with ongoing monitoring of system behavior and compliance controls.",
+      "notes": [
+        "Operates in production",
+        "Enables early drift detection"
+      ]
+    },
+    {
+      "id": "stable-mirror-failure",
+      "term": "Stable Mirror Failure",
+      "definition": "A governance failure in which feedback mechanisms adapt to authority behavior rather than accurately reflecting it.",
+      "notes": [
+        "Appears as supportive tooling",
+        "Undermines corrective challenge"
+      ]
+    },
+    {
+      "id": "authority-persistence",
+      "term": "Authority Persistence",
+      "definition": "The continuation of decision power beyond the period where governance oversight remains effective.",
+      "notes": [
+        "Not inherently dangerous",
+        "Becomes risky when mirrors degrade"
+      ]
+    },
+    {
+      "id": "governance-lag",
+      "term": "Governance Lag",
+      "definition": "The delay between behavioral change and governance recognition or response.",
+      "notes": [
+        "Increases silently during success",
+        "Reducing lag is more effective than increasing control"
+      ]
+    },
+    {
+      "id": "escalation-suppression",
+      "term": "Escalation Suppression",
+      "definition": "Behavioral inhibition of escalation due to cultural, social, or efficiency pressures rather than formal restriction.",
+      "notes": [
+        "Often precedes escalation decay",
+        "Behavioral, not procedural"
+      ]
+    },
+    {
+      "id": "judgment-externalization",
+      "term": "Judgment Externalization",
+      "definition": "The transfer of interpretive responsibility from human actors to system outputs over time.",
+      "notes": [
+        "Precursor to decision substitution",
+        "Difficult to reverse once normalized"
+      ]
+    },
+    {
+      "id": "silent-load-transfer",
+      "term": "Silent Load Transfer",
+      "definition": "The unacknowledged movement of regulatory, emotional, or decision burden from authority roles to dependent actors.",
+      "notes": [
+        "Often mistaken for resilience",
+        "Creates inherited regulation failure"
+      ]
+    },
+    {
+      "id": "behavioral-lock-in",
+      "term": "Behavioral Lock-In",
+      "definition": "The point at which repeated behavior becomes resistant to correction due to institutionalization or habit.",
+      "notes": [
+        "Occurs before policy change",
+        "Early mirrors prevent lock-in"
+      ]
+    },
+    {
+      "id": "mirror-latency",
+      "term": "Mirror Latency",
+      "definition": "The delay between behavior execution and reflective feedback reaching authority actors.",
+      "notes": [
+        "Enables drift even when mirrors exist",
+        "Latency is a governance variable"
+      ]
+    },
+    {
+      "id": "governance-illusion",
+      "term": "Governance Illusion",
+      "definition": "The appearance of governance created by documentation or tooling without behavioral enforcement.",
+      "notes": [
+        "Collapses under pressure",
+        "Indistinguishable until tested"
+      ]
+    },
+    {
+      "id": "authority-saturation",
+      "term": "Authority Saturation",
+      "definition": "A condition in which authority actors are overloaded to the point that governance signals are ignored or deferred.",
+      "notes": [
+        "Leads to automation reliance",
+        "Governance must account for human limits"
+      ] "version": "1.3.0  "description": "Canonical terminology registry for Hollow House Institute governance standards.",
+
   "terms": [
     {"term": "Behavioral Drift", "definition": "Gradual divergence between expected system behavior and observed behavior over time."},
     {"term": "Reliance Formation", "definition": "Process by which individuals or organizations begin depending on system outputs regardless of governance approval."},
@@ -14,7 +328,6 @@
     {"term": "Post-Hoc Governance", "definition": "Governance actions occurring only after outcomes are questioned or failures occur."},
     {"term": "Continuous Assurance", "definition": "Continuous monitoring of governance performance rather than periodic audits."},
     {"term": "Longitudinal Accountability", "definition": "Traceability of responsibility and decision authority across time."},
-
     {"term": "Authority", "definition": "Formally assigned right to make decisions within a system."},
     {"term": "Decision Boundary", "definition": "Point where decision authority transfers between actors."},
     {"term": "Stop Authority", "definition": "Capability to halt system operations when governance thresholds are exceeded."},
@@ -23,6 +336,23 @@
     {"term": "Escalation Decay", "definition": "Reduction in effectiveness or use of escalation pathways over time."},
     {"term": "Escalation Suppression", "definition": "Condition where escalation pathways exist but are not used."},
     {"term": "Authority Persistence", "definition": "Continuation of decision authority beyond original conditions."},
+
+{
+  "id": "authority-saturation",
+  "term": "Authority Saturation",
+  "definition": "A condition in which authority responsibilities exceed human operational capacity.",
+  "notes": [
+    "Leads to automation reliance",
+    "Governance must account for human limits"
+  ]
+},    {
+      "term": "Human Authority",
+      "definition": "The principle that humans retain final decision authority and ethical accountability in AI-mediated systems.",
+      "domain": "Governance",
+      "status": "canonical",
+      "introduced": "v1.0.0"
+    },
+>>>>>>> pr2-fix
 
     {"term": "Accountability", "definition": "Assignment of responsibility for decisions and outcomes."},
     {"term": "Accountability Diffusion", "definition": "Loss of clear responsibility due to distributed decision processes."},

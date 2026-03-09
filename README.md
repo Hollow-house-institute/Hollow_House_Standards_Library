@@ -1,5 +1,41 @@
--## Hollow House Institute Standards Library
+# Hollow House Standards & Frameworks Library
+---
+This repository defines terminology and conceptual standards only.
+It does not define governance behavior, enforcement mechanisms, operational procedures, or audit execution.
+All such materials reside in HHI_GOV_01.
+Governed under **HHI_GOV_01 — Longitudinal Governance Infrastructure**Hollow House Institute
 
+## Governance Canon
+
+This repository is governed by **HHI-GOV-01 — Longitudinal Behavioral Governance Standard**.
+
+All definitions, scope boundaries, and derivative artifacts in this repository are subordinate to the HHI-GOV-01 governance canon.
+
+This repository is part of the Hollow House Institute governance stack.
+
+Authoritative order:
+1. Hollow_House_Institute (root doctrine)
+2. Hollow_House_Standards_Library (canonical definitions)
+3. HHI-GOV-01 (governance standard)
+4. HHI_LUL_01 (language licensing)
+5. Master_License_Suite (legal enforcement)
+
+Definitions, terms, and usage are governed upstream.
+---### Canonical Definitions
+
+All governance terminology used in this repository is defined in the  
+**HHI Governance Glossary (v1.1.0)**:
+
+https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library/blob/main/glossary.md
+
+Repository Purpose
+
+This repository is the canonical standards and frameworks library for Hollow House Institute.
+
+It contains non-software intellectual property defining how AI systems, organizations, and institutions are governed, evaluated, and audited over time—with a specific focus on behavioral accumulation, decision authority, escalation integrity, and accountability binding.
+
+These materials establish governance as behavioral infrastructure, not policy or post-hoc compliance.
+# Hollow House Institute Standards Library
 **Structured Human Intelligence**  
 *Time turns behavior into infrastructure.*  
 *Behavior is the most honest data there is.*
@@ -267,3 +303,67 @@ Amy Pierce Adams
 Founder, Hollow House Institute  
 
 Contact: data@hollowhouse.org
+<<<<<<< HEAD
+---
+
+## Governance Authority
+
+This repository operates under the canonical governance standard:
+
+**HHI-GOV-01 — Longitudinal Governance Infrastructure**  
+=======
+Authoritative reference:
+>>>>>>> 4fb6143 (Add canonical glossary.json, scope definition, and update README per HHI-GOV-01 authority)
+https://github.com/hollowhouseinstitute/HHI-GOV-01
+## What this is
+Upstream governance definitions and standards for Hollow House Institute. This repository is the canonical source of terminology used across audits, licensing, and governance artifacts.
+
+<<<<<<< HEAD
+## Who it’s for
+Compliance, legal, governance, risk, and policy leaders evaluating or adopting longitudinal AI governance standards.
+
+## What it governs
+Authoritative terminology for:
+- Governance standards
+- Audit criteria
+- Licensing language
+- Derivative frameworks and assessments
+### Governance Canon
+HHI_GOV_01 is the authoritative governance standard governing all audits, enforcement actions, longitudinal compliance requirements, and derivative governance artifacts across Hollow House Institute.
+## What it is not
+- Not software
+- Not legal advice
+- Not an AI agent or model
+
+## Canonical Files
+- [Governance Glossary](./glossary.md)
+- [Authority Notice](./AUTHORITY.md)
+- [Scope Definition](./SCOPE.md)
+
+## Canonical Links
+- **Standards Library (this):** https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+- **Governance Standard:** https://github.com/hollowhouseinstitute/HHI_GOV_01
+- **Master License Suite:** https://github.com/hollowhouseinstitute/Master_License_Suite
+
+## Engagement
+For licensing, audits, or governance engagement:
+**data@hollowhouse.org**
+=======
+Governance authority is singular. No local policy supersedes HHI-GOV-01.
+
+---
+
+## Execution-Time Governance (Reference Only)
+
+Execution-time decision boundaries, authority authorization, stop authority,
+escalation paths, and continuous assurance are **implemented and enforced**
+in the HHI governance layer.
+
+See:
+- **HHI_GOV_01** — tagged release `v1.0.1-execution-workflow`
+
+This repository defines terminology and normative language only.
+Operational semantics live downstream by design.
+>>>>>>> main
+=======
+>>>>>>> 6fd2b0f3911da90f35fd335a689742c801ed17ce
