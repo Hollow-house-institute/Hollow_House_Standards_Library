@@ -4,7 +4,42 @@ This repository defines terminology and conceptual standards only.
 It does not define governance behavior, enforcement mechanisms, operational procedures, or audit execution.
 All such materials reside in HHI_GOV_01.
 Governed under **HHI_GOV_01 — Longitudinal Governance Infrastructure**Hollow House Institute
+## Governance Architecture Overview
 
+This repository functions as the **terminology layer** of the Hollow House Institute governance framework.
+
+```mermaid
+flowchart TD
+
+A[Human Authority] --> B[Standards Library]
+B --> C[Governance Standards]
+C --> D[Execution-Time Governance]
+
+subgraph Standards Library
+E[glossary.md]
+F[glossary.json]
+G[AUTHORITY.md]
+end
+
+B --> E
+B --> F
+B --> G
+
+C --> H[HHI_GOV_01]
+C --> I[Interaction Controls]
+
+D --> J[Agent Systems]
+D --> K[Continuous Assurance]
+D --> L[Stop Authority]
+```
+## Start Here
+
+If you are new to this repository:
+
+1. Read **glossary.md** for canonical governance terminology
+2. Review **AUTHORITY.md** for authority boundaries
+3. Use **glossary.json** for machine-readable integration
+4. See **STANDARDS_INDEX.md** for repository structure
 ## Governance Canon
 
 This repository is governed by **HHI-GOV-01 — Longitudinal Behavioral Governance Standard**.
@@ -360,5 +395,10 @@ in the HHI governance layer.
 See:
 - **HHI_GOV_01** — tagged release `v1.0.1-execution-workflow`
 
+## Citation
+
+This repository is archived and versioned through Zenodo to provide a stable DOI.
+
+DOI: https://doi.org/10.5281/zenodo.18637975
 This repository defines terminology and normative language only.
 Operational semantics live downstream by design.
