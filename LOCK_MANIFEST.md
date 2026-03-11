@@ -1,20 +1,19 @@
-# LOCK MANIFEST — Hollow_House_Standards_Library
+# Hollow House Standards Library — LOCK MANIFEST
 
-Repository: Hollow_House_Standards_Library
-Authority Layer: Canonical Standards
-Authority Owner: Hollow House Institute
+This manifest enumerates all standards-grade artifacts whose presence, structure, and integrity are locked for reproducible releases and auditability.
 
-This repository contains canonical definitions and meaning for
-HHI governance, licensing, and execution layers.
-
-Content here defines terminology, doctrine, and semantic authority.
-
-Standards defined in this repository are upstream of:
-- Governance rules
-- Licensing constraints
-- Execution and interaction controls
-
-Modifications require a versioned governance release
-and renewal of canonical checksums.
-
-Lock Date: 2026-02-04
+## Locked Artifacts
+- glossary.md
+- glossary.json
+- glossary.schema.json
+- AUTHORITY.md
+- GOVERNANCE_ARCHITECTURE.md
+- GOVERNANCE_TAXONOMY.md
+- GOVERNANCE_ONTOLOGY.md
+- GOVERNANCE_STANDARDS_CROSSWALK.md
+- GOVERNANCE_METRICS.md
+- GOVERNANCE_POSITIONING.md
+- CHECKSUMS.sha256
+- CANONICAL_CHECKSUMS.txt
+- GLOSSARY_SHA256.txt
+- CHANGELOG.md
