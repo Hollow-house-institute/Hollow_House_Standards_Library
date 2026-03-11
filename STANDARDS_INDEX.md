@@ -1,98 +1,24 @@
-# Hollow House Institute — Standards Library Index
+# Hollow House Standards Index
 
-This document explains the structure and authority hierarchy of the
-Hollow House Standards Library.
+This index enumerates all standards-grade artifacts maintained within the Hollow House Standards Library. Each artifact is versioned, checksum-tracked, and governed under the HHI semantic authority model.
 
-The repository defines canonical terminology and conceptual governance
-standards used across Hollow House Institute frameworks, audits,
-datasets, and licensing artifacts.
+## Glossary Artifacts
+- glossary.md — Human-readable governance glossary
+- glossary.json — Machine-readable governance glossary
+- glossary.schema.json — JSON Schema defining the canonical glossary structure and metadata requirements
 
----
+## Governance Documents
+- AUTHORITY.md — Defines semantic authority boundaries
+- GOVERNANCE_ARCHITECTURE.md — Structural overview of the governance stack
+- GOVERNANCE_TAXONOMY.md — Taxonomy of governance primitives and artifacts
+- GOVERNANCE_ONTOLOGY.md — Ontological relationships between governance components
+- GOVERNANCE_STANDARDS_CROSSWALK.md — Mapping to external standards bodies
+- GOVERNANCE_METRICS.md — Metrics for governance performance and drift detection
+- GOVERNANCE_POSITIONING.md — Category and authority positioning
 
-## Core Principle
-
-Time turns behavior into infrastructure.
-Behavior is the most honest data there is.
-
-Governance determines which behaviors are allowed to accumulate into
-system infrastructure over time.
-
----
-
-## Canonical Terminology
-
-Primary glossary sources:
-
-glossary.json — machine-readable canonical definitions
-glossary.md — human-readable glossary
-
-Integrity verification:
-
-GLOSSARY_SHA256.txt
-
----
-
-## Governance Authority
-
-Key governance control artifacts:
-
-AUTHORITY.md
-AUTHORITY_BOUNDARY.md
-BOT_CONSTITUTION.md
-LOCK_MANIFEST.md
-
-These documents define authority structure and governance constraints.
-
----
-
-## Governance Documentation
-
-Supporting governance materials are located in:
-
-GOVERNANCE/
-docs/
-concepts/
-
-These materials explain glossary concepts but do not redefine canonical
-terminology.
-
----
-
-## Legal & Licensing
-
-Licensing instruments are located in:
-
-legal/
-LICENSE.md
-
-All materials are governed under the Hollow House Institute
-Master License Suite.
-
----
-
-## Integrity Artifacts
-
-Verification files ensuring canonical artifacts remain unchanged:
-
-CANONICAL_CHECKSUMS.txt
-CHECKSUMS.sha256
-GLOSSARY_SHA256.txt
-
----
-
-## Repository Role in HHI Governance Stack
-
-Hollow_House_Institute — doctrine and governance philosophy  
-Hollow_House_Standards_Library — canonical terminology  
-HHI_GOV_01 — governance execution standard  
-Master_License_Suite — legal enforcement layer
-
----
-
-## Citation
-
-Adams, A. P. (2026)
-Canonical Terms for Behavioral AI Governance
-Hollow House Institute
-
-https://doi.org/10.5281/zenodo.18615600
+## Integrity & Release Artifacts
+- CHECKSUMS.sha256 — SHA-256 checksums for standards artifacts
+- CANONICAL_CHECKSUMS.txt — Canonical integrity manifest
+- GLOSSARY_SHA256.txt — Glossary-specific integrity manifest
+- LOCK_MANIFEST.md — Locked list of standards artifacts for release reproducibility
+- CHANGELOG.md — Versioned change history
