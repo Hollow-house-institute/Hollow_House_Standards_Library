@@ -34,3 +34,24 @@ Execution Layer → implements → Structural and Integrity Layers
 
 ## Ontology Summary
 This ontology ensures that governance artifacts are not isolated documents but interdependent components of a coherent standards system. Each artifact has a defined role, authority boundary, and relationship to the others.
+
+## Dependency Map
+
+glossary.schema.json
+    ↓ validates
+glossary.json
+    ↓ defines
+glossary.md
+    ↓ informs
+GOVERNANCE_ARCHITECTURE.md
+GOVERNANCE_TAXONOMY.md
+GOVERNANCE_ONTOLOGY.md
+GOVERNANCE_STANDARDS_CROSSWALK.md
+    ↓ constrained by
+AUTHORITY.md
+    ↓ enforced by
+CHECKSUMS.sha256
+CANONICAL_CHECKSUMS.txt
+GLOSSARY_SHA256.txt
+LOCK_MANIFEST.md
+CHANGELOG.md
