@@ -1,0 +1,29 @@
+@prefix gov: <https://governance-ontology.org/terms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+gov:GovernanceTerm a rdf:Class ;
+    dct:description "Class representing canonical governance terminology used to describe behavioral dynamics in sociotechnical systems." .
+
+gov:GovernanceDrift a gov:GovernanceTerm ;
+    gov:identifier "GOV-013" ;
+    dct:title "Governance Drift" ;
+    dct:description "Divergence between documented governance policy and actual operational behavior over time." .
+
+gov:BehavioralDrift a gov:GovernanceTerm ;
+    gov:identifier "BEH-001" ;
+    dct:title "Behavioral Drift" ;
+    dct:description "Gradual shift in system or operator behavior away from expected operational patterns." .
+
+gov:DecisionSubstitution a gov:GovernanceTerm ;
+    gov:identifier "AUTH-004" ;
+    dct:title "Decision Substitution" ;
+    dct:description "Replacement of human judgment with automated output in operational decision processes." .
+
+gov:OverrideErosion a gov:GovernanceTerm ;
+    gov:identifier "BEH-004" ;
+    dct:title "Override Erosion" ;
+    dct:description "Reduction in the frequency or willingness of operators to challenge system outputs." .
+
+gov:GovernanceDrift gov:relatedTo gov:BehavioralDrift .
+gov:DecisionSubstitution gov:relatedTo gov:OverrideErosion .
