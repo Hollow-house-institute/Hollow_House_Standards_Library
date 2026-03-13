@@ -2,7 +2,8 @@ Hollow House Institute Standards Library
 
 Licensed standards, frameworks, and methodological documents for ethical AI governance, relational intelligence analysis, and governed human–AI interaction review.
 
+This repository contains governance terminology, analytical frameworks, and standards artifacts used within the Hollow House governance ecosystem.
+
 This repository is not software and provides no automation or executable systems.
 
 Use is non-commercial by default. Commercial or applied use requires explicit authorization.
-
