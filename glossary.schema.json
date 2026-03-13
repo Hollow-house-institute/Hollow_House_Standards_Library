@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HHI Governance Glossary Schema",
+  "description": "Schema describing the structure of the HHI Governance Glossary",
+  "type": "object",
+  "required": ["meta", "terms"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["title","version","canonical_terms","authority"]
+    },
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id","term","definition"],
+        "properties": {
+          "id": { "type": "string" },
+          "term": { "type": "string" },
+          "definition": { "type": "string" }
+        }
+      }
+    }
+  }
+}
