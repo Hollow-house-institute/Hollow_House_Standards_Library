@@ -1,0 +1,55 @@
+Canonical Governance Terminology for Behavioral AI Systems
+HHI Series Overview
+Hollow House Institute
+AI Governance Glossary v1.3.0 (Governance Freeze)
+DOI: 10.5281/zenodo.18764662
+
+1. Purpose of the Series Overview
+The Hollow House Institute (HHI) Canonical Governance Terminology Series establishes the authoritative terminology layer for Behavioral AI Governance. The Series provides stable, citable definitions for Execution-Time Governance, authority assignment, escalation mechanics, governance boundaries, and longitudinal failure dynamics. Each component is versioned, immutable, and published with a DOI to preserve semantic stability, auditability, and interoperability across governance frameworks. This Series Overview does not redefine any terms. It serves as the interpretive, navigational, and citation anchor for the canonical series.
+
+2. Structure of the Canonical Series
+2.1 Canonical Terms for Behavioral AI Governance (v1.0.0)
+Defines foundational behavioral governance primitives, including drift, reliance formation, and governance as infrastructure.
+
+2.2 Canonical Authority and Escalation Terms for Behavioral AI Governance (v1.1.0)
+Defines execution-time authority, decision boundaries, stop authority, and escalation mechanics.
+
+2.3 Canonical Longitudinal and Failure Terms for Behavioral AI Governance (v1.2.0)
+Defines longitudinal risk, behavioral accumulation, governance lag, and failure dynamics.
+
+3. Governance Infrastructure Context
+The Series is designed to support Governance Infrastructure by providing stable terminology for:
+- Execution-time oversight
+- Authority binding
+- Escalation pathways
+- Behavioral risk accumulation
+- Longitudinal governance analysis
+- Interoperability with external governance frameworks
+The Series is aligned with the AI Governance Glossary, which serves as the canonical terminology registry for Behavioral AI Governance.
+
+4. Citation Guidance
+To maintain semantic precision:
+- Cite the specific versioned DOI when referencing individual terms.
+- Cite this Series Overview when referencing the HHI governance terminology framework in aggregate.
+- Treat the canonical DOIs as the authoritative reference layer.
+- Treat the Hollow House Standards Library as the version-controlled downstream implementation surface.
+
+5. Versioning Protocol
+The Series follows the HHI versioning protocol:
+MAJOR — structural change
+MINOR — new canonical terms
+PATCH — metadata or formatting updates
+This Series Overview is versioned as v1.0.0.
+
+6. Governance Mode Compliance
+This publication adheres to HHI Governance Mode:
+- No paraphrasing of canonical definitions
+- No synonym substitution
+- No identifier drift
+- No invented terminology
+- Glossary authority preserved
+- Behavioral governance prioritized over novelty
+
+7. Glossary Version Authority
+AI Governance Glossary v1.3.0 (Governance Freeze)
+Hollow House Institute
