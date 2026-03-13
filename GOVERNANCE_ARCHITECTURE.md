@@ -1,4 +1,3 @@
-[PASTE THE CONTENT ABOVE HERE]
 # HHI Governance Architecture
 
 Version: v1.0.0  
