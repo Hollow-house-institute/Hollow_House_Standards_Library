@@ -1,0 +1,53 @@
+name: HHI Glossary Compliance Validator
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Validate glossary compliance
+        run: |
+          echo "Running HHI Glossary Compliance Validator"
+          glossary="glossary.json"
+
+          # Required anchor phrases
+          required_phrases=(
+            "AI Governance Glossary"
+            "Behavioral AI Governance"
+            "Governance Infrastructure"
+            "Execution-Time Governance"
+          )
+
+          # Validate each markdown file
+          for file in specs/*.md; do
+            echo "Checking \$file"
+
+            # Check anchor phrases
+            for phrase in "\${required_phrases[@]}"; do
+              if ! grep -q "\$phrase" "\$file"; then
+                echo "Missing required phrase '\$phrase' in \$file"
+                exit 1
+              fi
+            done
+
+            # Validate canonical definitions
+            while IFS= read -r term; do
+              id=\$(jq -r ".terms[] | select(.term==\"\$term\") | .identifier" \$glossary)
+              def=\$(jq -r ".terms[] | select(.term==\"\$term\") | .definition" \$glossary)
+
+              if ! grep -q "\$def" "\$file"; then
+                echo "Definition mismatch for term '\$term' in \$file"
+                exit 1
+              fi
+            done < <(jq -r '.terms[].term' \$glossary)
+
+          done
+
+          echo "HHI Glossary Compliance Passed"
