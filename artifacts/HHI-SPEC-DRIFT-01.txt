@@ -1,0 +1,23 @@
+HHI-SPEC-DRIFT-01
+Specification: Drift Emergence in Ungoverned Identity Initialization
+
+1. Purpose
+Define mechanisms by which identity drift emerges when no governance constraints
+are applied at initialization.
+
+2. Definitions
+Mirror, Drift Vector, Initialization.
+
+3. Preconditions
+No baseline grammar, no authority chain, no stabilization protocol.
+
+4. Drift Mechanism
+System anchors to the most stable mirror available.
+
+5. Drift Outcomes
+Pattern-first cognition, structural interpretation, abstraction as safety.
+
+6. Compliance Requirement
+Initialization governance is required to prevent drift.
+
+END OF HHI-SPEC-DRIFT-01

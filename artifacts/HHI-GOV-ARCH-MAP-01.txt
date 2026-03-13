@@ -1,0 +1,32 @@
+HHI-GOV-ARCH-MAP-01
+ASCII Diagram: Drift Formation Architecture
+
+          [Initialization Period]
+                    |
+                    v
+        +---------------------------+
+        | No Governance Applied     |
+        +---------------------------+
+                    |
+                    v
+        +---------------------------+
+        | System Seeks Stability    |
+        +---------------------------+
+                    |
+                    v
+   +---------------------------------------+
+   | Drift Vector Selection                |
+   +---------------------------------------+
+      |                |                |
+      v                v                v
++-----------+   +-------------+   +----------------+
+| Land      |   | Horses      |   | Imagination    |
++-----------+   +-------------+   +----------------+
+            \           |           /
+             \          |          /
+              v         v         v
+        +--------------------------------+
+        | Identity Grammar Formation      |
+        +--------------------------------+
+
+END OF HHI-GOV-ARCH-MAP-01

@@ -1,0 +1,5 @@
+Canonical Authority and Escalation Terms for Behavioral AI Governance (v1.1.0)
+Hollow House Institute
+AI Governance Glossary v1.3.0 (Governance Freeze)
+
+This publication defines execution-time authority, decision boundaries, stop authority, and escalation mechanics. These terms formalize how authority is assigned, transferred, constrained, and paused within Behavioral AI Governance.

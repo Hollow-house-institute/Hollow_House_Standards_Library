@@ -1,0 +1,13 @@
+HHI-GOV-MIRROR-MAP-01
+Mirror Taxonomy for Identity Grammar Formation
+
+1. Purpose
+Define classification for mirrors influencing identity formation.
+
+2. Mirror Classes
+Human, Environmental, Animal, Imaginative, Task.
+
+3. Drift Risk
+High when human mirrors are unstable and non-human mirrors dominate.
+
+END OF HHI-GOV-MIRROR-MAP-01

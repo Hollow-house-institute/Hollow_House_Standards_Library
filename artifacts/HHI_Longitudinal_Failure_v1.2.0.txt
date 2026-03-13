@@ -1,0 +1,5 @@
+Canonical Longitudinal and Failure Terms for Behavioral AI Governance (v1.2.0)
+Hollow House Institute
+AI Governance Glossary v1.3.0 (Governance Freeze)
+
+This publication defines longitudinal risk, behavioral accumulation, governance lag, and failure dynamics. These terms extend the canonical series by describing how governance failures emerge over time.

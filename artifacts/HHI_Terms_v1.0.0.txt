@@ -1,0 +1,5 @@
+Canonical Terms for Behavioral AI Governance (v1.0.0)
+Hollow House Institute
+AI Governance Glossary v1.3.0 (Governance Freeze)
+
+This publication defines foundational behavioral governance primitives, including drift, reliance formation, and governance as infrastructure. These terms establish the behavioral layer required for Execution-Time Governance and serve as the base of the canonical terminology series.
