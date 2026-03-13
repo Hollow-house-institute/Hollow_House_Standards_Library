@@ -3,7 +3,7 @@
   "title": "HHI Governance Glossary Schema",
   "description": "Schema describing the structure of the HHI Governance Glossary",
   "type": "object",
-  "required": ["meta", "terms"],
+  "required": ["meta","terms"],
   "properties": {
     "meta": {
       "type": "object",
