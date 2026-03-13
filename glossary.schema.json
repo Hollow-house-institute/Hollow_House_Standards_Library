@@ -3,21 +3,68 @@
   "title": "HHI Governance Glossary Schema",
   "description": "Schema describing the structure of the HHI Governance Glossary",
   "type": "object",
-  "required": ["meta","terms"],
+  "required": ["meta", "terms"],
+  "additionalProperties": false,
+
   "properties": {
     "meta": {
       "type": "object",
-      "required": ["title","version","canonical_terms","authority"]
+      "required": [
+        "title",
+        "version",
+        "canonical_terms",
+        "authority",
+        "license"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": { "type": "string" },
+        "version": {
+          "type": "string",
+          "pattern": "^v?[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "canonical_terms": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "authority": { "type": "string" },
+        "license": { "type": "string" },
+        "description": { "type": "string" },
+        "last_updated": { "type": "string" }
+      }
     },
+
     "terms": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
-        "required": ["id","term","definition"],
+        "required": ["id", "term", "definition"],
+        "additionalProperties": false,
         "properties": {
-          "id": { "type": "string" },
-          "term": { "type": "string" },
-          "definition": { "type": "string" }
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9\\-]+$"
+          },
+          "term": {
+            "type": "string",
+            "minLength": 1
+          },
+          "definition": {
+            "type": "string",
+            "minLength": 5
+          },
+          "identifier": {
+            "type": "string",
+            "pattern": "^HHI-[A-Z]+-[0-9]{3}$"
+          },
+          "domain": {
+            "type": "string"
+          },
+          "related_terms": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
         }
       }
     }
