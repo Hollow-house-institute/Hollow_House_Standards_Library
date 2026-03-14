@@ -10,9 +10,6 @@ on:
       - 'Hollow_House_Standards_Library/glossary.md'
       - 'Hollow_House_Standards_Library/glossary.json'
 
-permissions:
-  contents: read
-
 jobs:
   checksum:
     runs-on: ubuntu-latest
