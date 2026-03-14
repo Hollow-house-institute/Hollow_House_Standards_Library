@@ -6,9 +6,7 @@ on:
       - 'glossary.md'
       - 'glossary.json'
   pull_request:
-    paths:
-      - 'glossary.md'
-      - 'glossary.json'
+  
 
 permissions:
   contents: read
