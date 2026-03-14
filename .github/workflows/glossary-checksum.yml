@@ -1,4 +1,4 @@
-name: Glossary Check
+name: Glossary Integrity Check
 
 on:
   push:
@@ -11,10 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Check glossary files
+      - name: Verify glossary files
         run: |
-          echo "Checking glossary integrity"
+          echo "Checking glossary files"
           if [ -f glossary.md ]; then sha256sum glossary.md; else echo "glossary.md missing"; fi
           if [ -f glossary.json ]; then sha256sum glossary.json; else echo "glossary.json missing"; fi
