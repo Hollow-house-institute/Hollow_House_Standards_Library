@@ -9,25 +9,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Display glossary checksums
+      - name: Check glossary files
         run: |
-          echo "Checking glossary files..."
+          echo "Checking glossary files"
 
           if [ -f glossary.md ]; then
-            echo "glossary.md:"
             sha256sum glossary.md
           else
             echo "glossary.md not found"
           fi
 
           if [ -f glossary.json ]; then
-            echo "glossary.json:"
             sha256sum glossary.json
           else
             echo "glossary.json not found"
           fi
-
-          echo "Integrity check complete"
