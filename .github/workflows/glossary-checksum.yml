@@ -15,11 +15,6 @@ permissions:
 
 jobs:
   checksum:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
       - name: Verify glossary integrity
         run: |
           echo "Verifying glossary integrity"
