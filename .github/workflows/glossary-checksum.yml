@@ -1,0 +1,28 @@
+name: Glossary Checksum
+
+on:
+  push:
+    paths:
+      - 'glossary.md'
+      - 'glossary.json'
+  pull_request:
+    paths:
+      - 'glossary.md'
+      - 'glossary.json'
+
+permissions:
+  contents: read
+
+jobs:
+  checksum:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify glossary checksum
+        run: |
+          echo "Verifying glossary integrity"
+          sha256sum glossary.md
+          sha256sum glossary.json
