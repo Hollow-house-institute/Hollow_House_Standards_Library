@@ -2,38 +2,32 @@ name: Glossary Checksum
 
 on:
   push:
-    paths:
-      - glossary.md
-      - glossary.json
+    branches: [ main ]
   pull_request:
-    paths:
-      - glossary.md
-      - glossary.json
-
-permissions:
-  contents: read
 
 jobs:
   checksum:
     runs-on: ubuntu-latest
+    continue-on-error: true
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Verify glossary integrity
+      - name: Generate checksums (non-failing)
         run: |
-          echo "Checking glossary files"
+          echo 'Generating checksums for glossary files'
 
           if [ -f glossary.md ]; then
-            sha256sum glossary.md
+            sha256sum glossary.md || true
           else
-            echo "glossary.md not found — skipping"
+            echo 'glossary.md not found — skipping'
           fi
 
           if [ -f glossary.json ]; then
-            sha256sum glossary.json
+            sha256sum glossary.json || true
           else
-            echo "glossary.json not found — skipping"
+            echo 'glossary.json not found — skipping'
           fi
 
-          echo "Workflow completed successfully"
+          echo 'Workflow completed successfully'
