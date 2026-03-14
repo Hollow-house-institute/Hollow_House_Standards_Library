@@ -3,13 +3,14 @@ name: Glossary Checksum
 on:
   push:
     paths:
-      - 'glossary.md'
-      - 'glossary.json'
+      - 'Hollow_House_Standards_Library/glossary.md'
+      - 'Hollow_House_Standards_Library/glossary.json'
   pull_request:
     paths:
-      - 'glossary.md'
-      - 'glossary.json'
+      - 'Hollow_House_Standards_Library/glossary.md'
+      - 'Hollow_House_Standards_Library/glossary.json'
 
+permissions:
   contents: read
 
 jobs:
@@ -23,5 +24,5 @@ jobs:
       - name: Verify glossary checksum
         run: |
           echo "Verifying glossary file integrity..."
-          sha256sum glossary.md
-          sha256sum glossary.json
+          md5sum Hollow_House_Standards_Library/glossary.md
+          md5sum Hollow_House_Standards_Library/glossary.json
