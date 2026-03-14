@@ -11,11 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Check glossary integrity
+      - name: Check glossary files
         run: |
-          echo "Checking glossary files"
+          echo "Checking glossary integrity"
           if [ -f glossary.md ]; then sha256sum glossary.md; else echo "glossary.md missing"; fi
           if [ -f glossary.json ]; then sha256sum glossary.json; else echo "glossary.json missing"; fi
