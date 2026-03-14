@@ -402,3 +402,14 @@ This repository is archived and versioned through Zenodo to provide a stable DOI
 DOI: https://doi.org/10.5281/zenodo.18637975
 This repository defines terminology and normative language only.
 Operational semantics live downstream by design.
+
+
+---
+
+## Authority
+
+Maintained by Hollow House Institute
+
+ORCID: https://orcid.org/0009-0009-4806-1949
+LinkedIn: https://www.linkedin.com/in/hollow-house-institute-3ab5a2182
+Zenodo: https://zenodo.org/uploads/18764662
