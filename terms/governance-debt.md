@@ -1,63 +1,50 @@
 # Governance Debt
 
-**Identifier:** governance-debt
+## What is Governance Debt?
 
-## Definition
-Risk accumulated when AI deployment outpaces governance design.
+**Definition:**  
+Risk accumulated when AI capabilities are deployed faster than decision authority, escalation, and stop conditions are defined.
 
-## Domain
-Behavioral AI Governance
-
-## Source
-AI Governance Glossary v1.3.0  
-Hollow House Institute
-
-Canonical repository  
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
-
-## Research Identity
-
-ORCID  
-https://orcid.org/0009-0009-4806-1949
-
-LinkedIn  
-https://www.linkedin.com/in/hollow-house-institute-3ab5a2182
-
-## Citation
-
-Hollow House Institute. *AI Governance Glossary v1.3.0*.  
-Behavioral AI Governance terminology registry.
-
-## Related Concepts
-
-See the full glossary:
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+**Notes:**  
+- Governance debt compounds silently.  
+- It is difficult to remediate after reliance normalizes.  
+- Governance debt mirrors technical debt at the behavioral level.
 
 ---
 
-Time turns behavior into infrastructure.  
-Behavior is the most honest data there is.
+## Versioning
 
-## Related Governance Terms
+Current version: **v1.1.0**
 
-- Behavioral Drift (HHI-BEH-001)
-- Governance Drift (HHI-RISK-002)
-- Decision Substitution (HHI-GOV-004)
-- Override Erosion (HHI-INT-003)
-- Reliance Formation (HHI-BEH-002)
-- Governance Failure (HHI-RISK-005)
+---
 
-These terms are part of the Behavioral AI Governance terminology network defined by the Hollow House Institute.
+## Citation
 
-## Related Governance Terms
+Hollow House Institute.  
+*HHI Governance Glossary (v1.1.0).*  
+Hollow House Institute Standards Library.  
+https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
 
-- [Behavioral Drift](behavioral-drift.md) — HHI-BEH-001
-- [Reliance Formation](reliance-formation.md) — HHI-BEH-002
-- [Decision Substitution](decision-substitution.md) — HHI-GOV-004
-- [Override Erosion](override-erosion.md) — HHI-INT-003
-- [Governance Drift](governance-drift.md) — HHI-RISK-002
-- [Governance Failure](governance-failure.md) — HHI-RISK-005
-- [Continuous Assurance](continuous-assurance.md) — HHI-BEH-005
-- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
+---
 
-These terms form part of the Behavioral AI Governance terminology network maintained by the Hollow House Institute.
+© Hollow House Institute. All rights reserved.
+Where these terms appear in Hollow House Institute standards, audits, datasets, or publications, **the definitions herein apply**.
+
+---
+
+## Authority Notice
+
+> **Canonical Definitions**
+> This glossary is governed under the Hollow House Institute Master License Suite (HHI-MLS).
+> Definitions are authoritative for Hollow House Institute work and may not be altered,
+> reinterpreted, or selectively quoted outside their stated scope without authorization.
+
+Authoritative licensing and governance instruments:  
+https://github.com/hollowhouseinstitute/Master_License_Suite
+
+---
+
+## Glossary
+
+## What is Behavioral Drift?
+

@@ -1,63 +1,16 @@
 # Governance
 
-**Identifier:** governance
+## What is Governance?
 
-## Definition
+**Definition:**  
 The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.
 
-## Domain
-Behavioral AI Governance
-
-## Source
-AI Governance Glossary v1.3.0  
-Hollow House Institute
-
-Canonical repository  
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
-
-## Research Identity
-
-ORCID  
-https://orcid.org/0009-0009-4806-1949
-
-LinkedIn  
-https://www.linkedin.com/in/hollow-house-institute-3ab5a2182
-
-## Citation
-
-Hollow House Institute. *AI Governance Glossary v1.3.0*.  
-Behavioral AI Governance terminology registry.
-
-## Related Concepts
-
-See the full glossary:
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+**Notes:**  
+- Governance operates at execution time, not only in documentation.  
+- Governance binds authority, escalation, and accountability before reliance forms.  
+- Policy describes intent; governance constrains behavior.
 
 ---
 
-Time turns behavior into infrastructure.  
-Behavior is the most honest data there is.
+## What is Governance Infrastructure?
 
-## Related Governance Terms
-
-- Behavioral Drift (HHI-BEH-001)
-- Governance Drift (HHI-RISK-002)
-- Decision Substitution (HHI-GOV-004)
-- Override Erosion (HHI-INT-003)
-- Reliance Formation (HHI-BEH-002)
-- Governance Failure (HHI-RISK-005)
-
-These terms are part of the Behavioral AI Governance terminology network defined by the Hollow House Institute.
-
-## Related Governance Terms
-
-- [Behavioral Drift](behavioral-drift.md) — HHI-BEH-001
-- [Reliance Formation](reliance-formation.md) — HHI-BEH-002
-- [Decision Substitution](decision-substitution.md) — HHI-GOV-004
-- [Override Erosion](override-erosion.md) — HHI-INT-003
-- [Governance Drift](governance-drift.md) — HHI-RISK-002
-- [Governance Failure](governance-failure.md) — HHI-RISK-005
-- [Continuous Assurance](continuous-assurance.md) — HHI-BEH-005
-- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
-
-These terms form part of the Behavioral AI Governance terminology network maintained by the Hollow House Institute.
