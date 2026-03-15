@@ -17,3 +17,14 @@ https://doi.org/10.5281/zenodo.18615600
 ---
 
 Part of the Behavioral AI Governance terminology system maintained by Hollow House Institute.
+
+## Related Governance Terms
+
+- Behavioral Drift (HHI-BEH-001)
+- Governance Drift (HHI-RISK-002)
+- Decision Substitution (HHI-GOV-004)
+- Override Erosion (HHI-INT-003)
+- Reliance Formation (HHI-BEH-002)
+- Governance Failure (HHI-RISK-005)
+
+These terms are part of the Behavioral AI Governance terminology network defined by the Hollow House Institute.
