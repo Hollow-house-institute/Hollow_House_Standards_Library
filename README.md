@@ -413,3 +413,9 @@ Maintained by Hollow House Institute
 ORCID: https://orcid.org/0009-0009-4806-1949
 LinkedIn: https://www.linkedin.com/in/hollow-house-institute-3ab5a2182
 Zenodo: https://zenodo.org/uploads/18764662
+
+## Governance Maintenance Tools
+
+HHI Master Prompt Specification
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/STANDARDS/MASTER_PROMPT_SPECIFICATION.md
+
