@@ -1,7 +1,9 @@
 ---
 title: Governance Infrastructure
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-GOV-002
+domain: governance
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Governance Infrastructure?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Durable formal and informal structures shaping how authority, decisions, and accountability operate over time.
 
 ---
 
-**Definition:**  
-The durable structures—formal and informal—that shape how decisions, accountability, and authority are exercised over time.
-
-**Notes:**  
-- Governance infrastructure includes habits, incentives, norms, and tools.
-- Once established, infrastructure resists rapid correction.
-- Behavior is both an input to and output of governance infrastructure.
-
----
-
-## What is Accountability Diffusion?
-
+Identifier: HHI-GOV-002  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

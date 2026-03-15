@@ -1,7 +1,9 @@
 ---
 title: Accountability Diffusion
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-GOV-007
+domain: governance
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Accountability Diffusion?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Loss of clear responsibility caused by distributed or mediated decision processes.
 
 ---
 
-**Definition:**  
-The gradual loss of clear responsibility attribution resulting from distributed decision processes or mediated systems.
-
-**Notes:**  
-- Diffusion increases with complexity and scale.
-- It often coincides with decision substitution.
-- Accountability diffusion weakens corrective action.
-
----
-
-## What is Override Erosion?
-
+Identifier: HHI-GOV-007  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

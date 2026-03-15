@@ -1,7 +1,9 @@
 ---
 title: Authority
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-AUTH-002
+domain: authority
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Authority?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+The formally assigned right to make, override, pause, or stop decisions during execution.
 
 ---
 
-**Definition:**  
-The formally assigned right to decide, override, pause, or stop an action at execution time.
-
-**Notes:**  
-- Authority must be role-bound and explicit.  
-- Authority inferred through convenience or repetition is not governed authority.  
-- Authority without stop capability is incomplete.
-
----
-
-## What is Stop Authority?
-
+Identifier: HHI-AUTH-002  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

@@ -1,7 +1,9 @@
 ---
 title: Accountability
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-GOV-006
+domain: governance
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Accountability?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Binding outcomes to named roles with authority prior to execution.
 
 ---
 
-**Definition:**  
-The binding of outcomes to named roles with recognized authority prior to execution.
-
-**Notes:**  
-- Accountability reconstructed after failure is forensic, not governing.  
-- Accountability diffusion weakens corrective action.  
-- Clear accountability is a prerequisite for effective governance.
-
----
-
-## What is Accountability Diffusion?
-
+Identifier: HHI-GOV-006  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

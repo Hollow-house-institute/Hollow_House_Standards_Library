@@ -1,7 +1,9 @@
 ---
 title: Governance Debt
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-GOV-008
+domain: governance
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,56 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Governance Debt?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Risk accumulated when AI deployment outpaces governance design.
 
 ---
 
-**Definition:**  
-Risk accumulated when AI capabilities are deployed faster than decision authority, escalation, and stop conditions are defined.
-
-**Notes:**  
-- Governance debt compounds silently.  
-- It is difficult to remediate after reliance normalizes.  
-- Governance debt mirrors technical debt at the behavioral level.
-
----
-
-## Versioning
-
-Current version: **v1.1.0**
-
----
-
-## Citation
-
-Hollow House Institute.  
-*HHI Governance Glossary (v1.1.0).*  
-Hollow House Institute Standards Library.  
-https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
-
----
-
-© Hollow House Institute. All rights reserved.
-Where these terms appear in Hollow House Institute standards, audits, datasets, or publications, **the definitions herein apply**.
-
----
-
-## Authority Notice
-
-> **Canonical Definitions**
-> This glossary is governed under the Hollow House Institute Master License Suite (HHI-MLS).
-> Definitions are authoritative for Hollow House Institute work and may not be altered,
-> reinterpreted, or selectively quoted outside their stated scope without authorization.
-
-Authoritative licensing and governance instruments:  
-https://github.com/hollowhouseinstitute/Master_License_Suite
-
----
-
-## Glossary
-
-## What is Behavioral Drift?
-
+Identifier: HHI-GOV-008  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

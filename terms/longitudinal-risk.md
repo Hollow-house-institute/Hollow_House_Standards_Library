@@ -1,7 +1,9 @@
 ---
 title: Longitudinal Risk
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-RISK-001
+domain: risk
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Longitudinal Risk?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Risk emerging through repeated behavior over time rather than discrete events.
 
 ---
 
-**Definition:**  
-Risk that emerges through accumulation, repetition, and adaptation over time rather than from discrete events or point-in-time failures.
-
-**Notes:**  
-- Longitudinal risk cannot be captured by snapshot audits.
-- It requires temporal observation and pattern tracking.
-- Many high-impact failures are longitudinal in origin.
-
----
-
-## What is Governance Infrastructure?
-
+Identifier: HHI-RISK-001  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

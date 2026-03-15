@@ -1,7 +1,9 @@
 ---
 title: Decision Boundary
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-AUTH-001
+domain: authority
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Decision Boundary?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+The explicit point at which authority transfers between actors during execution.
 
 ---
 
-**Definition:**  
-The explicit point at which authority transfers between a system and a human role, or between human roles, during execution.
-
-**Notes:**  
-- Decision boundaries must be defined prior to deployment.  
-- Undefined boundaries result in implicit authority transfer.  
-- Decision boundaries determine where reliance is permitted to stop.
-
----
-
-## What is Authority?
-
+Identifier: HHI-AUTH-001  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

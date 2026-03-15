@@ -1,7 +1,9 @@
 ---
 title: Escalation
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-GOV-003
+domain: governance
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Escalation?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Transfer of decision authority to higher roles when uncertainty or risk thresholds are reached.
 
 ---
 
-**Definition:**  
-The transfer of decision authority in response to uncertainty, risk, or ambiguity.
-
-**Notes:**  
-- Effective escalation must be structurally enforced.  
-- Escalation must remain viable under operational pressure.  
-- Escalation that exists only on paper is non-functional.
-
----
-
-## What is Escalation Decay?
-
+Identifier: HHI-GOV-003  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

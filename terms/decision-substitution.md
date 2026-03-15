@@ -1,7 +1,9 @@
 ---
 title: Decision Substitution
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-AUTH-004
+domain: authority
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Decision Substitution?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Incremental replacement of human judgment with system outputs as the default decision reference.
 
 ---
 
-**Definition:**  
-The process by which human judgment is incrementally replaced by system output as the default decision-making reference.
-
-**Notes:**  
-- Decision substitution does not require explicit delegation.
-- It often manifests as reduced deliberation or diminished challenge behavior.
-- Substitution may precede formal automation.
-
----
-
-## What is Escalation Decay?
-
+Identifier: HHI-AUTH-004  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

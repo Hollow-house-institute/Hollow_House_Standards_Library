@@ -1,7 +1,9 @@
 ---
 title: Stop Authority
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-AUTH-003
+domain: authority
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Stop Authority?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+A role-bound capability to pause or halt system operation when governance thresholds are exceeded.
 
 ---
 
-**Definition:**  
-A pre-assigned, role-bound capability to pause, override, or decommission a system or process without justification at runtime.
-
-**Notes:**  
-- Stop authority must be exercisable under pressure.  
-- Authority that cannot interrupt execution is symbolic.  
-- Stop authority is a core governance control, not an exception mechanism.
-
----
-
-## What is Behavioral Drift?
-
+Identifier: HHI-AUTH-003  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

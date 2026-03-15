@@ -1,7 +1,9 @@
 ---
 title: Behavioral Accumulation
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-BEH-002
+domain: behavior
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Behavioral Accumulation?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+The compounding effect of repeated actions reshaping system behavior over time.
 
 ---
 
-**Definition:**  
-The compounding effect of repeated behavior that gradually reshapes judgment, escalation readiness, and accountability norms over time.
-
-**Notes:**  
-- Accumulation is the primary driver of longitudinal risk.  
-- It occurs between incidents, not during them.  
-- Accumulated behavior hardens into infrastructure.
-
----
-
-## What is Decision Substitution?
-
+Identifier: HHI-BEH-002  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

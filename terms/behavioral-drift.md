@@ -1,7 +1,9 @@
 ---
 title: Behavioral Drift
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-BEH-001
+domain: behavior
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Behavioral Drift?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Gradual divergence between expected system behavior and observed behavior over time.
 
 ---
 
-**Definition:**  
-The gradual, cumulative change in human or organizational behavior resulting from repeated interaction with a system, process, or tool over time.
-
-**Notes:**  
-- Behavioral drift is often invisible in short-term evaluation.
-- It is not a failure event; it is an accumulation process.
-- Drift can occur even when systems are functioning “as designed.”
-
----
-
-## What is Decision Substitution?
-
+Identifier: HHI-BEH-001  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary

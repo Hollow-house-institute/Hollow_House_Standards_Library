@@ -1,7 +1,9 @@
 ---
 title: Override Erosion
 type: DefinedTerm
-source: Hollow House Institute Governance Glossary
+identifier: HHI-BEH-004
+domain: behavior
+source: HHI Governance Glossary v1.3.0
 canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 ---
 
@@ -9,22 +11,10 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## What is Override Erosion?
 
-- Source: HHI Governance Glossary
-
-- Authority: Hollow House Institute
-
+Decline in willingness or ability to override system outputs.
 
 ---
 
-**Definition:**  
-The reduction in practical ability or willingness to override system outputs or established processes.
-
-**Notes:**  
-- Override erosion is distinct from lack of formal authority.
-- It is commonly reinforced by confidence reinforcement.
-- Erosion increases systemic fragility.
-
----
-
-## What is Human–AI Interaction (Governance Context)?
-
+Identifier: HHI-BEH-004  
+Authority: Hollow House Institute  
+Source: HHI Governance Glossary
