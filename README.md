@@ -531,3 +531,19 @@ https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 }
 </script>
 
+
+---
+
+## What is Behavioral AI Governance?
+
+Definition:
+
+Behavioral AI Governance is a governance approach that evaluates and manages how system behavior accumulates over time rather than relying solely on static policies, model constraints, or design-time safeguards.  
+It focuses on monitoring behavioral patterns, authority flows, and decision dynamics as systems operate.
+
+Within the Hollow House Institute framework, Behavioral AI Governance treats repeated behavior as infrastructure.  
+Governance therefore emerges from accumulated system behavior, oversight structures, and human authority boundaries rather than from policy documents alone.
+
+Canonical terminology source:  
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+
