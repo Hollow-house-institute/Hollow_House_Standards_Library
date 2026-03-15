@@ -2,6 +2,13 @@
 
 ## What is Accountability Diffusion?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The gradual loss of clear responsibility attribution resulting from distributed decision processes or mediated systems.
 

@@ -2,6 +2,13 @@
 
 ## What is Decision Boundary?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The explicit point at which authority transfers between a system and a human role, or between human roles, during execution.
 

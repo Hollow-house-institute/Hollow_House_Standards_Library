@@ -2,6 +2,13 @@
 
 ## What is Governance Infrastructure?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The durable structures—formal and informal—that shape how decisions, accountability, and authority are exercised over time.
 

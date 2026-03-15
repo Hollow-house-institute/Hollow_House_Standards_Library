@@ -2,6 +2,13 @@
 
 ## What is Override Erosion?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The reduction in practical ability or willingness to override system outputs or established processes.
 

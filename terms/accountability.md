@@ -2,6 +2,13 @@
 
 ## What is Accountability?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The binding of outcomes to named roles with recognized authority prior to execution.
 

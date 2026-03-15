@@ -2,6 +2,13 @@
 
 ## What is Escalation Decay?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The progressive erosion of a system’s or organization’s ability to recognize, initiate, or complete escalation pathways over time.
 

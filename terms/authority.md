@@ -2,6 +2,13 @@
 
 ## What is Authority?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The formally assigned right to decide, override, pause, or stop an action at execution time.
 

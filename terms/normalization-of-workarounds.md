@@ -2,6 +2,13 @@
 
 ## What is Normalization of Workarounds?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The process by which informal fixes or exceptions become embedded as standard operating behavior.
 

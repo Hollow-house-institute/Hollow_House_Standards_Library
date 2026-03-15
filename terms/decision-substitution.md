@@ -2,6 +2,13 @@
 
 ## What is Decision Substitution?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The process by which human judgment is incrementally replaced by system output as the default decision-making reference.
 

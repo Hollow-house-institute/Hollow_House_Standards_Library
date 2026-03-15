@@ -2,6 +2,13 @@
 
 ## What is Behavioral Accumulation?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The compounding effect of repeated behavior that gradually reshapes judgment, escalation readiness, and accountability norms over time.
 

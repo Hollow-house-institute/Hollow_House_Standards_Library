@@ -2,6 +2,13 @@
 
 ## What is Confidence Reinforcement?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 A feedback process in which repeated system confirmation increases user confidence independently of objective accuracy or risk.
 

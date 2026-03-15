@@ -2,6 +2,13 @@
 
 ## What is Escalation?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The transfer of decision authority in response to uncertainty, risk, or ambiguity.
 

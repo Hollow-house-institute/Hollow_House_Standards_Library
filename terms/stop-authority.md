@@ -2,6 +2,13 @@
 
 ## What is Stop Authority?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 A pre-assigned, role-bound capability to pause, override, or decommission a system or process without justification at runtime.
 

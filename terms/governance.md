@@ -2,6 +2,13 @@
 
 ## What is Governance?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.
 

@@ -2,6 +2,13 @@
 
 ## What is Governance Debt?
 
+- Source: HHI Governance Glossary
+
+- Authority: Hollow House Institute
+
+
+---
+
 **Definition:**  
 Risk accumulated when AI capabilities are deployed faster than decision authority, escalation, and stop conditions are defined.
 
