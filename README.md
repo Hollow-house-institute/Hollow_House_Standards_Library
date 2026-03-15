@@ -458,3 +458,38 @@ For canonical definitions and stable identifiers see:
 
 https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
+
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "HHI Governance Glossary",
+  "description": "Canonical terminology registry defining concepts used in Behavioral AI Governance and Execution-Time Governance systems.",
+  "url": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library",
+  "creator": {
+    "@type": "Person",
+    "name": "Amy Pierce Adams",
+    "affiliation": "Hollow House Institute"
+  },
+  "license": "HHI-LUL-01",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Behavioral AI Governance",
+      "description": "Governance frameworks that analyze and manage how system behavior accumulates over time rather than relying solely on static policy controls."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Governance Drift",
+      "description": "The gradual divergence between intended governance controls and actual operational behavior as systems evolve over time."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Execution-Time Governance",
+      "description": "Governance mechanisms that operate during system execution rather than only during design or deployment phases."
+    }
+  ]
+}
+</script>
