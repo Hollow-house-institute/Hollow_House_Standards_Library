@@ -289,16 +289,16 @@ Risk accumulated when AI capabilities are deployed faster than decision authorit
 
 ## Versioning
 
-Current version: **v1.1.0**
+Current version: **v1.3.0**
 
 ---
 
 ## Citation
 
 Hollow House Institute.  
-*HHI Governance Glossary (v1.1.0).*  
+*HHI Governance Glossary (v1.3.0).*  
 Hollow House Institute Standards Library.  
-https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ---
 
@@ -531,16 +531,16 @@ Governance must account for human limits, not assume infinite capacity
 
 This glossary is versioned. Changes to definitions are logged and dated.
 
-Current version: **v1.0.0**
+Current version: **v1.3.0**
 
 ---
 
 ## Citation
 
 Hollow House Institute.  
-*HHI Governance Glossary (v1.0.0).*  
+*HHI Governance Glossary (v1.3.0).*  
 Hollow House Institute Standards Library.  
-https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ---
 
