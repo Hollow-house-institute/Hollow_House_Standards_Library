@@ -1,3 +1,10 @@
+---
+title: Humanai Interaction Governance Context
+type: DefinedTerm
+source: Hollow House Institute Governance Glossary
+canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+---
+
 # Human–AI Interaction (Governance Context)
 
 ## What is Human–AI Interaction (Governance Context)?

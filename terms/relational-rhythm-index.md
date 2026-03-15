@@ -1,3 +1,10 @@
+---
+title: Relational Rhythm Index
+type: DefinedTerm
+source: Hollow House Institute Governance Glossary
+canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+---
+
 # relational-rhythm-index
 
 Identifier: **HHI-MET-002**

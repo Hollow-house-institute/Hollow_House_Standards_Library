@@ -1,3 +1,10 @@
+---
+title: Decision Substitution
+type: DefinedTerm
+source: Hollow House Institute Governance Glossary
+canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+---
+
 # Decision Substitution
 
 ## What is Decision Substitution?

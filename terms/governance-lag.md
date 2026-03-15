@@ -1,3 +1,10 @@
+---
+title: Governance Lag
+type: DefinedTerm
+source: Hollow House Institute Governance Glossary
+canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+---
+
 # governance-lag
 
 Identifier: **HHI-RISK-001**

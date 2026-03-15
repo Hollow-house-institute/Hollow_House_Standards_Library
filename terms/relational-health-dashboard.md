@@ -1,3 +1,10 @@
+---
+title: Relational Health Dashboard
+type: DefinedTerm
+source: Hollow House Institute Governance Glossary
+canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+---
+
 # relational-health-dashboard
 
 Identifier: **HHI-OPS-001**
