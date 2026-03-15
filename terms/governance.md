@@ -48,3 +48,16 @@ Behavior is the most honest data there is.
 - Governance Failure (HHI-RISK-005)
 
 These terms are part of the Behavioral AI Governance terminology network defined by the Hollow House Institute.
+
+## Related Governance Terms
+
+- [Behavioral Drift](behavioral-drift.md) — HHI-BEH-001
+- [Reliance Formation](reliance-formation.md) — HHI-BEH-002
+- [Decision Substitution](decision-substitution.md) — HHI-GOV-004
+- [Override Erosion](override-erosion.md) — HHI-INT-003
+- [Governance Drift](governance-drift.md) — HHI-RISK-002
+- [Governance Failure](governance-failure.md) — HHI-RISK-005
+- [Continuous Assurance](continuous-assurance.md) — HHI-BEH-005
+- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
+
+These terms form part of the Behavioral AI Governance terminology network maintained by the Hollow House Institute.
