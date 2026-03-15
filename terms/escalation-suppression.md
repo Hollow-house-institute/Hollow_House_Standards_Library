@@ -1,6 +1,6 @@
-# authority
+# escalation-suppression
 
-Identifier: **HHI-AUTH-001**
+Identifier: **HHI-AUTH-007**
 
 ## Definition
 This term is defined in the Hollow House Institute Governance Glossary.

@@ -1,6 +1,6 @@
-# authority
+# responsibility-binding
 
-Identifier: **HHI-AUTH-001**
+Identifier: **HHI-GOV-003**
 
 ## Definition
 This term is defined in the Hollow House Institute Governance Glossary.

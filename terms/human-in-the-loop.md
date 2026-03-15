@@ -1,6 +1,6 @@
-# authority
+# human-in-the-loop
 
-Identifier: **HHI-AUTH-001**
+Identifier: **HHI-AUTH-004**
 
 ## Definition
 This term is defined in the Hollow House Institute Governance Glossary.

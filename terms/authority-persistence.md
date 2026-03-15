@@ -1,6 +1,6 @@
-# authority
+# authority-persistence
 
-Identifier: **HHI-AUTH-001**
+Identifier: **HHI-AUTH-008**
 
 ## Definition
 This term is defined in the Hollow House Institute Governance Glossary.

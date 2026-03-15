@@ -1,6 +1,6 @@
-# authority
+# governance-as-infrastructure
 
-Identifier: **HHI-AUTH-001**
+Identifier: **HHI-BEH-003**
 
 ## Definition
 This term is defined in the Hollow House Institute Governance Glossary.
