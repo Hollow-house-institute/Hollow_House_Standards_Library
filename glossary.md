@@ -46,6 +46,8 @@ https://github.com/hollowhouseinstitute/Master_License_Suite
 
 ## Glossary
 
+## What is Governance?
+
 ### Governance
 **Definition:**  
 The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.
@@ -56,6 +58,8 @@ The infrastructure that determines how behavior accumulates, compounds, and cons
 - Policy describes intent; governance constrains behavior.
 
 ---
+
+## What is Governance Infrastructure?
 
 ### Governance Infrastructure
 **Definition:**  
@@ -68,6 +72,8 @@ The durable formal and informal structures that shape how decisions, authority, 
 
 ---
 
+## What is Decision Boundary?
+
 ### Decision Boundary
 **Definition:**  
 The explicit point at which authority transfers between a system and a human role, or between human roles, during execution.
@@ -78,6 +84,8 @@ The explicit point at which authority transfers between a system and a human rol
 - Decision boundaries determine where reliance is permitted to stop.
 
 ---
+
+## What is Authority?
 
 ### Authority
 **Definition:**  
@@ -90,6 +98,8 @@ The formally assigned right to decide, override, pause, or stop an action at exe
 
 ---
 
+## What is Stop Authority?
+
 ### Stop Authority
 **Definition:**  
 A pre-assigned, role-bound capability to pause, override, or decommission a system or process without justification at runtime.
@@ -100,6 +110,8 @@ A pre-assigned, role-bound capability to pause, override, or decommission a syst
 - Stop authority is a core governance control, not an exception mechanism.
 
 ---
+
+## What is Behavioral Drift?
 
 ### Behavioral Drift
 **Definition:**  
@@ -112,6 +124,8 @@ The gradual, cumulative change in human or organizational behavior resulting fro
 
 ---
 
+## What is Behavioral Accumulation?
+
 ### Behavioral Accumulation
 **Definition:**  
 The compounding effect of repeated behavior that gradually reshapes judgment, escalation readiness, and accountability norms over time.
@@ -122,6 +136,8 @@ The compounding effect of repeated behavior that gradually reshapes judgment, es
 - Accumulated behavior hardens into infrastructure.
 
 ---
+
+## What is Decision Substitution?
 
 ### Decision Substitution
 **Definition:**  
@@ -134,6 +150,8 @@ The process by which human judgment is incrementally replaced by system output a
 
 ---
 
+## What is Escalation?
+
 ### Escalation
 **Definition:**  
 The transfer of decision authority in response to uncertainty, risk, or ambiguity.
@@ -144,6 +162,8 @@ The transfer of decision authority in response to uncertainty, risk, or ambiguit
 - Escalation that exists only on paper is non-functional.
 
 ---
+
+## What is Escalation Decay?
 
 ### Escalation Decay
 **Definition:**  
@@ -156,6 +176,8 @@ The progressive erosion of a system’s or organization’s ability to recognize
 
 ---
 
+## What is Confidence Reinforcement?
+
 ### Confidence Reinforcement
 **Definition:**  
 A feedback process in which repeated system confirmation increases user confidence independently of objective accuracy or risk.
@@ -166,6 +188,8 @@ A feedback process in which repeated system confirmation increases user confiden
 - High confidence reinforcement can coexist with declining sensitivity to risk.
 
 ---
+
+## What is Normalization of Workarounds?
 
 ### Normalization of Workarounds
 **Definition:**  
@@ -178,6 +202,8 @@ The process by which informal fixes or exceptions become embedded as standard op
 
 ---
 
+## What is Longitudinal Risk?
+
 ### Longitudinal Risk
 **Definition:**  
 Risk that emerges through accumulation, repetition, and adaptation over time rather than from discrete events or point-in-time failures.
@@ -188,6 +214,8 @@ Risk that emerges through accumulation, repetition, and adaptation over time rat
 - Many high-impact failures are longitudinal in origin.
 
 ---
+
+## What is Accountability?
 
 ### Accountability
 **Definition:**  
@@ -200,6 +228,8 @@ The binding of outcomes to named roles with recognized authority prior to execut
 
 ---
 
+## What is Accountability Diffusion?
+
 ### Accountability Diffusion
 **Definition:**  
 The gradual loss of clear responsibility attribution resulting from distributed decision processes or mediated systems.
@@ -210,6 +240,8 @@ The gradual loss of clear responsibility attribution resulting from distributed 
 - Accountability diffusion impairs intervention and repair.
 
 ---
+
+## What is Override Erosion?
 
 ### Override Erosion
 **Definition:**  
@@ -222,6 +254,8 @@ The reduction in practical ability or willingness to override system outputs or 
 
 ---
 
+## What is Human–AI Interaction (Governance Context)?
+
 ### Human–AI Interaction (Governance Context)
 **Definition:**  
 The structured and repeated engagement between human actors and AI-mediated systems as it affects judgment, authority, and responsibility.
@@ -232,6 +266,8 @@ The structured and repeated engagement between human actors and AI-mediated syst
 - Governance risk arises from interaction patterns, not intent.
 
 ---
+
+## What is Governance Debt?
 
 ### Governance Debt
 **Definition:**  
@@ -278,6 +314,8 @@ https://github.com/hollowhouseinstitute/Master_License_Suite
 
 ## Glossary
 
+## What is Behavioral Drift?
+
 ### Behavioral Drift
 **Definition:**  
 The gradual, cumulative change in human or organizational behavior resulting from repeated interaction with a system, process, or tool over time.
@@ -288,6 +326,8 @@ The gradual, cumulative change in human or organizational behavior resulting fro
 - Drift can occur even when systems are functioning “as designed.”
 
 ---
+
+## What is Decision Substitution?
 
 ### Decision Substitution
 **Definition:**  
@@ -300,6 +340,8 @@ The process by which human judgment is incrementally replaced by system output a
 
 ---
 
+## What is Escalation Decay?
+
 ### Escalation Decay
 **Definition:**  
 The progressive erosion of a system’s or organization’s ability to recognize, initiate, or complete escalation pathways over time.
@@ -310,6 +352,8 @@ The progressive erosion of a system’s or organization’s ability to recognize
 - Loss of escalation capacity often becomes visible only after failure.
 
 ---
+
+## What is Confidence Reinforcement?
 
 ### Confidence Reinforcement
 **Definition:**  
@@ -322,6 +366,8 @@ A feedback process in which repeated system confirmation increases user confiden
 
 ---
 
+## What is Normalization of Workarounds?
+
 ### Normalization of Workarounds
 **Definition:**  
 The process by which informal fixes or exceptions become embedded as standard operating behavior.
@@ -332,6 +378,8 @@ The process by which informal fixes or exceptions become embedded as standard op
 - Over time, workarounds reshape governance reality.
 
 ---
+
+## What is Longitudinal Risk?
 
 ### Longitudinal Risk
 **Definition:**  
@@ -344,6 +392,8 @@ Risk that emerges through accumulation, repetition, and adaptation over time rat
 
 ---
 
+## What is Governance Infrastructure?
+
 ### Governance Infrastructure
 **Definition:**  
 The durable structures—formal and informal—that shape how decisions, accountability, and authority are exercised over time.
@@ -354,6 +404,8 @@ The durable structures—formal and informal—that shape how decisions, account
 - Behavior is both an input to and output of governance infrastructure.
 
 ---
+
+## What is Accountability Diffusion?
 
 ### Accountability Diffusion
 **Definition:**  
@@ -366,6 +418,8 @@ The gradual loss of clear responsibility attribution resulting from distributed 
 
 ---
 
+## What is Override Erosion?
+
 ### Override Erosion
 **Definition:**  
 The reduction in practical ability or willingness to override system outputs or established processes.
@@ -376,6 +430,8 @@ The reduction in practical ability or willingness to override system outputs or 
 - Erosion increases systemic fragility.
 
 ---
+
+## What is Human–AI Interaction (Governance Context)?
 
 ### Human–AI Interaction (Governance Context)
 **Definition:**  
