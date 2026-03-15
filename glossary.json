@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "HHI Governance Glossary",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "canonical_terms": 41,
     "status": "Governance Freeze",
     "authority": "Hollow House Institute",
@@ -12,7 +12,7 @@
     "governance_scope": "Behavioral AI Governance",
     "structure": "Machine-readable governance terminology registry",
     "format": "JSON",
-    "last_updated": "2026-03",
+    "last_updated": "2026-03-15",
     "canonical_repository": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library"
   },
   "terms": [
