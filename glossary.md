@@ -1,3 +1,10 @@
+## Governance Maintenance
+
+The HHI governance ecosystem includes an operational audit prompt used to evaluate repository structure and terminology alignment.
+
+Master Prompt Specification
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/STANDARDS/MASTER_PROMPT_SPECIFICATION.md
+
 # Hollow House Institute — Governance Glossary
 
 **Structured Human Intelligence**  
