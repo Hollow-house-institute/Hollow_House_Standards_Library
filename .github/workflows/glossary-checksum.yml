@@ -6,18 +6,20 @@ on:
       - glossary.md
       - glossary.json
 
-permissions:
-  contents: read
-
 jobs:
   checksum:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Generate checksums
         run: |
-          echo 'Generating glossary checksums'
-          if [ -f glossary.md ]; then sha256sum glossary.md; fi
-          if [ -f glossary.json ]; then sha256sum glossary.json; fi
+          echo "Generating glossary checksums"
+          if [ -f glossary.md ]; then
+            sha256sum glossary.md
+          fi
+          if [ -f glossary.json ]; then
+            sha256sum glossary.json
+          fi
