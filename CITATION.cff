@@ -1,18 +1,31 @@
 cff-version: 1.2.0
 title: "Hollow House Standards Library"
-message: "If you use the Hollow House Institute governance terminology or standards, please cite this repository."
+message: "If you use this work, please cite it using the metadata below."
 type: software
+
 authors:
-  - family-names: Adams
-    given-names: Amy Pierce
-    affiliation: Hollow House Institute
+  - name: "Hollow House Institute"
+    email: "data@hollowhouse.org"
+
 repository-code: "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library"
+
 url: "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library"
+
 license: "HHI-LUL-01"
-keywords:
-  - ai-governance
-  - behavioral-ai-governance
-  - governance-infrastructure
-  - execution-time-governance
-  - ai-audit
+
 version: "1.3.1"
+date-released: 2026-03-10
+
+keywords:
+  - Behavioral AI Governance
+  - Governance Infrastructure
+  - Terminology Registry
+  - Execution-Time Governance
+  - AI Governance Standards
+  - Structured Human Intelligence
+
+abstract: >
+  The Hollow House Standards Library is the canonical terminology authority
+  for Behavioral AI Governance. It defines governance concepts, identifiers,
+  and semantic structures used across governance standards, audit systems,
+  datasets, and licensing frameworks developed by the Hollow House Institute.
