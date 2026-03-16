@@ -6,6 +6,9 @@ on:
       - glossary.md
       - glossary.json
 
+permissions:
+  contents: read
+
 jobs:
   checksum:
     runs-on: ubuntu-latest
