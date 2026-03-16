@@ -1,4 +1,4 @@
-name: Glossary Integrity Check
+name: Glossary Checksum
 
 on:
   push:
@@ -6,16 +6,18 @@ on:
       - glossary.md
       - glossary.json
 
+permissions:
+  contents: read
+
 jobs:
-  verify:
+  checksum:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Verify glossary files
+      - name: Generate checksums
         run: |
-          echo "Checking glossary files"
-          if [ -f glossary.md ]; then sha256sum glossary.md; else echo "glossary.md missing"; fi
-          if [ -f glossary.json ]; then sha256sum glossary.json; else echo "glossary.json missing"; fi
+          echo 'Generating glossary checksums'
+          if [ -f glossary.md ]; then sha256sum glossary.md; fi
+          if [ -f glossary.json ]; then sha256sum glossary.json; fi
