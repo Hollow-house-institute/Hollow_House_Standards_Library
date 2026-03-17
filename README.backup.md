@@ -547,13 +547,3 @@ Governance therefore emerges from accumulated system behavior, oversight structu
 Canonical terminology source:  
 https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
-
----
-
-## Terminology Enforcement
-
-Only canonical terms defined in glossary.json are valid.  
-Any deviation constitutes Terminology Drift.
-
----
-
