@@ -568,3 +568,17 @@ Governance Drift
 Behavioral Accumulation  
 Human-in-the-loop authority  
 
+
+---
+
+## DOI System Reference
+
+This repository anchors the Behavioral AI Governance system.
+
+DOI Index:
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/DOI_INDEX.md
+
+System Map:
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/SYSTEM_MAP.md
+
+All DOI artifacts reference this canonical terminology source.
