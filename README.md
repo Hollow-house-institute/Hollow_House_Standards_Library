@@ -557,3 +557,14 @@ Any deviation constitutes Terminology Drift.
 
 ---
 
+
+---
+
+## Keywords
+
+Behavioral AI Governance  
+Execution-Time Governance  
+Governance Drift  
+Behavioral Accumulation  
+Human-in-the-loop authority  
+

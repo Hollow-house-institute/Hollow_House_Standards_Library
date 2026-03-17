@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "HHI Governance Glossary",
+  "description": "Canonical terminology for Behavioral AI Governance and Execution-Time Governance",
+  "url": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library",
+  "keywords": [
+    "Behavioral AI Governance",
+    "Execution-Time Governance",
+    "Governance Drift",
+    "Behavioral Accumulation",
+    "Human-in-the-loop authority"
+  ],
+  "creator": {
+    "@type": "Organization",
+    "name": "Hollow House Institute"
+  }
+}
