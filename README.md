@@ -419,3 +419,131 @@ Zenodo: https://zenodo.org/uploads/18764662
 HHI Master Prompt Specification
 https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/STANDARDS/MASTER_PROMPT_SPECIFICATION.md
 
+
+---
+
+# Governance Definition Index
+
+## What is Behavioral AI Governance?
+Behavioral AI Governance refers to governance frameworks that analyze and manage how system behavior accumulates over time rather than relying solely on static policies or design constraints.
+
+Canonical terminology source:
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+
+## What is Governance Drift?
+Governance Drift is the gradual divergence between intended governance controls and actual operational behavior as systems evolve over time.
+
+## What is Execution-Time Governance?
+Execution-Time Governance refers to governance mechanisms that operate during system operation rather than solely during design or deployment phases.
+
+---
+
+# Governance Concept Relationships
+
+The HHI Governance Glossary functions as a connected governance knowledge network.
+
+Behavioral Accumulation → Governance Drift
+
+Governance Drift → Decision Substitution
+
+Decision Substitution → Accountability Diffusion
+
+Override Erosion → Human Authority Weakening
+
+Governance Infrastructure → Execution-Time Governance
+
+---
+
+For canonical definitions and stable identifiers see:
+
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+
+
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "HHI Governance Glossary",
+  "description": "Canonical terminology registry defining concepts used in Behavioral AI Governance and Execution-Time Governance systems.",
+  "url": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library",
+  "creator": {
+    "@type": "Person",
+    "name": "Amy Pierce Adams",
+    "affiliation": "Hollow House Institute"
+  },
+  "license": "HHI-LUL-01",
+  "hasDefinedTerm": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Behavioral AI Governance",
+      "description": "Governance frameworks that analyze and manage how system behavior accumulates over time rather than relying solely on static policy controls."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Governance Drift",
+      "description": "The gradual divergence between intended governance controls and actual operational behavior as systems evolve over time."
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Execution-Time Governance",
+      "description": "Governance mechanisms that operate during system execution rather than only during design or deployment phases."
+    }
+  ]
+}
+</script>
+
+---
+
+## Machine-Readable Terminology Schema
+
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "DefinedTermSet",
+ "name": "HHI Governance Glossary",
+ "description": "Canonical terminology registry defining concepts used in Behavioral AI Governance and Execution-Time Governance systems.",
+ "url": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library",
+ "creator": {
+   "@type": "Person",
+   "name": "Amy Pierce Adams",
+   "affiliation": "Hollow House Institute"
+ },
+ "license": "HHI-LUL-01",
+ "hasDefinedTerm": [
+   {
+     "@type": "DefinedTerm",
+     "name": "Behavioral AI Governance",
+     "description": "Governance frameworks that analyze and manage how system behavior accumulates over time rather than relying solely on static policy controls."
+   },
+   {
+     "@type": "DefinedTerm",
+     "name": "Governance Drift",
+     "description": "The gradual divergence between intended governance controls and actual operational behavior as systems evolve over time."
+   },
+   {
+     "@type": "DefinedTerm",
+     "name": "Execution-Time Governance",
+     "description": "Governance mechanisms that operate during system execution rather than only during design or deployment phases."
+   }
+ ]
+}
+</script>
+
+
+---
+
+## What is Behavioral AI Governance?
+
+Definition:
+
+Behavioral AI Governance is a governance approach that evaluates and manages how system behavior accumulates over time rather than relying solely on static policies, model constraints, or design-time safeguards.  
+It focuses on monitoring behavioral patterns, authority flows, and decision dynamics as systems operate.
+
+Within the Hollow House Institute framework, Behavioral AI Governance treats repeated behavior as infrastructure.  
+Governance therefore emerges from accumulated system behavior, oversight structures, and human authority boundaries rather than from policy documents alone.
+
+Canonical terminology source:  
+https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+
