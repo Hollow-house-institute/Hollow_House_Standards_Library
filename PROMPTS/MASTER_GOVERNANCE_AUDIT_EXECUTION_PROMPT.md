@@ -1,5 +1,22 @@
 ---
 
+## Execution Variant Declaration
+
+This prompt is an execution-layer variant of the canonical HHI Master Governance Audit Prompt.
+
+Canonical source:
+STANDARDS/MASTER_PROMPT_SPECIFICATION.md
+
+This version is optimized for:
+- direct use in AI chat systems
+- reduced verbosity
+- operational usability
+
+All constraints, definitions, and governance logic are inherited from the canonical specification.
+
+No omission in this version removes a requirement defined in the canonical version.
+
+
 Hollow House Institute
 
 Master Governance Audit Prompt
