@@ -82,7 +82,10 @@
       "definition": "The compounding effect of repeated actions reshaping system behavior over time.",
       "identifier": "HHI-BEH-002",
       "domain": "behavior",
-      "related_terms": [],
+      "related_terms": [
+        "governance",
+        "governance-drift"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
@@ -178,7 +181,7 @@
     },
     {
       "id": "human-ai-interaction",
-      "term": "Human\u2013AI Interaction (Governance Context)",
+      "term": "Human–AI Interaction (Governance Context)",
       "definition": "Repeated engagement between humans and AI systems affecting judgment, authority, and responsibility.",
       "identifier": "HHI-INT-001",
       "domain": "interaction",
@@ -262,7 +265,11 @@
       "definition": "Misalignment between governance policy and operational behavior.",
       "identifier": "HHI-GOV-013",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "behavioral-accumulation",
+        "execution-time-governance",
+        "governance-failure"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
@@ -402,7 +409,11 @@
       "definition": "Governance mechanisms operating during system execution.",
       "identifier": "HHI-GOV-019",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "decision-boundary",
+        "stop-authority",
+        "intervention-threshold"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
