@@ -3,8 +3,8 @@ name: Glossary Checksum Enforcement
 on:
   push:
     paths:
-      - 'glossary.json'
-      - 'glossary.md'
+      - glossary.json
+      - glossary.md
   pull_request:
 
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - name: Verify checksum file exists
         run: |
           if [ ! -f glossary.sha256 ]; then
-            echo "❌ glossary.sha256 missing — Governance Drift"
+            echo "Checksum file missing"
             exit 1
           fi
 
@@ -28,9 +28,4 @@ jobs:
 
       - name: Compare checksums
         run: |
-          if ! diff -q glossary.sha256 current.sha256; then
-            echo "❌ Checksum mismatch — Governance Drift detected"
-            exit 1
-          else
-            echo "✅ Glossary integrity verified"
-          fi
+          diff -q glossary.sha256 current.sha256 || (echo "Checksum mismatch" && exit 1)
