@@ -1,4 +1,4 @@
-name: Glossary Checksum Validation
+name: Glossary Checksum Enforcement
 
 on:
   push:
@@ -8,20 +8,29 @@ on:
   pull_request:
 
 jobs:
-  checksum:
+  enforce-checksum:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate checksum
-        run: |
-          sha256sum glossary.json > glossary.sha256
-
-      - name: Validate checksum exists
+      - name: Verify checksum file exists
         run: |
           if [ ! -f glossary.sha256 ]; then
-            echo "Checksum file missing"
+            echo "❌ glossary.sha256 missing — Governance Drift"
             exit 1
+          fi
+
+      - name: Recalculate checksum
+        run: |
+          sha256sum glossary.json > current.sha256
+
+      - name: Compare checksums
+        run: |
+          if ! diff -q glossary.sha256 current.sha256; then
+            echo "❌ Checksum mismatch — Governance Drift detected"
+            exit 1
+          else
+            echo "✅ Glossary integrity verified"
           fi
