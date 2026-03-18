@@ -1,0 +1,34 @@
+./AUDIT/observed_terms.txt:./TERMS_INDEX.md:execution-time-governance
+./AUDIT/observed_terms.txt:./glossary.json:execution-time-governance
+./AUDIT/observed_terms.txt:./glossary.jsonld:execution-time-governance
+./AUDIT/observed_terms.txt:./terms/authority-persistence.md:execution-time-governance
+./AUDIT/observed_terms.txt:./terms/escalation-suppression.md:execution-time-governance
+./AUDIT/observed_terms.txt:./terms/execution-time-governance.md:hhidatasettechs-oss
+./AUDIT/observed_terms.txt:./terms/governance-as-infrastructure.md:execution-time-governance
+./AUDIT/observed_terms.txt:./terms/governance-lag.md:execution-time-governance
+./AUDIT/observed_terms.txt:./terms/human-in-the-loop.md:execution-time-governance
+./AUDIT/observed_terms.txt:./terms/index.md:execution-time-governance
+./AUDIT/observed_terms.txt:./terms/responsibility-binding.md:execution-time-governance
+./AUDIT/terminology_drift.txt:./TERMS_INDEX.md:execution-time-governance
+./AUDIT/terminology_drift.txt:./glossary.json:execution-time-governance
+./AUDIT/terminology_drift.txt:./glossary.jsonld:execution-time-governance
+./AUDIT/terminology_drift.txt:./terms/authority-persistence.md:execution-time-governance
+./AUDIT/terminology_drift.txt:./terms/escalation-suppression.md:execution-time-governance
+./AUDIT/terminology_drift.txt:./terms/execution-time-governance.md:hhidatasettechs-oss
+./AUDIT/terminology_drift.txt:./terms/governance-as-infrastructure.md:execution-time-governance
+./AUDIT/terminology_drift.txt:./terms/governance-lag.md:execution-time-governance
+./AUDIT/terminology_drift.txt:./terms/human-in-the-loop.md:execution-time-governance
+./AUDIT/terminology_drift.txt:./terms/index.md:execution-time-governance
+./AUDIT/terminology_drift.txt:./terms/responsibility-binding.md:execution-time-governance
+./TERMS_INDEX.md:- [Execution-Time Governance](terms/execution-time-governance.md)
+./glossary.json:        "execution-time-governance",
+./glossary.json:      "id": "execution-time-governance",
+./glossary.json:        "execution-time-governance",
+./glossary.jsonld:      "termCode": "execution-time-governance",
+./terms/authority-persistence.md:- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
+./terms/escalation-suppression.md:- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
+./terms/governance-as-infrastructure.md:- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
+./terms/governance-lag.md:- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
+./terms/human-in-the-loop.md:- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
+./terms/index.md:- [Execution-Time Governance](execution-time-governance.md)
+./terms/responsibility-binding.md:- [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
