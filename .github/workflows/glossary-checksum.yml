@@ -1,38 +1,27 @@
-name: Glossary Checksum
+name: Glossary Checksum Validation
 
 on:
   push:
+    paths:
+      - 'glossary.json'
+      - 'glossary.md'
   pull_request:
-
-permissions:
-  contents: read
 
 jobs:
   checksum:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Run checksum safely
+      - name: Generate checksum
         run: |
-<<<<<<< HEAD
-          echo "Checking glossary files..."
+          sha256sum glossary.json > glossary.sha256
 
-          if [ -f glossary.md ]; then
-            sha256sum glossary.md
-          else
-            echo "glossary.md not found — skipping"
+      - name: Validate checksum exists
+        run: |
+          if [ ! -f glossary.sha256 ]; then
+            echo "Checksum file missing"
+            exit 1
           fi
-
-          if [ -f glossary.json ]; then
-            sha256sum glossary.json
-          else
-            echo "glossary.json not found — skipping"
-          fi
-
-          echo "Workflow completed successfully"
-=======
-          echo 'Generating glossary checksums'
-          if [ -f glossary.md ]; then sha256sum glossary.md; fi
-          if [ -f glossary.json ]; then sha256sum glossary.json; fi
->>>>>>> 50bcb08 (Repair glossary checksum workflow YAML)
