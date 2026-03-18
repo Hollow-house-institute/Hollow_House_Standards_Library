@@ -22,17 +22,24 @@
       "definition": "The infrastructure that determines how behavior accumulates, compounds, and constrains action over time.",
       "identifier": "HHI-GOV-001",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "governance-infrastructure",
+        "execution-time-governance",
+        "governance-telemetry"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
     {
       "id": "governance-infrastructure",
       "term": "Governance Infrastructure",
-      "definition": "Durable formal and informal structures shaping how authority, decisions, and accountability operate over time.",
+      "definition": "Durable formal and informal structures shaping how authority, decisions, and accountability operate over time. This term refers to system-level structure, not execution-layer implementation or observable interfaces.",
       "identifier": "HHI-GOV-002",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "governance-infrastructure-layer",
+        "governance-surface"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
@@ -49,10 +56,14 @@
     {
       "id": "authority",
       "term": "Authority",
-      "definition": "The formally assigned right to make, override, pause, or stop decisions during execution.",
+      "definition": "The formally assigned right to make, override, pause, or stop decisions during execution. Authority is exercised within governance structures and is ultimately constrained by human-authority.",
       "identifier": "HHI-AUTH-002",
       "domain": "authority",
-      "related_terms": [],
+      "related_terms": [
+        "human-authority",
+        "decision-boundary",
+        "stop-authority"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
@@ -84,7 +95,8 @@
       "domain": "behavior",
       "related_terms": [
         "governance",
-        "governance-drift"
+        "governance-drift",
+        "reliance-formation"
       ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
@@ -155,7 +167,10 @@
       "definition": "Binding outcomes to named roles with authority prior to execution.",
       "identifier": "HHI-GOV-006",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "longitudinal-accountability",
+        "authority"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
@@ -185,7 +200,10 @@
       "definition": "Repeated engagement between humans and AI systems affecting judgment, authority, and responsibility.",
       "identifier": "HHI-INT-001",
       "domain": "interaction",
-      "related_terms": [],
+      "related_terms": [
+        "decision-substitution",
+        "confidence-reinforcement"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
@@ -242,7 +260,7 @@
     {
       "id": "human-authority",
       "term": "Human Authority",
-      "definition": "Principle that humans retain final decision authority and ethical accountability.",
+      "definition": "Principle that humans retain final decision authority and ethical accountability. Human Authority is the final, non-transferable decision control in all governance systems.",
       "identifier": "HHI-AUTH-005",
       "domain": "authority",
       "related_terms": [],
@@ -267,8 +285,8 @@
       "domain": "governance",
       "related_terms": [
         "behavioral-accumulation",
-        "execution-time-governance",
-        "governance-failure"
+        "governance-failure",
+        "authority-drift"
       ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
@@ -279,7 +297,10 @@
       "definition": "Breakdown of governance mechanisms controlling system behavior.",
       "identifier": "HHI-GOV-014",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "governance-drift",
+        "accountability-diffusion"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
@@ -379,7 +400,10 @@
       "definition": "Operational signals measuring governance performance.",
       "identifier": "HHI-GOV-018",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "governance-stability-index",
+        "language-symmetry-score"
+      ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
     },
@@ -412,7 +436,8 @@
       "related_terms": [
         "decision-boundary",
         "stop-authority",
-        "intervention-threshold"
+        "intervention-threshold",
+        "human-authority"
       ],
       "created": "2026-03-15",
       "modified": "2026-03-15"
@@ -420,7 +445,7 @@
     {
       "id": "governance-infrastructure-layer",
       "term": "Governance Infrastructure Layer",
-      "definition": "Structural components enforcing governance rules.",
+      "definition": "Structural components enforcing governance rules. This term refers to implementation-layer enforcement of governance rules, distinct from system-level structure.",
       "identifier": "HHI-GOV-020",
       "domain": "governance",
       "related_terms": [],
@@ -430,12 +455,27 @@
     {
       "id": "governance-surface",
       "term": "Governance Surface",
-      "definition": "Observable interface where governance interactions occur.",
+      "definition": "Observable interface where governance interactions occur. This term refers to observable interaction boundaries where governance is visible, not underlying enforcement mechanisms.",
       "identifier": "HHI-GOV-021",
       "domain": "governance",
       "related_terms": [],
       "created": "2026-03-15",
       "modified": "2026-03-15"
+    },
+    {
+      "id": "behavioral-ai-governance",
+      "term": "Behavioral AI Governance",
+      "definition": "Governance framework defining how behavior accumulates into infrastructure over time.",
+      "identifier": "HHI-GOV-000",
+      "domain": "governance",
+      "related_terms": [
+        "behavioral-accumulation",
+        "execution-time-governance",
+        "governance-drift",
+        "governance-infrastructure"
+      ],
+      "created": "2026-03-17",
+      "modified": "2026-03-17"
     }
   ]
 }
