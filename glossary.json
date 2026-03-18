@@ -2,7 +2,7 @@
   "meta": {
     "title": "HHI Governance Glossary",
     "version": "1.3.1",
-    "canonical_terms": 41,
+    "canonical_terms": 42,
     "status": "Governance Freeze",
     "authority": "Hollow House Institute",
     "license": "HHI-LUL-01",
@@ -12,10 +12,27 @@
     "governance_scope": "Behavioral AI Governance",
     "structure": "Machine-readable governance terminology registry",
     "format": "JSON",
-    "last_updated": "2026-03-15",
+    "last_updated": "2026-03-17",
     "canonical_repository": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library"
   },
   "terms": [
+    {
+      "id": "behavioral-ai-governance",
+      "term": "Behavioral AI Governance",
+      "definition": "Governance framework defining how behavior accumulates into infrastructure over time.",
+      "identifier": "HHI-GOV-000",
+      "domain": "governance",
+      "related_terms": [
+        "governance",
+        "behavioral-accumulation",
+        "execution-time-governance",
+        "governance-drift",
+        "human-authority",
+        "governance-infrastructure"
+      ],
+      "created": "2026-03-17",
+      "modified": "2026-03-17"
+    },
     {
       "id": "governance",
       "term": "Governance",
@@ -23,12 +40,15 @@
       "identifier": "HHI-GOV-001",
       "domain": "governance",
       "related_terms": [
+        "behavioral-ai-governance",
         "governance-infrastructure",
         "execution-time-governance",
-        "governance-telemetry"
+        "accountability",
+        "governance-telemetry",
+        "governance-drift"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-infrastructure",
@@ -37,11 +57,14 @@
       "identifier": "HHI-GOV-002",
       "domain": "governance",
       "related_terms": [
+        "governance",
         "governance-infrastructure-layer",
-        "governance-surface"
+        "governance-surface",
+        "accountability",
+        "authority"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "decision-boundary",
@@ -49,9 +72,15 @@
       "definition": "The explicit point at which authority transfers between actors during execution.",
       "identifier": "HHI-AUTH-001",
       "domain": "authority",
-      "related_terms": [],
+      "related_terms": [
+        "authority",
+        "human-authority",
+        "execution-time-governance",
+        "stop-authority",
+        "intervention-threshold"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "authority",
@@ -62,10 +91,13 @@
       "related_terms": [
         "human-authority",
         "decision-boundary",
-        "stop-authority"
+        "stop-authority",
+        "authority-drift",
+        "authority-saturation",
+        "accountability"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "stop-authority",
@@ -73,9 +105,15 @@
       "definition": "A role-bound capability to pause or halt system operation when governance thresholds are exceeded.",
       "identifier": "HHI-AUTH-003",
       "domain": "authority",
-      "related_terms": [],
+      "related_terms": [
+        "authority",
+        "human-authority",
+        "decision-boundary",
+        "intervention-threshold",
+        "execution-time-governance"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "behavioral-drift",
@@ -83,9 +121,15 @@
       "definition": "Gradual divergence between expected system behavior and observed behavior over time.",
       "identifier": "HHI-BEH-001",
       "domain": "behavior",
-      "related_terms": [],
+      "related_terms": [
+        "behavioral-accumulation",
+        "governance-drift",
+        "override-erosion",
+        "confidence-reinforcement",
+        "interaction-trace"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "behavioral-accumulation",
@@ -94,12 +138,16 @@
       "identifier": "HHI-BEH-002",
       "domain": "behavior",
       "related_terms": [
+        "behavioral-ai-governance",
         "governance",
         "governance-drift",
-        "reliance-formation"
+        "behavioral-drift",
+        "reliance-formation",
+        "longitudinal-risk",
+        "normalization-of-workarounds"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "decision-substitution",
@@ -107,9 +155,15 @@
       "definition": "Incremental replacement of human judgment with system outputs as the default decision reference.",
       "identifier": "HHI-AUTH-004",
       "domain": "authority",
-      "related_terms": [],
+      "related_terms": [
+        "human-ai-interaction",
+        "judgment-externalization",
+        "authority-drift",
+        "confidence-reinforcement",
+        "override-erosion"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "escalation",
@@ -117,9 +171,15 @@
       "definition": "Transfer of decision authority to higher roles when uncertainty or risk thresholds are reached.",
       "identifier": "HHI-GOV-003",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "intervention-threshold",
+        "escalation-decay",
+        "authority",
+        "accountability",
+        "longitudinal-risk"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "escalation-decay",
@@ -127,9 +187,14 @@
       "definition": "Progressive erosion of an organization's ability to initiate or complete escalation pathways.",
       "identifier": "HHI-GOV-004",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "escalation",
+        "governance-failure",
+        "accountability-diffusion",
+        "authority-saturation"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "confidence-reinforcement",
@@ -137,9 +202,15 @@
       "definition": "Feedback process where repeated system confirmation increases user confidence regardless of objective accuracy.",
       "identifier": "HHI-BEH-003",
       "domain": "behavior",
-      "related_terms": [],
+      "related_terms": [
+        "human-ai-interaction",
+        "decision-substitution",
+        "override-erosion",
+        "behavioral-drift",
+        "reliance-formation"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "normalization-of-workarounds",
@@ -147,9 +218,14 @@
       "definition": "Temporary fixes gradually becoming accepted as standard operational behavior.",
       "identifier": "HHI-GOV-005",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "behavioral-accumulation",
+        "governance-debt",
+        "post-hoc-governance",
+        "governance-illusion"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "longitudinal-risk",
@@ -157,9 +233,15 @@
       "definition": "Risk emerging through repeated behavior over time rather than discrete events.",
       "identifier": "HHI-RISK-001",
       "domain": "risk",
-      "related_terms": [],
+      "related_terms": [
+        "behavioral-accumulation",
+        "intervention-threshold",
+        "governance-drift",
+        "escalation",
+        "governance-debt"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "accountability",
@@ -168,11 +250,14 @@
       "identifier": "HHI-GOV-006",
       "domain": "governance",
       "related_terms": [
+        "authority",
+        "human-authority",
         "longitudinal-accountability",
-        "authority"
+        "accountability-diffusion",
+        "governance"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "accountability-diffusion",
@@ -180,9 +265,15 @@
       "definition": "Loss of clear responsibility caused by distributed or mediated decision processes.",
       "identifier": "HHI-GOV-007",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "accountability",
+        "governance-failure",
+        "authority-drift",
+        "escalation-decay",
+        "judgment-externalization"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "override-erosion",
@@ -190,9 +281,15 @@
       "definition": "Decline in willingness or ability to override system outputs.",
       "identifier": "HHI-BEH-004",
       "domain": "behavior",
-      "related_terms": [],
+      "related_terms": [
+        "confidence-reinforcement",
+        "decision-substitution",
+        "human-authority",
+        "behavioral-drift",
+        "governance-illusion"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "human-ai-interaction",
@@ -202,10 +299,13 @@
       "domain": "interaction",
       "related_terms": [
         "decision-substitution",
-        "confidence-reinforcement"
+        "confidence-reinforcement",
+        "interaction-trace",
+        "judgment-externalization",
+        "sociotechnical-system"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-debt",
@@ -213,9 +313,14 @@
       "definition": "Risk accumulated when AI deployment outpaces governance design.",
       "identifier": "HHI-GOV-008",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "longitudinal-risk",
+        "post-hoc-governance",
+        "normalization-of-workarounds",
+        "governance-failure"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "reliance-formation",
@@ -223,9 +328,14 @@
       "definition": "Process through which individuals begin depending on system outputs.",
       "identifier": "HHI-GOV-009",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "behavioral-accumulation",
+        "confidence-reinforcement",
+        "decision-substitution",
+        "override-erosion"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "post-hoc-governance",
@@ -233,9 +343,14 @@
       "definition": "Governance actions applied after outcomes are questioned or failures occur.",
       "identifier": "HHI-GOV-010",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "governance-debt",
+        "governance-failure",
+        "governance-illusion",
+        "normalization-of-workarounds"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "continuous-assurance",
@@ -243,9 +358,14 @@
       "definition": "Ongoing monitoring of governance performance rather than periodic auditing.",
       "identifier": "HHI-GOV-011",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "governance-telemetry",
+        "governance-stability-index",
+        "language-symmetry-score",
+        "relational-health-dashboard"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "longitudinal-accountability",
@@ -253,9 +373,14 @@
       "definition": "Traceability of authority and responsibility across time.",
       "identifier": "HHI-GOV-012",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "accountability",
+        "interaction-trace",
+        "authority-alignment-score",
+        "governance-telemetry"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "human-authority",
@@ -263,9 +388,16 @@
       "definition": "Principle that humans retain final decision authority and ethical accountability. Human Authority is the final, non-transferable decision control in all governance systems.",
       "identifier": "HHI-AUTH-005",
       "domain": "authority",
-      "related_terms": [],
+      "related_terms": [
+        "authority",
+        "stop-authority",
+        "decision-boundary",
+        "execution-time-governance",
+        "accountability",
+        "override-erosion"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "authority-drift",
@@ -273,9 +405,15 @@
       "definition": "Gradual shift in decision authority away from intended governance structures.",
       "identifier": "HHI-AUTH-006",
       "domain": "authority",
-      "related_terms": [],
+      "related_terms": [
+        "authority",
+        "human-authority",
+        "governance-drift",
+        "decision-substitution",
+        "accountability-diffusion"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-drift",
@@ -284,12 +422,15 @@
       "identifier": "HHI-GOV-013",
       "domain": "governance",
       "related_terms": [
+        "behavioral-ai-governance",
         "behavioral-accumulation",
+        "behavioral-drift",
+        "authority-drift",
         "governance-failure",
-        "authority-drift"
+        "longitudinal-risk"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-failure",
@@ -299,10 +440,13 @@
       "domain": "governance",
       "related_terms": [
         "governance-drift",
-        "accountability-diffusion"
+        "governance-debt",
+        "accountability-diffusion",
+        "escalation-decay",
+        "post-hoc-governance"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "intervention-threshold",
@@ -310,9 +454,15 @@
       "definition": "Point where governance intervention becomes necessary.",
       "identifier": "HHI-RISK-002",
       "domain": "risk",
-      "related_terms": [],
+      "related_terms": [
+        "decision-boundary",
+        "stop-authority",
+        "escalation",
+        "longitudinal-risk",
+        "execution-time-governance"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "judgment-externalization",
@@ -320,9 +470,14 @@
       "definition": "Transfer of interpretive responsibility from humans to automated systems.",
       "identifier": "HHI-GOV-015",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "decision-substitution",
+        "human-ai-interaction",
+        "accountability-diffusion",
+        "authority-drift"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-illusion",
@@ -330,9 +485,14 @@
       "definition": "Perception of governance control without real enforcement.",
       "identifier": "HHI-GOV-016",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "post-hoc-governance",
+        "override-erosion",
+        "normalization-of-workarounds",
+        "governance-failure"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "authority-saturation",
@@ -340,9 +500,14 @@
       "definition": "Condition where authority responsibilities exceed human operational capacity.",
       "identifier": "HHI-AUTH-007",
       "domain": "authority",
-      "related_terms": [],
+      "related_terms": [
+        "authority",
+        "human-authority",
+        "escalation-decay",
+        "authority-alignment-score"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "language-symmetry-score",
@@ -350,9 +515,14 @@
       "definition": "Metric measuring alignment between system outputs and governance terminology.",
       "identifier": "HHI-MET-001",
       "domain": "metrics",
-      "related_terms": [],
+      "related_terms": [
+        "continuous-assurance",
+        "governance-telemetry",
+        "governance-stability-index",
+        "relational-health-dashboard"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "relational-rhythm-index",
@@ -360,9 +530,14 @@
       "definition": "Indicator measuring stability in human-system interaction patterns.",
       "identifier": "HHI-MET-002",
       "domain": "metrics",
-      "related_terms": [],
+      "related_terms": [
+        "relational-health-dashboard",
+        "human-ai-interaction",
+        "interaction-trace",
+        "continuous-assurance"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-stability-index",
@@ -370,9 +545,14 @@
       "definition": "Metric measuring long-term consistency of governance behavior.",
       "identifier": "HHI-GOV-017",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "continuous-assurance",
+        "governance-telemetry",
+        "language-symmetry-score",
+        "authority-alignment-score"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "authority-alignment-score",
@@ -380,9 +560,15 @@
       "definition": "Metric evaluating alignment between authority structures and governance design.",
       "identifier": "HHI-AUTH-008",
       "domain": "authority",
-      "related_terms": [],
+      "related_terms": [
+        "authority",
+        "human-authority",
+        "governance-stability-index",
+        "longitudinal-accountability",
+        "authority-saturation"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "relational-health-dashboard",
@@ -390,9 +576,14 @@
       "definition": "Monitoring interface displaying human-system interaction dynamics.",
       "identifier": "HHI-MET-003",
       "domain": "metrics",
-      "related_terms": [],
+      "related_terms": [
+        "relational-rhythm-index",
+        "language-symmetry-score",
+        "continuous-assurance",
+        "human-ai-interaction"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-telemetry",
@@ -401,11 +592,14 @@
       "identifier": "HHI-GOV-018",
       "domain": "governance",
       "related_terms": [
+        "continuous-assurance",
         "governance-stability-index",
-        "language-symmetry-score"
+        "language-symmetry-score",
+        "longitudinal-accountability",
+        "interaction-trace"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "interaction-trace",
@@ -413,9 +607,15 @@
       "definition": "Recorded sequence of human-system interactions.",
       "identifier": "HHI-INT-002",
       "domain": "interaction",
-      "related_terms": [],
+      "related_terms": [
+        "human-ai-interaction",
+        "longitudinal-accountability",
+        "governance-telemetry",
+        "relational-rhythm-index",
+        "behavioral-drift"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "sociotechnical-system",
@@ -423,9 +623,14 @@
       "definition": "System composed of human, technical, and organizational components.",
       "identifier": "HHI-SYS-001",
       "domain": "system",
-      "related_terms": [],
+      "related_terms": [
+        "human-ai-interaction",
+        "governance-infrastructure",
+        "governance-surface",
+        "execution-time-governance"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "execution-time-governance",
@@ -434,13 +639,16 @@
       "identifier": "HHI-GOV-019",
       "domain": "governance",
       "related_terms": [
+        "behavioral-ai-governance",
+        "governance",
         "decision-boundary",
         "stop-authority",
+        "human-authority",
         "intervention-threshold",
-        "human-authority"
+        "governance-infrastructure-layer"
       ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-infrastructure-layer",
@@ -448,9 +656,14 @@
       "definition": "Structural components enforcing governance rules. This term refers to implementation-layer enforcement of governance rules, distinct from system-level structure.",
       "identifier": "HHI-GOV-020",
       "domain": "governance",
-      "related_terms": [],
+      "related_terms": [
+        "governance-infrastructure",
+        "execution-time-governance",
+        "governance-surface",
+        "governance-telemetry"
+      ],
       "created": "2026-03-15",
-      "modified": "2026-03-15"
+      "modified": "2026-03-17"
     },
     {
       "id": "governance-surface",
@@ -458,23 +671,13 @@
       "definition": "Observable interface where governance interactions occur. This term refers to observable interaction boundaries where governance is visible, not underlying enforcement mechanisms.",
       "identifier": "HHI-GOV-021",
       "domain": "governance",
-      "related_terms": [],
-      "created": "2026-03-15",
-      "modified": "2026-03-15"
-    },
-    {
-      "id": "behavioral-ai-governance",
-      "term": "Behavioral AI Governance",
-      "definition": "Governance framework defining how behavior accumulates into infrastructure over time.",
-      "identifier": "HHI-GOV-000",
-      "domain": "governance",
       "related_terms": [
-        "behavioral-accumulation",
-        "execution-time-governance",
-        "governance-drift",
-        "governance-infrastructure"
+        "governance-infrastructure",
+        "governance-infrastructure-layer",
+        "human-ai-interaction",
+        "sociotechnical-system"
       ],
-      "created": "2026-03-17",
+      "created": "2026-03-15",
       "modified": "2026-03-17"
     }
   ]
