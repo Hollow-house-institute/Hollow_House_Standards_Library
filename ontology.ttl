@@ -1,0 +1,20 @@
+@prefix hhi: <https://hollowhouse.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+hhi:BehavioralAIGovernance a rdfs:Class ;
+  rdfs:label "Behavioral AI Governance" ;
+  rdfs:comment "Defines how behavior accumulates into infrastructure over time." .
+
+hhi:Governance a rdfs:Class .
+hhi:ExecutionTimeGovernance a rdfs:Class .
+hhi:BehavioralAccumulation a rdfs:Class .
+hhi:GovernanceDrift a rdfs:Class .
+hhi:HumanAuthority a rdfs:Class .
+
+hhi:BehavioralAIGovernance rdfs:subClassOf hhi:Governance .
+hhi:ExecutionTimeGovernance rdfs:subClassOf hhi:Governance .
+
+hhi:BehavioralAccumulation hhi:relatesTo hhi:GovernanceDrift .
+hhi:ExecutionTimeGovernance hhi:relatesTo hhi:DecisionBoundary .
+hhi:ExecutionTimeGovernance hhi:relatesTo hhi:StopAuthority .
+hhi:HumanAuthority hhi:relatesTo hhi:StopAuthority .

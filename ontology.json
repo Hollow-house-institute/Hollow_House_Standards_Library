@@ -1,0 +1,66 @@
+{
+  "root": "Behavioral AI Governance",
+  "canonical_term_count": 41,
+  "root_status": "external_anchor",
+  "description": "Behavioral AI Governance defines how behavior accumulates into infrastructure over time.",
+  "canonical_source": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library",
+  "layers": {
+    "core_governance_primitives": [
+      "governance",
+      "governance-infrastructure",
+      "governance-infrastructure-layer",
+      "governance-surface",
+      "execution-time-governance",
+      "continuous-assurance",
+      "post-hoc-governance",
+      "governance-telemetry"
+    ],
+    "authority_control_layer": [
+      "authority",
+      "human-authority",
+      "authority-drift",
+      "authority-saturation",
+      "stop-authority",
+      "decision-boundary",
+      "intervention-threshold",
+      "judgment-externalization"
+    ],
+    "behavioral_dynamics_layer": [
+      "behavioral-accumulation",
+      "behavioral-drift",
+      "normalization-of-workarounds",
+      "escalation",
+      "escalation-decay",
+      "confidence-reinforcement",
+      "reliance-formation"
+    ],
+    "failure_risk_patterns": [
+      "governance-drift",
+      "governance-failure",
+      "governance-debt",
+      "governance-illusion",
+      "override-erosion",
+      "accountability-diffusion",
+      "longitudinal-risk"
+    ],
+    "accountability_responsibility": [
+      "accountability",
+      "longitudinal-accountability"
+    ],
+    "human_ai_interaction_layer": [
+      "human-ai-interaction",
+      "decision-substitution"
+    ],
+    "measurement_index_systems": [
+      "language-symmetry-score",
+      "relational-rhythm-index",
+      "governance-stability-index",
+      "authority-alignment-score",
+      "relational-health-dashboard"
+    ],
+    "observability_system_context": [
+      "interaction-trace",
+      "sociotechnical-system"
+    ]
+  }
+}
