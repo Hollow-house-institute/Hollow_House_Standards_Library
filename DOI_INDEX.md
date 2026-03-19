@@ -1,56 +1,84 @@
-# DOI Index — Behavioral AI Governance
+---
 
-This index defines all DOI-linked components of the Behavioral AI Governance system.
+Hollow House Institute  
+DOI Index — Publication Authority Map  
 
-## Canonical Works
-
-- https://doi.org/10.5281/zenodo.18615600
-- https://doi.org/10.5281/zenodo.18637620
-- https://doi.org/10.5281/zenodo.18645786
-- https://doi.org/10.5281/zenodo.18759762
-- https://doi.org/10.5281/zenodo.18764155
-
-All works are part of a unified terminology and governance system.
-
-Canonical Source:
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+Version: 1.0.0  
+Status: Active  
+Classification: Authority Index  
 
 ---
 
-## v1.3.0
+## 1. Primary DOI Record  
 
-DOI: https://doi.org/10.5281/zenodo.18764662  
-GitHub Release: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/releases/tag/v1.3.0  
-Commit Hash: b39ae049b70022869292bff40184dfd7d7420349  
+DOI: https://doi.org/10.5281/zenodo.19112854  
 
-Authority Chain:
-ORCID → DOI → DOI_INDEX → GitHub Release → Standards Library
+Title:  
+Reality as Behavioral Accumulation: A Systems Framework for Understanding Human Experience Formation  
 
-Verification:
-- Immutable DOI (Zenodo)
-- Version-locked release
-- Commit hash anchored
+Version: v1.0.0  
 
 ---
 
----
+## 2. Zenodo Record  
 
-## Authority Checksum Binding
-
-Artifact Checksums File: AUTHORITY_CHECKSUMS.sha256
-
-Bound Artifacts:
-- ORCID_AUTHORITY_RECORD.md
-- LINKEDIN_AUTHORITY_POST.md
-- DOI_INDEX.md
-- SYSTEM_MAP.md
-
-Commit Anchor: 692d1d19aca0eb21dd409da086f4691be29c3412
-
-Verification Command:
-`sha256sum -c AUTHORITY_CHECKSUMS.sha256`
-
-Classification:
-This checksum binding provides audit-traceable integrity verification for authority-chain artifacts.
+Registry: Zenodo  
+DOI: 10.5281/zenodo.19112854  
 
 ---
+
+## 3. GitHub Canonical Repository  
+
+Repository:  
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library  
+
+Branch: main  
+
+---
+
+## 4. Artifact Location (Canonical Path)  
+
+artifacts/publications/Reality_as_Behavioral_Accumulation_v1.0.0/  
+
+Files:  
+- Reality_as_Behavioral_Accumulation_v1.0.0_FINAL.pdf  
+- WHITEPAPER.md  
+- CITATION.cff  
+- SHA256SUMS.txt  
+
+---
+
+## 5. Commit Reference  
+
+Commit Hash: 00c0467751dee8c4ecaae9e780d6ae7f637c2c54  
+
+Note:  
+Use `git log -1 --pretty=format:"%H"` to retrieve the exact commit.  
+
+---
+
+## 6. Integrity Binding  
+
+Checksum File: SHA256SUMS.txt  
+
+Algorithm: SHA-256  
+
+---
+
+## 7. Authority Chain Mapping  
+
+DOI → Zenodo → GitHub Repository → Artifact Path → Commit → Checksum  
+
+---
+
+## 8. Usage  
+
+This index provides a verifiable reference path for:  
+
+- citation validation  
+- audit traceability  
+- authority verification  
+- artifact integrity confirmation  
+
+---
+
