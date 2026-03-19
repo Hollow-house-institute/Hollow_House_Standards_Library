@@ -32,3 +32,25 @@ Verification:
 - Commit hash anchored
 
 ---
+
+---
+
+## Authority Checksum Binding
+
+Artifact Checksums File: AUTHORITY_CHECKSUMS.sha256
+
+Bound Artifacts:
+- ORCID_AUTHORITY_RECORD.md
+- LINKEDIN_AUTHORITY_POST.md
+- DOI_INDEX.md
+- SYSTEM_MAP.md
+
+Commit Anchor: 692d1d19aca0eb21dd409da086f4691be29c3412
+
+Verification Command:
+`sha256sum -c AUTHORITY_CHECKSUMS.sha256`
+
+Classification:
+This checksum binding provides audit-traceable integrity verification for authority-chain artifacts.
+
+---
