@@ -58,3 +58,4 @@ These artifacts ensure reproducibility, integrity verification, and auditability
 The Hollow House Standards Library serves as the canonical repository for governance terminology, structural frameworks, and integrity artifacts used in Behavioral AI Governance research and implementation.
 - SPEC-002 (Terminology Governance)
 - SPEC-003 (Repository Governance)
+- HHI-SPEC-AUTHORITY-01 (Authority Specification)
