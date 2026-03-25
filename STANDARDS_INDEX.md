@@ -59,3 +59,4 @@ The Hollow House Standards Library serves as the canonical repository for govern
 - SPEC-002 (Terminology Governance)
 - SPEC-003 (Repository Governance)
 - HHI-SPEC-AUTHORITY-01 (Authority Specification)
+- HHI-SPEC-BEHAVIORAL-DRIFT-01 (Behavioral Drift Specification)
