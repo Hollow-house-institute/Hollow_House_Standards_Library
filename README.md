@@ -81,3 +81,25 @@ Behavior is the most honest data there is
 ---
 
 Maintained by Hollow House Institute
+
+---
+
+## Authority & Identity
+
+ORCID: https://orcid.org/0009-0009-4806-1949  
+LinkedIn: https://www.linkedin.com/in/hollow-house-institute-3ab5a2182  
+DOI: https://doi.org/10.5281/zenodo.18615600
+
+
+---
+
+## License
+
+This repository is governed under the **Hollow House Institute Master License Suite (HHI-MLS)**.
+
+Use, redistribution, modification, or derivative work is subject to the terms defined in:
+
+https://github.com/hollowhouseinstitute/Master_License_Suite
+
+No rights are granted beyond those explicitly defined by HHI-MLS.
+
