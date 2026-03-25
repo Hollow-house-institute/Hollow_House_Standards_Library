@@ -40,11 +40,12 @@ D --> L[Stop Authority]
 
 ## Start Here
 
-1. glossary.md (human-readable)
-2. glossary.json (machine-readable)
-3. AUTHORITY.md (authority boundaries)
-4. STANDARDS_INDEX.md (artifact structure)
+If you are new to this repository:
 
+1. [glossary.md](./glossary.md) — canonical governance terminology  
+2. [AUTHORITY.md](./AUTHORITY.md) — authority boundaries  
+3. [glossary.json](./glossary.json) — machine-readable integration  
+4. [STANDARDS_INDEX.md](./STANDARDS_INDEX.md) — repository structure
 ---
 
 ## Canonical Structure
