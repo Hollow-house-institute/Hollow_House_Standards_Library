@@ -1,20 +1,31 @@
-# GLOSSARY BINDING — TERMINOLOGY AUTHORITY
+# Glossary Binding
 
-## Terminology Validation Requirements
+This document defines the canonical glossary state bound to the governance standard HHI_GOV_01.
 
-All terminology validation MUST be performed against glossary.json as the machine-readable source of truth.
+---
 
-Auditors MUST:
+## Bound Glossary
 
-- verify term.id consistency across artifacts
-- reject usage of undefined terms
-- flag synonym substitution where a canonical term exists
+Repository: Hollow House Standards Library  
+File: glossary.json  
+Version: v1.3.0  
 
-Any deviation from glossary.json constitutes a terminology integrity violation.
+SHA256:
+6e6fbf9a101121f7f6f130f59cdf2cfcb702a28558517317ab35fbe047ec3c88
 
-## Violation Severity Levels
+---
 
-- Critical: breaks canonical authority (must block merge)
-- High: introduces structural risk
-- Medium: reduces clarity or discoverability
-- Low: stylistic inconsistency
+## Binding Rules
+
+1. Governance execution MUST reference this glossary version and checksum.
+2. Any glossary modification requires:
+   - updated checksum
+   - updated binding record
+   - governance review prior to execution.
+3. If the glossary checksum differs from the bound value, governance execution MUST be considered invalid until reconciliation occurs.
+
+---
+
+## Purpose
+
+The glossary binding provides semantic integrity for governance infrastructure by ensuring that governance logic and terminology remain synchronized over time.
