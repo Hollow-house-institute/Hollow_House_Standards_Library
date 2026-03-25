@@ -115,3 +115,6 @@ Use, redistribution, modification, or derivative work is subject to the terms de
 https://github.com/hollowhouseinstitute/Master_License_Suite
 
 No rights are granted beyond those explicitly defined by HHI-MLS.
+
+# LICENSING
+Enforcement constraints and usage restrictions.
