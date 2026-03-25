@@ -61,3 +61,4 @@ The Hollow House Standards Library serves as the canonical repository for govern
 - HHI-SPEC-AUTHORITY-01 (Authority Specification)
 - HHI-SPEC-BEHAVIORAL-DRIFT-01 (Behavioral Drift Specification)
 - HHI-SPEC-DECISION-BOUNDARY-01 (Decision Boundary Specification)
+- HHI-SPEC-GOVERNANCE-INFRASTRUCTURE-LAYER-01 (Infrastructure Layer Specification)
