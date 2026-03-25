@@ -5,7 +5,31 @@ This repository defines canonical governance terminology.
 It serves as the terminology layer of the Hollow House Institute governance framework.
 
 ---
+## Governance Architecture Overview
 
+```mermaid
+flowchart TD
+
+A[Human Authority] --> B[Standards Library]
+B --> C[Governance Standards]
+C --> D[Execution-Time Governance]
+
+subgraph Standards Library
+E[glossary.md]
+F[glossary.json]
+G[AUTHORITY.md]
+end
+
+B --> E
+B --> F
+B --> G
+
+C --> H[HHI_GOV_01]
+C --> I[Interaction Controls]
+
+D --> J[Agent Systems]
+D --> K[Continuous Assurance]
+D --> L[Stop Authority]
 ## Scope
 
 - Defines terminology only
