@@ -30,6 +30,7 @@ C --> I[Interaction Controls]
 D --> J[Agent Systems]
 D --> K[Continuous Assurance]
 D --> L[Stop Authority]
+```
 ## Scope
 
 - Defines terminology only
