@@ -1,4 +1,3 @@
-5956ecbfc32f21c65422ede1c487ebacedf49ef0bcf45f7e329d7a8d6fe03e9b  ./.github/CODEOWNERS
 70268cd498b6058a35a02d026146ae6755364f832f6e309f3544c9f559d806f1  ./.gitignore
 68b6cddeaa38cd121fc472532b432c2892f4771670e0509c5345b37065f39ff7  ./AUDIT/EVIDENCE/EVIDENCE_script_failure_2026-02-18.md
 a63948c3c66a3e1b5270b4cd839a465b5abc25effde851d22511b42ae53a3b19  ./AUDIT/execution_layer_check.txt
@@ -185,4 +184,4 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./tmp
 b1b15d595872558e7cb825df3e31137027bf0b84f25685d57fbaf301fc9a9479  ./tools/generate_audit.sh
 99da9a371406601f0fedc86b2e045a15415e61acdb6c855c847f74ed0bf59182  ./tools/package_audit.sh
 371e6141beb08332d5487cf92279f896e1bfac7124b74d56e08dcbf6cf3e33a2  ./governance/telemetry.jsonl
-2bea1d1b19047ef501f4f803fb195ace882f13140d518dfeaab3f8152268d762  ./audits/checksums/sha256_manifest.txt
+21e7667cc96f28d9ad44ccf13f250b0d55a5fa42230c95e0e48cf3ab472261cf  ./audits/checksums/sha256_manifest.txt
