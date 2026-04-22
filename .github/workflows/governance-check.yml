@@ -1,51 +1,35 @@
 name: governance-check
 
 on:
-  push:
   pull_request:
+  push:
+    branches: [ main ]
 
 jobs:
-  validate:
+  check:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run governance checks
+      - name: Required files must exist
         run: |
-          mkdir -p governance_reports
+          test -f glossary.json
+          test -f CHECKSUMS.sha256
+          test -f AUTHORITY.md
+          test -d GOVERNANCE
 
-          SCORE=0
-          MAX=8
-
-          check () {
-            if eval "$1"; then
-              SCORE=$((SCORE+1))
+      - name: Block glossary changes without checksum update
+        run: |
+          BASE="${{ github.event.pull_request.base.sha || github.event.before }}"
+          HEAD="${{ github.event.pull_request.head.sha || github.sha }}"
+          FILES="$(git diff --name-only "$BASE" "$HEAD")"
+          echo "$FILES"
+          if echo "$FILES" | grep -qx 'glossary.json'; then
+            if ! echo "$FILES" | grep -qx 'CHECKSUMS.sha256'; then
+              echo "glossary.json changed without CHECKSUMS.sha256 update"
+              exit 1
             fi
-          }
-
-          check "[ -f README.md ]"
-          check "grep -Fq 'Hollow_House_Standards_Library' README.md"
-          check "grep -Fq 'SYSTEM_MAP' README.md"
-          check "grep -Fq 'zenodo' README.md"
-          check "grep -Fq 'orcid' README.md"
-          check "grep -Fq 'v1.3.0' README.md"
-          check "[ -f CHECKSUMS.sha256 ]"
-          check "[ -f AUTHORITY_BINDING.md ]"
-
-          STATUS="fail"
-          if [ "$SCORE" -ge 7 ]; then STATUS="pass"; fi
-
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: governance-audit-${{ github.run_id }}
-          path: governance_reports
-
-      - name: Enforce threshold
-        run: |
-          if [ "$STATUS" != "pass" ]; then
-            echo "Governance threshold not met"
-            echo "non-blocking"
           fi
+
+      - name: Block missing ownership marker
+        run: grep -q '@amypbui' CODEOWNERS
