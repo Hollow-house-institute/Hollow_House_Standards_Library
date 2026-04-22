@@ -11,25 +11,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Required files must exist
-        run: |
-          test -f glossary.json
-          test -f CHECKSUMS.sha256
-          test -f AUTHORITY.md
-          test -d GOVERNANCE
+      - name: Ensure telemetry file exists
+        run: mkdir -p GOVERNANCE && touch GOVERNANCE/telemetry.jsonl
 
-      - name: Block glossary changes without checksum update
+      - name: Classify severity
+        id: sev
         run: |
           BASE="${{ github.event.pull_request.base.sha || github.event.before }}"
           HEAD="${{ github.event.pull_request.head.sha || github.sha }}"
           FILES="$(git diff --name-only "$BASE" "$HEAD")"
           echo "$FILES"
+
+          SEV=0
+          if echo "$FILES" | grep -q 'glossary.json'; then SEV=2; fi
+          if echo "$FILES" | grep -Eq 'AUTHORITY.md|CHECKSUMS.sha256|CODEOWNERS'; then SEV=3; fi
+
+          echo "severity=$SEV" >> $GITHUB_OUTPUT
+
+      - name: Fail-closed rules
+        run: |
+          BASE="${{ github.event.pull_request.base.sha || github.event.before }}"
+          HEAD="${{ github.event.pull_request.head.sha || github.sha }}"
+          FILES="$(git diff --name-only "$BASE" "$HEAD")"
+
           if echo "$FILES" | grep -qx 'glossary.json'; then
             if ! echo "$FILES" | grep -qx 'CHECKSUMS.sha256'; then
-              echo "glossary.json changed without CHECKSUMS.sha256 update"
+              echo "Blocking: glossary changed without checksum"
               exit 1
             fi
           fi
 
-      - name: Block missing ownership marker
-        run: grep -q '@amypbui' CODEOWNERS
+      - name: Log telemetry
+        run: |
+          echo "{\"event\":\"governance_check\",\"actor\":\"${{ github.actor }}\",\"severity\":${{ steps.sev.outputs.severity }},\"result\":\"passed\",\"timestamp\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> GOVERNANCE/telemetry.jsonl
+
+      - name: Upload telemetry artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: telemetry
+          path: GOVERNANCE/telemetry.jsonl

@@ -1,2 +1,4 @@
 INTERACTION.md
 *.bak
+audit_bundle_*/
+*.zip
