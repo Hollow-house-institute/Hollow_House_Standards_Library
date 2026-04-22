@@ -105,3 +105,37 @@ Accountability:
 - Vendor: output compliance
 - HHI: governance enforcement
 - Human-in-the-Loop: final approval
+
+## HHI Position Within Global Governance Systems (Enforcement Layer)
+
+Decision Boundary:
+- OECD, UN, G7 are classified as Normative Framework Providers
+- HHI is classified as Governance Infrastructure Layer with enforcement authority
+
+Enforcement:
+
+1. Global Alignment
+- If principles are adopted without enforcement → Governance Failure
+
+2. Compliance Translation
+- All regulatory inputs must map to Decision Boundaries
+- Missing mapping → blocked
+
+3. Sovereignty
+- Cross-regime conflict → Escalation triggered
+
+4. Transparency
+- Reports must include Governance Telemetry
+- Missing telemetry → rejected
+
+5. UN Alignment
+- Must include Human-in-the-Loop, Escalation, Continuous Assurance
+- Missing → compliance invalid
+
+6. Infrastructure Deployment
+- Missing Decision Boundaries, Escalation, Stop Authority, Accountability → reject
+
+7. Behavioral Drift Control
+- Drift detected → Escalation required
+- Persistent drift → Stop Authority
+
