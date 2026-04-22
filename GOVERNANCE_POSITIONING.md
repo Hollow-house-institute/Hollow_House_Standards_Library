@@ -86,3 +86,22 @@ Artifacts within the Standards Library support this objective through:
 - governance taxonomy and ontology
 - governance metrics
 - standards alignment crosswalks
+
+## ABIS Classification (Implementation Layer Constraint)
+
+ABIS is classified as a Monitoring System (Implementation Layer).
+
+Decision Boundary:
+- ABIS cannot define Authority or governance primitives
+- ABIS must operate within Execution-Time Governance
+
+Escalation:
+- Misuse triggers escalation and restriction
+
+Stop Authority:
+- Any attempt to override governance blocks integration
+
+Accountability:
+- Vendor: output compliance
+- HHI: governance enforcement
+- Human-in-the-Loop: final approval
