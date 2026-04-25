@@ -20,4 +20,3 @@ Audit Function owns telemetry review and Longitudinal Accountability.
 
 ### Governance Telemetry
 Each execution event must record: Event, Actor, Decision Boundary, Action taken, Outcome, Escalation status, Timestamp.
-
