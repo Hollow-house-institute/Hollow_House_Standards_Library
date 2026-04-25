@@ -1,14 +1,12 @@
 cff-version: 1.2.0
-title: Hollow House Standards Library
-message: "If you use this work, please cite it using the metadata below."
+title: "Hollow House Standards Library"
+message: "If you use this governance framework, please cite it using the metadata below."
 type: software
-
 authors:
-  - family-names: Bui
-    given-names: Amy
-    orcid: https://orcid.org/0009-0009-4806-1949
-
-repository-code: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
-license: MIT
-version: 1.3.1
-date-released: 2026-04-22
+  - family-names: "Bui"
+    given-names: "Amy"
+    orcid: "https://orcid.org/0009-0009-4806-1949"
+repository-code: "https://github.com/Hollow-house-institute/Hollow_House_Standards_Library"
+license: "SEE LICENSE IN REPOSITORY"
+version: "v-governance-linkedin-control-v2"
+date-released: 2026-04-25
