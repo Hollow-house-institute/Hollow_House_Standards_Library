@@ -17,12 +17,21 @@ jobs:
       - name: Ensure telemetry file exists
         run: mkdir -p GOVERNANCE && touch GOVERNANCE/telemetry.jsonl
 
+      - name: Determine BASE and HEAD
+        id: shas
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "base=${{ github.event.pull_request.base.sha }}" >> $GITHUB_OUTPUT
+            echo "head=${{ github.event.pull_request.head.sha }}" >> $GITHUB_OUTPUT
+          else
+            echo "base=${{ github.event.before }}" >> $GITHUB_OUTPUT
+            echo "head=${{ github.sha }}" >> $GITHUB_OUTPUT
+          fi
+
       - name: Capture changed files
         id: files
         run: |
-          BASE="${{ github.event.pull_request.base.sha || github.event.before }}"
-          HEAD="${{ github.event.pull_request.head.sha || github.sha }}"
-          FILES="$(git diff --name-only "$BASE" "$HEAD")"
+          FILES="$(git diff --name-only "${{ steps.shas.outputs.base }}" "${{ steps.shas.outputs.head }}")"
           echo "$FILES"
           echo "files<<EOF" >> $GITHUB_OUTPUT
           echo "$FILES" >> $GITHUB_OUTPUT
@@ -32,8 +41,8 @@ jobs:
         id: sev
         run: |
           FILES="${{ steps.files.outputs.files }}"
-
           SEV=0
+
           if echo "$FILES" | grep -Eq '(^|/)glossary\.json$'; then SEV=2; fi
           if echo "$FILES" | grep -Eq '(^|/)(AUTHORITY\.md|CHECKSUMS\.sha256|CODEOWNERS)$'; then SEV=3; fi
 
