@@ -8,6 +8,7 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -16,36 +17,66 @@ jobs:
       - name: Ensure telemetry file exists
         run: mkdir -p GOVERNANCE && touch GOVERNANCE/telemetry.jsonl
 
-      - name: Classify severity
-        id: sev
+      - name: Capture changed files
+        id: files
         run: |
           BASE="${{ github.event.pull_request.base.sha || github.event.before }}"
           HEAD="${{ github.event.pull_request.head.sha || github.sha }}"
           FILES="$(git diff --name-only "$BASE" "$HEAD")"
           echo "$FILES"
+          echo "files<<EOF" >> $GITHUB_OUTPUT
+          echo "$FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Classify severity
+        id: sev
+        run: |
+          FILES="${{ steps.files.outputs.files }}"
 
           SEV=0
-          if echo "$FILES" | grep -q 'glossary.json'; then SEV=2; fi
-          if echo "$FILES" | grep -Eq 'AUTHORITY.md|CHECKSUMS.sha256|CODEOWNERS'; then SEV=3; fi
+          if echo "$FILES" | grep -Eq '(^|/)glossary\.json$'; then SEV=2; fi
+          if echo "$FILES" | grep -Eq '(^|/)(AUTHORITY\.md|CHECKSUMS\.sha256|CODEOWNERS)$'; then SEV=3; fi
 
           echo "severity=$SEV" >> $GITHUB_OUTPUT
 
       - name: Fail-closed rules
         run: |
-          BASE="${{ github.event.pull_request.base.sha || github.event.before }}"
-          HEAD="${{ github.event.pull_request.head.sha || github.sha }}"
-          FILES="$(git diff --name-only "$BASE" "$HEAD")"
+          FILES="${{ steps.files.outputs.files }}"
 
-          if echo "$FILES" | grep -qx 'glossary.json'; then
-            if ! echo "$FILES" | grep -qx 'CHECKSUMS.sha256'; then
+          # glossary must include checksum
+          if echo "$FILES" | grep -Eq '(^|/)glossary\.json$'; then
+            if ! echo "$FILES" | grep -Eq '(^|/)CHECKSUMS\.sha256$'; then
               echo "Blocking: glossary changed without checksum"
               exit 1
             fi
           fi
 
-      - name: Log telemetry
+          # stop authority for critical files
+          if echo "$FILES" | grep -Eq '(^|/)(AUTHORITY\.md|CHECKSUMS\.sha256|CODEOWNERS)$'; then
+            echo "STOP: Protected governance files modified"
+            exit 1
+          fi
+
+      - name: Enforce severity threshold
+        run: |
+          SEV="${{ steps.sev.outputs.severity }}"
+          if [ "$SEV" -ge 3 ]; then
+            echo "Blocking: severity >= 3"
+            exit 1
+          fi
+
+      - name: Log telemetry (success)
+        if: success()
         run: |
           echo "{\"event\":\"governance_check\",\"actor\":\"${{ github.actor }}\",\"severity\":${{ steps.sev.outputs.severity }},\"result\":\"passed\",\"timestamp\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> GOVERNANCE/telemetry.jsonl
+
+      - name: Log telemetry (failure)
+        if: failure()
+        run: |
+          echo "{\"event\":\"governance_check\",\"actor\":\"${{ github.actor }}\",\"severity\":${{ steps.sev.outputs.severity || 0 }},\"result\":\"failed\",\"timestamp\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> GOVERNANCE/telemetry.jsonl
+
+      - name: Show telemetry
+        run: cat GOVERNANCE/telemetry.jsonl
 
       - name: Upload telemetry artifact
         uses: actions/upload-artifact@v4
