@@ -8,7 +8,6 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
         with:
@@ -35,13 +34,12 @@ jobs:
             BASE="${{ github.event.before }}"
             HEAD="${{ github.sha }}"
           fi
-
-          # fallback if BASE is invalid or missing
+          
           if ! git cat-file -e "$BASE" 2>/dev/null; then
             echo "BASE invalid, falling back to HEAD~1"
             BASE="${HEAD}~1"
           fi
-
+          
           echo "base=$BASE" >> $GITHUB_OUTPUT
           echo "head=$HEAD" >> $GITHUB_OUTPUT
 
@@ -59,16 +57,16 @@ jobs:
         run: |
           FILES="${{ steps.files.outputs.files }}"
           SEV=0
-
+          
           if echo "$FILES" | grep -Eq '(^|/)glossary\.json$'; then SEV=2; fi
           if echo "$FILES" | grep -Eq '(^|/)(AUTHORITY\.md|CHECKSUMS\.sha256|CODEOWNERS)$'; then SEV=3; fi
-
+          
           echo "severity=$SEV" >> $GITHUB_OUTPUT
 
       - name: Fail-closed rules
         run: |
           FILES="${{ steps.files.outputs.files }}"
-
+          
           if echo "$FILES" | grep -Eq '(^|/)glossary\.json$'; then
             if ! echo "$FILES" | grep -Eq '(^|/)CHECKSUMS\.sha256$'; then
               echo "Blocking: glossary changed without checksum"
