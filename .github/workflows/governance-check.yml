@@ -17,6 +17,14 @@ jobs:
       - name: Ensure telemetry file exists
         run: mkdir -p GOVERNANCE && touch GOVERNANCE/telemetry.jsonl
 
+      - name: Required files must exist
+        run: |
+          test -f glossary.json
+          test -f CHECKSUMS.sha256
+          test -f AUTHORITY.md
+          test -f CODEOWNERS
+          test -d GOVERNANCE
+
       - name: Determine BASE and HEAD
         id: shas
         run: |
@@ -68,28 +76,23 @@ jobs:
             fi
           fi
 
-          if echo "$FILES" | grep -Eq '(^|/)(AUTHORITY\.md|CHECKSUMS\.sha256|CODEOWNERS)$'; then
-            echo "STOP: Protected governance files modified"
-            exit 1
-          fi
-
       - name: Enforce severity threshold
         run: |
           SEV="${{ steps.sev.outputs.severity }}"
           if [ "$SEV" -ge 3 ]; then
-            echo "Blocking: severity >= 3"
+            echo "Blocking: severity >= 3 (protected files modified)"
             exit 1
           fi
 
       - name: Log telemetry (success)
         if: success()
         run: |
-          echo "{\"event\":\"governance_check\",\"actor\":\"${{ github.actor }}\",\"severity\":${{ steps.sev.outputs.severity }},\"result\":\"passed\",\"timestamp\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> GOVERNANCE/telemetry.jsonl
+          echo '{"event":"governance_check","actor":"${{ github.actor }}","severity":${{ steps.sev.outputs.severity }},"result":"passed","timestamp":"'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"}' >> GOVERNANCE/telemetry.jsonl
 
       - name: Log telemetry (failure)
         if: failure()
         run: |
-          echo "{\"event\":\"governance_check\",\"actor\":\"${{ github.actor }}\",\"severity\":${{ steps.sev.outputs.severity || 0 }},\"result\":\"failed\",\"timestamp\":\"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" >> GOVERNANCE/telemetry.jsonl
+          echo '{"event":"governance_check","actor":"${{ github.actor }}","severity":${{ steps.sev.outputs.severity || 0 }},"result":"failed","timestamp":"'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"}' >> GOVERNANCE/telemetry.jsonl
 
       - name: Show telemetry
         run: cat GOVERNANCE/telemetry.jsonl
