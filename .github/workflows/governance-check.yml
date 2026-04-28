@@ -21,12 +21,21 @@ jobs:
         id: shas
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
-            echo "base=${{ github.event.pull_request.base.sha }}" >> $GITHUB_OUTPUT
-            echo "head=${{ github.event.pull_request.head.sha }}" >> $GITHUB_OUTPUT
+            BASE="${{ github.event.pull_request.base.sha }}"
+            HEAD="${{ github.event.pull_request.head.sha }}"
           else
-            echo "base=${{ github.event.before }}" >> $GITHUB_OUTPUT
-            echo "head=${{ github.sha }}" >> $GITHUB_OUTPUT
+            BASE="${{ github.event.before }}"
+            HEAD="${{ github.sha }}"
           fi
+
+          # fallback if BASE is invalid or missing
+          if ! git cat-file -e "$BASE" 2>/dev/null; then
+            echo "BASE invalid, falling back to HEAD~1"
+            BASE="${HEAD}~1"
+          fi
+
+          echo "base=$BASE" >> $GITHUB_OUTPUT
+          echo "head=$HEAD" >> $GITHUB_OUTPUT
 
       - name: Capture changed files
         id: files
@@ -52,7 +61,6 @@ jobs:
         run: |
           FILES="${{ steps.files.outputs.files }}"
 
-          # glossary must include checksum
           if echo "$FILES" | grep -Eq '(^|/)glossary\.json$'; then
             if ! echo "$FILES" | grep -Eq '(^|/)CHECKSUMS\.sha256$'; then
               echo "Blocking: glossary changed without checksum"
@@ -60,7 +68,6 @@ jobs:
             fi
           fi
 
-          # stop authority for critical files
           if echo "$FILES" | grep -Eq '(^|/)(AUTHORITY\.md|CHECKSUMS\.sha256|CODEOWNERS)$'; then
             echo "STOP: Protected governance files modified"
             exit 1
