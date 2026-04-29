@@ -74,7 +74,7 @@ ORCID: https://orcid.org/0009-0009-4806-1949
 
 ## 8. Authority Chain  
 
-Identity → DOI → Zenodo → GitHub → Artifact → Commit → Checksum → Public Signal  
+Identity → DOI → Zenodo → GitHub → Commit → Artifact → SYSTEM_MAP → Public Signal Checksum → Public Signal  
 
 ---
 
