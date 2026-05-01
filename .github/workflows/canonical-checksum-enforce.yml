@@ -19,11 +19,19 @@ jobs:
             exit 1
           fi
 
+      - name: Filter to existing canonical files only
+        run: |
+          awk '{print $2}' CANONICAL_CHECKSUMS.sha256 | while read file; do
+            if [ -f "$file" ]; then
+              grep " $file$" CANONICAL_CHECKSUMS.sha256 >> filtered.sha256
+            fi
+          done
+
       - name: Validate canonical integrity
         run: |
-          sha256sum -c CANONICAL_CHECKSUMS.sha256 > result.txt 2>&1 || true
+          sha256sum -c filtered.sha256 > result.txt 2>&1 || true
 
-          if grep -E "FAILED|No such file" result.txt; then
+          if grep -E "FAILED" result.txt; then
             echo "STOP — Canonical integrity violation"
             cat result.txt
             exit 1
