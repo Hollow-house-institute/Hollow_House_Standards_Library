@@ -1,0 +1,32 @@
+name: canonical-checksum-enforce
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  enforce:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify canonical checksum exists
+        run: |
+          if [ ! -f CANONICAL_CHECKSUMS.sha256 ]; then
+            echo "STOP — Missing canonical checksum"
+            exit 1
+          fi
+
+      - name: Validate canonical integrity
+        run: |
+          sha256sum -c CANONICAL_CHECKSUMS.sha256 > result.txt 2>&1 || true
+
+          if grep -E "FAILED|No such file" result.txt; then
+            echo "STOP — Canonical integrity violation"
+            cat result.txt
+            exit 1
+          fi
+
+          echo "Canonical integrity verified"
