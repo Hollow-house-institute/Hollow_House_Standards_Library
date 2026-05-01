@@ -1,1 +1,11 @@
+# Canonical authority lock
+
+# Only owner can modify canonical files
+/CANONICAL_CHECKSUMS.sha256 @amypbui
+/CHECKSUMS.sha256 @amypbui
+/glossary* @amypbui
+/AUTHORITY* @amypbui
+/.github/workflows/* @amypbui
+
+# Default (optional)
 * @amypbui

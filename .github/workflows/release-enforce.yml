@@ -1,0 +1,40 @@
+name: release-enforce
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  enforce-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify canonical checksum
+        run: |
+          if [ ! -f CANONICAL_CHECKSUMS.sha256 ]; then
+            echo "STOP — Missing canonical checksum"
+            exit 1
+          fi
+
+          sha256sum -c CANONICAL_CHECKSUMS.sha256 > result.txt 2>&1 || true
+
+          if grep -E "FAILED|No such file" result.txt; then
+            echo "STOP — Release blocked: integrity violation"
+            cat result.txt
+            exit 1
+          fi
+
+      - name: Generate release manifest
+        run: |
+          echo "Release: ${GITHUB_REF_NAME}" > RELEASE_MANIFEST.txt
+          echo "Commit: $(git rev-parse HEAD)" >> RELEASE_MANIFEST.txt
+          echo "Timestamp: $(date -u)" >> RELEASE_MANIFEST.txt
+
+      - name: Upload manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-manifest
+          path: RELEASE_MANIFEST.txt
