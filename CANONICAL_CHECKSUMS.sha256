@@ -1,9 +1,8 @@
 43e66078d11bb06c8599e553f7a7d1c6335a8be7a915a3419271976cc6995ae7  ./.github/CODEOWNERS
 c7ae39dff8b29dafb96168bd49206ea0277ee10b15faeda0f2406c92d96fe6ec  ./.github/workflows/glossary-check.yml
 b18186bbb28bca7f2a541bc5044d2443157bca9cf962ab1d7d4f4460e4716750  ./.github/workflows/glossary-checksum.yml
-d65cece5baf50a4ddd53fa223241e51bf06283b710bfab305e34ceadbfd077f0  ./.github/workflows/governance-check.yml
+95024241c0c7f49a66a81dfa90225f352e8d32e6f040c44688b70ac78c222129  ./.github/workflows/governance-check.yml
 50b01377bff7f701d4ac7bf3d7398fde7096da2bc690531f6d0172a29769485b  ./.github/workflows/governance-enforce.yml
-14325e7f091349679e46d60c595359fb9b20145fe3e8023808660b35f1caf091  ./.github/workflows/checksum-enforce.yml
 54a003862d109aa37abd59b626477884e63f9c848e94651e404396a5bdc57d69  ./.github/workflows/canonical-checksum-enforce.yml
 b583493e756297b8cbfd5b69121ec013624c3815618c77c6038fc7451aceb6f2  ./.github/workflows/release-enforce.yml
 b55312506f1a697fae8c6bb94f7f793e6cc9198814b937a66d52539afd470466  ./.gitignore
