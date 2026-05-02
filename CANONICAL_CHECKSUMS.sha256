@@ -4,7 +4,7 @@ b18186bbb28bca7f2a541bc5044d2443157bca9cf962ab1d7d4f4460e4716750  ./.github/work
 95024241c0c7f49a66a81dfa90225f352e8d32e6f040c44688b70ac78c222129  ./.github/workflows/governance-check.yml
 50b01377bff7f701d4ac7bf3d7398fde7096da2bc690531f6d0172a29769485b  ./.github/workflows/governance-enforce.yml
 54a003862d109aa37abd59b626477884e63f9c848e94651e404396a5bdc57d69  ./.github/workflows/canonical-checksum-enforce.yml
-b583493e756297b8cbfd5b69121ec013624c3815618c77c6038fc7451aceb6f2  ./.github/workflows/release-enforce.yml
+28d5cb9e6ee2872b6f3892e9c52abc79becab1585529180ad099c4b3be76442d  ./.github/workflows/release-enforce.yml
 b55312506f1a697fae8c6bb94f7f793e6cc9198814b937a66d52539afd470466  ./.gitignore
 68b6cddeaa38cd121fc472532b432c2892f4771670e0509c5345b37065f39ff7  ./AUDIT/EVIDENCE/EVIDENCE_script_failure_2026-02-18.md
 a63948c3c66a3e1b5270b4cd839a465b5abc25effde851d22511b42ae53a3b19  ./AUDIT/execution_layer_check.txt
