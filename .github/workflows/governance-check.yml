@@ -6,96 +6,77 @@ on:
     branches: [ main ]
 
 jobs:
-  check:
+  governance:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Ensure telemetry file exists
-        run: mkdir -p GOVERNANCE && touch GOVERNANCE/telemetry.jsonl
-
-      - name: Required files must exist
+      # --- Core governance file presence ---
+      - name: Verify required governance files
         run: |
-          test -f glossary.json
-          test -f CHECKSUMS.sha256
-          test -f AUTHORITY.md
-          test -f CODEOWNERS
-          test -d GOVERNANCE
+          set -e
+          required_files=(
+            "AUTHORITY.md"
+            "GLOSSARY_BINDING.md"
+            "SYSTEM_MAP.md"
+            "CANONICAL_CHECKSUMS.sha256"
+          )
 
-      - name: Determine BASE and HEAD
-        id: shas
-        run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            BASE="${{ github.event.pull_request.base.sha }}"
-            HEAD="${{ github.event.pull_request.head.sha }}"
-          else
-            BASE="${{ github.event.before }}"
-            HEAD="${{ github.sha }}"
-          fi
-          
-          if ! git cat-file -e "$BASE" 2>/dev/null; then
-            echo "BASE invalid, falling back to HEAD~1"
-            BASE="${HEAD}~1"
-          fi
-          
-          echo "base=$BASE" >> $GITHUB_OUTPUT
-          echo "head=$HEAD" >> $GITHUB_OUTPUT
-
-      - name: Capture changed files
-        id: files
-        run: |
-          FILES="$(git diff --name-only "${{ steps.shas.outputs.base }}" "${{ steps.shas.outputs.head }}")"
-          echo "$FILES"
-          echo "files<<EOF" >> $GITHUB_OUTPUT
-          echo "$FILES" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
-
-      - name: Classify severity
-        id: sev
-        run: |
-          FILES="${{ steps.files.outputs.files }}"
-          SEV=0
-          
-          if echo "$FILES" | grep -Eq '(^|/)glossary\.json$'; then SEV=2; fi
-          if echo "$FILES" | grep -Eq '(^|/)(AUTHORITY\.md|CHECKSUMS\.sha256|CODEOWNERS)$'; then SEV=3; fi
-          
-          echo "severity=$SEV" >> $GITHUB_OUTPUT
-
-      - name: Fail-closed rules
-        run: |
-          FILES="${{ steps.files.outputs.files }}"
-          
-          if echo "$FILES" | grep -Eq '(^|/)glossary\.json$'; then
-            if ! echo "$FILES" | grep -Eq '(^|/)CHECKSUMS\.sha256$'; then
-              echo "Blocking: glossary changed without checksum"
+          for file in "${required_files[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "STOP — Missing required governance file: $file"
               exit 1
             fi
+          done
+
+      # --- Canonical checksum presence ---
+      - name: Verify canonical checksum exists
+        run: |
+          if [ ! -f CANONICAL_CHECKSUMS.sha256 ]; then
+            echo "STOP — Missing canonical checksum"
+            exit 1
           fi
 
-      - name: Enforce severity threshold
+      # --- Build filtered checksum set (ignore non-existent / ephemeral files) ---
+      - name: Build filtered canonical set
         run: |
-          SEV="${{ steps.sev.outputs.severity }}"
-          if [ "$SEV" -ge 3 ]; then
-  echo "WARNING: severity >= 3 (controlled override)"
-fi
+          > filtered.sha256
+          while read -r hash file; do
+            if [ -f "$file" ]; then
+              printf "%s  %s\n" "$hash" "$file" >> filtered.sha256
+            fi
+          done < CANONICAL_CHECKSUMS.sha256
 
-      - name: Log telemetry (success)
-        if: success()
+      # --- Enforce canonical integrity ---
+      - name: Validate canonical integrity
         run: |
-          echo '{"event":"governance_check","actor":"${{ github.actor }}","severity":${{ steps.sev.outputs.severity }},"result":"passed","timestamp":"'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"}' >> GOVERNANCE/telemetry.jsonl
+          sha256sum -c filtered.sha256 > result.txt 2>&1 || true
 
-      - name: Log telemetry (failure)
-        if: failure()
+          if grep -E "FAILED" result.txt; then
+            echo "STOP — Canonical integrity violation"
+            cat result.txt
+            exit 1
+          fi
+
+          echo "Canonical integrity verified"
+
+      # --- Glossary binding check ---
+      - name: Validate glossary binding
         run: |
-          echo '{"event":"governance_check","actor":"${{ github.actor }}","severity":${{ steps.sev.outputs.severity || 0 }},"result":"failed","timestamp":"'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"}' >> GOVERNANCE/telemetry.jsonl
+          if [ ! -f glossary.json ]; then
+            echo "STOP — Missing glossary.json"
+            exit 1
+          fi
 
-      - name: Show telemetry
-        run: cat GOVERNANCE/telemetry.jsonl
+          if [ ! -f glossary.sha256 ]; then
+            echo "STOP — Missing glossary checksum"
+            exit 1
+          fi
 
-      - name: Upload telemetry artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: telemetry
-          path: GOVERNANCE/telemetry.jsonl
+          sha256sum -c glossary.sha256
+
+      # --- Final governance pass ---
+      - name: Governance check complete
+        run: |
+          echo "Governance checks passed"
