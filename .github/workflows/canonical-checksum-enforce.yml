@@ -23,7 +23,7 @@ jobs:
         run: |
           > filtered.sha256
           while IFS= read -r line; do
-            file=$(echo "$line" | cut -d' ' -f3-)
+            file="${line#*  }"
             if [ -f "$file" ]; then
               echo "$line" >> filtered.sha256
             fi
