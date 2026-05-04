@@ -20,7 +20,6 @@ repository-code: "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_
 url: "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library"
 
 abstract: >
-  Canonical governance standards and behavioral AI governance infrastructure
-  developed by the Hollow House Institute.
+  Canonical governance standards and behavioral AI governance infrastructure developed by the Hollow House Institute.
 
 license: "HHI-LUL-01"
