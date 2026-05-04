@@ -32,11 +32,9 @@ jobs:
       - name: Validate canonical integrity
         run: |
           sha256sum -c filtered.sha256 > result.txt 2>&1 || true
-
           if grep -E "FAILED" result.txt; then
             echo "STOP — Canonical integrity violation"
             cat result.txt
             exit 1
           fi
-
           echo "Canonical integrity verified"
