@@ -21,11 +21,13 @@ jobs:
 
       - name: Filter to existing canonical files only
         run: |
-          awk '{print $2}' CANONICAL_CHECKSUMS.sha256 | while read file; do
+          > filtered.sha256
+          while IFS= read -r line; do
+            file=$(echo "$line" | cut -d' ' -f3-)
             if [ -f "$file" ]; then
-              grep " $file$" CANONICAL_CHECKSUMS.sha256 >> filtered.sha256
+              echo "$line" >> filtered.sha256
             fi
-          done
+          done < CANONICAL_CHECKSUMS.sha256
 
       - name: Validate canonical integrity
         run: |
