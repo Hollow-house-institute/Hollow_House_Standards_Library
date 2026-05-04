@@ -1,2 +1,3 @@
 {"event":"governance_audit","operation":"v2.3.1","decision_boundary":"pass","state":"ALIGNED","severity":1,"action":"completed","stop_triggered":false,"timestamp":"2026-05-04T06:59:37Z"}
 {"event":"demo_created","actor":"Amy","repo":"Hollow_House_Standards_Library","operation":"execution_time_governance_demo","decision_boundary":"pass","state":"ALIGNED","severity":0,"action":"artifact_created","stop_triggered":false,"timestamp":"2026-05-04T08:26:57Z"}
+{"event":"decision_boundary_map_created","actor":"Amy","repo":"Hollow_House_Standards_Library","operation":"demo_control_surface","decision_boundary":"pass","state":"ALIGNED","severity":0,"action":"artifact_created","stop_triggered":false,"timestamp":"2026-05-04T08:28:05Z"}
