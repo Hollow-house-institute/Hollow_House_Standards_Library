@@ -11,7 +11,7 @@ Classification: Authority Index
 
 ## 1. Primary DOI Record  
 
-DOI: https://doi.org/10.5281/zenodo.19112854  
+DOI: https://doi.org/10.5281/zenodo.20044740  
 
 Title:  
 Reality as Behavioral Accumulation: A Systems Framework for Understanding Human Experience Formation  
@@ -23,7 +23,7 @@ Version: v1.0.0
 ## 2. Zenodo Record  
 
 Registry: Zenodo  
-DOI: 10.5281/zenodo.19112854  
+DOI: 10.5281/zenodo.20044740  
 
 ---
 

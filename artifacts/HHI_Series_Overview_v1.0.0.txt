@@ -2,7 +2,7 @@ Canonical Governance Terminology for Behavioral AI Systems
 HHI Series Overview
 Hollow House Institute
 AI Governance Glossary v1.3.0 (Governance Freeze)
-DOI: 10.5281/zenodo.18764662
+DOI: 10.5281/zenodo.20044740
 
 1. Purpose of the Series Overview
 The Hollow House Institute (HHI) Canonical Governance Terminology Series establishes the authoritative terminology layer for Behavioral AI Governance. The Series provides stable, citable definitions for Execution-Time Governance, authority assignment, escalation mechanics, governance boundaries, and longitudinal failure dynamics. Each component is versioned, immutable, and published with a DOI to preserve semantic stability, auditability, and interoperability across governance frameworks. This Series Overview does not redefine any terms. It serves as the interpretive, navigational, and citation anchor for the canonical series.

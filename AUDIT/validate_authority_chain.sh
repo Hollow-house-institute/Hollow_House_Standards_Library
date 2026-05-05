@@ -17,7 +17,7 @@ git ls-files | grep -qx "LINKEDIN_AUTHORITY_POST.md" || fail "LinkedIn authority
 git ls-files | grep -qx "DOI_INDEX.md" || fail "DOI_INDEX.md not tracked"
 git ls-files | grep -qx "SYSTEM_MAP.md" || fail "SYSTEM_MAP.md not tracked"
 
-grep -q "https://doi.org/10.5281/zenodo.18764662" DOI_INDEX.md || fail "DOI missing from DOI_INDEX.md"
+grep -q "https://doi.org/10.5281/zenodo.20044740" DOI_INDEX.md || fail "DOI missing from DOI_INDEX.md"
 grep -q "AUTHORITY_CHECKSUMS.sha256" DOI_INDEX.md || fail "Checksum binding missing from DOI_INDEX.md"
 grep -q "Authority System Cross-Layer Visibility" SYSTEM_MAP.md || fail "SYSTEM_MAP authority injection missing"
 grep -q "ORCID → DOI → DOI_INDEX → GitHub Release → Commit → Standards Library" SYSTEM_MAP.md || fail "Authority chain missing from SYSTEM_MAP.md"

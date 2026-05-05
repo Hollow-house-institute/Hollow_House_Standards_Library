@@ -14,7 +14,7 @@ https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 
 ## Scholarly Publication
 Zenodo DOI  
-https://doi.org/10.5281/zenodo.18615600
+https://doi.org/10.5281/zenodo.20044740
 
 ## Domain
 Behavioral AI Governance  
