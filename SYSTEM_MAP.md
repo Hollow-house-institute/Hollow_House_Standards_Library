@@ -21,7 +21,7 @@ Founder — Hollow House Institute
 ## 2. Publication Layer  
 
 DOI:  
-https://doi.org/10.5281/zenodo.20044740  
+https://doi.org/10.5281/zenodo.1876466  
 
 Title:  
 Reality as Behavioral Accumulation: A Systems Framework for Understanding Human Experience Formation  
@@ -33,7 +33,7 @@ Version: v1.0.0
 ## 3. Registry Layer  
 
 Platform: Zenodo  
-DOI: 10.5281/zenodo.20044740  
+DOI: 10.5281/zenodo.1876466  
 
 ---
 

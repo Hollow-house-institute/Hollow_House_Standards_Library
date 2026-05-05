@@ -317,7 +317,7 @@ Adams, A. P. (2026)
 Canonical Terms for Behavioral AI Governance  
 Hollow House Institute  
 
-https://doi.org/10.5281/zenodo.20044740
+https://doi.org/10.5281/zenodo.1876466
 
 ---
 
@@ -399,7 +399,7 @@ See:
 
 This repository is archived and versioned through Zenodo to provide a stable DOI.
 
-DOI: https://doi.org/10.5281/zenodo.20044740
+DOI: https://doi.org/10.5281/zenodo.1876466
 This repository defines terminology and normative language only.
 Operational semantics live downstream by design.
 

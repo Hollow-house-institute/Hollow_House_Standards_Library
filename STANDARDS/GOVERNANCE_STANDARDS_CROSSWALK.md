@@ -4,7 +4,7 @@
 > Authority: HHI-GOV-01  
 > Version: v1.0.0  
 > Date: 2026-04-25  
-> DOI: 10.5281/zenodo.20044740  
+> DOI: 10.5281/zenodo.1876466  
 > License: HHI-LUL-01 · CC BY 4.0  
 > Maintainer: Hollow House Institute · Arlington, Texas  
 
@@ -151,7 +151,7 @@ This crosswalk maps canonical terms from the HHI Governance Glossary to governan
 ## Citation
 
 Adams, A. P. (2026). Canonical Terms for Behavioral AI Governance (v1.0.0).  
-Hollow House Institute. https://doi.org/10.5281/zenodo.20044740  
+Hollow House Institute. https://doi.org/10.5281/zenodo.1876466  
 
 ---
 
