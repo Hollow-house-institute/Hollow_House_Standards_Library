@@ -1,25 +1,10 @@
 cff-version: 1.2.0
-title: "Hollow House Standards Library"
-message: "If you use this work, please cite it using the metadata below."
-type: dataset
-
-authors:
-  - family-names: "Hollow House Institute"
-    given-names: ""
-    orcid: "https://orcid.org/0009-0009-4806-1949"
-
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.20012282"
-
-references:
-  - type: dataset
-    doi: "10.5281/zenodo.18764662"
-
-repository-code: "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library"
-url: "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library"
-
-abstract: >
-  Canonical governance standards and behavioral AI governance infrastructure developed by the Hollow House Institute.
-
+title: "HHI Governance Glossary"
+version: "1.3.2"
+doi: 10.5281/zenodo.20012282
 license: "HHI-LUL-01"
+authors:
+  - family-names: "House Institute"
+    given-names: "Hollow"
+repository-code: "https://github.com/Hollow-house-institute/Hollow_House_Standards_Library"
+abstract: "Canonical governance glossary and standards library defining the Hollow House Institute behavioral AI governance terminology stack."
