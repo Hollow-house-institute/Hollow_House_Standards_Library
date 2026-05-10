@@ -3,7 +3,7 @@
   "canonical_term_count": 41,
   "root_status": "external_anchor",
   "description": "Behavioral AI Governance defines how behavior accumulates into infrastructure over time.",
-  "canonical_source": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library",
+  "canonical_source": "https://github.com/Hollow-house-institute/Hollow_House_Standards_Library",
   "layers": {
     "core_governance_primitives": [
       "governance",

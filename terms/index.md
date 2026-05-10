@@ -2,7 +2,7 @@
 title: Index
 type: DefinedTerm
 source: Hollow House Institute Governance Glossary
-canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+canonical: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 ---
 
 # Behavioral AI Governance Terminology Index
@@ -10,7 +10,7 @@ canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
 This index lists canonical governance terminology defined by the Hollow House Institute Governance Glossary.
 
 Source:
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
 ---
 

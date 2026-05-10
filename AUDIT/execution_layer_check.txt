@@ -3,7 +3,7 @@
 ./AUDIT/observed_terms.txt:./glossary.jsonld:execution-time-governance
 ./AUDIT/observed_terms.txt:./terms/authority-persistence.md:execution-time-governance
 ./AUDIT/observed_terms.txt:./terms/escalation-suppression.md:execution-time-governance
-./AUDIT/observed_terms.txt:./terms/execution-time-governance.md:hhidatasettechs-oss
+./AUDIT/observed_terms.txt:./terms/execution-time-governance.md:Hollow-house-institute
 ./AUDIT/observed_terms.txt:./terms/governance-as-infrastructure.md:execution-time-governance
 ./AUDIT/observed_terms.txt:./terms/governance-lag.md:execution-time-governance
 ./AUDIT/observed_terms.txt:./terms/human-in-the-loop.md:execution-time-governance
@@ -14,7 +14,7 @@
 ./AUDIT/terminology_drift.txt:./glossary.jsonld:execution-time-governance
 ./AUDIT/terminology_drift.txt:./terms/authority-persistence.md:execution-time-governance
 ./AUDIT/terminology_drift.txt:./terms/escalation-suppression.md:execution-time-governance
-./AUDIT/terminology_drift.txt:./terms/execution-time-governance.md:hhidatasettechs-oss
+./AUDIT/terminology_drift.txt:./terms/execution-time-governance.md:Hollow-house-institute
 ./AUDIT/terminology_drift.txt:./terms/governance-as-infrastructure.md:execution-time-governance
 ./AUDIT/terminology_drift.txt:./terms/governance-lag.md:execution-time-governance
 ./AUDIT/terminology_drift.txt:./terms/human-in-the-loop.md:execution-time-governance

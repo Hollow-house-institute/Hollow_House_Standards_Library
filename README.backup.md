@@ -417,7 +417,7 @@ Zenodo: https://zenodo.org/uploads/18764662
 ## Governance Maintenance Tools
 
 HHI Master Prompt Specification
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/STANDARDS/MASTER_PROMPT_SPECIFICATION.md
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/blob/main/STANDARDS/MASTER_PROMPT_SPECIFICATION.md
 
 
 ---
@@ -428,7 +428,7 @@ https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/
 Behavioral AI Governance refers to governance frameworks that analyze and manage how system behavior accumulates over time rather than relying solely on static policies or design constraints.
 
 Canonical terminology source:
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
 ## What is Governance Drift?
 Governance Drift is the gradual divergence between intended governance controls and actual operational behavior as systems evolve over time.
@@ -456,7 +456,7 @@ Governance Infrastructure → Execution-Time Governance
 
 For canonical definitions and stable identifiers see:
 
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
 
 ---
@@ -467,7 +467,7 @@ https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
   "@type": "DefinedTermSet",
   "name": "HHI Governance Glossary",
   "description": "Canonical terminology registry defining concepts used in Behavioral AI Governance and Execution-Time Governance systems.",
-  "url": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library",
+  "url": "https://github.com/Hollow-house-institute/Hollow_House_Standards_Library",
   "creator": {
     "@type": "Person",
     "name": "Amy Pierce Adams",
@@ -504,7 +504,7 @@ https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
  "@type": "DefinedTermSet",
  "name": "HHI Governance Glossary",
  "description": "Canonical terminology registry defining concepts used in Behavioral AI Governance and Execution-Time Governance systems.",
- "url": "https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library",
+ "url": "https://github.com/Hollow-house-institute/Hollow_House_Standards_Library",
  "creator": {
    "@type": "Person",
    "name": "Amy Pierce Adams",
@@ -545,5 +545,5 @@ Within the Hollow House Institute framework, Behavioral AI Governance treats rep
 Governance therefore emerges from accumulated system behavior, oversight structures, and human authority boundaries rather than from policy documents alone.
 
 Canonical terminology source:  
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 

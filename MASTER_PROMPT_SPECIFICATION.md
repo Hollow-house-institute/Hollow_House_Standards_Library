@@ -40,7 +40,7 @@ Instead, it defines the terminology infrastructure used to describe and analyze 
 
 TERMINOLOGY_AUTHORITY: AI Governance Glossary  
 TERMINOLOGY_REGISTRY: Hollow House Institute Terminology Registry  
-TERMINOLOGY_SOURCE_URL: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library  
+TERMINOLOGY_SOURCE_URL: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library  
 NEW_TERM_POLICY: RESTRICTED  
 GLOSSARY_TREATMENT: Stable Identifier System  
 OUTPUT_ARCHITECTURE_MODEL: HHI Governance Stack  
@@ -83,7 +83,7 @@ The canonical vocabulary for Behavioral AI Governance is defined in the AI Gover
 
 Canonical source:
 
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
 The glossary constitutes the terminology registry for Behavioral AI Governance.
 
@@ -212,7 +212,7 @@ AI Governance Glossary v1.3.0
 Hollow House Institute  
 
 Canonical Repository  
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
 ---
 
@@ -248,7 +248,7 @@ AI Governance Glossary v1.3.0
 Hollow House Institute  
 
 Canonical Repository  
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
 ---
 
@@ -258,7 +258,7 @@ TERMINOLOGY_METADATA
 registry: HHI_AI_Governance_Glossary  
 version: 1.3.0  
 authority: Hollow House Institute  
-canonical_repository: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library  
+canonical_repository: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library  
 research_identity: https://orcid.org/0009-0009-4806-1949  
 
 ---

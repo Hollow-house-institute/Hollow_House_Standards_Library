@@ -2,7 +2,7 @@
 title: Human In The Loop
 type: DefinedTerm
 source: Hollow House Institute Governance Glossary
-canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+canonical: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 ---
 
 # human-in-the-loop
@@ -13,7 +13,7 @@ Identifier: **HHI-AUTH-004**
 This term is defined in the Hollow House Institute Governance Glossary.
 
 See canonical definition in the glossary:
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/glossary.md
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/blob/main/glossary.md
 
 ## Citation
 Adams, A.P. (2026)

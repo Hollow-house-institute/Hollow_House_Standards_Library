@@ -1,7 +1,7 @@
 # Authority Network
 
 Canonical Source:
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
 Related Surfaces:
 - Zenodo DOI (to be expanded)

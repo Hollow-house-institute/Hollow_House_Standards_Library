@@ -4,7 +4,7 @@ type: DefinedTerm
 identifier: HHI-RISK-001
 domain: risk
 source: HHI Governance Glossary v1.3.0
-canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+canonical: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 ---
 
 # Longitudinal Risk

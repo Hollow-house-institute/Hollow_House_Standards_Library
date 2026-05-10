@@ -4,7 +4,7 @@ type: DefinedTerm
 identifier: HHI-INT-001
 domain: interaction
 source: HHI Governance Glossary v1.3.0
-canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+canonical: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 ---
 
 # Human–AI Interaction (Governance Context)

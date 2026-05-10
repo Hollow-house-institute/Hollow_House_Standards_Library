@@ -54,7 +54,7 @@ This prompt may be used to evaluate:
 
 Primary canonical repository:  
 Hollow House Standards Library  
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
 The Standards Library is the primary semantic authority for HHI governance terminology unless a higher-order canonical source is explicitly defined within the HHI governance hierarchy.
 

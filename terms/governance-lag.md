@@ -2,7 +2,7 @@
 title: Governance Lag
 type: DefinedTerm
 source: Hollow House Institute Governance Glossary
-canonical: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+canonical: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 ---
 
 # governance-lag
@@ -13,7 +13,7 @@ Identifier: **HHI-RISK-001**
 This term is defined in the Hollow House Institute Governance Glossary.
 
 See canonical definition in the glossary:
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library/blob/main/glossary.md
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/blob/main/glossary.md
 
 ## Citation
 Adams, A.P. (2026)

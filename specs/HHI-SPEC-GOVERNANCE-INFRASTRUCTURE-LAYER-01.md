@@ -12,7 +12,7 @@ lifecycle_phase: execution
 normative_status: canonical
 drift_risk: medium
 identifier: HHI-GOV-020
-source_glossary: https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+source_glossary: https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 ---
 
 ## 1. Real System Behavior Observation

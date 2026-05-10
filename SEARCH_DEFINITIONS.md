@@ -16,4 +16,4 @@ Decision Substitution (HHI-GOV-004) occurs when automated outputs begin replacin
 Execution-Time Governance (HHI-SYS-002) refers to governance mechanisms operating during live system execution, including Stop Authority (HHI-AUTH-003), escalation pathways, and continuous assurance monitoring.
 
 Source: Hollow House Institute Governance Glossary v1.3.0
-https://github.com/hhidatasettechs-oss/Hollow_House_Standards_Library
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
