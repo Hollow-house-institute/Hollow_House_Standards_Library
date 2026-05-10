@@ -3,3 +3,9 @@ INTERACTION.md
 audit_bundle_*/
 *.zip
 release_bundle_*
+
+*.pid
+__pycache__/
+*.pyc
+runtime/logs/*.pid
+logs/*.pid
