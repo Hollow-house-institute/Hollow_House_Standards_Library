@@ -1,3 +1,6 @@
+## START HERE
+New visitors should begin with [START_HERE.md](START_HERE.md)
+
 # Hollow House Standards Library
 
 This repository defines canonical governance terminology.
@@ -99,7 +102,6 @@ This repository is governed under the **Hollow House Institute Master License Su
 
 Use, redistribution, modification, or derivative work is subject to the terms defined in:
 
-https://github.com/hollowhouseinstitute/Master_License_Suite
 
 No rights are granted beyond those explicitly defined by HHI-MLS.
 
@@ -112,7 +114,6 @@ This repository is governed under the **Hollow House Institute Master License Su
 
 Use, redistribution, modification, or derivative work is subject to the terms defined in:
 
-https://github.com/hollowhouseinstitute/Master_License_Suite
 
 No rights are granted beyond those explicitly defined by HHI-MLS.
 
@@ -134,3 +135,15 @@ ORCID: https://orcid.org/0009-0009-4806-1949
 
 Glossary Version: v1.3.0
 <!-- HHI_AUTHORITY_BLOCK_END -->
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite
