@@ -14,7 +14,6 @@ Execution-layer prompts:
 If a conflict exists between versions, this document governs.
 
 
-Hollow House Institute
 
 Master Governance Audit Prompt
 
@@ -331,3 +330,15 @@ Prompt versions follow semantic versioning:
 - Minor: expansion of scope, audit phases, or evaluation criteria
 - Patch: wording, formatting, or non-structural refinements
 
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

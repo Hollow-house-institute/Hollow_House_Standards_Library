@@ -14,3 +14,15 @@ They are not software, tools, or automated systems.
 2. Review the Licensing Map to understand permitted use  
 3. Consult Certification Criteria where applicable  
 4. Contact Hollow House Institute for licensing or institutional access
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

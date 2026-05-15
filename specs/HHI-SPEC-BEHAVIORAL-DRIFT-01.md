@@ -40,3 +40,15 @@ Defined in the **AI Governance Glossary** (`glossary.json`).
 
 ## 7. Glossary Version Authority
 AI Governance Glossary — Version 1.3.0 (Governance Freeze)
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

@@ -23,6 +23,18 @@ NEW_TERM_POLICY: RESTRICTED
 New governance terminology must be added to the glossary registry before being used in governance standards, audits, or documentation.
 
 ## Authority
-Maintainer: Amy Pierce Adams
+Maintainer: Amy Pierce Bui
 Founder — Hollow House Institute
 Contact: data@hollowhouse.org
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

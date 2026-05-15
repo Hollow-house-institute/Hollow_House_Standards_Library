@@ -110,3 +110,15 @@ This event is recorded as governance evidence under HHI_GOV_01.
 Silent automation failures constitute governance-relevant behavior and must be captured as part of longitudinal oversight.
 
 © Hollow House Institute. All rights reserved.
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

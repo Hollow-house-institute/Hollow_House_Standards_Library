@@ -61,7 +61,7 @@ Definitions, terms, and usage are governed upstream.
 All governance terminology used in this repository is defined in the  
 **HHI Governance Glossary (v1.1.0)**:
 
-https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library/blob/main/glossary.md
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/blob/main/glossary.md
 
 Repository Purpose
 
@@ -334,7 +334,7 @@ Governance exists to determine what behavior is allowed to accumulate before rel
 
 ## Maintainer
 
-Amy Pierce Adams  
+Amy Pierce Bui  
 Founder, Hollow House Institute  
 
 Contact: data@hollowhouse.org
@@ -348,7 +348,7 @@ This repository operates under the canonical governance standard:
 
 Authoritative reference:
 >>>>>>> 4fb6143 (Add canonical glossary.json, scope definition, and update README per HHI-GOV-01 authority)
-https://github.com/hollowhouseinstitute/HHI-GOV-01
+https://github.com/Hollow-house-institute/HHI-GOV-01
 ## What this is
 Upstream governance definitions and standards for Hollow House Institute. This repository is the canonical source of terminology used across audits, licensing, and governance artifacts.
 
@@ -374,9 +374,8 @@ HHI_GOV_01 is the authoritative governance standard governing all audits, enforc
 - [Scope Definition](./SCOPE.md)
 
 ## Canonical Links
-- **Standards Library (this):** https://github.com/hollowhouseinstitute/Hollow_House_Standards_Library
-- **Governance Standard:** https://github.com/hollowhouseinstitute/HHI_GOV_01
-- **Master License Suite:** https://github.com/hollowhouseinstitute/Master_License_Suite
+- **Standards Library (this):** https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
+- **Governance Standard:** https://github.com/Hollow-house-institute/HHI_GOV_01
 
 ## Engagement
 For licensing, audits, or governance engagement:
@@ -470,7 +469,7 @@ https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
   "url": "https://github.com/Hollow-house-institute/Hollow_House_Standards_Library",
   "creator": {
     "@type": "Person",
-    "name": "Amy Pierce Adams",
+    "name": "Amy Pierce Bui",
     "affiliation": "Hollow House Institute"
   },
   "license": "HHI-LUL-01",
@@ -507,7 +506,7 @@ https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
  "url": "https://github.com/Hollow-house-institute/Hollow_House_Standards_Library",
  "creator": {
    "@type": "Person",
-   "name": "Amy Pierce Adams",
+   "name": "Amy Pierce Bui",
    "affiliation": "Hollow House Institute"
  },
  "license": "HHI-LUL-01",
@@ -547,3 +546,15 @@ Governance therefore emerges from accumulated system behavior, oversight structu
 Canonical terminology source:  
 https://github.com/Hollow-house-institute/Hollow_House_Standards_Library
 
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

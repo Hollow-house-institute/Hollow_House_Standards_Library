@@ -1,6 +1,5 @@
 Canonical Governance Terminology for Behavioral AI Systems
 HHI Series Overview
-Hollow House Institute
 AI Governance Glossary v1.3.0 (Governance Freeze)
 DOI: 10.5281/zenodo.1876466
 
@@ -52,4 +51,3 @@ This publication adheres to HHI Governance Mode:
 
 7. Glossary Version Authority
 AI Governance Glossary v1.3.0 (Governance Freeze)
-Hollow House Institute

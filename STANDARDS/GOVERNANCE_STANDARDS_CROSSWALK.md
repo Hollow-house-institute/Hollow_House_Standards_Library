@@ -164,3 +164,15 @@ Hollow House Institute. https://doi.org/10.5281/zenodo.1876466
 ---
 
 Hollow House Institute · Arlington, Texas · Authority: HHI-GOV-01 · © 2026
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

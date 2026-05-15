@@ -18,7 +18,6 @@ https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/blob/ma
 ## Citation
 Adams, A.P. (2026)
 HHI Governance Glossary v1.3.0
-Hollow House Institute
 https://doi.org/10.5281/zenodo.1876466
 
 ---
@@ -48,3 +47,15 @@ These terms are part of the Behavioral AI Governance terminology network defined
 - [Execution-Time Governance](execution-time-governance.md) — HHI-SYS-002
 
 These terms form part of the Behavioral AI Governance terminology network maintained by the Hollow House Institute.
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

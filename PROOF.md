@@ -10,3 +10,15 @@ Decision enforcement + Stop Authority + Telemetry at execution.
 {"event":"repo_operation","actor":"AI Operator","repo":"~/HHI/Hollow_House_Standards_Library","operation":"telemetry_normalization_blocked","decision_boundary":"pass","state":"CLEAN","severity":1,"action":"tool_install_optional","escalation":"none","timestamp":"2026-05-03T07:22:31-05:00","reason":"jq not installed; normalization optional"}
 {"event":"repo_operation","actor":"AI Operator","repo":"~/HHI/Hollow_House_Standards_Library","operation":"governance_loop_complete","decision_boundary":"pass","state":"CLEAN","severity":0,"action":"completed","escalation":"none","timestamp":"2026-05-03T00:00:00-05:00","reason":"Full telemetry lifecycle captured and committed to main"}
 {"event":"repo_operation","actor":"AI Operator","repo":"~/HHI/Hollow_House_Standards_Library","operation":"governance_loop_complete","decision_boundary":"pass","state":"CLEAN","severity":0,"action":"completed","escalation":"none","timestamp":"2026-05-03T00:00:00-05:00","reason":"Full telemetry lifecycle captured and committed to main"}
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite
