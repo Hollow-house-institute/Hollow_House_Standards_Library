@@ -230,3 +230,11 @@ https://orcid.org/0009-0009-4806-1949
 
 Amy Pierce Bui
 Founder, Hollow House Institute
+
+---
+
+## HHI Governed Authorship
+
+![Provenance](https://img.shields.io/badge/HHI-Governed_Authorship-black)
+
+This artifact follows the HHI governed authorship pattern: human-origin meaning, AI-executed structure, drift-free.
