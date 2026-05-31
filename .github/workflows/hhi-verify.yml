@@ -1,0 +1,31 @@
+name: HHI Artifact Integrity Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Verify registry integrity
+        run: |
+          echo "Checking artifact hashes..."
+          jq -c '.artifacts[]' registry.json | while read row; do
+            file=$(echo "$row" | jq -r '.file')
+            hash=$(echo "$row" | jq -r '.sha256')
+
+            if [ -f "$file" ]; then
+              current=$(sha256sum "$file" | awk '{print $1}')
+              if [ "$current" != "$hash" ]; then
+                echo "Integrity violation: $file"
+                exit 1
+              fi
+            fi
+          done
