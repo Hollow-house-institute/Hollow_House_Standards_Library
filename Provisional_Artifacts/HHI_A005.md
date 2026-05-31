@@ -1,0 +1,3 @@
+HHI PROVISIONAL ARTIFACT HHI_A005.md — RUNTIME SIGNALS KIT
+
+(…full artifact text here…)

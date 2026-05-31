@@ -1,0 +1,3 @@
+HHI PROVISIONAL ARTIFACT HHI_A004.md — AUTHORITY CHAIN
+
+(…full artifact text here…)

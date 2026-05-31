@@ -1,0 +1,3 @@
+HHI PROVISIONAL ARTIFACT HHI_A009.md — GOVERNANCE MATURITY MODEL
+
+(…full artifact text here…)

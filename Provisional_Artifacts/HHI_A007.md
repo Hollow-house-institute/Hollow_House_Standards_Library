@@ -1,0 +1,3 @@
+HHI PROVISIONAL ARTIFACT HHI_A007.md — PROVENANCE CHAIN
+
+(…full artifact text here…)

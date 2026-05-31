@@ -1,0 +1,3 @@
+HHI PROVISIONAL ARTIFACT HHI_A010.md — GOVERNANCE RISK INDEX
+
+(…full artifact text here…)
