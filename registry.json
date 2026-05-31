@@ -1,0 +1,81 @@
+{
+  "system": "HHI Governance Artifact Registry",
+  "version": "1.0.0",
+  "artifacts": [
+    {
+      "name": "MICRO-AUDIT",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A001.md",
+      "sha256": "e505089811b4d9b0ea4f17bc6004b1cdc2685b1a0fe7d4d452a4f3a3e0535f1f"
+    },
+    {
+      "name": "BOUNDARY KIT",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A002.md",
+      "sha256": "48f3f45876d32234c21ecc9eb39433af07f3acb866dbac41f65c8f78f260d6cb"
+    },
+    {
+      "name": "INVARIANT MAP",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A003.md",
+      "sha256": "4c6fe7312069f45835847b892c248259bf26781709204ec41266fd2234697643"
+    },
+    {
+      "name": "AUTHORITY CHAIN",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A004.md",
+      "sha256": "405e7581c85189790acc9d5c0a982085e5fba460e9dc60fbdb1552979bc1d8a7"
+    },
+    {
+      "name": "RUNTIME SIGNALS KIT",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A005.md",
+      "sha256": "a13d3fd5068d86296f0611b7edabbfc4e721b166efa57072fdb791ce37ce5382"
+    },
+    {
+      "name": "REPLAYABLE EVIDENCE PROTOCOL",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A006.md",
+      "sha256": "275801bf3ba6ed76ffa00e2c19633f031a624804c4ea9f3b54a6aabaf8dce60a"
+    },
+    {
+      "name": "PROVENANCE CHAIN",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A007.md",
+      "sha256": "5b73ac9debdfe4018b3bd87216921687921fdd5bb8125edd98dccb4e9cec99d9"
+    },
+    {
+      "name": "GOVERNANCE READINESS SCORECARD",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A008.md",
+      "sha256": "9f94c69e50e0f56bfba610ad98fc179b041f903d7f1aaab87857e22e8336962d"
+    },
+    {
+      "name": "GOVERNANCE MATURITY MODEL",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A009.md",
+      "sha256": "c1a64464e38de260d110c6859e7a15b4431f1dad8bf8c9d759b9072cbed06a91"
+    },
+    {
+      "name": "GOVERNANCE RISK INDEX",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A010.md",
+      "sha256": "a2e5ed87ea5fabf10733b734147652fbfec9c6588bb93bfc9c8c8c42bda5df76"
+    },
+    {
+      "name": "GOVERNANCE REMEDIATION PLAYBOOK",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A011.md",
+      "sha256": "2d0c893989260a49afaf3c833e516e95f0fa96d37b13e950092154d52183724d"
+    },
+    {
+      "name": "GOVERNANCE OPERATING MANUAL",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A012.md",
+      "sha256": "fe4886f0d09559067598b06815ce806a2333eb289af7ffaf67467c8f391ef87b"
+    },
+    {
+      "name": "GOVERNANCE CERTIFICATION STANDARD",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A013.md",
+      "sha256": "4005332be7d2b032297b7074eeded682d2e76ec00e3ca1665e1879fe9e8c81aa"
+    },
+    {
+      "name": "GOVERNANCE COMPLIANCE CHECKLIST",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A014.md",
+      "sha256": "5a93407a84a86c3a00d9af0e4ba7ae4a45d6012c8a1ea649da6acd1ef695fe8d"
+    },
+    {
+      "name": "GOVERNANCE INCIDENT RESPONSE PROTOCOL",
+      "file": "/data/data/com.termux/files/home/Hollow_House_Standards_Library/Provisional_Artifacts/HHI_A015.md",
+      "sha256": "16eb202a651505fd6c7462e862c13586eb68935d42d2f18cb314bce8e0ef3f9e"
+    }
+  ]
+}
