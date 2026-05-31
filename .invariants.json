@@ -1,0 +1,9 @@
+{
+  "rules": [
+    "artifact_hash_must_match_registry",
+    "registry_must_be_append_only",
+    "no_untracked_artifacts_in_provisional",
+    "all_artifacts_must_include_provenance_timestamp",
+    "commit_must_pass_replay_validation"
+  ]
+}
