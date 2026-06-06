@@ -1,30 +1,26 @@
-# HHI_GOV_01 Governance Compendium
+# HHI_GOV_01
 
-Status: Canonical Governance Standard
+Canonical Governance Standard
 
 Version: 1.3
-Date: June 2026
+Status: Active
 
 Core Domains
 
 - Execution-Time Governance
 - Behavioral Governance
+- Governance Telemetry
 - Governance Authority Stack
 - Canonical Metric Stack
 - Governance Capital
 - Longitudinal Accountability
-- Governance Telemetry
 - Replayable Evidence
-- Runtime Governance Infrastructure
 
-Authority
+Repository Authority
 
 Hollow House Institute
+Founder: Amy Pierce Bui
 
-Founder:
-Amy Pierce Bui
-
-ORCID:
-https://orcid.org/0009-0009-4806-1949
-
-This directory serves as the canonical authority location for HHI_GOV_01 artifacts, figures, specifications, appendices, and future releases.
+This directory contains the canonical governance doctrine,
+supporting specifications, figures, appendices,
+and release artifacts for HHI_GOV_01.
