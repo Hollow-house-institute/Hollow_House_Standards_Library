@@ -238,3 +238,9 @@ Founder, Hollow House Institute
 ![Provenance](https://img.shields.io/badge/HHI-Governed_Authorship-black)
 
 This artifact follows the HHI governed authorship pattern: human-origin meaning, AI-executed structure, drift-free.
+
+## Provenance
+
+This repository traces doctrinal lineage to HHI_PROV_001 (Behavioral Provenance of HHI Governance).
+Behavior is the most honest data there is.
+Time turns behavior into infrastructure.
