@@ -1,0 +1,9 @@
+PrimitiveID,Primitive,Control
+HHI-CP-001,Behavioral Substrate,HHI-CTRL-001
+HHI-CP-002,Authority Origin,HHI-CTRL-002
+HHI-CP-003,Boundary Integrity,HHI-CTRL-003
+HHI-CP-004,Replayability,HHI-CTRL-004
+HHI-CP-005,Continuity of Identity,HHI-CTRL-005
+HHI-CP-006,Evidence Discipline,HHI-CTRL-006
+HHI-CP-007,Transparency of Process,HHI-CTRL-007
+HHI-CP-008,Terminological Stability,HHI-CTRL-008

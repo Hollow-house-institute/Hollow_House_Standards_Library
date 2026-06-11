@@ -1,0 +1,46 @@
+{
+  "standard": "HHI-CONSTITUTION-01",
+  "version": "1.0.0",
+  "primitives": [
+    {
+      "id": "HHI-CP-001",
+      "name": "Behavioral Substrate",
+      "controls": ["HHI-CTRL-001"]
+    },
+    {
+      "id": "HHI-CP-002",
+      "name": "Authority Origin",
+      "controls": ["HHI-CTRL-002"]
+    },
+    {
+      "id": "HHI-CP-003",
+      "name": "Boundary Integrity",
+      "controls": ["HHI-CTRL-003"]
+    },
+    {
+      "id": "HHI-CP-004",
+      "name": "Replayability",
+      "controls": ["HHI-CTRL-004"]
+    },
+    {
+      "id": "HHI-CP-005",
+      "name": "Continuity of Identity",
+      "controls": ["HHI-CTRL-005"]
+    },
+    {
+      "id": "HHI-CP-006",
+      "name": "Evidence Discipline",
+      "controls": ["HHI-CTRL-006"]
+    },
+    {
+      "id": "HHI-CP-007",
+      "name": "Transparency of Process",
+      "controls": ["HHI-CTRL-007"]
+    },
+    {
+      "id": "HHI-CP-008",
+      "name": "Terminological Stability",
+      "controls": ["HHI-CTRL-008"]
+    }
+  ]
+}
