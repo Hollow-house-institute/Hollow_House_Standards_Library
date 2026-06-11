@@ -1,0 +1,144 @@
+{
+  "graph_id": "HHI-GRAPH-02",
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "id": "HHI-CP-001",
+      "type": "CP",
+      "name": "Behavioral Substrate",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CP-002",
+      "type": "CP",
+      "name": "Authority Origin",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CP-003",
+      "type": "CP",
+      "name": "Boundary Integrity",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CP-004",
+      "type": "CP",
+      "name": "Replayability",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CP-005",
+      "type": "CP",
+      "name": "Continuity of Identity",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CP-006",
+      "type": "CP",
+      "name": "Evidence Discipline",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CP-007",
+      "type": "CP",
+      "name": "Transparency of Process",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CP-008",
+      "type": "CP",
+      "name": "Terminological Stability",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-001",
+      "type": "CTRL",
+      "name": "Behavioral Capture Control",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-002",
+      "type": "CTRL",
+      "name": "Authority Validation Control",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-003",
+      "type": "CTRL",
+      "name": "Boundary Enforcement Control",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-004",
+      "type": "CTRL",
+      "name": "Replay Integrity Control",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-005",
+      "type": "CTRL",
+      "name": "Continuity Preservation Control",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-006",
+      "type": "CTRL",
+      "name": "Evidence Validation Control",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-007",
+      "type": "CTRL",
+      "name": "Process Transparency Control",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-008",
+      "type": "CTRL",
+      "name": "Terminology Stability Control",
+      "status": "ACTIVE"
+    }
+  ],
+  "edges": [
+    {
+      "from": "HHI-CP-001",
+      "to": "HHI-CTRL-001",
+      "relationship": "DEFINES"
+    },
+    {
+      "from": "HHI-CP-002",
+      "to": "HHI-CTRL-002",
+      "relationship": "DEFINES"
+    },
+    {
+      "from": "HHI-CP-003",
+      "to": "HHI-CTRL-003",
+      "relationship": "DEFINES"
+    },
+    {
+      "from": "HHI-CP-004",
+      "to": "HHI-CTRL-004",
+      "relationship": "DEFINES"
+    },
+    {
+      "from": "HHI-CP-005",
+      "to": "HHI-CTRL-005",
+      "relationship": "DEFINES"
+    },
+    {
+      "from": "HHI-CP-006",
+      "to": "HHI-CTRL-006",
+      "relationship": "DEFINES"
+    },
+    {
+      "from": "HHI-CP-007",
+      "to": "HHI-CTRL-007",
+      "relationship": "DEFINES"
+    },
+    {
+      "from": "HHI-CP-008",
+      "to": "HHI-CTRL-008",
+      "relationship": "DEFINES"
+    }
+  ]
+}
