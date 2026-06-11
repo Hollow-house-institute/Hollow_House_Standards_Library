@@ -1,0 +1,69 @@
+{
+  "graph_id": "HHI-GRAPH-01",
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "id": "HHI-CP-006",
+      "type": "CP",
+      "name": "Evidence Discipline",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-CTRL-006",
+      "type": "CTRL",
+      "name": "Evidence Validation Control",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-GOV-01-4.2",
+      "type": "STD",
+      "name": "Runtime Evidence Requirements",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-EVT-00041",
+      "type": "EVT",
+      "name": "EVIDENCE_VALIDATED",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-EVD-00127",
+      "type": "EVD",
+      "name": "Evidence Bundle",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "HHI-AUD-00008",
+      "type": "AUD",
+      "name": "Evidence Compliance Finding",
+      "status": "ACTIVE"
+    }
+  ],
+  "edges": [
+    {
+      "from": "HHI-CP-006",
+      "to": "HHI-CTRL-006",
+      "relationship": "DEFINES"
+    },
+    {
+      "from": "HHI-CTRL-006",
+      "to": "HHI-GOV-01-4.2",
+      "relationship": "IMPLEMENTS"
+    },
+    {
+      "from": "HHI-GOV-01-4.2",
+      "to": "HHI-EVT-00041",
+      "relationship": "GENERATES"
+    },
+    {
+      "from": "HHI-EVT-00041",
+      "to": "HHI-EVD-00127",
+      "relationship": "PRODUCES"
+    },
+    {
+      "from": "HHI-EVD-00127",
+      "to": "HHI-AUD-00008",
+      "relationship": "SUPPORTS"
+    }
+  ]
+}

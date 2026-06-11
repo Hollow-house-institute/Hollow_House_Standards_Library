@@ -1,0 +1,22 @@
+{
+  "$schema": "https://hhi.dev/schemas/hhi-graph-01.json",
+  "title": "HHI-GRAPH-01",
+  "version": "1.0.0",
+  "node_types": [
+    "CP",
+    "CTRL",
+    "STD",
+    "EVT",
+    "TEL",
+    "EVD",
+    "AUD"
+  ],
+  "relationships": [
+    "IMPLEMENTS",
+    "DEFINES",
+    "GENERATES",
+    "PRODUCES",
+    "SUPPORTS",
+    "AUDITS"
+  ]
+}
