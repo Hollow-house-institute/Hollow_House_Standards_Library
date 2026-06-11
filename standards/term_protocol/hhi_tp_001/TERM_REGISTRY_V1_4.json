@@ -1,0 +1,252 @@
+{
+  "protocol": "HHI-TP-001",
+  "registry_version": "v1.4.0",
+  "canonical_source": "TERMS.md",
+  "terms": [
+    {
+      "id": "HHI-AUTH-001",
+      "term": "Authority The formally assigned right to make, override, pause, or stop decisions during execution.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-AUTH-002",
+      "term": "Decision Boundary The explicit point at which authority transfers between actors during execution.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-AUTH-003",
+      "term": "Stop Authority A role-bound capability to halt system operation when governance thresholds are exceeded.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-AUTH-005",
+      "term": "Escalation Transfer of decision authority to higher roles when risk thresholds are reached.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-AUTH-006",
+      "term": "Escalation Decay Reduction in the effectiveness or use of escalation pathways over time.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-AUTH-007",
+      "term": "Escalation Suppression Condition where escalation pathways exist but are not used.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-BEH-001",
+      "term": "Behavioral Drift Gradual divergence between expected system behavior and observed behavior over time.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-BEH-002",
+      "term": "Reliance Formation Process through which individuals begin depending on system outputs.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-BEH-003",
+      "term": "Governance as Infrastructure Governance structures that accumulate through repeated behavioral patterns.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-BEH-005",
+      "term": "Continuous Assurance Ongoing monitoring of governance performance rather than periodic audits.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-BEH-006",
+      "term": "Longitudinal Accountability Traceability of authority and responsibility across time. --- ## GOV \u2014 Governance Mechanisms and Accountability",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-GOV-001",
+      "term": "Accountability Binding outcomes to named roles with authority prior to execution.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-GOV-002",
+      "term": "Accountability Diffusion Loss of clear responsibility caused by distributed decision processes.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-GOV-003",
+      "term": "Responsibility Binding Mechanism linking authority to responsible actors.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-GOV-004",
+      "term": "Decision Substitution Replacement of human decision-making with automated system outputs. --- ## RISK \u2014 Longitudinal Risk and Failure Dynamics",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-RISK-001",
+      "term": "Governance Lag Delay between behavioral change and governance response.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-RISK-002",
+      "term": "Governance Drift Misalignment between governance policy and operational behavior.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-RISK-003",
+      "term": "Longitudinal Risk Risk emerging through repeated behavioral patterns over time.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-RISK-004",
+      "term": "Behavioral Accumulation Compounding effect of repeated actions reshaping system behavior.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-RISK-005",
+      "term": "Governance Failure Breakdown of governance mechanisms controlling system behavior.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-RISK-006",
+      "term": "Authority Drift Gradual shift in decision authority away from intended structures.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-INT-001",
+      "term": "Judgment Externalization Transfer of interpretive responsibility from humans to automated systems.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-INT-002",
+      "term": "Confidence Reinforcement Feedback loop where system responses increase user confidence.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-INT-003",
+      "term": "Override Erosion Decline in willingness to override automated decisions.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-INT-004",
+      "term": "Normalization of Workarounds Temporary fixes gradually becoming accepted operational practices.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-INT-005",
+      "term": "Governance Illusion Perception of governance control without effective enforcement. --- ## MET \u2014 Measurement Constructs",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-MET-001",
+      "term": "Language Symmetry Score (LSS) Metric measuring alignment between system outputs and governance terminology.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-MET-002",
+      "term": "Relational Rhythm Index (RRI) Indicator measuring stability in human-system interaction patterns.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-MET-003",
+      "term": "Governance Stability Index (GSI) Metric measuring long-term consistency of governance structures.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-MET-004",
+      "term": "Authority Alignment Score (AAS) Metric evaluating alignment between authority structures and governance design. --- ## OPS \u2014 Operational Monitoring Systems",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-OPS-002",
+      "term": "Governance Telemetry Operational signals measuring governance performance.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-OPS-003",
+      "term": "Interaction Trace Recorded sequence of human-system interactions. --- ## SYS \u2014 Structural Governance Systems",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-SYS-001",
+      "term": "Sociotechnical System System composed of human, technical, and organizational components.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-SYS-002",
+      "term": "Execution-Time Governance Governance mechanisms operating during system execution.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    },
+    {
+      "id": "HHI-SYS-003",
+      "term": "Governance Infrastructure Layer Structural components enforcing governance rules.",
+      "status": "active",
+      "introduced": "v1.3.0",
+      "governed_by": "HHI-TP-001"
+    }
+  ]
+}
