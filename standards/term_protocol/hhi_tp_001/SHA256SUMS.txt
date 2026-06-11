@@ -1,0 +1,2 @@
+721638258208a0c952a10062c0b2c5da649c4ec4d83f7afa714cb2e935a871fa  standards/term_protocol/hhi_tp_001/HHI_TP_001_TERM_GOVERNANCE_PROTOCOL.md
+86380c9fa66e0451a77ab65bb859f7087e4a62f04acc9f3a91f40140e59b2fe1  standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json
