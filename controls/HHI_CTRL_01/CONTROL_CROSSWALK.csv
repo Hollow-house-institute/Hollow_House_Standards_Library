@@ -1,0 +1,9 @@
+ControlID,Doctrine,RuntimeComponent,Telemetry,Evidence
+HHI-CTRL-001,Behavioral Substrate,governance_telemetry.jsonl,BEHAVIOR_RECORDED,Immutable Audit Chain
+HHI-CTRL-002,Authority Origin,provenance.json,AUTHORITY_APPLIED,Authority Provenance Record
+HHI-CTRL-003,Boundary Integrity,drift_status.json,BOUNDARY_STATUS,Drift Report
+HHI-CTRL-004,Replayability,replaygovernance_session.py,REPLAY_EXECUTED,Replay Proof
+HHI-CTRL-005,Continuity of Identity,governancecontinuityscore.py,CONTINUITY_MEASURED,Continuity Manifest
+HHI-CTRL-006,Evidence Discipline,evidence_schema.json,EVIDENCE_VALIDATED,Evidence Bundle
+HHI-CTRL-007,Transparency of Process,GOVERNANCE_LOG.jsonl,PROCESS_LOGGED,Transparency Dashboard
+HHI-CTRL-008,Terminological Stability,TERMREGISTRYV1_4.json,TERMS_OBSERVED,Terminology Drift Report

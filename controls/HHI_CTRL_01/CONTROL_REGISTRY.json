@@ -1,0 +1,46 @@
+{
+  "standard": "HHI-CTRL-01",
+  "version": "1.0.0",
+  "controls": [
+    {
+      "id": "HHI-CTRL-001",
+      "name": "Behavioral Capture Control",
+      "doctrine": "Behavioral Substrate"
+    },
+    {
+      "id": "HHI-CTRL-002",
+      "name": "Authority Validation Control",
+      "doctrine": "Authority Origin"
+    },
+    {
+      "id": "HHI-CTRL-003",
+      "name": "Boundary Enforcement Control",
+      "doctrine": "Boundary Integrity"
+    },
+    {
+      "id": "HHI-CTRL-004",
+      "name": "Replay Integrity Control",
+      "doctrine": "Replayability"
+    },
+    {
+      "id": "HHI-CTRL-005",
+      "name": "Continuity Preservation Control",
+      "doctrine": "Continuity of Identity"
+    },
+    {
+      "id": "HHI-CTRL-006",
+      "name": "Evidence Validation Control",
+      "doctrine": "Evidence Discipline"
+    },
+    {
+      "id": "HHI-CTRL-007",
+      "name": "Process Transparency Control",
+      "doctrine": "Transparency of Process"
+    },
+    {
+      "id": "HHI-CTRL-008",
+      "name": "Terminology Stability Control",
+      "doctrine": "Terminological Stability"
+    }
+  ]
+}
