@@ -1,0 +1,39 @@
+{
+  "standard": "HHI-IDENT-01",
+  "version": "1.0.0",
+  "classes": [
+    "CP",
+    "CTRL",
+    "STD",
+    "TERM",
+    "PROV",
+    "EVT",
+    "EVD",
+    "AUD",
+    "MET",
+    "SCN",
+    "PUB",
+    "REP"
+  ],
+  "seed_identifiers": [
+    "HHI-CP-001",
+    "HHI-CP-002",
+    "HHI-CP-003",
+    "HHI-CP-004",
+    "HHI-CP-005",
+    "HHI-CP-006",
+    "HHI-CP-007",
+    "HHI-CP-008",
+    "HHI-CTRL-001",
+    "HHI-CTRL-002",
+    "HHI-CTRL-003",
+    "HHI-CTRL-004",
+    "HHI-CTRL-005",
+    "HHI-CTRL-006",
+    "HHI-CTRL-007",
+    "HHI-CTRL-008",
+    "HHI-GOV-01",
+    "HHI-TP-001",
+    "HHI-PROV-001"
+  ]
+}

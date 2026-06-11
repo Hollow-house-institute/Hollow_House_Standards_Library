@@ -1,0 +1,10 @@
+{
+  "traceability_chain": [
+    "CP",
+    "CTRL",
+    "STD",
+    "EVT",
+    "EVD",
+    "AUD"
+  ]
+}
