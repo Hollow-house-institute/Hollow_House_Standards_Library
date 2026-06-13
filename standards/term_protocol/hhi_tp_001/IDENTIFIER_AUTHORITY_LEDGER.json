@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "HHI Identifier Authority Ledger",
+    "version": "1.0.0",
+    "authority": "HHI-TP-001",
+    "status": "Draft"
+  },
+  "concepts": [
+    {
+      "concept": "Execution-Time Governance",
+      "authoritative_id": "HHI-GOV-001",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Governance Telemetry",
+      "authoritative_id": "HHI-TEL-001",
+      "legacy_ids": ["HHI-GOV-018"],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Behavioral Drift",
+      "authoritative_id": "HHI-BEH-001",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Decision Boundary",
+      "authoritative_id": "HHI-AUTH-001",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Stop Authority",
+      "authoritative_id": "HHI-AUTH-002",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Authority Persistence",
+      "authoritative_id": "HHI-AUTH-003",
+      "legacy_ids": ["HHI-AUTH-008"],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Replayable Evidence",
+      "authoritative_id": "HHI-EVD-001",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Continuous Assurance",
+      "authoritative_id": "HHI-CTRL-001",
+      "legacy_ids": [
+        "HHI-BEH-005",
+        "HHI-GOV-011"
+      ],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Runtime Governance",
+      "authoritative_id": "HHI-GOV-002",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Behavioral Governance",
+      "authoritative_id": "HHI-GOV-003",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Governance Observability",
+      "authoritative_id": "HHI-TEL-002",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Telemetry Continuity",
+      "authoritative_id": "HHI-TEL-003",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Governance Event",
+      "authoritative_id": "HHI-EVD-002",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    },
+    {
+      "concept": "Authority Stack",
+      "authoritative_id": "HHI-AUTH-004",
+      "legacy_ids": [],
+      "status": "ACTIVE"
+    }
+  ]
+}
