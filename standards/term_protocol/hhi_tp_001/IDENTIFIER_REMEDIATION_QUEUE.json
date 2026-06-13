@@ -1,0 +1,108 @@
+{
+  "queue": "IDENTIFIER_REMEDIATION_QUEUE",
+  "version": "1.0.0",
+  "source": "standards/term_protocol/hhi_tp_001/IDENTIFIER_MIGRATION_LEDGER.json",
+  "open_items": 10,
+  "records": [
+    {
+      "identifier": "HHI-GOV-001",
+      "legacy_term": "Accountability",
+      "canonical_term": "Execution-Time Governance",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-002",
+      "legacy_term": "Reliance Formation",
+      "canonical_term": "Behavioral Accumulation",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-003",
+      "legacy_term": "Governance as Infrastructure",
+      "canonical_term": "Governance Drift",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-RISK-001",
+      "legacy_term": "Governance Lag",
+      "canonical_term": "Longitudinal Risk",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-001",
+      "legacy_term": "Authority",
+      "canonical_term": "Decision Boundary",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-002",
+      "legacy_term": "Decision Boundary",
+      "canonical_term": "Stop Authority",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-003",
+      "legacy_term": "Stop Authority",
+      "canonical_term": "Authority Persistence",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-GOV-002",
+      "legacy_term": "Accountability Diffusion",
+      "canonical_term": "Runtime Governance",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-GOV-003",
+      "legacy_term": "Responsibility Binding",
+      "canonical_term": "Behavioral Governance",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-004",
+      "legacy_term": "Human-in-the-Loop",
+      "canonical_term": "Authority Stack",
+      "status": "OPEN",
+      "priority": "HIGH",
+      "affected_files": [],
+      "verification_status": "PENDING",
+      "notes": ""
+    }
+  ]
+}
