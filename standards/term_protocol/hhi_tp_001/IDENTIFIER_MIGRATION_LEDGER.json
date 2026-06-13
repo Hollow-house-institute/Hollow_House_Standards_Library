@@ -1,0 +1,116 @@
+{
+  "ledger": "IDENTIFIER_MIGRATION_LEDGER",
+  "version": "1.0.0",
+  "authority_source": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+  "record_count": 12,
+  "records": [
+    {
+      "identifier": "HHI-GOV-001",
+      "authoritative_term": "Execution-Time Governance",
+      "legacy_term": "Accountability",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-001",
+      "authoritative_term": "Behavioral Drift",
+      "legacy_term": "HHI-BEH-001",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-002",
+      "authoritative_term": "Behavioral Accumulation",
+      "legacy_term": "HHI-BEH-002",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-002",
+      "authoritative_term": "Behavioral Accumulation",
+      "legacy_term": "Reliance Formation",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-003",
+      "authoritative_term": "Governance Drift",
+      "legacy_term": "Governance as Infrastructure",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-RISK-001",
+      "authoritative_term": "Longitudinal Risk",
+      "legacy_term": "Governance Lag",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-001",
+      "authoritative_term": "Decision Boundary",
+      "legacy_term": "Authority",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-002",
+      "authoritative_term": "Stop Authority",
+      "legacy_term": "Decision Boundary",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-003",
+      "authoritative_term": "Authority Persistence",
+      "legacy_term": "Stop Authority",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-GOV-002",
+      "authoritative_term": "Runtime Governance",
+      "legacy_term": "Accountability Diffusion",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-GOV-003",
+      "authoritative_term": "Behavioral Governance",
+      "legacy_term": "Responsibility Binding",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-004",
+      "authoritative_term": "Authority Stack",
+      "legacy_term": "Human-in-the-Loop",
+      "status": "MIGRATION_REQUIRED",
+      "decision": "REASSIGN_LEGACY_TERM",
+      "migration_target": null,
+      "notes": ""
+    }
+  ]
+}
