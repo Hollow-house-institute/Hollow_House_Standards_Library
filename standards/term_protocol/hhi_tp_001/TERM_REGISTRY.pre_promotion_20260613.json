@@ -1,6 +1,6 @@
 {
   "protocol": "HHI-TP-001",
-  "version": "v1.1.0",
+  "version": "v1.0.0",
   "terms": [
     {
       "id": "HHI-GOV-001",
@@ -60,41 +60,6 @@
     {
       "id": "HHI-EVD-001",
       "term": "Replayable Evidence",
-      "status": "active"
-    },
-    {
-      "id": "HHI-CTRL-001",
-      "term": "Continuous Assurance",
-      "status": "active"
-    },
-    {
-      "id": "HHI-GOV-002",
-      "term": "Runtime Governance",
-      "status": "active"
-    },
-    {
-      "id": "HHI-GOV-003",
-      "term": "Behavioral Governance",
-      "status": "active"
-    },
-    {
-      "id": "HHI-TEL-002",
-      "term": "Governance Observability",
-      "status": "active"
-    },
-    {
-      "id": "HHI-TEL-003",
-      "term": "Telemetry Continuity",
-      "status": "active"
-    },
-    {
-      "id": "HHI-EVD-002",
-      "term": "Governance Event",
-      "status": "active"
-    },
-    {
-      "id": "HHI-AUTH-004",
-      "term": "Authority Stack",
       "status": "active"
     }
   ]
