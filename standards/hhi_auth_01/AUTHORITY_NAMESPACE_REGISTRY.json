@@ -1,0 +1,11 @@
+{
+  "namespace": "HHI-AUTH",
+  "status": "draft",
+  "terms": [
+    "Human Authority",
+    "Human-in-the-Loop",
+    "Authority Drift",
+    "Authority Saturation",
+    "Authority Alignment Score"
+  ]
+}
