@@ -1,0 +1,1797 @@
+{
+  "report": "IDENTIFIER_RECONCILIATION_REPORT",
+  "version": "1.0.0",
+  "generated_from": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+  "identifier_count": 19,
+  "records": [
+    {
+      "identifier": "HHI-GOV-001",
+      "registry_term": "Execution-Time Governance",
+      "reference_count": 20,
+      "references": [
+        {
+          "file": "TERMS.md",
+          "line": 65,
+          "content": "HHI-GOV-001 \u2014 Accountability"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 12,
+          "content": "\"identifier\": \"HHI-GOV-001\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 15,
+          "content": "HHI-GOV-001 \u2014 Accountability"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 53,
+          "content": "terms/governance.md:4:identifier: HHI-GOV-001"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 54,
+          "content": "terms/governance.md:18:Identifier: HHI-GOV-001"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 13,
+          "content": "HHI-GOV-001"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 15,
+          "content": "HHI-GOV-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 13,
+          "content": "HHI-GOV-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 70,
+          "content": "terms/governance.md:18:Identifier: HHI-GOV-001"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 15,
+          "content": "HHI-GOV-001"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 13,
+          "content": "HHI-GOV-001"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 50,
+          "content": "| HHI-GOV-001 | Governance | Governance Architecture | Governance Infrastructure Layer | GOVERN 1.0 | Clause 4.1 | Art. 9 | Principle 1 |"
+        },
+        {
+          "file": "terms/governance.md",
+          "line": 4,
+          "content": "identifier: HHI-GOV-001"
+        },
+        {
+          "file": "terms/governance.md",
+          "line": 18,
+          "content": "Identifier: HHI-GOV-001"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/HHI_TP_001_TERM_GOVERNANCE_PROTOCOL.md",
+          "line": 44,
+          "content": "HHI-GOV-001"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 6,
+          "content": "\"id\": \"HHI-GOV-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 84,
+          "content": "\"id\": \"HHI-GOV-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 6,
+          "content": "\"id\": \"HHI-GOV-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 6,
+          "content": "\"id\": \"HHI-GOV-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 11,
+          "content": "\"authoritative_id\": \"HHI-GOV-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Execution-Time Governance",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-TEL-001",
+      "registry_term": "Governance Telemetry",
+      "reference_count": 5,
+      "references": [
+        {
+          "file": "standards/term_protocol/hhi_tp_001/HHI_TP_001_TERM_GOVERNANCE_PROTOCOL.md",
+          "line": 91,
+          "content": "related_to HHI-TEL-001 Governance Telemetry"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 11,
+          "content": "\"id\": \"HHI-TEL-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 11,
+          "content": "\"id\": \"HHI-TEL-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 11,
+          "content": "\"id\": \"HHI-TEL-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 17,
+          "content": "\"authoritative_id\": \"HHI-TEL-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Governance Telemetry",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-INF-001",
+      "registry_term": "Governance Infrastructure Layer",
+      "reference_count": 4,
+      "references": [
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 110,
+          "content": "| HHI-INF-001 | Governance Infrastructure Layer | Governance Architecture | Infrastructure Layer | GOVERN 1.0 | Clause 4.4 | Art. 9(1) | Principle 1 |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 16,
+          "content": "\"id\": \"HHI-INF-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 16,
+          "content": "\"id\": \"HHI-INF-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 16,
+          "content": "\"id\": \"HHI-INF-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Governance Infrastructure Layer",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-001",
+      "registry_term": "Behavioral Drift",
+      "reference_count": 41,
+      "references": [
+        {
+          "file": "HHI-CROSSWALK-NIST-AI-RMF-01.md",
+          "line": 28,
+          "content": "| Behavioral Drift | HHI-BEH-001 | MEASURE | Drift detection alignment |"
+        },
+        {
+          "file": "HHI-SPEC-BEHAVIORAL-DRIFT-01.md",
+          "line": 12,
+          "content": "identifier: HHI-BEH-001"
+        },
+        {
+          "file": "HHI-SPEC-BEHAVIORAL-DRIFT-01.md",
+          "line": 20,
+          "content": "Identifier: HHI-BEH-001"
+        },
+        {
+          "file": "MASTER_PROMPT_SPECIFICATION.md",
+          "line": 135,
+          "content": "HHI-BEH-001"
+        },
+        {
+          "file": "MASTER_PROMPT_SPECIFICATION.md",
+          "line": 205,
+          "content": "Behavioral Drift (HHI-BEH-001)"
+        },
+        {
+          "file": "SEARCH_DEFINITIONS.md",
+          "line": 7,
+          "content": "Behavioral Drift (HHI-BEH-001) is the gradual divergence between expected and observed system behavior as interaction patterns accumulate across time."
+        },
+        {
+          "file": "TERMS.md",
+          "line": 43,
+          "content": "HHI-BEH-001 \u2014 Behavioral Drift"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 52,
+          "content": "\"identifier\": \"HHI-BEH-001\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 9,
+          "content": "HHI-BEH-001 \u2014 Behavioral Drift"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 16,
+          "content": "terms/behavioral-drift.md:4:identifier: HHI-BEH-001"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 17,
+          "content": "terms/behavioral-drift.md:18:Identifier: HHI-BEH-001"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 9,
+          "content": "HHI-BEH-001"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 9,
+          "content": "HHI-BEH-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 9,
+          "content": "HHI-BEH-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 50,
+          "content": "terms/behavioral-drift.md:18:Identifier: HHI-BEH-001"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 9,
+          "content": "HHI-BEH-001"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 9,
+          "content": "HHI-BEH-001"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 40,
+          "content": "| HHI-BEH-001 | Behavioral Accumulation | Behavioral Dynamics | System Behavior | MAP 1.5 | Clause 6.1.3 | Art. 9(2)(a) | Principle 4 |"
+        },
+        {
+          "file": "specs/HHI-SPEC-BEHAVIORAL-DRIFT-01.md",
+          "line": 14,
+          "content": "identifier: HHI-BEH-001"
+        },
+        {
+          "file": "specs/HHI-SPEC-BEHAVIORAL-DRIFT-01.md",
+          "line": 22,
+          "content": "**Identifier:** HHI-BEH-001"
+        },
+        {
+          "file": "terms/authority-persistence.md",
+          "line": 29,
+          "content": "- Behavioral Drift (HHI-BEH-001)"
+        },
+        {
+          "file": "terms/authority-persistence.md",
+          "line": 40,
+          "content": "- [Behavioral Drift](behavioral-drift.md) \u2014 HHI-BEH-001"
+        },
+        {
+          "file": "terms/behavioral-drift.md",
+          "line": 4,
+          "content": "identifier: HHI-BEH-001"
+        },
+        {
+          "file": "terms/behavioral-drift.md",
+          "line": 18,
+          "content": "Identifier: HHI-BEH-001"
+        },
+        {
+          "file": "terms/escalation-suppression.md",
+          "line": 29,
+          "content": "- Behavioral Drift (HHI-BEH-001)"
+        },
+        {
+          "file": "terms/escalation-suppression.md",
+          "line": 40,
+          "content": "- [Behavioral Drift](behavioral-drift.md) \u2014 HHI-BEH-001"
+        },
+        {
+          "file": "terms/governance-as-infrastructure.md",
+          "line": 29,
+          "content": "- Behavioral Drift (HHI-BEH-001)"
+        },
+        {
+          "file": "terms/governance-as-infrastructure.md",
+          "line": 40,
+          "content": "- [Behavioral Drift](behavioral-drift.md) \u2014 HHI-BEH-001"
+        },
+        {
+          "file": "terms/governance-lag.md",
+          "line": 29,
+          "content": "- Behavioral Drift (HHI-BEH-001)"
+        },
+        {
+          "file": "terms/governance-lag.md",
+          "line": 40,
+          "content": "- [Behavioral Drift](behavioral-drift.md) \u2014 HHI-BEH-001"
+        },
+        {
+          "file": "terms/human-in-the-loop.md",
+          "line": 29,
+          "content": "- Behavioral Drift (HHI-BEH-001)"
+        },
+        {
+          "file": "terms/human-in-the-loop.md",
+          "line": 40,
+          "content": "- [Behavioral Drift](behavioral-drift.md) \u2014 HHI-BEH-001"
+        },
+        {
+          "file": "terms/responsibility-binding.md",
+          "line": 29,
+          "content": "- Behavioral Drift (HHI-BEH-001)"
+        },
+        {
+          "file": "terms/responsibility-binding.md",
+          "line": 40,
+          "content": "- [Behavioral Drift](behavioral-drift.md) \u2014 HHI-BEH-001"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/HHI_TP_001_TERM_GOVERNANCE_PROTOCOL.md",
+          "line": 45,
+          "content": "HHI-BEH-001"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/HHI_TP_001_TERM_GOVERNANCE_PROTOCOL.md",
+          "line": 90,
+          "content": "HHI-BEH-001 Behavioral Drift"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 21,
+          "content": "\"id\": \"HHI-BEH-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 49,
+          "content": "\"id\": \"HHI-BEH-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 21,
+          "content": "\"id\": \"HHI-BEH-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 21,
+          "content": "\"id\": \"HHI-BEH-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 23,
+          "content": "\"authoritative_id\": \"HHI-BEH-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Behavioral Drift",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-002",
+      "registry_term": "Behavioral Accumulation",
+      "reference_count": 31,
+      "references": [
+        {
+          "file": "SEARCH_DEFINITIONS.md",
+          "line": 10,
+          "content": "Override Erosion (HHI-INT-003) is the gradual decline in human willingness to override automated system decisions, often driven by Reliance Formation (HHI-BEH-002) and Confidence Reinforcement (HHI-INT-002)."
+        },
+        {
+          "file": "TERMS.md",
+          "line": 46,
+          "content": "HHI-BEH-002 \u2014 Reliance Formation"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 60,
+          "content": "\"identifier\": \"HHI-BEH-002\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 10,
+          "content": "HHI-BEH-002 \u2014 Reliance Formation"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 14,
+          "content": "terms/behavioral-accumulation.md:4:identifier: HHI-BEH-002"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 15,
+          "content": "terms/behavioral-accumulation.md:18:Identifier: HHI-BEH-002"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 10,
+          "content": "HHI-BEH-002"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 10,
+          "content": "HHI-BEH-002"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 10,
+          "content": "HHI-BEH-002"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 49,
+          "content": "terms/behavioral-accumulation.md:18:Identifier: HHI-BEH-002"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 10,
+          "content": "HHI-BEH-002"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 10,
+          "content": "HHI-BEH-002"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 41,
+          "content": "| HHI-BEH-002 | Behavioral Drift | Behavioral Dynamics | System Behavior | MEASURE 2.6 | Clause 9.2 | Art. 9(2)(b) | Principle 5 |"
+        },
+        {
+          "file": "terms/authority-persistence.md",
+          "line": 33,
+          "content": "- Reliance Formation (HHI-BEH-002)"
+        },
+        {
+          "file": "terms/authority-persistence.md",
+          "line": 41,
+          "content": "- [Reliance Formation](reliance-formation.md) \u2014 HHI-BEH-002"
+        },
+        {
+          "file": "terms/behavioral-accumulation.md",
+          "line": 4,
+          "content": "identifier: HHI-BEH-002"
+        },
+        {
+          "file": "terms/behavioral-accumulation.md",
+          "line": 18,
+          "content": "Identifier: HHI-BEH-002"
+        },
+        {
+          "file": "terms/escalation-suppression.md",
+          "line": 33,
+          "content": "- Reliance Formation (HHI-BEH-002)"
+        },
+        {
+          "file": "terms/escalation-suppression.md",
+          "line": 41,
+          "content": "- [Reliance Formation](reliance-formation.md) \u2014 HHI-BEH-002"
+        },
+        {
+          "file": "terms/governance-as-infrastructure.md",
+          "line": 33,
+          "content": "- Reliance Formation (HHI-BEH-002)"
+        },
+        {
+          "file": "terms/governance-as-infrastructure.md",
+          "line": 41,
+          "content": "- [Reliance Formation](reliance-formation.md) \u2014 HHI-BEH-002"
+        },
+        {
+          "file": "terms/governance-lag.md",
+          "line": 33,
+          "content": "- Reliance Formation (HHI-BEH-002)"
+        },
+        {
+          "file": "terms/governance-lag.md",
+          "line": 41,
+          "content": "- [Reliance Formation](reliance-formation.md) \u2014 HHI-BEH-002"
+        },
+        {
+          "file": "terms/human-in-the-loop.md",
+          "line": 33,
+          "content": "- Reliance Formation (HHI-BEH-002)"
+        },
+        {
+          "file": "terms/human-in-the-loop.md",
+          "line": 41,
+          "content": "- [Reliance Formation](reliance-formation.md) \u2014 HHI-BEH-002"
+        },
+        {
+          "file": "terms/responsibility-binding.md",
+          "line": 33,
+          "content": "- Reliance Formation (HHI-BEH-002)"
+        },
+        {
+          "file": "terms/responsibility-binding.md",
+          "line": 41,
+          "content": "- [Reliance Formation](reliance-formation.md) \u2014 HHI-BEH-002"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 26,
+          "content": "\"id\": \"HHI-BEH-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 56,
+          "content": "\"id\": \"HHI-BEH-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 26,
+          "content": "\"id\": \"HHI-BEH-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 26,
+          "content": "\"id\": \"HHI-BEH-002\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Behavioral Accumulation",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-003",
+      "registry_term": "Governance Drift",
+      "reference_count": 22,
+      "references": [
+        {
+          "file": "TERMS.md",
+          "line": 49,
+          "content": "HHI-BEH-003 \u2014 Governance as Infrastructure"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 92,
+          "content": "\"identifier\": \"HHI-BEH-003\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 11,
+          "content": "HHI-BEH-003 \u2014 Governance as Infrastructure"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 18,
+          "content": "terms/confidence-reinforcement.md:4:identifier: HHI-BEH-003"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 19,
+          "content": "terms/confidence-reinforcement.md:18:Identifier: HHI-BEH-003"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 33,
+          "content": "terms/governance-as-infrastructure.md:10:Identifier: **HHI-BEH-003**"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 11,
+          "content": "HHI-BEH-003"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 11,
+          "content": "HHI-BEH-003"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 11,
+          "content": "HHI-BEH-003"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 51,
+          "content": "terms/confidence-reinforcement.md:18:Identifier: HHI-BEH-003"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 59,
+          "content": "terms/governance-as-infrastructure.md:10:Identifier: HHI-BEH-003"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 11,
+          "content": "HHI-BEH-003"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 11,
+          "content": "HHI-BEH-003"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 42,
+          "content": "| HHI-BEH-003 | Override Erosion | Automation Influence | Human Interaction Layer | GOVERN 1.5 | Annex A.8 | Art. 14(4)(a) | Principle 6 |"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 139,
+          "content": "| HHI-BEH-003 | Override Erosion | Automation Influence |"
+        },
+        {
+          "file": "terms/confidence-reinforcement.md",
+          "line": 4,
+          "content": "identifier: HHI-BEH-003"
+        },
+        {
+          "file": "terms/confidence-reinforcement.md",
+          "line": 18,
+          "content": "Identifier: HHI-BEH-003"
+        },
+        {
+          "file": "terms/governance-as-infrastructure.md",
+          "line": 10,
+          "content": "Identifier: **HHI-BEH-003**"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 31,
+          "content": "\"id\": \"HHI-BEH-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 63,
+          "content": "\"id\": \"HHI-BEH-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 31,
+          "content": "\"id\": \"HHI-BEH-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 31,
+          "content": "\"id\": \"HHI-BEH-003\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Governance Drift",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-RISK-001",
+      "registry_term": "Longitudinal Risk",
+      "reference_count": 26,
+      "references": [
+        {
+          "file": "HHI-CROSSWALK-NIST-AI-RMF-01.md",
+          "line": 32,
+          "content": "| Longitudinal Risk | HHI-RISK-001 | MANAGE | Temporal risk modeling |"
+        },
+        {
+          "file": "HHI-SPEC-LONGITUDINAL-RISK-01.md",
+          "line": 12,
+          "content": "identifier: HHI-RISK-001"
+        },
+        {
+          "file": "HHI-SPEC-LONGITUDINAL-RISK-01.md",
+          "line": 20,
+          "content": "Identifier: HHI-RISK-001"
+        },
+        {
+          "file": "TERMS.md",
+          "line": 81,
+          "content": "HHI-RISK-001 \u2014 Governance Lag"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 108,
+          "content": "\"identifier\": \"HHI-RISK-001\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 19,
+          "content": "HHI-RISK-001 \u2014 Governance Lag"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 46,
+          "content": "terms/governance-lag.md:10:Identifier: **HHI-RISK-001**"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 70,
+          "content": "terms/longitudinal-risk.md:4:identifier: HHI-RISK-001"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 71,
+          "content": "terms/longitudinal-risk.md:18:Identifier: HHI-RISK-001"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 39,
+          "content": "HHI-RISK-001"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 31,
+          "content": "HHI-RISK-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 39,
+          "content": "HHI-RISK-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 66,
+          "content": "terms/governance-lag.md:10:Identifier: HHI-RISK-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 79,
+          "content": "terms/longitudinal-risk.md:18:Identifier: HHI-RISK-001"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 31,
+          "content": "HHI-RISK-001"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 39,
+          "content": "HHI-RISK-001"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 122,
+          "content": "| HHI-RISK-001 | Longitudinal Risk | Risk Management | Governance Layer | MAP 5.1 | Clause 6.1.3 | Art. 9(2) | Principle 4 |"
+        },
+        {
+          "file": "specs/HHI-SPEC-LONGITUDINAL-RISK-01.md",
+          "line": 14,
+          "content": "identifier: HHI-RISK-001"
+        },
+        {
+          "file": "specs/HHI-SPEC-LONGITUDINAL-RISK-01.md",
+          "line": 22,
+          "content": "**Identifier:** HHI-RISK-001"
+        },
+        {
+          "file": "terms/governance-lag.md",
+          "line": 10,
+          "content": "Identifier: **HHI-RISK-001**"
+        },
+        {
+          "file": "terms/longitudinal-risk.md",
+          "line": 4,
+          "content": "identifier: HHI-RISK-001"
+        },
+        {
+          "file": "terms/longitudinal-risk.md",
+          "line": 18,
+          "content": "Identifier: HHI-RISK-001"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 36,
+          "content": "\"id\": \"HHI-RISK-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 112,
+          "content": "\"id\": \"HHI-RISK-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 36,
+          "content": "\"id\": \"HHI-RISK-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 36,
+          "content": "\"id\": \"HHI-RISK-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Longitudinal Risk",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-001",
+      "registry_term": "Decision Boundary",
+      "reference_count": 26,
+      "references": [
+        {
+          "file": "HHI-CROSSWALK-NIST-AI-RMF-01.md",
+          "line": 30,
+          "content": "| Decision Boundary | HHI-AUTH-001 | GOVERN | Authority transfer definition |"
+        },
+        {
+          "file": "HHI-SPEC-DECISION-BOUNDARY-01.md",
+          "line": 12,
+          "content": "identifier: HHI-AUTH-001"
+        },
+        {
+          "file": "HHI-SPEC-DECISION-BOUNDARY-01.md",
+          "line": 20,
+          "content": "Identifier: HHI-AUTH-001"
+        },
+        {
+          "file": "TERMS.md",
+          "line": 15,
+          "content": "HHI-AUTH-001 \u2014 Authority"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 28,
+          "content": "\"identifier\": \"HHI-AUTH-001\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 1,
+          "content": "HHI-AUTH-001 \u2014 Authority"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 22,
+          "content": "terms/decision-boundary.md:4:identifier: HHI-AUTH-001"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 23,
+          "content": "terms/decision-boundary.md:18:Identifier: HHI-AUTH-001"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 1,
+          "content": "HHI-AUTH-001"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 1,
+          "content": "HHI-AUTH-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 1,
+          "content": "HHI-AUTH-001"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 53,
+          "content": "terms/decision-boundary.md:18:Identifier: HHI-AUTH-001"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 1,
+          "content": "HHI-AUTH-001"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 1,
+          "content": "HHI-AUTH-001"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 28,
+          "content": "| HHI-AUTH-001 | Authority | Authority Control | Decision Layer | GOVERN 1.3 | Clause 5.1 | Art. 14 | Principle 2 |"
+        },
+        {
+          "file": "specs/HHI-SPEC-DECISION-BOUNDARY-01.md",
+          "line": 14,
+          "content": "identifier: HHI-AUTH-001"
+        },
+        {
+          "file": "specs/HHI-SPEC-DECISION-BOUNDARY-01.md",
+          "line": 22,
+          "content": "**Identifier:** HHI-AUTH-001"
+        },
+        {
+          "file": "terms/decision-boundary.md",
+          "line": 4,
+          "content": "identifier: HHI-AUTH-001"
+        },
+        {
+          "file": "terms/decision-boundary.md",
+          "line": 18,
+          "content": "Identifier: HHI-AUTH-001"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/HHI_TP_001_TERM_GOVERNANCE_PROTOCOL.md",
+          "line": 46,
+          "content": "HHI-AUTH-001"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/HHI_TP_001_TERM_GOVERNANCE_PROTOCOL.md",
+          "line": 81,
+          "content": "HHI-AUTH-001"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 41,
+          "content": "\"id\": \"HHI-AUTH-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 7,
+          "content": "\"id\": \"HHI-AUTH-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 41,
+          "content": "\"id\": \"HHI-AUTH-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 41,
+          "content": "\"id\": \"HHI-AUTH-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 29,
+          "content": "\"authoritative_id\": \"HHI-AUTH-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Decision Boundary",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-002",
+      "registry_term": "Stop Authority",
+      "reference_count": 25,
+      "references": [
+        {
+          "file": "HHI-CROSSWALK-NIST-AI-RMF-01.md",
+          "line": 29,
+          "content": "| Authority | HHI-AUTH-002 | GOVERN | Decision rights clarity |"
+        },
+        {
+          "file": "HHI-SPEC-AUTHORITY-01.md",
+          "line": 12,
+          "content": "identifier: HHI-AUTH-002"
+        },
+        {
+          "file": "HHI-SPEC-AUTHORITY-01.md",
+          "line": 20,
+          "content": "Identifier: HHI-AUTH-002"
+        },
+        {
+          "file": "TERMS.md",
+          "line": 18,
+          "content": "HHI-AUTH-002 \u2014 Decision Boundary"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 36,
+          "content": "\"identifier\": \"HHI-AUTH-002\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 2,
+          "content": "HHI-AUTH-002 \u2014 Decision Boundary"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 12,
+          "content": "terms/authority.md:4:identifier: HHI-AUTH-002"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 13,
+          "content": "terms/authority.md:18:Identifier: HHI-AUTH-002"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 2,
+          "content": "HHI-AUTH-002"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 2,
+          "content": "HHI-AUTH-002"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 2,
+          "content": "HHI-AUTH-002"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 48,
+          "content": "terms/authority.md:18:Identifier: HHI-AUTH-002"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 2,
+          "content": "HHI-AUTH-002"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 2,
+          "content": "HHI-AUTH-002"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 29,
+          "content": "| HHI-AUTH-002 | Decision Boundary | Decision Governance | Execution Layer | MAP 3.4 | Clause 6.1.2 | Art. 14(4) | Principle 3 |"
+        },
+        {
+          "file": "specs/HHI-SPEC-AUTHORITY-01.md",
+          "line": 14,
+          "content": "identifier: HHI-AUTH-002"
+        },
+        {
+          "file": "specs/HHI-SPEC-AUTHORITY-01.md",
+          "line": 22,
+          "content": "**Identifier:** HHI-AUTH-002"
+        },
+        {
+          "file": "specs/HHI-SPEC-GOVERNANCE-INFRASTRUCTURE-LAYER-01.md",
+          "line": 52,
+          "content": "- Authority (HHI-AUTH-002)"
+        },
+        {
+          "file": "terms/authority.md",
+          "line": 4,
+          "content": "identifier: HHI-AUTH-002"
+        },
+        {
+          "file": "terms/authority.md",
+          "line": 18,
+          "content": "Identifier: HHI-AUTH-002"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 46,
+          "content": "\"id\": \"HHI-AUTH-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 14,
+          "content": "\"id\": \"HHI-AUTH-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 46,
+          "content": "\"id\": \"HHI-AUTH-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 46,
+          "content": "\"id\": \"HHI-AUTH-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 35,
+          "content": "\"authoritative_id\": \"HHI-AUTH-002\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Stop Authority",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-003",
+      "registry_term": "Authority Persistence",
+      "reference_count": 22,
+      "references": [
+        {
+          "file": "MASTER_PROMPT_SPECIFICATION.md",
+          "line": 134,
+          "content": "HHI-AUTH-003"
+        },
+        {
+          "file": "SEARCH_DEFINITIONS.md",
+          "line": 16,
+          "content": "Execution-Time Governance (HHI-SYS-002) refers to governance mechanisms operating during live system execution, including Stop Authority (HHI-AUTH-003), escalation pathways, and continuous assurance monitoring."
+        },
+        {
+          "file": "TERMS.md",
+          "line": 21,
+          "content": "HHI-AUTH-003 \u2014 Stop Authority"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 44,
+          "content": "\"identifier\": \"HHI-AUTH-003\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 3,
+          "content": "HHI-AUTH-003 \u2014 Stop Authority"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 87,
+          "content": "terms/stop-authority.md:4:identifier: HHI-AUTH-003"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 88,
+          "content": "terms/stop-authority.md:18:Identifier: HHI-AUTH-003"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 3,
+          "content": "HHI-AUTH-003"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 3,
+          "content": "HHI-AUTH-003"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 3,
+          "content": "HHI-AUTH-003"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 88,
+          "content": "terms/stop-authority.md:18:Identifier: HHI-AUTH-003"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 3,
+          "content": "HHI-AUTH-003"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 3,
+          "content": "HHI-AUTH-003"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 30,
+          "content": "| HHI-AUTH-003 | Stop Authority | Risk Intervention | Control Layer | MANAGE 4.1 | Clause 8.4 | Art. 14(3)(e) | Principle 4 |"
+        },
+        {
+          "file": "specs/HHI-SPEC-GOVERNANCE-INFRASTRUCTURE-LAYER-01.md",
+          "line": 53,
+          "content": "- Stop Authority (HHI-AUTH-003)"
+        },
+        {
+          "file": "terms/stop-authority.md",
+          "line": 4,
+          "content": "identifier: HHI-AUTH-003"
+        },
+        {
+          "file": "terms/stop-authority.md",
+          "line": 18,
+          "content": "Identifier: HHI-AUTH-003"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 51,
+          "content": "\"id\": \"HHI-AUTH-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 21,
+          "content": "\"id\": \"HHI-AUTH-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 51,
+          "content": "\"id\": \"HHI-AUTH-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 51,
+          "content": "\"id\": \"HHI-AUTH-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 41,
+          "content": "\"authoritative_id\": \"HHI-AUTH-003\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Authority Persistence",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-ESC-001",
+      "registry_term": "Escalation Mechanics",
+      "reference_count": 4,
+      "references": [
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 89,
+          "content": "| HHI-ESC-001 | Escalation | Risk Management | Control Layer | MANAGE 4.1 | Clause 8.4 | Art. 14(3)(e) | Principle 4 |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 56,
+          "content": "\"id\": \"HHI-ESC-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 56,
+          "content": "\"id\": \"HHI-ESC-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 56,
+          "content": "\"id\": \"HHI-ESC-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Escalation Mechanics",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-EVD-001",
+      "registry_term": "Replayable Evidence",
+      "reference_count": 7,
+      "references": [
+        {
+          "file": "graphs/HHI_GRAPH_01/GRAPH_DEMO.json",
+          "line": 30,
+          "content": "\"id\": \"HHI-EVD-00127\","
+        },
+        {
+          "file": "graphs/HHI_GRAPH_01/GRAPH_DEMO.json",
+          "line": 60,
+          "content": "\"to\": \"HHI-EVD-00127\","
+        },
+        {
+          "file": "graphs/HHI_GRAPH_01/GRAPH_DEMO.json",
+          "line": 64,
+          "content": "\"from\": \"HHI-EVD-00127\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 61,
+          "content": "\"id\": \"HHI-EVD-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/Assurance|Runtime Governance|Behavioral Governance|Governance Observability|Telemetry Continuity|Governance Event|Authority Stack\" ",
+          "line": 61,
+          "content": "\"id\": \"HHI-EVD-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.pre_promotion_20260613.json",
+          "line": 61,
+          "content": "\"id\": \"HHI-EVD-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 47,
+          "content": "\"authoritative_id\": \"HHI-EVD-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Replayable Evidence",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-CTRL-001",
+      "registry_term": "Continuous Assurance",
+      "reference_count": 12,
+      "references": [
+        {
+          "file": "graphs/HHI_GRAPH_02/GRAPH_AUTO.json",
+          "line": 54,
+          "content": "\"id\": \"HHI-CTRL-001\","
+        },
+        {
+          "file": "graphs/HHI_GRAPH_02/GRAPH_AUTO.json",
+          "line": 105,
+          "content": "\"to\": \"HHI-CTRL-001\","
+        },
+        {
+          "file": "identifiers/HHI_IDENT_01/HHI_IDENT_01.md",
+          "line": 33,
+          "content": "HHI-CTRL-001"
+        },
+        {
+          "file": "identifiers/HHI_IDENT_01/IDENT_REGISTRY.json",
+          "line": 27,
+          "content": "\"HHI-CTRL-001\","
+        },
+        {
+          "file": "constitution/HHI_CONSTITUTION_01/CONSTITUTION_CROSSWALK.csv",
+          "line": 2,
+          "content": "HHI-CP-001,Behavioral Substrate,HHI-CTRL-001"
+        },
+        {
+          "file": "constitution/HHI_CONSTITUTION_01/CONSTITUTION_REGISTRY.json",
+          "line": 8,
+          "content": "\"controls\": [\"HHI-CTRL-001\"]"
+        },
+        {
+          "file": "controls/HHI_CTRL_01/CONTROL_REGISTRY.json",
+          "line": 6,
+          "content": "\"id\": \"HHI-CTRL-001\","
+        },
+        {
+          "file": "controls/HHI_CTRL_01/CONTROL_CROSSWALK.csv",
+          "line": 2,
+          "content": "HHI-CTRL-001,Behavioral Substrate,governance_telemetry.jsonl,BEHAVIOR_RECORDED,Immutable Audit Chain"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 66,
+          "content": "\"id\": \"HHI-CTRL-001\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_CROSSWALK.md",
+          "line": 12,
+          "content": "| Continuous Assurance | HHI-BEH-005 | HHI-CTRL-001 | Active Crosswalk |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_CROSSWALK.md",
+          "line": 13,
+          "content": "| Continuous Assurance | HHI-GOV-011 | HHI-CTRL-001 | Superseded Reference |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 53,
+          "content": "\"authoritative_id\": \"HHI-CTRL-001\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Continuous Assurance",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-GOV-002",
+      "registry_term": "Runtime Governance",
+      "reference_count": 19,
+      "references": [
+        {
+          "file": "HHI-CROSSWALK-NIST-AI-RMF-01.md",
+          "line": 26,
+          "content": "| Governance Infrastructure | HHI-GOV-002 | GOVERN | Defines structural governance layer |"
+        },
+        {
+          "file": "TERMS.md",
+          "line": 68,
+          "content": "HHI-GOV-002 \u2014 Accountability Diffusion"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 20,
+          "content": "\"identifier\": \"HHI-GOV-002\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 16,
+          "content": "HHI-GOV-002 \u2014 Accountability Diffusion"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 44,
+          "content": "terms/governance-infrastructure.md:4:identifier: HHI-GOV-002"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 45,
+          "content": "terms/governance-infrastructure.md:18:Identifier: HHI-GOV-002"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 14,
+          "content": "HHI-GOV-002"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 16,
+          "content": "HHI-GOV-002"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 14,
+          "content": "HHI-GOV-002"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 65,
+          "content": "terms/governance-infrastructure.md:18:Identifier: HHI-GOV-002"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 16,
+          "content": "HHI-GOV-002"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 14,
+          "content": "HHI-GOV-002"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 51,
+          "content": "| HHI-GOV-002 | Governance Drift | Governance Failure Signals | Governance Layer | MEASURE 2.7 | Clause 10.1 | Art. 9(9) | Principle 5 |"
+        },
+        {
+          "file": "terms/governance-infrastructure.md",
+          "line": 4,
+          "content": "identifier: HHI-GOV-002"
+        },
+        {
+          "file": "terms/governance-infrastructure.md",
+          "line": 18,
+          "content": "Identifier: HHI-GOV-002"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 71,
+          "content": "\"id\": \"HHI-GOV-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 91,
+          "content": "\"id\": \"HHI-GOV-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_CROSSWALK.md",
+          "line": 14,
+          "content": "| Runtime Governance | N/A | HHI-GOV-002 | Active |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 62,
+          "content": "\"authoritative_id\": \"HHI-GOV-002\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Runtime Governance",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-GOV-003",
+      "registry_term": "Behavioral Governance",
+      "reference_count": 22,
+      "references": [
+        {
+          "file": "TERMS.md",
+          "line": 71,
+          "content": "HHI-GOV-003 \u2014 Responsibility Binding"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 76,
+          "content": "\"identifier\": \"HHI-GOV-003\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 17,
+          "content": "HHI-GOV-003 \u2014 Responsibility Binding"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 29,
+          "content": "terms/escalation.md:4:identifier: HHI-GOV-003"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 30,
+          "content": "terms/escalation.md:18:Identifier: HHI-GOV-003"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 84,
+          "content": "terms/responsibility-binding.md:10:Identifier: **HHI-GOV-003**"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 15,
+          "content": "HHI-GOV-003"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 17,
+          "content": "HHI-GOV-003"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 15,
+          "content": "HHI-GOV-003"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 57,
+          "content": "terms/escalation.md:18:Identifier: HHI-GOV-003"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 86,
+          "content": "terms/responsibility-binding.md:10:Identifier: HHI-GOV-003"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 17,
+          "content": "HHI-GOV-003"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 15,
+          "content": "HHI-GOV-003"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 52,
+          "content": "| HHI-GOV-003 | Governance Debt | Governance Risk | Infrastructure Layer | MANAGE 4.2 | Clause 10.2 | Art. 9(8) | Principle 4 |"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 133,
+          "content": "| HHI-GOV-003 | Governance Debt | Governance Risk |"
+        },
+        {
+          "file": "terms/escalation.md",
+          "line": 4,
+          "content": "identifier: HHI-GOV-003"
+        },
+        {
+          "file": "terms/escalation.md",
+          "line": 18,
+          "content": "Identifier: HHI-GOV-003"
+        },
+        {
+          "file": "terms/responsibility-binding.md",
+          "line": 10,
+          "content": "Identifier: **HHI-GOV-003**"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 76,
+          "content": "\"id\": \"HHI-GOV-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+          "line": 98,
+          "content": "\"id\": \"HHI-GOV-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_CROSSWALK.md",
+          "line": 15,
+          "content": "| Behavioral Governance | N/A | HHI-GOV-003 | Active |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 68,
+          "content": "\"authoritative_id\": \"HHI-GOV-003\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Behavioral Governance",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-TEL-002",
+      "registry_term": "Governance Observability",
+      "reference_count": 3,
+      "references": [
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 81,
+          "content": "\"id\": \"HHI-TEL-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_CROSSWALK.md",
+          "line": 16,
+          "content": "| Governance Observability | N/A | HHI-TEL-002 | Active |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 74,
+          "content": "\"authoritative_id\": \"HHI-TEL-002\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Governance Observability",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-TEL-003",
+      "registry_term": "Telemetry Continuity",
+      "reference_count": 3,
+      "references": [
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 86,
+          "content": "\"id\": \"HHI-TEL-003\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_CROSSWALK.md",
+          "line": 17,
+          "content": "| Telemetry Continuity | N/A | HHI-TEL-003 | Active |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 80,
+          "content": "\"authoritative_id\": \"HHI-TEL-003\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Telemetry Continuity",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-EVD-002",
+      "registry_term": "Governance Event",
+      "reference_count": 3,
+      "references": [
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 91,
+          "content": "\"id\": \"HHI-EVD-002\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_CROSSWALK.md",
+          "line": 18,
+          "content": "| Governance Event | N/A | HHI-EVD-002 | Active |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 86,
+          "content": "\"authoritative_id\": \"HHI-EVD-002\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Governance Event",
+      "decision": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-004",
+      "registry_term": "Authority Stack",
+      "reference_count": 21,
+      "references": [
+        {
+          "file": "TERMS.md",
+          "line": 24,
+          "content": "HHI-AUTH-004 \u2014 Human-in-the-Loop"
+        },
+        {
+          "file": "glossary.jsonld",
+          "line": 68,
+          "content": "\"identifier\": \"HHI-AUTH-004\","
+        },
+        {
+          "file": "IDENTIFIER_BASELINE_v1_3_0.txt",
+          "line": 4,
+          "content": "HHI-AUTH-004 \u2014 Human-in-the-Loop"
+        },
+        {
+          "file": "IDENTIFIER_AUDIT_v1_4_0.txt",
+          "line": 4,
+          "content": "HHI-AUTH-004"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 24,
+          "content": "terms/decision-substitution.md:4:identifier: HHI-AUTH-004"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 25,
+          "content": "terms/decision-substitution.md:18:Identifier: HHI-AUTH-004"
+        },
+        {
+          "file": "TERM_FILE_IDENTIFIERS.txt",
+          "line": 59,
+          "content": "terms/human-in-the-loop.md:10:Identifier: **HHI-AUTH-004**"
+        },
+        {
+          "file": "FILE_IDENTIFIER_SET.txt",
+          "line": 4,
+          "content": "HHI-AUTH-004"
+        },
+        {
+          "file": "TERMS_IDENTIFIER_SET.txt",
+          "line": 4,
+          "content": "HHI-AUTH-004"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 4,
+          "content": "HHI-AUTH-004"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 54,
+          "content": "terms/decision-substitution.md:18:Identifier: HHI-AUTH-004"
+        },
+        {
+          "file": "TERM_FILE_IDS.txt",
+          "line": 73,
+          "content": "terms/human-in-the-loop.md:10:Identifier: HHI-AUTH-004"
+        },
+        {
+          "file": "TERMS_IDS.txt",
+          "line": 4,
+          "content": "HHI-AUTH-004"
+        },
+        {
+          "file": "TERM_FILE_IDS_UNIQUE.txt",
+          "line": 4,
+          "content": "HHI-AUTH-004"
+        },
+        {
+          "file": "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+          "line": 31,
+          "content": "| HHI-AUTH-004 | Authority Drift | Authority Failure | Governance Layer | GOVERN 1.5 | Clause 9.1 | Art. 9(2) | Principle 5 |"
+        },
+        {
+          "file": "terms/decision-substitution.md",
+          "line": 4,
+          "content": "identifier: HHI-AUTH-004"
+        },
+        {
+          "file": "terms/decision-substitution.md",
+          "line": 18,
+          "content": "Identifier: HHI-AUTH-004"
+        },
+        {
+          "file": "terms/human-in-the-loop.md",
+          "line": 10,
+          "content": "Identifier: **HHI-AUTH-004**"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/TERM_REGISTRY.json",
+          "line": 96,
+          "content": "\"id\": \"HHI-AUTH-004\","
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_CROSSWALK.md",
+          "line": 19,
+          "content": "| Authority Stack | N/A | HHI-AUTH-004 | Active |"
+        },
+        {
+          "file": "standards/term_protocol/hhi_tp_001/IDENTIFIER_AUTHORITY_LEDGER.json",
+          "line": 92,
+          "content": "\"authoritative_id\": \"HHI-AUTH-004\","
+        }
+      ],
+      "authority_status": "UNREVIEWED",
+      "authoritative_meaning": "Authority Stack",
+      "decision": null,
+      "notes": ""
+    }
+  ]
+}

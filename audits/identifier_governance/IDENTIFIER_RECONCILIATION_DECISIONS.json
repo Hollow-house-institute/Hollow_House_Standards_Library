@@ -1,0 +1,139 @@
+{
+  "report": "IDENTIFIER_RECONCILIATION_DECISIONS",
+  "version": "1.0.0",
+  "records": [
+    {
+      "identifier": "HHI-GOV-001",
+      "registry_term": "Execution-Time Governance",
+      "authoritative_owner": "Execution-Time Governance",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 20
+    },
+    {
+      "identifier": "HHI-TEL-001",
+      "registry_term": "Governance Telemetry",
+      "authoritative_owner": "Governance Telemetry",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 5
+    },
+    {
+      "identifier": "HHI-INF-001",
+      "registry_term": "Governance Infrastructure Layer",
+      "authoritative_owner": "Governance Infrastructure Layer",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 4
+    },
+    {
+      "identifier": "HHI-BEH-001",
+      "registry_term": "Behavioral Drift",
+      "authoritative_owner": "Behavioral Drift",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 41
+    },
+    {
+      "identifier": "HHI-BEH-002",
+      "registry_term": "Behavioral Accumulation",
+      "authoritative_owner": "Behavioral Accumulation",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 31
+    },
+    {
+      "identifier": "HHI-BEH-003",
+      "registry_term": "Governance Drift",
+      "authoritative_owner": "Governance Drift",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 22
+    },
+    {
+      "identifier": "HHI-RISK-001",
+      "registry_term": "Longitudinal Risk",
+      "authoritative_owner": "Longitudinal Risk",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 26
+    },
+    {
+      "identifier": "HHI-AUTH-001",
+      "registry_term": "Decision Boundary",
+      "authoritative_owner": "Decision Boundary",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 26
+    },
+    {
+      "identifier": "HHI-AUTH-002",
+      "registry_term": "Stop Authority",
+      "authoritative_owner": "Stop Authority",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 25
+    },
+    {
+      "identifier": "HHI-AUTH-003",
+      "registry_term": "Authority Persistence",
+      "authoritative_owner": "Authority Persistence",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 22
+    },
+    {
+      "identifier": "HHI-ESC-001",
+      "registry_term": "Escalation Mechanics",
+      "authoritative_owner": "Escalation Mechanics",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 4
+    },
+    {
+      "identifier": "HHI-EVD-001",
+      "registry_term": "Replayable Evidence",
+      "authoritative_owner": "Replayable Evidence",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 7
+    },
+    {
+      "identifier": "HHI-CTRL-001",
+      "registry_term": "Continuous Assurance",
+      "authoritative_owner": "Continuous Assurance",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 12
+    },
+    {
+      "identifier": "HHI-GOV-002",
+      "registry_term": "Runtime Governance",
+      "authoritative_owner": "Runtime Governance",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 19
+    },
+    {
+      "identifier": "HHI-GOV-003",
+      "registry_term": "Behavioral Governance",
+      "authoritative_owner": "Behavioral Governance",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 22
+    },
+    {
+      "identifier": "HHI-TEL-002",
+      "registry_term": "Governance Observability",
+      "authoritative_owner": "Governance Observability",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 3
+    },
+    {
+      "identifier": "HHI-TEL-003",
+      "registry_term": "Telemetry Continuity",
+      "authoritative_owner": "Telemetry Continuity",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 3
+    },
+    {
+      "identifier": "HHI-EVD-002",
+      "registry_term": "Governance Event",
+      "authoritative_owner": "Governance Event",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 3
+    },
+    {
+      "identifier": "HHI-AUTH-004",
+      "registry_term": "Authority Stack",
+      "authoritative_owner": "Authority Stack",
+      "status": "PENDING_RECONCILIATION",
+      "legacy_references": 21
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "report": "AUTHORITY_NAMESPACE_CANDIDATES",
+  "version": "1.0.0",
+  "records": [
+    {
+      "term": "Human-in-the-Loop",
+      "reference_count": 22,
+      "sample_files": [
+        "GOVERNANCE_POSITIONING.md",
+        "Index.md",
+        "README.backup.md",
+        "TERMS.md",
+        "glossary.json",
+        "glossary.md",
+        "IDENTIFIER_BASELINE_v1_3_0.txt",
+        "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+        "terms/index.md",
+        "publications/EXECUTION_TIME_GOVERNANCE_GAP_THESIS_v1.md",
+        "standards/term_protocol/hhi_tp_001/IDENTIFIER_RECONCILIATION_REPORT.json",
+        "standards/term_protocol/hhi_tp_001/IDENTIFIER_MIGRATION_LEDGER.json",
+        "standards/term_protocol/hhi_tp_001/IDENTIFIER_REMEDIATION_QUEUE.json",
+        "standards/term_protocol/hhi_tp_001/IDENTIFIER_REMEDIATION_AUDIT.json",
+        "standards/term_protocol/hhi_tp_001/IDENTIFIER_RECONCILIATION_WORKLIST.json",
+        "standards/term_protocol/hhi_tp_001/AUTHORITY_NAMESPACE_GAP_AUDIT.json",
+        "governance/linkedin/publishing_control.md",
+        "governance/execution/execution_time_governance_spec.md",
+        "artifacts/demo/DECISION_BOUNDARY_MAP.md",
+        "artifacts/demo/AI_RISK_REGISTER.md"
+      ],
+      "status": "UNASSIGNED"
+    },
+    {
+      "term": "Human Authority",
+      "reference_count": 13,
+      "sample_files": [
+        "AUTHORITY_BOUNDARY.md",
+        "BOT_CONSTITUTION.md",
+        "GOVERNANCE_ARCHITECTURE.md",
+        "README.backup.md",
+        "README.md",
+        "RELATIONSHIP_MAP.md",
+        "TERMS_INDEX.md",
+        "glossary.jsonld",
+        "terms/human-authority.md",
+        "standards/term_protocol/hhi_tp_001/HHI_TP_001_TERM_GOVERNANCE_PROTOCOL.md",
+        "standards/term_protocol/hhi_tp_001/TERM_IDENTIFIER_CROSSWALK_v1_4_0.md",
+        "standards/term_protocol/hhi_tp_001/AUTHORITY_NAMESPACE_GAP_AUDIT.json",
+        "assets/diagrams/governance_stack.mmd"
+      ],
+      "status": "UNASSIGNED"
+    },
+    {
+      "term": "Authority Drift",
+      "reference_count": 25,
+      "sample_files": [
+        "HHI-SPEC-DECISION-BOUNDARY-01.md",
+        "HHI-SPEC-GOVERNANCE-INFRASTRUCTURE-LAYER-01.md",
+        "Index.md",
+        "README.backup.md",
+        "TERMS.md",
+        "TERMS_INDEX.md",
+        "glossary.json",
+        "glossary.jsonld",
+        "glossary.md",
+        "IDENTIFIER_BASELINE_v1_3_0.txt",
+        "STANDARDS/GOVERNANCE_STANDARDS_CROSSWALK.md",
+        "specs/HHI-SPEC-AUTHORITY-01.md",
+        "specs/HHI-SPEC-DECISION-BOUNDARY-01.md",
+        "specs/HHI-SPEC-EXECUTION-TIME-GOVERNANCE-01.md",
+        "specs/HHI-SPEC-GOVERNANCE-INFRASTRUCTURE-LAYER-01.md",
+        "specs/HHI-SPEC-GOVERNANCE-TELEMETRY-01.md",
+        "terms/authority-drift.md",
+        "terms/index.md",
+        "publications/EXECUTION_TIME_GOVERNANCE_GAP_THESIS_v1.md",
+        "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json"
+      ],
+      "status": "UNASSIGNED"
+    },
+    {
+      "term": "Authority Saturation",
+      "reference_count": 5,
+      "sample_files": [
+        "TERMS_INDEX.md",
+        "glossary.jsonld",
+        "terms/authority-saturation.md",
+        "terms/humanai-interaction-governance-context.md",
+        "standards/term_protocol/hhi_tp_001/AUTHORITY_NAMESPACE_GAP_AUDIT.json"
+      ],
+      "status": "UNASSIGNED"
+    },
+    {
+      "term": "Authority Alignment Score",
+      "reference_count": 15,
+      "sample_files": [
+        "GOVERNANCE_METRICS.md",
+        "Index.md",
+        "README.backup.md",
+        "TERMS.md",
+        "TERMS_INDEX.md",
+        "glossary.json",
+        "glossary.jsonld",
+        "glossary.md",
+        "IDENTIFIER_BASELINE_v1_3_0.txt",
+        "terms/authority-alignment-score.md",
+        "terms/index.md",
+        "standards/term_protocol/hhi_tp_001/TERM_REGISTRY_V1_4.json",
+        "standards/term_protocol/hhi_tp_001/AUTHORITY_NAMESPACE_GAP_AUDIT.json",
+        "governance/linkedin/publishing_control.md",
+        "governance/execution/execution_time_governance_spec.md"
+      ],
+      "status": "UNASSIGNED"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "report": "AUTHORITY_NAMESPACE_GAP_AUDIT",
+  "version": "1.0.0",
+  "records": [
+    {
+      "term": "Human-in-the-Loop",
+      "status": "UNREGISTERED"
+    },
+    {
+      "term": "Human Authority",
+      "status": "UNREGISTERED"
+    },
+    {
+      "term": "Authority Drift",
+      "status": "UNREGISTERED"
+    },
+    {
+      "term": "Authority Saturation",
+      "status": "UNREGISTERED"
+    },
+    {
+      "term": "Authority Alignment Score",
+      "status": "UNREGISTERED"
+    }
+  ]
+}

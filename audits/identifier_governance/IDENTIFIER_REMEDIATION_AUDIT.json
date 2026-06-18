@@ -1,0 +1,128 @@
+{
+  "audit": "IDENTIFIER_REMEDIATION_AUDIT",
+  "version": "1.0.0",
+  "source_queue": "standards/term_protocol/hhi_tp_001/IDENTIFIER_REMEDIATION_QUEUE.json",
+  "verification_count": 10,
+  "records": [
+    {
+      "identifier": "HHI-GOV-001",
+      "legacy_term": "Accountability",
+      "canonical_term": "Execution-Time Governance",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-002",
+      "legacy_term": "Reliance Formation",
+      "canonical_term": "Behavioral Accumulation",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-BEH-003",
+      "legacy_term": "Governance as Infrastructure",
+      "canonical_term": "Governance Drift",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-RISK-001",
+      "legacy_term": "Governance Lag",
+      "canonical_term": "Longitudinal Risk",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-001",
+      "legacy_term": "Authority",
+      "canonical_term": "Decision Boundary",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-002",
+      "legacy_term": "Decision Boundary",
+      "canonical_term": "Stop Authority",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-003",
+      "legacy_term": "Stop Authority",
+      "canonical_term": "Authority Persistence",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-GOV-002",
+      "legacy_term": "Accountability Diffusion",
+      "canonical_term": "Runtime Governance",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-GOV-003",
+      "legacy_term": "Responsibility Binding",
+      "canonical_term": "Behavioral Governance",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    },
+    {
+      "identifier": "HHI-AUTH-004",
+      "legacy_term": "Human-in-the-Loop",
+      "canonical_term": "Authority Stack",
+      "remediation_status": "NOT_VERIFIED",
+      "verification_date": null,
+      "verification_method": null,
+      "verification_result": null,
+      "affected_files": [],
+      "remediation_commit": null,
+      "notes": ""
+    }
+  ]
+}
