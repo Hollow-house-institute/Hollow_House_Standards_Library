@@ -1,0 +1,12 @@
+{
+  "namespace": "HHI-METRIC",
+  "status": "draft",
+  "metrics": [
+    "Governance Health Score",
+    "Behavioral Drift Score",
+    "Authority Alignment Score",
+    "Assurance Coverage Score",
+    "Observability Coverage Score",
+    "Telemetry Completeness Score"
+  ]
+}
