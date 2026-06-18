@@ -1,0 +1,12 @@
+{
+  "namespace": "HHI-ASSURE",
+  "status": "draft",
+  "concepts": [
+    "Continuous Assurance",
+    "Governance Assurance",
+    "Authority Assurance",
+    "Evidence Assurance",
+    "Telemetry Assurance",
+    "Replay Assurance"
+  ]
+}
