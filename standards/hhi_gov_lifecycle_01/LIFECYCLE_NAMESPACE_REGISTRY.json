@@ -1,0 +1,12 @@
+{
+  "namespace": "HHI-LIFE",
+  "status": "draft",
+  "stages": [
+    "Authority",
+    "Measurement",
+    "Observability",
+    "Assurance",
+    "Intervention",
+    "Recovery"
+  ]
+}
