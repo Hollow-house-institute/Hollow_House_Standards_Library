@@ -1,0 +1,66 @@
+{
+  "protocol": "HHI-TP-001",
+  "version": "v1.0.0",
+  "terms": [
+    {
+      "id": "HHI-GOV-001",
+      "term": "Execution-Time Governance",
+      "status": "active"
+    },
+    {
+      "id": "HHI-TEL-001",
+      "term": "Governance Telemetry",
+      "status": "active"
+    },
+    {
+      "id": "HHI-INF-001",
+      "term": "Governance Infrastructure Layer",
+      "status": "active"
+    },
+    {
+      "id": "HHI-BEH-001",
+      "term": "Behavioral Drift",
+      "status": "active"
+    },
+    {
+      "id": "HHI-BEH-002",
+      "term": "Behavioral Accumulation",
+      "status": "active"
+    },
+    {
+      "id": "HHI-BEH-003",
+      "term": "Governance Drift",
+      "status": "active"
+    },
+    {
+      "id": "HHI-RISK-001",
+      "term": "Longitudinal Risk",
+      "status": "active"
+    },
+    {
+      "id": "HHI-AUTH-001",
+      "term": "Decision Boundary",
+      "status": "active"
+    },
+    {
+      "id": "HHI-AUTH-002",
+      "term": "Stop Authority",
+      "status": "active"
+    },
+    {
+      "id": "HHI-AUTH-003",
+      "term": "Authority Persistence",
+      "status": "active"
+    },
+    {
+      "id": "HHI-ESC-001",
+      "term": "Escalation Mechanics",
+      "status": "active"
+    },
+    {
+      "id": "HHI-EVD-001",
+      "term": "Replayable Evidence",
+      "status": "active"
+    }
+  ]
+}
