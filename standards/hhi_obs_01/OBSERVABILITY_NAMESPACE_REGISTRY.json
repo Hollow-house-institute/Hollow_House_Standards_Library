@@ -1,0 +1,13 @@
+{
+  "namespace": "HHI-OBS",
+  "status": "draft",
+  "concepts": [
+    "Governance Observability",
+    "Event Visibility",
+    "Decision Visibility",
+    "Authority Visibility",
+    "Drift Visibility",
+    "Evidence Visibility",
+    "Replay Visibility"
+  ]
+}
