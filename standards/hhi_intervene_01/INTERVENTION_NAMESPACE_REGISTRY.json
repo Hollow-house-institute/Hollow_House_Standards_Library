@@ -1,0 +1,12 @@
+{
+  "namespace": "HHI-INTERVENE",
+  "status": "draft",
+  "concepts": [
+    "Governance Intervention",
+    "Escalation Trigger",
+    "Containment Action",
+    "Remediation Action",
+    "Authority Revocation",
+    "Governance Restoration"
+  ]
+}
